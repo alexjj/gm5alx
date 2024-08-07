@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/sota.html",
+    "items": [
+      "/sota/2024/gm-es-061/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/2023/a-good-evening-on-15m/index.html",
+      "/posts/2023/qo-100-build-part-2-the-hardware/index.html",
+      "/posts/2023/qo-100-build-part-1-the-design/index.html",
+      "/posts/2023/grid-square-chasing-with-gridtracker/index.html",
+      "/posts/2023/what-to-do/index.html",
+      "/posts/2023/portable-ops-in-the-cairngorms/index.html",
+      "/posts/2023/hello-world/index.html"
+    ]
+  }
+]

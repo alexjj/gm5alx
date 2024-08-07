@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alex Johnstone">
+<meta name="dcterms.date" content="2023-08-22">
+
+<title>Grid Square Chasing with GridTracker – 📻 GM5ALX Radio</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../favicon.ico" rel="icon">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "?",
+    "H"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Grid Square Chasing with GridTracker – 📻 GM5ALX Radio">
+<meta property="og:description" content="Gotta catch em all!">
+<meta property="og:image" content="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/grid-tracker.png">
+<meta property="og:site_name" content="📻 GM5ALX Radio">
+<meta property="og:image:height" content="963">
+<meta property="og:image:width" content="1648">
+</head>
+
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">📻 GM5ALX Radio</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../sota.html"> 
+<span class="menu-text">SOTA Activations</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../../index.xml"> <i class="bi bi-rss-fill" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#useful-gridtracker-settings" id="toc-useful-gridtracker-settings" class="nav-link active" data-scroll-target="#useful-gridtracker-settings">Useful GridTracker Settings</a>
+  <ul class="collapse">
+  <li><a href="#call-roster" id="toc-call-roster" class="nav-link" data-scroll-target="#call-roster">Call Roster</a></li>
+  <li><a href="#map-view" id="toc-map-view" class="nav-link" data-scroll-target="#map-view">Map View</a></li>
+  <li><a href="#log-data" id="toc-log-data" class="nav-link" data-scroll-target="#log-data">Log data</a></li>
+  </ul></li>
+  <li><a href="#appreciating-ft8" id="toc-appreciating-ft8" class="nav-link" data-scroll-target="#appreciating-ft8">Appreciating FT8</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/posts/2023/grid-square-chasing-with-gridtracker/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Grid Square Chasing with GridTracker</h1>
+<p class="subtitle lead">Gotta catch em all!</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">FT8</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Alex Johnstone </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 22, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Shortly after getting on the air with my Xiegu G90, I became intrigued by FT8. After some initial experimentation, I managed to set it up and began making QSOs. Initially, I was thrilled to hear stations from all over the world – Australia, Japan, South America, and various other places. At first, I believed I could establish contact with all of them. However, after numerous attempts to connect with different stations, I discovered <a href="https://pskreporter.info/">pskreporter</a>. This tool allowed me to determine who could hear me. While it was disappointing to realize that hearing a station didn’t guarantee they could hear me, seeing the immediate feedback on pskreporter was just as enjoyable as making an actual contact, especially on days when distant countries could receive my signals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-pskreporter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Who’s listening?"><img src="gridtracker-pskreporter.png" class="img-fluid figure-img" alt="Who’s listening?"></a></p>
+<figcaption>Who’s listening?</figcaption>
+</figure>
+</div>
+<p>The information provided by pskreporter makes FT8 interesting, especially when testing new antennas or different power levels. However, excessive usage of it can become somewhat monotonous. It’s convenient when used alongside other activities, but sitting in front of it for prolonged periods without any other engagement is not advisable. Depending on your antenna setup, you may find that you’re only able to reach specific parts of the world, making it nearly impossible to make new connections. While I occasionally manage to contact a few new countries with my horizontal EFHW antenna, it’s not as effective as a vertical, such as this one described by <a href="https://m0aws.co.uk/?p=1998">M0AWS</a>.</p>
+<p>I found the user interface of WSJT-X somewhat lacking and soon discovered <a href="https://gridtracker.org/">GridTracker</a>. As it says on the website “<em>GridTracker listens to traffic from WSJT-X and displays it on a map</em>“. While it offers more functionality, that’s the core idea. I use its call roster to identify who’s calling or communicating, making my contacts based on that information. Only recently did I delve into the manual on the website and decide to pursue grid square chasing.</p>
+<p>A conversation in the <a href="https://m0aws.co.uk/matrix/">Ham radio matrix chat</a> about gamifying FT8 caught my attention. This intrigued me, as it seemed like a way to inject more interest into FT8. The most apparent approach was to start collecting grid squares from different countries. Now, I had a reason to contact those Italian and German stations. GridTracker proved to be highly useful for this purpose.</p>
+<section id="useful-gridtracker-settings" class="level2">
+<h2 class="anchored" data-anchor-id="useful-gridtracker-settings">Useful GridTracker Settings</h2>
+<p>I encourage you to read the <a href="https://gitlab.com/gridtracker.org/gridtracker/-/wikis/home">full manual</a>, it’s not that long and you’ll then understand the whole software much better. Here are the settings I’ve discovered that simplify the process of collecting grid squares using the software.</p>
+<section id="call-roster" class="level3">
+<h3 class="anchored" data-anchor-id="call-roster">Call Roster</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtacker-callroster.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Table of contacts"><img src="gridtacker-callroster.png" class="img-fluid figure-img" alt="Table of contacts"></a></p>
+<figcaption>Table of contacts</figcaption>
+</figure>
+</div>
+<p>I hardly ever use the map view in GridTracker. While it does display pskreport spots along with grids, the map can become cluttered, making it challenging to discern the information. I might briefly glance at the spot heatmap or switch to pskreporter for my spotters. My primary focus is on the call roster. This window is positioned next to WSJT-X’s main window and waterfall display. The call roster streamlines the substantial amount of information from WSJT-X into a concise, organized format. It allows for various filters, but I generally keep the filters quite open, toggling between all activity and CQ calls only.</p>
+<p>The standout feature is the color coding of cells. A black background signifies a confirmed contact, a black-blue gradient indicates an unconfirmed contact, and a blue background represents a new grid. This arrangement allows me to quickly identify areas I still need to reach. With the CQ Only filter activated, it becomes easy to determine whom to respond to. Another setting I find useful is marking RR73 as a CQ. This way, I can spot stations just finishing up their last QSO, and I might have a chance to catch them as they start calling CQ.</p>
+<p>To open the call roster, click on the Clipboard/Medal button in the menu. 📋🥇</p>
+</section>
+<section id="map-view" class="level3">
+<h3 class="anchored" data-anchor-id="map-view">Map View</h3>
+<p>Although I seldom use the map view, it serves as a useful tool to track your progress with grids. The heatmap of spots can also provide valuable insights. Ensure that you have the bands set to “Mixed” rather than the default “Auto.” The Auto setting uses the band you’re currently on, which limts what you see, and unless your trying to get all the grids by band you probably want Mixed. Mixed displays all bands.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-map-view.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Mixed shows all bands"><img src="gridtracker-map-view.png" class="img-fluid figure-img" alt="Mixed shows all bands"></a></p>
+<figcaption>Mixed shows all bands</figcaption>
+</figure>
+</div>
+</section>
+<section id="log-data" class="level3">
+<h3 class="anchored" data-anchor-id="log-data">Log data</h3>
+<p>Grid Tracker is only useful if it knows all your logs. By default it’ll read the wsjt-x log file on your computer but that won’t always have everything, and if you want to include voice or other modes that won’t help. The way I’ve found to work best is to use its ability to import log data from elsewhere. There are a few options and you can set them in the Logging page of the settings.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-logging.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="All the logs"><img src="gridtracker-logging.png" class="img-fluid figure-img" alt="All the logs"></a></p>
+<figcaption>All the logs</figcaption>
+</figure>
+</div>
+<p>Grid Tracker can pull and push log data. The <strong>Startup?</strong> and <strong>Menu?</strong> settings show the options for pulling log data, with startup meaning it queries it when you open Grid Tracker, and Menu meaning it adds a button to the menu for you to trigger a download. As you can see above the options are local files, psk-reporter, qrz, clublog and LoTW. I decided to go with LoTW as that seems to be the most commonly used central logging database. This means that wherever I capture my QSOs, as long as they get into LoTW, Grid Tracker will know about them. I could just add all of the others too.</p>
+<p>For longer operating sessions with numerous QSOs, clicking the LoTW button in the menu will pull in confirmations. GridTracker maintains its own log, providing a record of your contacts.</p>
+<p>I also use GridTracker to send my WSJT-X logs to <a href="https://www.magicbug.co.uk/cloudlog/">Cloudlog</a>, my primary logbook. This process subsequently uploads all my logs to platforms like LoTW, Clublog, and eQSL. As indicated in the <strong>Log?</strong> column, GridTracker interfaces with various popular logging tools.</p>
+<p>In essence, GridTracker’s configuration is straightforward and quick, enhancing the appeal of WSJT-X data and simplifying the tracking of contacts.</p>
+</section>
+</section>
+<section id="appreciating-ft8" class="level2">
+<h2 class="anchored" data-anchor-id="appreciating-ft8">Appreciating FT8</h2>
+<p>While I’ve been licensed for a relatively short time, I’ve encountered strong opinions about FT8, including some negative viewpoints. I don’t enjoy coffee, but I wouldn’t tell coffee enthusiasts that they’re consuming it incorrectly. I won’t speculate on the reasons people dislike FT8, but instead, I’ll share some observations that might not be immediately apparent.</p>
+<p>These days, it’s common for unique locations to incorporate FT8 into their setups. Therefore, if you’re aiming to access new DX locations, FT8 offers a viable method. I also appreciate that it levels the playing field to some extent, unlike SSB or even CW. How often have I heard a VK or JA station (not rare DX, just less common), only to be faced with an overwhelming pileup as European countries with 2 kW power outputs drown out smaller stations like mine, operating at 100 W? Breaking through is nearly impossible. While CW might provide slightly better odds due to fewer operators compared to SSB, plus the reduced SNR needed to work someone, the challenge for QRP stations remains. With FT8, if your signal reaches them with 10W or 50W, your presence is acknowledged, significantly improving your chances. While there may be techniques for gaining an edge when working a pileup station on FT8, such as adjusting transmit settings or clock settings, the gap is much smaller. Skill is required here as well.</p>
+<p>When engaging with a popular station on SSB or CW, conversations are often minimal. Regular HF QSOs frequently consist of a brief exchange involving callsigns, RST, and possibly a name or location. This is not drastically different from an FT8 QSO. If your goal is to accumulate numerous contacts, reach various locations, or connect with rare stations, FT8 offers similar dynamics. If you seek in-depth discussions, FT8 isn’t the appropriate choice; it’s not a direct comparison. For that purpose, you might explore JS8Call.</p>
+<p>In closing, while I risk getting sidetracked into an argument, I emphasize that the beauty of amateur radio as a hobby is rooted in personal enjoyment. If you find it enjoyable, that’s fantastic! If not, then there’s no obligation to pursue it; everyone’s preferences differ.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-europe.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Gotta catch em all! 🐲🔴🎮📻"><img src="gridtracker-europe.png" class="img-fluid figure-img" alt="Gotta catch em all! 🐲🔴🎮📻"></a></p>
+<figcaption>Gotta catch em all! 🐲🔴🎮📻</figcaption>
+</figure>
+</div>
+<p>Now, back to the quilt! I initially thought the UK would be an easy starting point!</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/gm5alx\.uk");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/posts/2023/grid-square-chasing-with-gridtracker/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>

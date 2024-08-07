@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>📻 GM5ALX Radio</title>
+<link>https://gm5alx.uk/</link>
+<atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
+<description>So many rabbit holes, you’ll struggle to find ground</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Sat, 23 Sep 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>A Good Evening on 15m</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/a-good-evening-on-15m/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6743-1024x768.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Feed point of random wire with 9:1 unun"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/img_6743-1024x768.jpg" class="img-fluid figure-img" alt="Feed point of random wire with 9:1 unun"></a></p>
+<figcaption>Feed point of random wire with 9:1 unun</figcaption>
+</figure>
+</div>
+<p>For some reason, I tend to avoid trying out 15 meters, but yesterday I decided to give it a shot, and it went quite well. I began by experimenting with my 39.5-meter random wire antenna in the garden. It has excellent reception, and I could hear approximately 20 Japanese stations. However, when it came to transmitting, it didn’t perform as well as expected. I thought that the higher frequency of 15 meters might compensate for its low height, but according to pskreporter, it seemed that no one was receiving my signals. While I believe I managed to make a few QSOs, I eventually wanted to move indoors. The random wire is just a temporary setup, and I have to sit outside to use it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Far field plot at 15m on my random wire"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/image-1.png" class="img-fluid figure-img" alt="Far field plot at 15m on my random wire"></a></p>
+<figcaption>Far field plot at 15m on my random wire</figcaption>
+</figure>
+</div>
+<p>I switched back to using my EFHW (End-Fed Half-Wave) antenna, which still provided good reception. Being positioned at about 8 meters in height, it was much more effective for transmitting. My radio is currently set up in the kitchen, and I sit on the floor with a beanbag while operating it. I’m currently (or at least I like to think I am) in the process of designing a new workbench or shack in the garage. I’ve also been contemplating the idea of remote operation. I wanted to continue designing my garage setup, but at the same time, I was making numerous FT8 contacts with desirable DX countries. Given that I’m using a Windows laptop with the radio, an obvious solution is the Remote Desktop Connection application. I’m not sure why I didn’t try it earlier. The only thing I needed to check was the audio settings, as the default settings would route the remote computer’s audio to me, causing WSJT-X to lose access to the soundcard. However, it’s a simple fix in the options to prevent this.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Audio on remote computer"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/image.png" class="img-fluid figure-img" alt="Audio on remote computer"></a></p>
+<figcaption>Audio on remote computer</figcaption>
+</figure>
+</div>
+<p>With that sorted out, WSJT-X and Grid Tracker could occupy one screen while I worked on the other comfortably from my desk. WSJT-X doesn’t have all the CAT commands required, so if I needed to adjust more settings on the radio, I’d have to use another program. I’m also unsure if CAT can control everything on the FT-DX10, such as the preset option I use for digital modes. For the time being, that’s acceptable since it’s just across the house.</p>
+<p>Last night, 15 meters, with occasional forays into 17 meters, turned out to be quite successful for me. There were instances of signal fading, and sometimes it took a while to receive a “RR73” reply from the other station, so whether or not everyone will log the QSOs depends on their perspective. Nonetheless, from my standpoint, we successfully exchanged signal reports.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="15m.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Map of world with spots showing QSOs"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/15m.png" class="img-fluid figure-img" alt="Map of world with spots showing QSOs"></a></p>
+<figcaption>Map of world with spots showing QSOs</figcaption>
+</figure>
+</div>
+<p>I also found pskreporter not very reliable, as it would often show only two stations hearing me when I’d then get multiple replies to my CQ.</p>
+
+
+
+ ]]></description>
+  <category>FT8</category>
+  <guid>https://gm5alx.uk/posts/2023/a-good-evening-on-15m/</guid>
+  <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/15m.png" medium="image" type="image/png" height="87" width="144"/>
+</item>
+<item>
+  <title>QO-100 Build: Part 2 – The Hardware</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I spent a while debating if I really wanted to build this. I knew the build would be fun, but would it be fun using it? I also knew it wasn’t cheap, and would I regret it once I was done? After a few weeks of thinking this whilst researching the build, I ended up ordering the helix ice cone antenna late one June night. There was no going back now.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qo-100-design.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The design"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/qo-100-design.png" class="img-fluid figure-img" alt="The design"></a></p>
+<figcaption>The design</figcaption>
+</figure>
+</div>
+<p>Over the course of a couple a weeks I ordered all the parts, buying a few each day made it feel like I wasn’t spending too much!</p>
+<table class="caption-top table">
+<caption>Bill of Materials</caption>
+<thead>
+<tr class="header">
+<th>Part</th>
+<th>Store</th>
+<th>Price inc. shipping</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Pluto+ SDR</td>
+<td>Aliexpress</td>
+<td>£201</td>
+</tr>
+<tr class="even">
+<td>CN-0417 pre-amp</td>
+<td>Digikey</td>
+<td>£43</td>
+</tr>
+<tr class="odd">
+<td>SG Labs 20W PA</td>
+<td>SG Labs</td>
+<td>€147</td>
+</tr>
+<tr class="even">
+<td>2.4 GHz helix antenna</td>
+<td>nolle engineering</td>
+<td>€126</td>
+</tr>
+<tr class="odd">
+<td>80cm dish, mount, RX cable</td>
+<td>Satellite Super Store</td>
+<td>£108</td>
+</tr>
+<tr class="even">
+<td>Bullseye LNB</td>
+<td>Amazon</td>
+<td>£31</td>
+</tr>
+<tr class="odd">
+<td>Biased tee</td>
+<td>Amazon</td>
+<td>£24</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.ebay.co.uk/itm/193727621572">12V/5V DC-DC converter</a></td>
+<td>eBay</td>
+<td>£4.90</td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.ebay.co.uk/itm/184179070285">12V/28V DC-DC converter</a></td>
+<td>eBay</td>
+<td>£7.45</td>
+</tr>
+<tr class="even">
+<td>Power Supply (Meanwell 12V 5A 60W Power Supply (GST60A12)) and 10m cable</td>
+<td>PiHut</td>
+<td>£31</td>
+</tr>
+<tr class="odd">
+<td>TX Coax (LMR-400-UF) and fittings</td>
+<td>Barenco</td>
+<td>£65</td>
+</tr>
+<tr class="even">
+<td><a href="https://www.screwfix.com/p/hylec-ip65-weatherproof-outdoor-enclosure-200mm-x-130mm-x-300mm/2597g">Waterproof box</a></td>
+<td>Screwfix</td>
+<td>£40</td>
+</tr>
+</tbody>
+</table>
+<p>There were also a bunch of bits and pieces I ended up buying as I didn’t have them. Like drill bits for making holes, screws, zip ties, small files, wire, etc. which I needed for this project but will be useful for other things. So accounting for some sundries, the total cost is about £800.</p>
+<p>To cut some costs, you could definitely get a cheaper dish and mount, there are plenty on eBay for less or you might be lucky and find something lying around. You might want to try an old sky dish too. The helix antenna is maybe another area to cut costs, either by building it yourself (if you have a 3D printer) or maybe getting a POTY. I didn’t look into the POTY, don’t have a 3D printer and mostly wanted something that I knew would just work. I could’ve tried cheaper cable for 2.4 GHz as well.</p>
+<p>If you already have a VHF/UHF radio, then an upconverter, like the one from <a href="https://dxpatrol.pt/produto/upconverter-mk4-for-qo-100/">DX Patrol</a>, will save you some money vs.&nbsp;going with the Pluto+SDR, although you will probably need to get an SDR receiver as well. The DX Patrol power amplifier is more expensive, but gives you pins for SWR etc. wheres the SG Labs doesn’t.</p>
+<p>SG Labs ordering process is a reassuring one 😅. You email them, they let you know the price, you send them money on paypal and then you wait a few weeks for the shipping confirmation. Lead time was about 3 weeks for me.</p>
+<section id="assembly" class="level2">
+<h2 class="anchored" data-anchor-id="assembly">Assembly</h2>
+<p>For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in betewen, not easy but not impossible. Here are some photos of my build underway.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6523-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Unpacking the dish"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6523-1024x768.jpg" class="img-fluid figure-img" alt="Unpacking the dish"></a></p>
+<figcaption>Unpacking the dish</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="icecone.jpg-768x1024.jpeg" class="lightbox" data-gallery="my-gallery" title="It’s a big ice cream"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/icecone.jpg-768x1024.jpeg" class="img-fluid figure-img" alt="It’s a big ice cream"></a></p>
+<figcaption>It’s a big ice cream</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qo100-18-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="1st receive testing"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/qo100-18-768x1024.jpg" class="img-fluid figure-img" alt="1st receive testing"></a></p>
+<figcaption>1st receive testing</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6637-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Setting the voltage"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6637-1024x768.jpg" class="img-fluid figure-img" alt="Setting the voltage"></a></p>
+<figcaption>Setting the voltage</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6568-1024x381.jpg" class="lightbox" data-gallery="my-gallery" title="Fancy connectors"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6568-1024x381.jpg" class="img-fluid figure-img" alt="Fancy connectors"></a></p>
+<figcaption>Fancy connectors</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6688-895x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Oops!"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6688-895x1024.jpg" class="img-fluid figure-img" alt="Oops!"></a></p>
+<figcaption>Oops!</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6565-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="The team of expert dish aligners"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6565-1024x768.jpg" class="img-fluid figure-img" alt="The team of expert dish aligners"></a></p>
+<figcaption>The team of expert dish aligners</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6564-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Checking alignment"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6564-1024x768.jpg" class="img-fluid figure-img" alt="Checking alignment"></a></p>
+<figcaption>Checking alignment</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6690-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Fitting the helix"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6690-768x1024.jpg" class="img-fluid figure-img" alt="Fitting the helix"></a></p>
+<figcaption>Fitting the helix</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="20230814_184331570_iOS-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Making some more holes"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230814_184331570_iOS-1024x768.jpg" class="img-fluid figure-img" alt="Making some more holes"></a></p>
+<figcaption>Making some more holes</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="20230812_213415287_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Box of tricks"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230812_213415287_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Box of tricks"></a></p>
+<figcaption>Box of tricks</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="20230813_101021833_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Testing transmit"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230813_101021833_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Testing transmit"></a></p>
+<figcaption>Testing transmit</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="20230814_203453217_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Weatherproofing"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230814_203453217_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Weatherproofing"></a></p>
+<figcaption>Weatherproofing</figcaption>
+</figure>
+</div>
+<p>The hardest parts for me was making up the fancy fittings on the LMR400 coax. There was a N type and a SMA fitting and they both had several parts and soldering of the pin. I fell foul to the usual thing of forgetting a bit and cutting off slightly too much. I also didn’t have a pair of wire cutters that could get through the coax – it’s so thick! However, after making the ends up, I really like the cable, and going back to RG58 is like using thread after holding some rope!</p>
+<p>My dish is located on a fake balcony, so it’s out the way but also not very accessible. I have to get the ladders out each time or climb out a bedroom window, this usually put me off doing much on an evening as I couldn’t be bothered with the ladders, and one of kids was sleeping in said bedroom! Overall I was very slow at putting it all together, but if you could dedicate a day to it, then you’d finish it in one go.</p>
+<p>At my QTH, the <a href="https://eshail.batc.org.uk/point/">dish elevation</a> has to be at 20.5 degrees. I found this to be the absolute lower limit for my dish, whereby the scale starts at 20 degrees, and I think for an 80 cm dish it only goes to 22 degrees. However, I receive signals well so that’s good enough. If you’re any further north you’ll have to get a non-standard mount, or possibly try installing it upside down, with the arm and LNB at the top. (This is for an offset dish).</p>
+</section>
+<section id="setting-up-the-pluto-sdr" class="level2">
+<h2 class="anchored" data-anchor-id="setting-up-the-pluto-sdr">Setting up the Pluto SDR</h2>
+<p>Before you pack the Pluto+ into the box, you’ll want to setup the networking on it and verify it works. It’s quite straight forward. You plug it into your computer’s USB via the data socket and it’ll show up as a drive. You want to edit the config.txt file, and find the section called USB Ethernet.</p>
+<pre><code>[USB_ETHERNET]
+ipaddr_eth = 192.168.1.200
+netmask_eth = 255.255.255.0</code></pre>
+<p>Set the IP to something for your network, ideally outside your router’s DHCP range. If you can’t do that, then give it an IP then set a reserved IP on your router for the Pluto+. I had to manually add a MAC address to the reserved IP, and now the router won’t give out .200 to anything else. Make sure you eject it/unmount it properly before disconnecting. You can then plug it into the network and see if you can ssh into it. The default username is <code>root</code> and password <code>analog</code>, and you should log in just fine.</p>
+<p>You might also want to upgrade the firmware whilst you’re at it. <a href="https://dk1mi.radio/plutoplus-firmware/">DK1MI has a nice post</a> on how to do that.</p>
+<p>I found the Pluto+ would make a new SSH key each time it booted up, and so SSH would complain that it didn’t match from last time (known_hosts) and prevent me from logging in. I avoided this with this entry in my <code>ssh/config</code> file:</p>
+<pre><code>Host pluto
+  HostName 192.168.1.200
+  User root
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null</code></pre>
+<p>Now I can just type <code>ssh pluto</code> and it greets me with the logon prompt. &lt;security warnings etc.&gt;</p>
+</section>
+<section id="networking" class="level2">
+<h2 class="anchored" data-anchor-id="networking">Networking</h2>
+<p>The Pluto+’s built in gigabit network port is very convenient. Connecting it to my network in its place under the dish wasn’t. My temporary solution was to run a cable out the bedroom window. This is fine as a temporary setup, and even okay overnight during the summer. However, it was not a long term solution. I am fortunate that my house was built with network ports in all rooms, but the room underneath the dish has network ports that are nowhere near the right side of the house for the dish. I also had the problem of getting it out of the house, as I’d rather not drill holes though the walls if I can help it.</p>
+<p>Our garage has the heating boiler in it, and so has several large air vents. These just have grills over them on the inside and outside of the house and so I decided one of these would be the perfect conduit for network cable to get out of the house. However, there are no network drops in the garage, and it’s a good 20-25 m along two walls of the house to get from the vent to the dish. I was wanting a network connection in the garage, as it’s where I plan on having a workbench/shack setup at some stage, and running cables isn’t exactly the hardest DIY one can do! A big drill bit, and a long spool of cable and away I went.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6718-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Serious problems need serious solutions"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6718-768x1024.jpg" class="img-fluid figure-img" alt="Serious problems need serious solutions"></a></p>
+<figcaption>Serious problems need serious solutions</figcaption>
+</figure>
+</div>
+<p>The office backs onto the garage, and makes a good place to connect into the network. I ended up getting three drill bits as the first wasn’t long enough, the second was for masonary and I hit wood, and then finally the 40cm wood bit went the whole way through! For a while I was worried I’d hit a water waste pipe, or worse, soil pipe, as the bathroom is above me, but it turned out to be a wooden stud. I tried running the wire along the wall outside, but it looked messy. Being dark blue against a light finish didn’t help, and so then I buried it in the gravel instead.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6703-768x1024.jpg" class="lightbox" data-gallery="wall" title="Route to the outside"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6703-768x1024.jpg" class="img-fluid figure-img" alt="Route to the outside"></a></p>
+<figcaption>Route to the outside</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6706-1024x768.jpg" class="lightbox" data-gallery="wall" title="Ugly"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6706-1024x768.jpg" class="img-fluid figure-img" alt="Ugly"></a></p>
+<figcaption>Ugly</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_6708-1024x768.jpg" class="lightbox" data-gallery="wall" title="Tidy"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6708-1024x768.jpg" class="img-fluid figure-img" alt="Tidy"></a></p>
+<figcaption>Tidy</figcaption>
+</figure>
+</div>
+<p>The only problem with the network cable is that the plug is made up inside the box, and so I can’t remove the box from its location. The coax is made up inside but I can disconnect the other end from the dish and just carry it with the box. The network cable is not quite as easy, given it’s 30m back to the network port. I left lots of excess, so if I really do have to move it, I can just cut off the plug and pull it out of the grommet.</p>
+<p>I did think I could make an outdoor network switch, and have jumper cables between the boxes, and this would enable me to setup something else outdoors. Like raspberry pis, or other SDRs. I’d need a power setup but that would be fairly straightforward as there’s an external plug socket nearby. That’s a project for another day.</p>
+<p>Next up will be the software!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="sdr-console-1024x557.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="SDR Console"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/sdr-console-1024x557.png" class="img-fluid figure-img" alt="SDR Console"></a></p>
+<figcaption>SDR Console</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>QO-100</category>
+  <guid>https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/</guid>
+  <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>QO-100 Build: Part 1 – The Design</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I think I first heard about QO-100 when looking at a <a href="https://www.qrz.com/db/GM0NRT">local amateur’s QRZ page</a>. He’d setup a couple of satellite dishes in his garden and had his <a href="https://qo100dx.club/">QO-100 DX Club</a> logo on his profile page, along with some other links. That started me down the rabbit hole. 🐇🛰️</p>
+<p>Briefly, and there’s more details <a href="https://amsat-uk.org/satellites/geo/eshail-2/">here</a>, QO-100 is the name given to a geostationary satellite that sits above Africa and has amateur radio transponders. This means it’s always in the same place, and can be used by amateur radio license holders to make contacts across its coverage. Being in such a high orbit means it has a huge area of coverage, so you can contact anyone in this area and talk to them for hours without the worry of propagation changing and losing contact.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="coverage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="QO-100 Coverage"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/coverage.png" class="img-fluid figure-img" alt="QO-100 Coverage"></a></p>
+<figcaption>QO-100 Coverage</figcaption>
+</figure>
+</div>
+<p>Another thing that makes this interesting is that it has both narrow and wide bands. This allows for voice, Morse and simpler digital modes on the narrowband and then on the wide band amateur television! So people can broadcast video via the satellite, there’s even a <a href="https://batc.org.uk/live/oscar100net?mc_cid=871329bb97">weekly net</a> by the British Amateur Television Club (BATC), and they sometimes save them to YouTube. Doing video broadcasting requires a lot more equipment and power, and is maybe a step too far for me.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="A huge 500 kHz available to amateurs on the QO-100 band plan."><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" class="img-fluid figure-img" alt="A huge 500 kHz available to amateurs on the QO-100 band plan."></a></p>
+<figcaption>A huge 500 kHz available to amateurs on the QO-100 band plan.</figcaption>
+</figure>
+</div>
+<p>The satellite has been in orbit for about 5 years, so there are a lot of tutorials and guides online on how to get setup, together with people making items that help get connected. The main ones I found useful where <a href="https://dk1mi.radio/qo100-pluto-sdr/">DK1MI’s</a>, <a href="https://m0aws.co.uk/?cat=167">M0AWS’s</a>, and <a href="https://www.instructables.com/Satellite-Ground-Station-for-the-QO-100-Eshail-2-G/">G7IYK’s Instructables page</a>. My setup is basically the same as DK1MI and G7IYK’s, which I’ll explain shortly.</p>
+<p>There seems to be two approaches to getting on the air with QO-100, one is via a SDR that can transmit as well as receive and the other is a transverter that takes you transmitter’s 2m or 70cm output and ups it to the send frequency. This means you can use a real radio to transmit. You can then either use a SDR for receive or use a downconverter and have your radio be the Rx as well. As I don’t have a 2m/70cm radio, and the location of my dish is not conducive to using a radio, I went with the SDR option, as that means everything can be housed in a box underneath the dish and all I have to run to it is power and ethernet.</p>
+<p>Like most satellites the uplink and the downlink are on different frequencies, in this case it’s an uplink of 2.4 GHz (think wifi) and downlink is 10 GHz. The downlink is fairly easy, as a LNB (think Sky dish) can receive it and converts it down to 700 MHz range. This is perfectly fine for most SDR receivers to use. Uplink generally requires some amplification as either the upconverter or the SDR only outputs at very low power…but now we’re getting too into the detail.</p>
+<section id="my-plans" class="level2">
+<h2 class="anchored" data-anchor-id="my-plans">My Plans</h2>
+<p><em>My</em> in a loose sense of the word as it’s pretty much copying what many others have already done and figured out. I just found it useful to layout so that I could make sure I had all the right parts, particularly on the power side. I also attempted to figure out the power on the transmit side. <a href="https://docs.google.com/presentation/d/e/2PACX-1vTNkueu4v0V2oMeOootdOKTDNyaADicXvgvbXv-nbvk8gYSKnVk1AtFEtICr9DhfnB7kubBdHgr1bUr/pub?start=false&amp;loop=false&amp;delayms=3000">Original version here.</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qo-100-design.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="My QO-100 Schematic"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/qo-100-design.png" class="img-fluid figure-img" alt="My QO-100 Schematic"></a></p>
+<figcaption>My QO-100 Schematic</figcaption>
+</figure>
+</div>
+<section id="the-receive" class="level3">
+<h3 class="anchored" data-anchor-id="the-receive">The Receive</h3>
+<p>You’ll want a dish. I mooned over a 1.2m dish for a long time, but the price and size meant it was a no go for me. 80 cm seemed a common size for narrowband, and wideband probably wants something bigger than 1.2 anyway. I measured up where I was planning on putting it and 1.2m was probably too big, maybe I could of squeezed in a 1m but 80 cm should be good enough.</p>
+<p>When thinking about what dish size, it’s important to think about the location of it. The satellite is to the south from the UK, near enough the same direction as sky dishes – a good guide if you or neighbours have on. You can get dish pointing info from the <a href="https://eshail.batc.org.uk/point/">BATC on their website</a>. So you can drag a pin around to place it exactly where you want it.</p>
+<p>I originally wanted it on a south westerly wall but it probably would’ve ended up being mounted at 90° and that would mean being at least 40cm off the wall – perfect for a gust of wind to rip it off! However, I’m lucky enough to have a south-ish facing wall at the back of my house and so it was okay to find another location. I also bought a U shaped mount, so it could sit flush to the wall, which helps with wind loading and keeping it out the way.</p>
+<p>The signal is focused onto a LNB (low-noise block downconverter). According to the internet, the Bullseye LNB is the “best” one. It’s fairly cheap, ~£30, and stable. In order for it to recieve the signal, a voltage has to be applied for polarisation of the signal. In our case, for the narrowband we need it to be vertically polarised and so applying 12V is what’s needed. This is done with a handy biased tee, that allows you to inject the voltage to the feed from the LNB, but blocks the DC voltage from continuing on to your recevier. I used satellite cable, the typical f type connector, 75 ohm stuff.</p>
+<p>That’s it! The signal then continues to your SDR, in my case the Pluto+ SDR. A cheap SDR like a RTL-SDR or NooElec will do the job. As I said, a(nother) downconverter is an option but not the route I took.</p>
+</section>
+<section id="pluto-sdr" class="level3">
+<h3 class="anchored" data-anchor-id="pluto-sdr">Pluto+ SDR</h3>
+<p>Now’s a good time to talk about this SDR. First came the <a href="https://wiki.analog.com/university/tools/pluto">Adalm-Pluto</a> by Analog devices. A great SDR which has transmit and recieve and ideal for students and amateurs alike. Many people use this SDR with great success and many have modified it themselves to improve it.</p>
+<p>The Pluto+ is an upgraded version of Analog device’s SDR with various improvements available out of the box. Most noticeable are the metal enclosure, the four SMA connections, for two sets of recevie and transmit, a gigabit ethernet connection, a microSD slot, a external clock input on the PCB, and 0.5 ppm TCXO. Probably there are other tweaks too but not things that stood out to me. To me the biggest selling point was the network port and the relative ease at which you can add a GPSDO for stability (not something I had as part of the original plan but a nice <a href="https://dk1mi.radio/qo100-gpsdo/">blog post from DK1MI</a> again shows how easy it is to add).</p>
+<p>In my hours of searching and reading forums I recall coming across something like “if you’re building on from scratch go for the Pluto+”, and so I did. I bought mine from Aliexpress.</p>
+<p><a href="https://www.youtube.com/watch?v=higdhj46aUk">Tech Minds has a nice video</a> on it if you want to see more.</p>
+</section>
+<section id="the-transmit" class="level3">
+<h3 class="anchored" data-anchor-id="the-transmit">The Transmit</h3>
+<p>The Pluto+ SDR has a transmit and can output 2.4 GHz in the region of up to 4 mW, which is great but also not going to get you a contact, and so some amplification is needed. These days it’s pretty much a standard design to use the Analog Devices CN-0417 amplifier straight out of the SDR and then another one to take it to up to 20 W. It seems like you really only need 10 W with a 80 cm dish to get a strong signal. In fact, if you transmit with too much power you hear a two-tone siren going off called LEILA warning you to turn down. A popular amp is the SG Labs 20W model from Bulgaria, and so that’s what I picked. 20W seems useful to overcome and losses in connectors and cables.</p>
+<p>Which brings to me to cables. At 2.4 GHz, losses are high on regular coax (RG58/213) and so you really want some fancier stuff. I went for LMR-400-UF (UF for ultra-flexible to get round corners). It has many layers and is quite something to hold after only ever using RG58 on HF. You also want to keep it as short as possible and so the amplifier needs to be near your dish.</p>
+<p>Finally, the actual feed to the dish. There seems to be two or three styles people use, a “POTY” or a helix seem most common. I felt like there were a lot of pieces to this build and so I wasn’t wanting to build everything myself, I decided to buy an Ice Cone feed from <a href="https://nolle.engineering/en/ice-cone-feed/">nolle engineering</a> in Germany. This is a helix design, housed in a 3D printed case that looks like a huge ice cream cone. It’s designed very well and sits on top of the LNB (they even sell adapters for the most common LNBs people use with QO-100).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="icecone.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="It’s a three scoop minimum."><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/icecone.jpeg" class="img-fluid figure-img" alt="It’s a three scoop minimum."></a></p>
+<figcaption>It’s a three scoop minimum.</figcaption>
+</figure>
+</div>
+</section>
+<section id="power" class="level3">
+<h3 class="anchored" data-anchor-id="power">Power</h3>
+<p>All these bits and bobs need power, and at different voltages:</p>
+<ul>
+<li>The biased tee needs 12 V</li>
+<li>The Pluto+ SDR and CN-0417 need 5 V</li>
+<li>SG Labs PA needs 24-28 V</li>
+</ul>
+<p>Again, as a common build, people have found a common solution, particularly as a lot of people power it from their shack power supply, and everything hangs off a 12 V supply. There are two DC converters, one to 5V with USB sockets for those users and then one that converts to 28V (although is adjustable) from 12V.</p>
+<p>For me, and the location of my shack and the dish meant I needed an external power supply. Luckily, I have an external power socket within 5m or so of the dish so I just needed to convert it to 12V. In the end I decided upon a Meanwell power brick – think laptop brick – which gives up to 5A on 12V, this should be more than enough. I also bought a great long kettle lead to plug it in. Going for the brick meant it could sit in my waterproof enclosure with everything else. Plus the 5V DC converter had a pin socket, so I could use the pin from the power supply to power it and then the input pins, which are in parallel, for transferring that 12V on to the other users.</p>
+<p>For the enclosure I found <a href="https://www.screwfix.com/p/hylec-ip65-weatherproof-outdoor-enclosure-250-x-150-x-350mm/7766g">this</a> on screwfix. It’s just about big enough. The mounting isn’t great but works.</p>
+</section>
+<section id="cost" class="level3">
+<h3 class="anchored" data-anchor-id="cost">Cost</h3>
+<p>It’s quite pricey to do this build. Part of me doesn’t want to list it all here and add it up 😅 However, as I didn’t have a 70cm/2m radio this route was probably going to be the cheapest. I could’ve scounged more on items, or tried to find more things used, but insted I bought the parts over about 6 weeks, then when it was only one £100-150 thing a week it didn’t feel that bad! Ballpark is probably £600-700. I also ended up buying some tools and general items that I didn’t have, but will be useful for other projects.</p>
+</section>
+<section id="and-finally" class="level3">
+<h3 class="anchored" data-anchor-id="and-finally">and finally…</h3>
+<p>Have I built it yet? I have, (and maybe why I struggle with tense in this post!) it still has a couple of issues but I’ve made some QSOs. More details in the next part.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qo100-1st-receive.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Inpromptu dish mounting"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/qo100-1st-receive.jpg" class="img-fluid figure-img" alt="Inpromptu dish mounting"></a></p>
+<figcaption>Inpromptu dish mounting</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>QO-100</category>
+  <guid>https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/</guid>
+  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/eshail-2-qatar-oscar-100.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Grid Square Chasing with GridTracker</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Shortly after getting on the air with my Xiegu G90, I became intrigued by FT8. After some initial experimentation, I managed to set it up and began making QSOs. Initially, I was thrilled to hear stations from all over the world – Australia, Japan, South America, and various other places. At first, I believed I could establish contact with all of them. However, after numerous attempts to connect with different stations, I discovered <a href="https://pskreporter.info/">pskreporter</a>. This tool allowed me to determine who could hear me. While it was disappointing to realize that hearing a station didn’t guarantee they could hear me, seeing the immediate feedback on pskreporter was just as enjoyable as making an actual contact, especially on days when distant countries could receive my signals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-pskreporter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Who’s listening?"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-pskreporter.png" class="img-fluid figure-img" alt="Who’s listening?"></a></p>
+<figcaption>Who’s listening?</figcaption>
+</figure>
+</div>
+<p>The information provided by pskreporter makes FT8 interesting, especially when testing new antennas or different power levels. However, excessive usage of it can become somewhat monotonous. It’s convenient when used alongside other activities, but sitting in front of it for prolonged periods without any other engagement is not advisable. Depending on your antenna setup, you may find that you’re only able to reach specific parts of the world, making it nearly impossible to make new connections. While I occasionally manage to contact a few new countries with my horizontal EFHW antenna, it’s not as effective as a vertical, such as this one described by <a href="https://m0aws.co.uk/?p=1998">M0AWS</a>.</p>
+<p>I found the user interface of WSJT-X somewhat lacking and soon discovered <a href="https://gridtracker.org/">GridTracker</a>. As it says on the website “<em>GridTracker listens to traffic from WSJT-X and displays it on a map</em>“. While it offers more functionality, that’s the core idea. I use its call roster to identify who’s calling or communicating, making my contacts based on that information. Only recently did I delve into the manual on the website and decide to pursue grid square chasing.</p>
+<p>A conversation in the <a href="https://m0aws.co.uk/matrix/">Ham radio matrix chat</a> about gamifying FT8 caught my attention. This intrigued me, as it seemed like a way to inject more interest into FT8. The most apparent approach was to start collecting grid squares from different countries. Now, I had a reason to contact those Italian and German stations. GridTracker proved to be highly useful for this purpose.</p>
+<section id="useful-gridtracker-settings" class="level2">
+<h2 class="anchored" data-anchor-id="useful-gridtracker-settings">Useful GridTracker Settings</h2>
+<p>I encourage you to read the <a href="https://gitlab.com/gridtracker.org/gridtracker/-/wikis/home">full manual</a>, it’s not that long and you’ll then understand the whole software much better. Here are the settings I’ve discovered that simplify the process of collecting grid squares using the software.</p>
+<section id="call-roster" class="level3">
+<h3 class="anchored" data-anchor-id="call-roster">Call Roster</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtacker-callroster.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Table of contacts"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtacker-callroster.png" class="img-fluid figure-img" alt="Table of contacts"></a></p>
+<figcaption>Table of contacts</figcaption>
+</figure>
+</div>
+<p>I hardly ever use the map view in GridTracker. While it does display pskreport spots along with grids, the map can become cluttered, making it challenging to discern the information. I might briefly glance at the spot heatmap or switch to pskreporter for my spotters. My primary focus is on the call roster. This window is positioned next to WSJT-X’s main window and waterfall display. The call roster streamlines the substantial amount of information from WSJT-X into a concise, organized format. It allows for various filters, but I generally keep the filters quite open, toggling between all activity and CQ calls only.</p>
+<p>The standout feature is the color coding of cells. A black background signifies a confirmed contact, a black-blue gradient indicates an unconfirmed contact, and a blue background represents a new grid. This arrangement allows me to quickly identify areas I still need to reach. With the CQ Only filter activated, it becomes easy to determine whom to respond to. Another setting I find useful is marking RR73 as a CQ. This way, I can spot stations just finishing up their last QSO, and I might have a chance to catch them as they start calling CQ.</p>
+<p>To open the call roster, click on the Clipboard/Medal button in the menu. 📋🥇</p>
+</section>
+<section id="map-view" class="level3">
+<h3 class="anchored" data-anchor-id="map-view">Map View</h3>
+<p>Although I seldom use the map view, it serves as a useful tool to track your progress with grids. The heatmap of spots can also provide valuable insights. Ensure that you have the bands set to “Mixed” rather than the default “Auto.” The Auto setting uses the band you’re currently on, which limts what you see, and unless your trying to get all the grids by band you probably want Mixed. Mixed displays all bands.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-map-view.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Mixed shows all bands"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-map-view.png" class="img-fluid figure-img" alt="Mixed shows all bands"></a></p>
+<figcaption>Mixed shows all bands</figcaption>
+</figure>
+</div>
+</section>
+<section id="log-data" class="level3">
+<h3 class="anchored" data-anchor-id="log-data">Log data</h3>
+<p>Grid Tracker is only useful if it knows all your logs. By default it’ll read the wsjt-x log file on your computer but that won’t always have everything, and if you want to include voice or other modes that won’t help. The way I’ve found to work best is to use its ability to import log data from elsewhere. There are a few options and you can set them in the Logging page of the settings.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-logging.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="All the logs"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-logging.png" class="img-fluid figure-img" alt="All the logs"></a></p>
+<figcaption>All the logs</figcaption>
+</figure>
+</div>
+<p>Grid Tracker can pull and push log data. The <strong>Startup?</strong> and <strong>Menu?</strong> settings show the options for pulling log data, with startup meaning it queries it when you open Grid Tracker, and Menu meaning it adds a button to the menu for you to trigger a download. As you can see above the options are local files, psk-reporter, qrz, clublog and LoTW. I decided to go with LoTW as that seems to be the most commonly used central logging database. This means that wherever I capture my QSOs, as long as they get into LoTW, Grid Tracker will know about them. I could just add all of the others too.</p>
+<p>For longer operating sessions with numerous QSOs, clicking the LoTW button in the menu will pull in confirmations. GridTracker maintains its own log, providing a record of your contacts.</p>
+<p>I also use GridTracker to send my WSJT-X logs to <a href="https://www.magicbug.co.uk/cloudlog/">Cloudlog</a>, my primary logbook. This process subsequently uploads all my logs to platforms like LoTW, Clublog, and eQSL. As indicated in the <strong>Log?</strong> column, GridTracker interfaces with various popular logging tools.</p>
+<p>In essence, GridTracker’s configuration is straightforward and quick, enhancing the appeal of WSJT-X data and simplifying the tracking of contacts.</p>
+</section>
+</section>
+<section id="appreciating-ft8" class="level2">
+<h2 class="anchored" data-anchor-id="appreciating-ft8">Appreciating FT8</h2>
+<p>While I’ve been licensed for a relatively short time, I’ve encountered strong opinions about FT8, including some negative viewpoints. I don’t enjoy coffee, but I wouldn’t tell coffee enthusiasts that they’re consuming it incorrectly. I won’t speculate on the reasons people dislike FT8, but instead, I’ll share some observations that might not be immediately apparent.</p>
+<p>These days, it’s common for unique locations to incorporate FT8 into their setups. Therefore, if you’re aiming to access new DX locations, FT8 offers a viable method. I also appreciate that it levels the playing field to some extent, unlike SSB or even CW. How often have I heard a VK or JA station (not rare DX, just less common), only to be faced with an overwhelming pileup as European countries with 2 kW power outputs drown out smaller stations like mine, operating at 100 W? Breaking through is nearly impossible. While CW might provide slightly better odds due to fewer operators compared to SSB, plus the reduced SNR needed to work someone, the challenge for QRP stations remains. With FT8, if your signal reaches them with 10W or 50W, your presence is acknowledged, significantly improving your chances. While there may be techniques for gaining an edge when working a pileup station on FT8, such as adjusting transmit settings or clock settings, the gap is much smaller. Skill is required here as well.</p>
+<p>When engaging with a popular station on SSB or CW, conversations are often minimal. Regular HF QSOs frequently consist of a brief exchange involving callsigns, RST, and possibly a name or location. This is not drastically different from an FT8 QSO. If your goal is to accumulate numerous contacts, reach various locations, or connect with rare stations, FT8 offers similar dynamics. If you seek in-depth discussions, FT8 isn’t the appropriate choice; it’s not a direct comparison. For that purpose, you might explore JS8Call.</p>
+<p>In closing, while I risk getting sidetracked into an argument, I emphasize that the beauty of amateur radio as a hobby is rooted in personal enjoyment. If you find it enjoyable, that’s fantastic! If not, then there’s no obligation to pursue it; everyone’s preferences differ.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gridtracker-europe.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Gotta catch em all! 🐲🔴🎮📻"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-europe.png" class="img-fluid figure-img" alt="Gotta catch em all! 🐲🔴🎮📻"></a></p>
+<figcaption>Gotta catch em all! 🐲🔴🎮📻</figcaption>
+</figure>
+</div>
+<p>Now, back to the quilt! I initially thought the UK would be an easy starting point!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>FT8</category>
+  <guid>https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/</guid>
+  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/grid-tracker.png" medium="image" type="image/png" height="84" width="144"/>
+</item>
+<item>
+  <title>What to do</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/what-to-do/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It’s both a blessing and a curse that amateur radio has so many different facets and parts…I can’t even begin to list them all: antennas, operating frequencies, circuitry, radios, modes of operation, amplifiers, structures, networks, digital, analog, moon bounce, competitions, prizes, collecting, … and even each of those sections has subsections or intersections of sections 😅 It truly is a hobby for life.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="ftdx10-kid.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Better start young then"><img src="https://gm5alx.uk/posts/2023/what-to-do/ftdx10-kid.jpg" class="img-fluid figure-img" alt="Better start young then"></a></p>
+<figcaption>Better start young then</figcaption>
+</figure>
+</div>
+<p>This isn’t meant to sound like complaining, more of an expression of overwhelming amazement. The hardest thing for me is to work out what I want to do. I love reading, talking, listening and watching about what others are doing, and every time I do I learn about another facet that sounds really interesting and something I want to do. The fear I have is that I spend forever looking at what I could do but yet never actually do anything for myself! I have to remind myself that I don’t need to do everything immediately. I’ve only had a licence since January this year, and I’ve only been on the air for five months!</p>
+<p>I also get daily reminders of how little free time I actually have. I work full time and we have four children ≤ 10 years old. I only really have time for one thing each evening – which includes writing blog posts! – and so I’m going to use my favourite outliner app, Dynalist, to make a list of all the things I want to do, in order to pick and choose what I should do now and next. It also serves as a place to put useful things I find related to it, although that’s too organised for me and I’m more likely to put stuff in my wiki. Actually, I’m more likely to read something and think I should make a note of it but don’t. Anyway, it helps focus and stops me spending forever looking at stuff.</p>
+<p>Right now, my tasks are to finish the <a href="../qo-100-build-part-1-the-design/">QO-100 setup</a>, design the garage workshop layout and get it built including the relocation of the shack. But sometimes I’m tired after work and the kids, and just want to sit on the radio and see who’s out there.</p>
+<p>Which leaves me with the thought that even if I built or changed nothing ever again, there are always different people out there to speak to, different propagation patterns and the enjoyment of talking to someone else who also enjoys this hobby.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="apple-g4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="I should also finish my other projects I started before getting my licence!"><img src="https://gm5alx.uk/posts/2023/what-to-do/apple-g4.jpg" class="img-fluid figure-img" alt="I should also finish my other projects I started before getting my licence!"></a></p>
+<figcaption>I should also finish my other projects I started before getting my licence!</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <guid>https://gm5alx.uk/posts/2023/what-to-do/</guid>
+  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/what-to-do/ftdx10-kid.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Portable ops in the Cairngorms</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>My first radio was the Xiegu G90, and when I bought my Yaesu FT-DX10 I decided I’d keep the G90 for portable operations. It’s pretty small, 20W, and I already have it and know how it works. With a few days planned to stay near Aviemore in the summer holidays I thought it was the perfect time to try it out.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="holiday-house.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A converted church was our accommodation for the trip. Very fancy!"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/holiday-house.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A converted church was our accommodation for the trip. Very fancy!"></a></p>
+</figure>
+</div>
+<figcaption>A converted church was our accommodation for the trip. Very fancy!</figcaption>
+</figure>
+</div>
+<p>I have a 6m telescopic pole and decided to make a vertical antenna with it. In an effort to keep it simple, I went for a 1/4 wave for 20m with some radials and a 1:1 choke wrapping the coax around a torroid.</p>
+<p>I’d left making the antenna until the night before we were due to go and so it was a bit of a rush to make it! I cut the wire considerably longer as I didn’t want to try and be too smart on my first attempt, and would use the NanoVNA to cut it to the right length.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="analyser.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Somewhat too long!"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/analyser.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Somewhat too long!"></a></p>
+</figure>
+</div>
+<figcaption>Somewhat too long!</figcaption>
+</figure>
+</div>
+<p>I think this worked against me as I ended up cutting it many times and then got sloppy and rushed, which meant I went from a 1.1 SWR at 14.035 MHz to 1.07 at 14.385 MHz..oops! By this time it was 9pm and I was meant to be packing other things. So I took the bit of wire I cut off and figured I’d reattach it later. I had also cut 5x 5m ish radials, and was using a dipole connector I had for the coax to wire connections.</p>
+<p>We were staying with friends who were interested in hearing about amateur radio and why I was doing it, particularly when I set everything up outside. I tried not to blah on too much…</p>
+<p>Our house backed onto the forest and there was no boundary between the garden ending and the forest starting, so I just setup near the bench and had the antenna towards the trees and out the way of running kids.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="setup.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Setup at the holiday house"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/setup.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Setup at the holiday house"></a></p>
+</figure>
+</div>
+<figcaption>Setup at the holiday house</figcaption>
+</figure>
+</div>
+<p>As well as my first time portable, it was my first time with a vertical and I was interested in how it performed compared to my horizontal EFHW I have at home. This is where I really like FT8 and pskreporter. Regardless of QSOs I make, I can see who hears me and I can obviously see who I hear.</p>
+<p>I immediately noticed how many ZL stations I could hear, far more than I’ve ever had before. I think at home I’ve maybe seen one very briefly, but now I was seeing 5-8 stations for several hours in the morning. In fact I saw countries from all over the world that I’ve rarely heard before, it was like a deluxe buffet of locations!</p>
+<p>My hastily cut and then reattached wire wasn’t the greatest, the G90 could tune it on 20m and several other bands but I kept it on 20m as I didn’t have that long to play in the radio and this should be the least worst band for it! Nevertheless, it worked and I was heard all around the world.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="pskreporter.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Who’s listening?"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/pskreporter.jpg" class="img-fluid figure-img" alt="Who’s listening?"></a></p>
+<figcaption>Who’s listening?</figcaption>
+</figure>
+</div>
+<p>I made about 17 contacts that day, in the morning and then a little in the afternoon. A variety of European countries, including a couple of portable stations in Slovenia and Belgium, and also a contact in Oklahoma state. I listened in on SSB but didn’t get round to making any contacts on voice.</p>
+<p>All in all, I was pleased with my first go, plenty of things to improve on next time and maybe try a different vertical, perhaps an end fed or just a better job cutting it! I do also want to get a bigger pole to move up to half wave territory. I’m not hiking up mountains so weight isn’t a huge factor, and I’m thinking of taking it down to the sea one time and seeing if the salt water helps me reach the exotic locations!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="garden.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Testing in the garden"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/garden.jpg" class="img-fluid figure-img" alt="Testing in the garden"></a></p>
+<figcaption>Testing in the garden</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>Portable</category>
+  <category>FT8</category>
+  <guid>https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/</guid>
+  <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/setup.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hello world! 📻</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/hello-world/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve decided to make a dedicated amateur radio blog. Partially, so I can <del>run WordPress</del> now running <a href="https://quarto.org/">Quarto</a>!</p>
+<p>I hope to record contacts I make, things I build, antennas I try out, and generally anything related to amateur radio.</p>
+<p>It will be no surprise to anyone that my callsign is GM5ALX. and a .uk domain was much cheaper than a <a href="https://register.radio/">.radio domain</a>, even though .radio is cooler!</p>
+
+
+
+ ]]></description>
+  <category>meta</category>
+  <guid>https://gm5alx.uk/posts/2023/hello-world/</guid>
+  <pubDate>Fri, 11 Aug 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/hello-world/outside.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

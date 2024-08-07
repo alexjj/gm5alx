@@ -1,0 +1,9 @@
+---
+title: Bennachie - Oxen Craig
+subtitle: My first SOTA summit
+image: "placeholder.jpg"
+points: 5
+date: 2024-03-07
+qsos: 37
+total: 5
+---

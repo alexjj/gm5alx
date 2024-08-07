@@ -1,0 +1,39 @@
+---
+title: "Portable ops in the Cairngorms"
+date: 2023-08-15
+subtitle: "My first outing"
+categories: ["Portable", "FT8"]
+image: setup.jpg
+---
+
+My first radio was the Xiegu G90, and when I bought my Yaesu FT-DX10 I decided I’d keep the G90 for portable operations. It’s pretty small, 20W, and I already have it and know how it works. With a few days planned to stay near Aviemore in the summer holidays I thought it was the perfect time to try it out.
+
+![A converted church was our accommodation for the trip. Very fancy!](holiday-house.jpg){fig-align="center"}
+
+I have a 6m telescopic pole and decided to make a vertical antenna with it. In an effort to keep it simple, I went for a 1/4 wave for 20m with some radials and a 1:1 choke wrapping the coax around a torroid.
+
+I’d left making the antenna until the night before we were due to go and so it was a bit of a rush to make it! I cut the wire considerably longer as I didn’t want to try and be too smart on my first attempt, and would use the NanoVNA to cut it to the right length.
+
+![Somewhat too long!](analyser.jpg){fig-align="center"}
+
+I think this worked against me as I ended up cutting it many times and then got sloppy and rushed, which meant I went from a 1.1 SWR at 14.035 MHz to 1.07 at 14.385 MHz..oops! By this time it was 9pm and I was meant to be packing other things. So I took the bit of wire I cut off and figured I’d reattach it later. I had also cut 5x 5m ish radials, and was using a dipole connector I had for the coax to wire connections.
+
+We were staying with friends who were interested in hearing about amateur radio and why I was doing it, particularly when I set everything up outside. I tried not to blah on too much…
+
+Our house backed onto the forest and there was no boundary between the garden ending and the forest starting, so I just setup near the bench and had the antenna towards the trees and out the way of running kids.
+
+![Setup at the holiday house](setup.jpg){fig-align="center"}
+
+As well as my first time portable, it was my first time with a vertical and I was interested in how it performed compared to my horizontal EFHW I have at home. This is where I really like FT8 and pskreporter. Regardless of QSOs I make, I can see who hears me and I can obviously see who I hear.
+
+I immediately noticed how many ZL stations I could hear, far more than I’ve ever had before. I think at home I’ve maybe seen one very briefly, but now I was seeing 5-8 stations for several hours in the morning. In fact I saw countries from all over the world that I’ve rarely heard before, it was like a deluxe buffet of locations!
+
+My hastily cut and then reattached wire wasn’t the greatest, the G90 could tune it on 20m and several other bands but I kept it on 20m as I didn’t have that long to play in the radio and this should be the least worst band for it! Nevertheless, it worked and I was heard all around the world.
+
+![Who’s listening?](pskreporter.jpg)
+
+I made about 17 contacts that day, in the morning and then a little in the afternoon. A variety of European countries, including a couple of portable stations in Slovenia and Belgium, and also a contact in Oklahoma state. I listened in on SSB but didn’t get round to making any contacts on voice.
+
+All in all, I was pleased with my first go, plenty of things to improve on next time and maybe try a different vertical, perhaps an end fed or just a better job cutting it! I do also want to get a bigger pole to move up to half wave territory. I’m not hiking up mountains so weight isn’t a huge factor, and I’m thinking of taking it down to the sea one time and seeing if the salt water helps me reach the exotic locations!
+
+![Testing in the garden](garden.jpg)

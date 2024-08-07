@@ -1,0 +1,21 @@
+---
+title: "What to do"
+date: 2023-08-22
+subtitle: "There are so many options!"
+categories: ["meta"]
+image: ftdx10-kid.jpg
+---
+
+It’s both a blessing and a curse that amateur radio has so many different facets and parts…I can’t even begin to list them all: antennas, operating frequencies, circuitry, radios, modes of operation, amplifiers, structures, networks, digital, analog, moon bounce, competitions, prizes, collecting, … and even each of those sections has subsections or intersections of sections 😅 It truly is a hobby for life.
+
+![Better start young then](ftdx10-kid.jpg)
+
+This isn’t meant to sound like complaining, more of an expression of overwhelming amazement. The hardest thing for me is to work out what I want to do. I love reading, talking, listening and watching about what others are doing, and every time I do I learn about another facet that sounds really interesting and something I want to do. The fear I have is that I spend forever looking at what I could do but yet never actually do anything for myself! I have to remind myself that I don’t need to do everything immediately. I’ve only had a licence since January this year, and I’ve only been on the air for five months!
+
+I also get daily reminders of how little free time I actually have. I work full time and we have four children ≤ 10 years old. I only really have time for one thing each evening – which includes writing blog posts! – and so I’m going to use my favourite outliner app, Dynalist, to make a list of all the things I want to do, in order to pick and choose what I should do now and next. It also serves as a place to put useful things I find related to it, although that’s too organised for me and I’m more likely to put stuff in my wiki. Actually, I’m more likely to read something and think I should make a note of it but don’t. Anyway, it helps focus and stops me spending forever looking at stuff.
+
+Right now, my tasks are to finish the [QO-100 setup](../qo-100-build-part-1-the-design/), design the garage workshop layout and get it built including the relocation of the shack. But sometimes I’m tired after work and the kids, and just want to sit on the radio and see who’s out there.
+
+Which leaves me with the thought that even if I built or changed nothing ever again, there are always different people out there to speak to, different propagation patterns and the enjoyment of talking to someone else who also enjoys this hobby.
+
+![I should also finish my other projects I started before getting my licence!](apple-g4.jpg)

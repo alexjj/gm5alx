@@ -1,0 +1,19 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: broadcast-pin
+      text: QRZ
+      href: https://www.qrz.com/db/GM5ALX
+    - icon: chat-quote
+      text: Matrix Chat
+      href: https://matrix.to/#/@alexjj:matrix.org
+    - icon: github
+      text: Github
+      href: https://github.com/alexjj
+
+---
+
+👋 I’m Alex Johnstone, GM5ALX. I have been a licensed amateur since December 2022, and I’m only just scraping the surface of the radio world! This site is dedicated to all my experiments, activity and thoughts on amateur radio.

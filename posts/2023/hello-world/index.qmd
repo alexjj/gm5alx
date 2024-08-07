@@ -1,0 +1,13 @@
+---
+title: "Hello world! 📻"
+date: 2023-08-11
+subtitle: "The start of my radio blog"
+categories: ["meta"]
+image: outside.jpeg
+---
+
+I’ve decided to make a dedicated amateur radio blog. Partially, so I can ~~run WordPress~~ now running [Quarto](https://quarto.org/)!
+
+I hope to record contacts I make, things I build, antennas I try out, and generally anything related to amateur radio.
+
+It will be no surprise to anyone that my callsign is GM5ALX. and a .uk domain was much cheaper than a [.radio domain](https://register.radio/), even though .radio is cooler!

@@ -1,0 +1,25 @@
+---
+title: "A Good Evening on 15m"
+date: 2023-09-23
+subtitle: "Filling in more squares"
+categories: ["FT8"]
+image: 15m.png
+---
+
+![Feed point of random wire with 9:1 unun](img_6743-1024x768.jpg)
+
+For some reason, I tend to avoid trying out 15 meters, but yesterday I decided to give it a shot, and it went quite well. I began by experimenting with my 39.5-meter random wire antenna in the garden. It has excellent reception, and I could hear approximately 20 Japanese stations. However, when it came to transmitting, it didn’t perform as well as expected. I thought that the higher frequency of 15 meters might compensate for its low height, but according to pskreporter, it seemed that no one was receiving my signals. While I believe I managed to make a few QSOs, I eventually wanted to move indoors. The random wire is just a temporary setup, and I have to sit outside to use it.
+
+![Far field plot at 15m on my random wire](image-1.png)
+
+I switched back to using my EFHW (End-Fed Half-Wave) antenna, which still provided good reception. Being positioned at about 8 meters in height, it was much more effective for transmitting. My radio is currently set up in the kitchen, and I sit on the floor with a beanbag while operating it. I’m currently (or at least I like to think I am) in the process of designing a new workbench or shack in the garage. I’ve also been contemplating the idea of remote operation. I wanted to continue designing my garage setup, but at the same time, I was making numerous FT8 contacts with desirable DX countries. Given that I’m using a Windows laptop with the radio, an obvious solution is the Remote Desktop Connection application. I’m not sure why I didn’t try it earlier. The only thing I needed to check was the audio settings, as the default settings would route the remote computer’s audio to me, causing WSJT-X to lose access to the soundcard. However, it’s a simple fix in the options to prevent this.
+
+![Audio on remote computer](image.png)
+
+With that sorted out, WSJT-X and Grid Tracker could occupy one screen while I worked on the other comfortably from my desk. WSJT-X doesn’t have all the CAT commands required, so if I needed to adjust more settings on the radio, I’d have to use another program. I’m also unsure if CAT can control everything on the FT-DX10, such as the preset option I use for digital modes. For the time being, that’s acceptable since it’s just across the house.
+
+Last night, 15 meters, with occasional forays into 17 meters, turned out to be quite successful for me. There were instances of signal fading, and sometimes it took a while to receive a “RR73” reply from the other station, so whether or not everyone will log the QSOs depends on their perspective. Nonetheless, from my standpoint, we successfully exchanged signal reports.
+
+![Map of world with spots showing QSOs](15m.png)
+
+I also found pskreporter not very reliable, as it would often show only two stations hearing me when I’d then get multiple replies to my CQ.

@@ -1,0 +1,65 @@
+---
+title: "Grid Square Chasing with GridTracker"
+date: 2023-08-22
+subtitle: "Gotta catch em all!"
+categories: ["FT8"]
+image: grid-tracker.png
+---
+
+Shortly after getting on the air with my Xiegu G90, I became intrigued by FT8. After some initial experimentation, I managed to set it up and began making QSOs. Initially, I was thrilled to hear stations from all over the world – Australia, Japan, South America, and various other places. At first, I believed I could establish contact with all of them. However, after numerous attempts to connect with different stations, I discovered [pskreporter](https://pskreporter.info/). This tool allowed me to determine who could hear me. While it was disappointing to realize that hearing a station didn’t guarantee they could hear me, seeing the immediate feedback on pskreporter was just as enjoyable as making an actual contact, especially on days when distant countries could receive my signals.
+
+![Who’s listening?](gridtracker-pskreporter.png)
+
+The information provided by pskreporter makes FT8 interesting, especially when testing new antennas or different power levels. However, excessive usage of it can become somewhat monotonous. It’s convenient when used alongside other activities, but sitting in front of it for prolonged periods without any other engagement is not advisable. Depending on your antenna setup, you may find that you’re only able to reach specific parts of the world, making it nearly impossible to make new connections. While I occasionally manage to contact a few new countries with my horizontal EFHW antenna, it’s not as effective as a vertical, such as this one described by [M0AWS](https://m0aws.co.uk/?p=1998).
+
+I found the user interface of WSJT-X somewhat lacking and soon discovered [GridTracker](https://gridtracker.org/). As it says on the website “_GridTracker listens to traffic from WSJT-X and displays it on a map_“. While it offers more functionality, that’s the core idea. I use its call roster to identify who’s calling or communicating, making my contacts based on that information. Only recently did I delve into the manual on the website and decide to pursue grid square chasing.
+
+A conversation in the [Ham radio matrix chat](https://m0aws.co.uk/matrix/) about gamifying FT8 caught my attention. This intrigued me, as it seemed like a way to inject more interest into FT8. The most apparent approach was to start collecting grid squares from different countries. Now, I had a reason to contact those Italian and German stations. GridTracker proved to be highly useful for this purpose.
+
+## Useful GridTracker Settings
+
+I encourage you to read the [full manual](https://gitlab.com/gridtracker.org/gridtracker/-/wikis/home), it’s not that long and you’ll then understand the whole software much better. Here are the settings I’ve discovered that simplify the process of collecting grid squares using the software.
+
+### Call Roster
+
+![Table of contacts](gridtacker-callroster.png)
+
+I hardly ever use the map view in GridTracker. While it does display pskreport spots along with grids, the map can become cluttered, making it challenging to discern the information. I might briefly glance at the spot heatmap or switch to pskreporter for my spotters. My primary focus is on the call roster. This window is positioned next to WSJT-X’s main window and waterfall display. The call roster streamlines the substantial amount of information from WSJT-X into a concise, organized format. It allows for various filters, but I generally keep the filters quite open, toggling between all activity and CQ calls only.
+
+The standout feature is the color coding of cells. A black background signifies a confirmed contact, a black-blue gradient indicates an unconfirmed contact, and a blue background represents a new grid. This arrangement allows me to quickly identify areas I still need to reach. With the CQ Only filter activated, it becomes easy to determine whom to respond to. Another setting I find useful is marking RR73 as a CQ. This way, I can spot stations just finishing up their last QSO, and I might have a chance to catch them as they start calling CQ.
+
+To open the call roster, click on the Clipboard/Medal button in the menu. 📋🥇
+
+### Map View
+
+Although I seldom use the map view, it serves as a useful tool to track your progress with grids. The heatmap of spots can also provide valuable insights. Ensure that you have the bands set to “Mixed” rather than the default “Auto.” The Auto setting uses the band you’re currently on, which limts what you see, and unless your trying to get all the grids by band you probably want Mixed. Mixed displays all bands.
+
+![Mixed shows all bands](gridtracker-map-view.png)
+
+### Log data
+
+Grid Tracker is only useful if it knows all your logs. By default it’ll read the wsjt-x log file on your computer but that won’t always have everything, and if you want to include voice or other modes that won’t help. The way I’ve found to work best is to use its ability to import log data from elsewhere. There are a few options and you can set them in the Logging page of the settings.
+
+![All the logs](gridtracker-logging.png)
+
+Grid Tracker can pull and push log data. The **Startup?** and **Menu?** settings show the options for pulling log data, with startup meaning it queries it when you open Grid Tracker, and Menu meaning it adds a button to the menu for you to trigger a download. As you can see above the options are local files, psk-reporter, qrz, clublog and LoTW. I decided to go with LoTW as that seems to be the most commonly used central logging database. This means that wherever I capture my QSOs, as long as they get into LoTW, Grid Tracker will know about them. I could just add all of the others too.
+
+For longer operating sessions with numerous QSOs, clicking the LoTW button in the menu will pull in confirmations. GridTracker maintains its own log, providing a record of your contacts.
+
+I also use GridTracker to send my WSJT-X logs to [Cloudlog](https://www.magicbug.co.uk/cloudlog/), my primary logbook. This process subsequently uploads all my logs to platforms like LoTW, Clublog, and eQSL. As indicated in the **Log?** column, GridTracker interfaces with various popular logging tools.
+
+In essence, GridTracker’s configuration is straightforward and quick, enhancing the appeal of WSJT-X data and simplifying the tracking of contacts.
+
+## Appreciating FT8
+
+While I’ve been licensed for a relatively short time, I’ve encountered strong opinions about FT8, including some negative viewpoints. I don’t enjoy coffee, but I wouldn’t tell coffee enthusiasts that they’re consuming it incorrectly. I won’t speculate on the reasons people dislike FT8, but instead, I’ll share some observations that might not be immediately apparent.
+
+These days, it’s common for unique locations to incorporate FT8 into their setups. Therefore, if you’re aiming to access new DX locations, FT8 offers a viable method. I also appreciate that it levels the playing field to some extent, unlike SSB or even CW. How often have I heard a VK or JA station (not rare DX, just less common), only to be faced with an overwhelming pileup as European countries with 2 kW power outputs drown out smaller stations like mine, operating at 100 W? Breaking through is nearly impossible. While CW might provide slightly better odds due to fewer operators compared to SSB, plus the reduced SNR needed to work someone, the challenge for QRP stations remains. With FT8, if your signal reaches them with 10W or 50W, your presence is acknowledged, significantly improving your chances. While there may be techniques for gaining an edge when working a pileup station on FT8, such as adjusting transmit settings or clock settings, the gap is much smaller. Skill is required here as well.
+
+When engaging with a popular station on SSB or CW, conversations are often minimal. Regular HF QSOs frequently consist of a brief exchange involving callsigns, RST, and possibly a name or location. This is not drastically different from an FT8 QSO. If your goal is to accumulate numerous contacts, reach various locations, or connect with rare stations, FT8 offers similar dynamics. If you seek in-depth discussions, FT8 isn’t the appropriate choice; it’s not a direct comparison. For that purpose, you might explore JS8Call.
+
+In closing, while I risk getting sidetracked into an argument, I emphasize that the beauty of amateur radio as a hobby is rooted in personal enjoyment. If you find it enjoyable, that’s fantastic! If not, then there’s no obligation to pursue it; everyone’s preferences differ.
+
+![Gotta catch em all! 🐲🔴🎮📻](gridtracker-europe.png)
+
+Now, back to the quilt! I initially thought the UK would be an easy starting point!

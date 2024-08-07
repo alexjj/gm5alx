@@ -1,0 +1,25 @@
+---
+title: "SOTA Activations"
+listing:
+  contents: sota
+  sort: "date desc"
+  type: table
+  categories: false
+  sort-ui: true
+  filter-ui: true
+  feed: false
+  fields: [date, title, subtitle, qsos, points, total]
+  table-hover: true
+  field-display-names:
+    date: "Date"
+    title: "Summit"
+    subtitle: "Highlights"
+    qsos: "QSOs"
+    points: "Points"
+    total: "Total Points"
+page-layout: article
+title-block-banner: false
+search: false
+---
+
+Here is a list of all my SOTA activations with links to information about them.

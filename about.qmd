@@ -2,7 +2,7 @@
 title: "About"
 image: profile.jpg
 about:
-  template: broadside
+  template: marquee
   links:
     - icon: broadcast-pin
       text: QRZ

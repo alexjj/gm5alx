@@ -29,6 +29,10 @@ format:
     theme: cosmo
     fontsize: 1.1em
     css: styles.css
+    include-after-body:
+      text:  |
+        <script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer></script>
 
 language:
   search-box-placeholder: Search
+

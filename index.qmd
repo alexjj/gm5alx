@@ -1,7 +1,9 @@
 ---
 listing:
   id: blog-posts
-  contents: posts
+  contents:
+    - posts
+    - sota
   sort: "date desc"
   type: grid
   categories: true

@@ -1,0 +1,9 @@
+---
+title: Cairn-mon-earn
+subtitle: Struggling with QRM, and rain
+image: "placeholder.jpg"
+points: 1
+date: 2024-06-14
+qsos: 6
+total: 12
+---

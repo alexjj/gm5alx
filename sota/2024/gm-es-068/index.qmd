@@ -1,0 +1,9 @@
+---
+title: Craiglich
+subtitle: SOTA with daughter
+image: "placeholder.jpg"
+points: 1
+date: 2024-07-28
+qsos: 4
+total: 17
+---

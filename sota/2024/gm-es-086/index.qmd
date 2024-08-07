@@ -1,0 +1,9 @@
+---
+title: Brimmond Hill
+subtitle: Scaring the locals
+image: "placeholder.jpg"
+points: 1
+date: 2024-06-21
+qsos: 14
+total: 13
+---

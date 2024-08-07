@@ -1,0 +1,9 @@
+---
+title: Hill of Fare
+subtitle: First of two summits
+image: "placeholder.jpg"
+points: 1
+date: 2024-07-05
+qsos: 5
+total: 15
+---

@@ -1,0 +1,9 @@
+---
+title: Strathfinella Hill
+subtitle: Struggling with QRM, and rain
+image: "placeholder.jpg"
+points: 1
+date: 2024-06-28
+qsos: 8
+total: 14
+---

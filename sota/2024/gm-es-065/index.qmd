@@ -1,0 +1,9 @@
+---
+title: Benaquhallie
+subtitle: Second of two summits, yer quhallie!
+image: "placeholder.jpg"
+points: 1
+date: 2024-07-05
+qsos: 19
+total: 16
+---

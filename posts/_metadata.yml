@@ -16,4 +16,4 @@ toc-title: Table of contents
 toc-location: left
 
 lightbox: true
-  match: auto
+match: auto

@@ -441,7 +441,7 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
  ]]></description>
   <guid>https://gm5alx.uk/sota/2024/gm-es-086/</guid>
   <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-086/img_7960-768x1024" medium="image"/>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-086/img_7960-768x1024.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>QSL cards time</title>
@@ -927,6 +927,56 @@ Note
   <media:content url="https://gm5alx.uk/posts/2023/one-year-on/weird1year.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Get a G in the UK</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>If you pass your full licence today, you can apply online to get a M0 callsign but you can also apply and get any previously issued prefix. Well, nearly every one. However, it’s not entirely obvious how to do this. In fact, when I spoke to ofcom about reserving a call or putting a hold on it, the guy said “oh don’t worry about it, hardly anyone knows how to apply for a G callsign anyway”. 😅</p>
+<p>You can get all the G# except G2, and they also no longer give out 2 letter callsigns, e.g.&nbsp;G3DX<sup>1</sup>. You can only get a two letter callsign one is given to you. This is typically if a relative of the original holder (who is now sk) writes a letter or does something that convinces ofcom to give it to you. The original holder doesn’t necessarily need to be a relative of yours, but perhaps the story has to be somewhat more convincing.</p>
+<p>The process is fairly simple, but it will cost you a one off fee of £20 (compared to free if you get a M0). You fill in the <a href="https://www.ofcom.org.uk/__data/assets/pdf_file/0019/47233/OfW346-Amateur-Radio-Application.pdf">form</a>, email ofcom, wait for a reply in which an invoice is added to your <a href="https://ofcomlive.my.site.com/licensingcomlogin">ofcom account</a> (that you’ll have as you’d have needed it for foundation and intermediate….unless you never bothered getting those or you did the direct to full exam). You pay the invoice online and your licence is generated immediately! This method can also be used if you want a club callsign that doesn’t start M0.</p>
+<p>The form is pretty self-explanatory, but an important thing to note is that you only get to enter three choices of callsign, with the order of preference stated. If those ones aren’t available, then they’ll assign you a M0 callsign randomly. They don’t contact you to say those three aren’t available and would you like to try again. So I’d recommend calling them (020 7981 3131) before you send in your form to check the availability. Surprisingly, there’s virtually no wait and they’re happy to check a few calls, I tried three but sensed more than five and they might get annoyed – depends on who you get. You could of course call back another day and try some more.</p>
+<p>The online application for M0 is great as it immediately tells you if the callsign is available or not, whereas the form you have to call to check. Now there are ways you can check yourself to try and screen things out.</p>
+<section id="whats-available" class="level2">
+<h2 class="anchored" data-anchor-id="whats-available">What’s available?</h2>
+<p>Every so often someone does a freedom of information request to ofcom for all the amateur radio licences issued, and they produce a spreadsheet. Searching for this is a quick way to find it, or using the whatdotheyknow website and a search, such as <a href="https://www.whatdotheyknow.com/body/ofcom/successful?utf8=%E2%9C%93&amp;query=amateur&amp;request_date_after=&amp;request_date_before=&amp;commit=Search">this one against ofcom</a>. This will show you what’s been taken, and then you can see if someone already has the call you want or not. Plus you can use Excel filtering and formula to check or test calls you are thinking of. Personally, I found these lists to be full of errors, so I’d recommend a second way to filter down your list of potential calls.</p>
+<p>This would be via qrz.com. I think the majority of UK amateur radio operators make an account on QRZ. Even if they have absolutely nothing in their profile they probably have one. If you’re registered, then you can use the wildcard search and then look for profiles to see if someone has the call already. You can use a question mark (?) to match a single wildcard character or star (*) to match multiple characters. The thing to remember is the regional locator in the UK, so whilst G5ALX might look available, I actually have that callsign but my profile is under GM5ALX. Also, ofcom make available sk callsigns after two years…assuming they know the person is silent.</p>
+<p>Of course, phoning them up and asking is the final test, but it’s best if you’ve got a shortlist prepared already. Assuming they say it’s available, then away goes your form and welcome to the full licence!</p>
+<p>Future upgrades to the online system were part of the recent consultation, and so in time this process won’t be necessary and you can select all the prefixes and see immediately if it’s available or not. The consultation also suggested they would let people change their callsigns every so often, so maybe you’ll get another shot at it and you whole amateur radio career won’t all be resting on this decision!</p>
+<p><a href="image-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/image-1.png" class="img-fluid"></a></p>
+</section>
+<section id="how-to-pick-a-callsign" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-pick-a-callsign">How to pick a callsign?</h2>
+<p>This is all well and good, but how do you choose a callsign in the first place! In some ways the old style of “you get what you’re given” takes the pain out of it but it’s nice having a choice. It’s a personal preference, but there are a couple of things you might want to consider:</p>
+<ol type="1">
+<li>How does it sound phonetically?</li>
+<li>How does it sound and what’s the weight via CW?</li>
+</ol>
+<p>Say it out loud a few time, and see if you like the ring of it. There might be some words you don’t like, or you might want to avoid as in your accent they sound like other words. I find people think I’m saying papa when I say alpha, which can get annoying, so I might say “America” instead. Mike and Golf are only one syllable, which might seem good but the point of phonetics is to help the listener understand and one syllable only gives them one chance vs.&nbsp;two/three.</p>
+<p>CW wise, I think it’s worth thinking about even if you don’t do CW now. You can’t change you callsign again, and even if we do get the ability later, will you really want to? You get used to things, and sorting out logbooks and QSL cards or even friends you’ve made, all rely on the same callsign. I think it’s worth considering, even if you still pick you call with a “terrible” CW factor.</p>
+<p>I picked up that letter that end with dit ( . ) aren’t great as they might get missed, and particularly avoid your callsign ending in B or K or E. If you search about for advice, it seems like there aren’t any letters left that you should use! You can also calculate the weight of a call, such as on <a href="https://fists.co.uk/measurecallsign.aspx">FISTs website</a>, which is a measure of how long it takes to send. Given that we’re all G(RSL)# and three letters, I don’t think there’s a huge variation but maybe it helps differentiate some calls for you.</p>
+<p>Think about when you’ve been on the air and heard others’ callsigns. I’m sure you’ve come across some that you think sound good. If you can’t remember them now, then try and make a note in your log when you do, and see what it is about them you like. I think repetition of letters makes things easier to copy. I’ve heard the DX call out “the delta delta call”, because it sticks out and instantly memorable.</p>
+<p>This <a href="https://docs.google.com/presentation/d/e/2PACX-1vSNUBBMUgiBkTRz-QFsY_Oc3k0myYiahkrbTZS-nUwcKpAZl_XAJLkNdxeaA8s_pDE1iNqi4MEdsSr7/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.g79754f0101_0_321">guy made some slides</a> and a spreadsheet to help you decide. If you’re an analysis person then you might like it, but try not to spend too long!</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>If you got your full licence between 2018 and 2020 you could’ve got a G2 or a two letter callsign. 🤷↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>meta</category>
+  <guid>https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/</guid>
+  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/licence-featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>First attempts at LEO 🛰️</title>
   <dc:creator>Alex Johnstone</dc:creator>
   <link>https://gm5alx.uk/posts/2023/first-attempts-at-leo/</link>
@@ -1055,35 +1105,6 @@ Your browser does not support the <code>audio</code> element.
   <guid>https://gm5alx.uk/posts/2023/a-great-day-on-10/</guid>
   <pubDate>Sat, 14 Oct 2023 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2023/a-great-day-on-10/pskreporter.png" medium="image" type="image/png" height="83" width="144"/>
-</item>
-<item>
-  <title>First on Give</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/first-on-five/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>For a little while, the <a href="https://m0aws.co.uk/matrix/">Matrix Radio group</a> have been talking about a HF net at some stage. I think I offered to do something, but have yet to do so! Steve, M0XVT, raised that he joins a 60m net and we all thought that sounded like a good idea to try. We’d agreed to join at 9pm on 5.3985 MHz. This would be my first attempts on the 60 m / 5 MHz band.</p>
-<p>My HF antenna is a EFHW for 40m, and it’s not naturally resonant on 60m, but I suspected my Xiegu G90 would be able to tune it up as it’s pretty decent at matching anything to anything!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="bandplan.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Band plan summary from RSGB"><img src="https://gm5alx.uk/posts/2023/first-on-five/bandplan.png" class="img-fluid figure-img" alt="Band plan summary from RSGB"></a></p>
-<figcaption>Band plan summary from <a href="https://rsgb.org/main/operating/band-plans/hf/5mhz/">RSGB</a></figcaption>
-</figure>
-</div>
-<p>My only experience with the 5 MHz band is from my full licence exam. The UK <a href="https://rsgb.org/main/operating/band-plans/hf/5mhz/">band plan</a> is probably the most complex band plan there is for amateur radio. It makes it ideal for writing exam questions! The amount of warnings about transmitting outside the band plan due to the other user of the frequecy, aka the military, does make for careful planning. The RSGB page has lots of info on it, but it’s not the sort of thing you just quickly tune to and call CQ or even respond to others.</p>
-<p>The 60m net, 5.3985 MHz, is on Sunday mornings at 0700 UTC, but I’ve not joined in as I’m still between shacks.</p>
-<p>I also learnt of the trick of using a WebSDR to listen to a net you’re in. Sometimes they can hear you but not vice-versa, and so at least this helps with the flow of the net. You can get some software to sync your SDR and rig (or write your own with NodeRed) but for a net, when you’re not moving about, manually setting is good enough.</p>
-
-
-
- ]]></description>
-  <category>60m</category>
-  <guid>https://gm5alx.uk/posts/2023/first-on-five/</guid>
-  <pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/first-on-five/USB-on-5MHz-Channel.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>

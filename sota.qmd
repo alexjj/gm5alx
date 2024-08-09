@@ -9,13 +9,12 @@ listing:
   sort-ui: true
   filter-ui: true
   feed: false
-  fields: [date, title, summit, subtitle, qsos, points, total]
+  fields: [date, title, summit, qsos, points, total]
   table-hover: true
   field-display-names:
     date: "Date"
     title: "Name"
     summit: "Summit"
-    subtitle: "Highlights"
     qsos: "QSOs"
     points: "Points"
     total: "Total Points"

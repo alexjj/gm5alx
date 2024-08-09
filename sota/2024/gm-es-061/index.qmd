@@ -6,6 +6,7 @@ points: 5
 date: 2024-03-07
 qsos: 37
 total: 5
+summit: "GM/ES-061"
 ---
 
 I’ve chased a few SOTA activators before, it’s quite a fun thing to do, you watch the [spotting website](https://sotawatch.sota.org.uk/en/) and then see if you can get them. Once someone posts a spot it’s pretty quick for them to get a pile up. I’ve kept thinking about doing it, and I do live in an ideal place where there are plenty of summits to chose from. I’ve not been on the radio much this year and I ended up taking a day off today to drop off and pick up the kids from school, so I decided I should make the most of it and go up a mountain!

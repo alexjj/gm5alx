@@ -3,9 +3,10 @@ title: Strathfinella Hill
 subtitle: Struggling without mobile reception
 image: "img_7976.jpg"
 points: 1
-date: 2024-07-05
+date: 2024-06-28
 qsos: 8
 total: 14
+summit: "GM/ES-075"
 ---
 
 Another [hill](https://sotl.as/summits/GM/ES-075), this time to the south of Aberdeen. The weather was wet and windy in the morning, particularly so inland, so thought I’d stick to the coast. The two options were Strathfinella or [Hill of Garvock](https://sotl.as/summits/GM/ES-085). Reports of angry cows from Garvock, plus the sheltered nature of the wooded summit of Strathfinella made the decision for me.

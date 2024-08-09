@@ -4,6 +4,8 @@ date: 2023-08-22
 subtitle: "Figuring out the shopping list"
 categories: ["QO-100", "satellites"]
 image: eshail-2-qatar-oscar-100.png
+aliases:
+  - ../../../2023/08/qo-100-build-part-1-the-design/
 ---
 
 I think I first heard about QO-100 when looking at a [local amateur’s QRZ page](https://www.qrz.com/db/GM0NRT). He’d setup a couple of satellite dishes in his garden and had his [QO-100 DX Club](https://qo100dx.club/) logo on his profile page, along with some other links. That started me down the rabbit hole. 🐇🛰️

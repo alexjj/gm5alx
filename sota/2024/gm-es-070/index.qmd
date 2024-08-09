@@ -6,4 +6,5 @@ points: 1
 date: 2024-07-05
 qsos: 5
 total: 15
+summit: "GM/ES-070"
 ---

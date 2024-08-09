@@ -6,6 +6,7 @@ points: 1
 date: 2024-06-21
 qsos: 14
 total: 13
+summit: "GM/ES-086"
 format:
   html:
     resources:

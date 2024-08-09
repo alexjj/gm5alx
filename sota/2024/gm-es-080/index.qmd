@@ -6,6 +6,7 @@ points: 1
 date: 2024-06-14
 qsos: 6
 total: 12
+summit: "GM/ES-080"
 ---
 
 It’s been a few weeks since my last activation and I wanted to go out. I didn’t have much time as I was meant to be sorting out the garage, so I picked a summit close to home, Cairn-Mon-Earn ([GM/ES-080](https://sotl.as/summits/GM/ES-080)).

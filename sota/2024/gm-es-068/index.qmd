@@ -6,4 +6,5 @@ points: 1
 date: 2024-07-28
 qsos: 4
 total: 17
+summit: "GM/ES-068"
 ---

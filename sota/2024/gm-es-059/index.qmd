@@ -6,4 +6,5 @@ points: 2
 date: 2024-05-03
 qsos: 13
 total: 7
+summit: "GM/ES-059"
 ---

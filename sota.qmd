@@ -13,7 +13,8 @@ listing:
   table-hover: true
   field-display-names:
     date: "Date"
-    title: "Summit"
+    title: "Name"
+    summit: "Summit"
     subtitle: "Highlights"
     qsos: "QSOs"
     points: "Points"
@@ -25,3 +26,10 @@ date-format: "Do MMM 'YY"
 ---
 
 Here is a list of all my SOTA activations with links to information about them.
+
+Useful SOTA Links:
+
+* [Spotting](https://sotawatch.sota.org.uk/en/)
+* [Database](https://www.sotadata.org.uk/en/stats)
+* [Discourses Forum/Reflector](https://reflector.sota.org.uk/)
+* [SOTA Atlas](https://sotl.as/) map tool by Manuel HB9DQM

@@ -3,7 +3,54 @@ title: Glas Maol
 subtitle: 2m Excitement
 image: "glas-maol-4.jpg"
 points: 8
-date: 2024-05-17
+date: 2024-08-09
 qsos: 8
 total: 25
+summit: "GM/ES-012"
 ---
+
+![Ski Centre](glas-maol-1.jpg)
+
+I've had my eye on this summit for a while. It's 8 points for starters, and I've been doing a lot of 1 pointers recently, but it's quite the drive to get to, so whilst it doesn't take long to climb, the total round trip is considerable. It's also (just) over 1,000m high but the car park is at 670m, so the actual ascent is only 420m - very similar to some lower summits. Morven, a 4 point summit, was a 650m ascent!
+
+The weather was sunny in Aberdeen when I left, and the forecast threaten rain later in the afternoon. I did my calculations and figured I'd be back in the car before the rain came. It's only a 45-60 minute ascent.
+
+You start in the upper car park at Glenshee ski centre, you can park right by the start of the track. The car park is £4 which you pay for via a website, except in the valley there's no 4G+, so you need to wait until you're up the first slope and get signal again before you can pay. The alternative is stop in at the cafe and pay, but I'd already parked and wanted to get going.
+
+![Perthshire border](glas-maol-2.jpg)
+
+![1.5km walk up 420m](route.png)
+
+The route is fairly straight forward in summer. The path is obvious, although it had a lot of loose gravel in many places. There are a few ups and downs along the way but nothing too bad. The steepest part is beyond the ski lift buildings on the final rise up to the main plateau. The path looks obvious from a distance but when you're on it, it blends in with the terrain. Again, lots of loose stones here but a steady pace and I was at the top.
+
+![The steep part](glas-maol-6.jpg)
+
+It's still another 600m or so until you get to the actual summit, and I could see it being very easy to get lost in low cloud at this point, especially on the way back, it's wide and featureless. Luckily the cloud wasn't low, it was overcast but the view was still amazing, and on a clear day it must be spectacular.
+
+![Looking towards Braemar](glas-maol-5.jpg)
+
+![Looking south](glas-maol-7.jpg)
+
+I met another walker sitting in the cairn having his lunch. We spoke for a bit and then I looked for somewhere else to setup. A bit further away there were two smaller piles of rocks I thought I could shelter behind. The wind was persistent and I needed my hood to keep my ears warm.
+
+I've taken to just activating summits with VHF if I can, not that I don't like doing HF, I just enjoy the simplicity of using a handheld and speaking to the locals. This is particularly the case if I don't want to be sitting around for a long time, and whilst the rain's arrival was forecast to be later still, I didn't really want to hang around more than necessary. I setup the slim G on the carbon-6 pole and started calling CQ.
+
+![CQ CQ SOTA](glas-maol-8.jpg)
+
+I'd forgotten to spot, but I started on 145.500 MHz, the 2m calling frequency, and I'm used to 2m spotting not really helping. Stations started coming back to me from considerable distances, at least what I'm used to. Something I'm not used to is everyone asking to QSY to another frequency. The first caller who asked I sort of ignored his first request as I didn't think it was necessary, but I did then move and we had a nice chat. I guess when there's actually some activity or a big area it makes sense to move. I've just used to the 4-6 people on 2m when I'm on the lower summits nearer Aberdeen that it doesn't matter if we talk for 15 minutes on the calling frequency as there's no-one else!
+
+My furthest was 92 miles right across the west coast to GM4OAS. I was only a 31 for him but we managed. Had GM0USI/M driving on the A90 between Perth and Dundee, and then a guy walking his dog somewhere in East Lothian carrying his boafeng with him. He just had a rubber duck on, but his signal was strong with me, his audio was a bit muffled at times though. He gave his call as M7SGX, and so I was confused where he was, thinking he was in England. However, he'd just chosen to omit the RSL. Unless I misheard him several times![^1]
+
+[^1]: I can't find him on QRZ or anywhere so I do worry if I heard him wrong but I did asked 3 times as I kept thinking "M7?!"
+
+I didn't get anyone back in Aberdeen but I had 8 which was plenty. I did spot myself and called some more but that was it. I heard someone else but I think it was a repeater and my VFO B happened to be on its frequency but I didn't have it programmed in (assume it was the Dundee one). As it happens I don't think any of the repeaters in my D72 are correct, and I should add the others around Scotland.
+
+![QSOs 2m FM 5W](qsos.png)
+
+The excitement of such far reaching FM contacts had kept me distracted from other walkers who were around and the cold wind. I looked up to see a few other people walking around, but no-one came to talk to me. I finished my lunch, debated about HF for a moment, but then decided I'd rather be getting home and packed up.
+
+The walk down was trickier due to the scree patches and at one point I started marching off in the wrong direction as the path split. I could see the car park so I quickly realised the path wasn't taking me down to it.
+
+Next time I think a yagi and a radio with 2m SSB!
+
+![Happy with 2m today](selfie.jpg)

@@ -9,7 +9,7 @@ listing:
   sort-ui: true
   filter-ui: true
   feed: false
-  fields: [date, title, subtitle, qsos, points, total]
+  fields: [date, title, summit, subtitle, qsos, points, total]
   table-hover: true
   field-display-names:
     date: "Date"

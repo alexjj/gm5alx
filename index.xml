@@ -28,6 +28,284 @@
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-068/placeholder.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Setting up Heltec V3 868MHz on TinyGS</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://tinygs.com/">TinyGS</a>, is a network system to retrieve LoRa satellite data using ESP devices, much like SatNOGS. Everything is managed via the <a href="https://github.com/G4lile0/tinyGS">GitHub</a> repo and the <a href="https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q">Telegram channels</a>.</p>
+<p>Getting started and flashing the software on devices is very easy via their <a href="https://installer.tinygs.com/">web installer</a>. You then request a username and password via their Telegram bot. I’m not detailing much as their instructions are plain and the process is super easy. You do have to use Telegram but it’s okay.</p>
+<p>They have a list of <a href="https://github.com/G4lile0/tinyGS?tab=readme-ov-file#hardware">supported hardware</a>, and whilst the V3 isn’t mentioned, people on Telegram says it works. Plus when I flashed mine, it came up in the dropdown to choose it. However, it only showed the 433 MHz version.</p>
+<p>Telegram is fine and that, but like Discord, it’s not the easiest to find useful information. Compared to Discourses forum or Github issues etc., however, it does cost the project team nothing so I don’t begrudge them that. You can search posts but it takes a lot of effort to work through them and likely multiple conversations happening at the same time. Hence this post…</p>
+<p>You can change the frequency by logging into the webadmin, which, strangely, is actually the public website and not the dashboard that runs locally on your device. You have to request a link from the TinyGS telegram bot with <code>/weblogin</code> and it produces a tinygs.com url for you. As it’s Telegram I’m using my phone for it, no doubt there’s a computer client too.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_8048-1-675x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Weblogin page"><img src="https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/img_8048-1-675x1024.jpg" class="img-fluid figure-img" alt="Weblogin page"></a></p>
+<figcaption>Weblogin page</figcaption>
+</figure>
+</div>
+<p>You then click on your station, and a new menu appears.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_8047-1-510x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Click on Operate to change frequency"><img src="https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/img_8047-1-510x1024.jpg" class="img-fluid figure-img" alt="Click on Operate to change frequency"></a></p>
+<figcaption>Click on Operate to change frequency</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_8045-1-596x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Autotune 🎶"><img src="https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/img_8045-1-596x1024.jpg" class="img-fluid figure-img" alt="Autotune 🎶"></a></p>
+<figcaption>Autotune 🎶</figcaption>
+</figure>
+</div>
+<p>The top dropdown lets you change it to 868 (or 900+ depending on your region) MHz, and voila!</p>
+<section id="but-dont-bother" class="level2">
+<h2 class="anchored" data-anchor-id="but-dont-bother">But don’t bother</h2>
+<p>Why? Because there are only four <a href="https://tinygs.com/satellites">supported satellites</a> and at ~900 MHz you’ll need a decent antenna to pick up the data and I’m not sure the device can manage the doppler shift well enough to get anything meaningful. Just get a 433 MHz device and enjoy the experience. 🛰️</p>
+
+
+</section>
+
+ ]]></description>
+  <category>lora</category>
+  <category>satellites</category>
+  <guid>https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/</guid>
+  <pubDate>Sun, 07 Jul 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/img_8049.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>SOTA API and Google AI to find the Goat</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/sota-api-and-google-ai-to-find-the-goat/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After my double activation yesterday (which I’ve yet to write up), I bumped into Fraser, <a href="https://www.qrz.com/db/MM0EFI">MM0EFI</a> of <a href="https://www.youtube.com/@theradiorover/">RadioRover</a> YouTube fame, in Tesco. He was asking when I was going to be doing some higher point summits, as mostly I’ve been doing ones near to the house which don’t score that high. There are quite a <a href="https://sotl.as/summits/GM/ES">few in my region</a>. After browsing sotl.as some more, I was curious as to how long it took Fraser to reach Mountain Goat. This is the award you get when you reach 1,000 points.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="image.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="MM0EFI’s stats"><img src="https://gm5alx.uk/posts/2024/sota-api-and-google-ai-to-find-the-goat/image.png" class="img-fluid figure-img" alt="MM0EFI’s stats"></a></p>
+<figcaption>MM0EFI’s stats</figcaption>
+</figure>
+</div>
+<p>You can see his <a href="https://sotl.as/activators/MM0EFI">activation list on sotl.as</a>, and it’s clear he’s done a lot of summits and a lot of high pointers. However, the question still remained…how long did it take?</p>
+<p>I know the SOTA database has an API, as several other sites use it and I’ve seen it mentioned in the reflector, but I hadn’t come across any documentation. Searching around I find <a href="https://reflector.sota.org.uk/t/request-for-information-about-db-and-api/28752/4">this post</a> which gets me started. I work out MM is associationID 03, and then querying <a href="https://api-db.sota.org.uk/admin/activator_roll?associationID=03"><code>https://api-db.sota.org.uk/admin/activator_roll?associationID=03</code></a>, I can look up Fraser’s UserID.</p>
+<p>In the past I’ve used python to query APIs, put the JSON into a pandas dataframe then calculate and plot things from there. A quick way to get going with this is in <a href="https://colab.research.google.com/">Google Colaboratory</a>. It’s a free jupyter notebook in which many python packages are already installed and it’s quick to jump in and get going. Unsurprisingly, it now features a LLM AI assistant, where you can just type in what you want and it generates several options of code for you to run and see what happens.</p>
+<p>My first prompt (including spelling mistakes but now corrected) was:</p>
+<blockquote class="blockquote">
+<p>retreive JSON from api url: https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&amp;id and create a plot of “Total”</p>
+</blockquote>
+<p>Option #2 of Gemini spat out some commented code, I tweaked the date column name, as it just guessed it was called <code>Date</code> not <code>ActivatorDate</code>, and tah-dah ✨</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> requests</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> json</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb1-4"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-5"></span>
+<span id="cb1-6">url <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&amp;id="</span></span>
+<span id="cb1-7"></span>
+<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Define the ID you want to retrieve data for</span></span>
+<span id="cb1-9">activator_id <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"46844"</span></span>
+<span id="cb1-10"></span>
+<span id="cb1-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Construct the full URL</span></span>
+<span id="cb1-12">full_url <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> url <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> activator_id</span>
+<span id="cb1-13"></span>
+<span id="cb1-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Send the GET request</span></span>
+<span id="cb1-15">response <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> requests.get(full_url)</span>
+<span id="cb1-16"></span>
+<span id="cb1-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Parse the JSON response</span></span>
+<span id="cb1-18">data <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> json.loads(response.text)</span>
+<span id="cb1-19"></span>
+<span id="cb1-20"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Create a Pandas DataFrame</span></span>
+<span id="cb1-21">df <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.DataFrame(data)</span>
+<span id="cb1-22"></span>
+<span id="cb1-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Convert the "ActivationDate" column to datetime</span></span>
+<span id="cb1-24">df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ActivationDate"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.to_datetime(df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ActivationDate"</span>])</span>
+<span id="cb1-25"></span>
+<span id="cb1-26"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Plot the cumulative sum of "Total"</span></span>
+<span id="cb1-27">df.plot(x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ActivationDate"</span>, y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Total"</span>, kind<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"line"</span>, figsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>))</span>
+<span id="cb1-28">plt.title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Cumulative Sum of Total for Activator ID: </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{}</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span>.<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">format</span>(activator_id))</span>
+<span id="cb1-29">plt.xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Date"</span>)</span>
+<span id="cb1-30">plt.ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Total"</span>)</span>
+<span id="cb1-31">plt.show()</span></code></pre></div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Untitled.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The result!"><img src="https://gm5alx.uk/posts/2024/sota-api-and-google-ai-to-find-the-goat/Untitled.png" class="img-fluid figure-img" alt="The result!"></a></p>
+<figcaption>The result!</figcaption>
+</figure>
+</div>
+<p>Certainly the trend of a mountain goat! Although I’d say once he reached 1,000 the pressure was off and you can see that gradient relax.</p>
+<blockquote class="blockquote">
+<p>But how long did it take?</p>
+<p>The actual question that was asked</p>
+</blockquote>
+<p>So I asked Gemini some more questions and we find the answers:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># prompt: duration in activationdate between start and when total=1000</span></span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Find the first row where Total is greater than or equal to 1000</span></span>
+<span id="cb2-4">first_1000_row <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> df.loc[df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Total"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>].iloc[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb2-5"></span>
+<span id="cb2-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Calculate the duration between the first activation date and the date when Total reached 1000</span></span>
+<span id="cb2-7">duration <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> first_1000_row[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ActivationDate"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"ActivationDate"</span>].iloc[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb2-8"></span>
+<span id="cb2-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Print the duration</span></span>
+<span id="cb2-10"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Duration until Total reached 1000:"</span>, duration)</span></code></pre></div>
+<p>Plus question #2:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># prompt: what row of df has total = 1000</span></span>
+<span id="cb3-2"></span>
+<span id="cb3-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Find the index of the first row where Total is greater than or equal to 1000</span></span>
+<span id="cb3-4">first_1000_row_index <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> df.loc[df[<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Total"</span>] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>].index[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb3-5"></span>
+<span id="cb3-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Print the index</span></span>
+<span id="cb3-7"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_row_index)</span></code></pre></div>
+<section id="days-and-172-activations" class="level3">
+<h3 class="anchored" data-anchor-id="days-and-172-activations">🥁633 days and 172 activations 🎉</h3>
+<p>I’m at 16 points right now 😅⛰️🐐</p>
+
+
+</section>
+
+ ]]></description>
+  <category>programming</category>
+  <guid>https://gm5alx.uk/posts/2024/sota-api-and-google-ai-to-find-the-goat/</guid>
+  <pubDate>Sat, 06 Jul 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/sota-api-and-google-ai-to-find-the-goat/randomgoat.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Benaquhallie</title>
   <link>https://gm5alx.uk/sota/2024/gm-es-065/</link>
   <description><![CDATA[ 
@@ -42,6 +320,52 @@
   <guid>https://gm5alx.uk/sota/2024/gm-es-065/</guid>
   <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-065/placeholder.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Strathfinella Hill</title>
+  <link>https://gm5alx.uk/sota/2024/gm-es-075/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Another <a href="https://sotl.as/summits/GM/ES-075">hill</a>, this time to the south of Aberdeen. The weather was wet and windy in the morning, particularly so inland, so thought I’d stick to the coast. The two options were Strathfinella or <a href="https://sotl.as/summits/GM/ES-085">Hill of Garvock</a>. Reports of angry cows from Garvock, plus the sheltered nature of the wooded summit of Strathfinella made the decision for me.</p>
+<p>Consulting Fraser, <a href="https://youtube.com/@theradiorover">MM0EFI</a>, the local SOTA expert, I was going to climb it from the south, following forestry roads and mountain bike paths. Looked to be fairly short route and a quick claim to the top. It’s only a one pointer, so never going to be that far.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/map.jpg" class="img-fluid figure-img"></p>
+<figcaption>Route from the south</figcaption>
+</figure>
+</div>
+<p>The weather was pretty good, breezy but some sun and mild. The route was straightforward- literally. There were a few bikers around who I met just before the turn off to the summit.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7977-768x1024.jpg" class="img-fluid figure-img" data-group="my-gallery"></p>
+<figcaption>Left or right? Nope. Straight on.</figcaption>
+</figure>
+</div>
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7981-768x1024.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7978-768x1024.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7979-768x1024.jpg" class="img-fluid" data-group="my-gallery"></p>
+<p>I had a chat with some of the mountain bikers but just said I was out for a walk. Too much effort to get into the real reason! They pointed me towards the trig point which was off to the side of the main path. I almost missed it whilst walking along! It’s right in the trees, and reminded me of the portal stones from the Realm of the Enderlings book series!</p>
+<p>I set up 2m first and got a guy down in Brechin, unfortunately he was the only 2m QSO. I spent a long time calling and then decided to move to HF.</p>
+<p>The summit is a bit of a black spot for mobile reception and I wasn’t prepared for that. I use my phone for 2m spotting and for SOTA spotting or looking up other activators. I’ve signed up and registered for APRS to SOTA, and SOTAMAT, a FT8 spotter, and maybe even a SMS one, but do I know how to use them?! 😅</p>
+<p>I eventually managed to spot myself on 40m and got a few contacts. 20m spot did work but no one ever came back to me…even though I’d had a few contacts with other callers.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-075/strathfinella.png" class="img-fluid figure-img"></p>
+<figcaption>QSOs</figcaption>
+</figure>
+</div>
+<p>I managed two S2S contacts in Germany. One was an exchange of 11-31 each way but we managed to get my callsign and SOTA reference communicated.</p>
+<p>On the way down I thought about doing Hill of Garvock but I hadn’t packed lunch and still had to get back home. Maybe a double activation next time!</p>
+
+
+
+ ]]></description>
+  <guid>https://gm5alx.uk/sota/2024/gm-es-075/</guid>
+  <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-075/img_7976.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Hill of Fare</title>
@@ -60,22 +384,6 @@
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-070/placeholder.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Strathfinella Hill</title>
-  <link>https://gm5alx.uk/sota/2024/gm-es-075/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
- ]]></description>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-075/</guid>
-  <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-075/placeholder.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>Brimmond Hill</title>
   <link>https://gm5alx.uk/sota/2024/gm-es-086/</link>
   <description><![CDATA[ 
@@ -83,13 +391,91 @@
 
 
 
+<p>A lovely sunny day, and time for another activation. Hopefully better than the last – certainly the weather was better. 🌞</p>
+<p>Quite a close summit to home, <a href="https://sotl.as/summits/GM/ES-086">Brimmond Hill</a> overlooks Aberdeen and the airport to the east and then Aberdeenshire to the west. There’s a walk up and over it which is popular with dog walkers, and so I met more people than I usually do on this summit. The hill also features several commercial towers which make a bit of noise on 2m. Usually a pip every so often and then a huge blast of rf that completely wipes anything out, interestingly around the 2m and 70cm calling frequencies but not so bad away from them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/img_7959-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>Looking towards the sea</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/img_7958-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>Mast up and ready</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/img_7962-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Noise machine</figcaption>
+</figure>
+</div>
+<p>I tried 2m first, with the Slim G on the pole and made a couple of contacts locally. There’s a bench that looks out over Aberdeen that I was going to setup on, but the aforementioned dog walkers came by and sat on the bench, so I decided to move off and find a spot in the heather. MM7RVC recorded me calling at his house somewhere to the west, showing off his pole and slim G – so we got a SG2SG QSO.</p>
+<p><video src="mm7rvc.mp4" class="img-fluid" controls=""><a href="mm7rvc.mp4">Video</a></video></p>
+<p>For HF I went with the EFHW for 40m, with the 49:1 (keep meaning to write up making that but not got round to it yet! Nothing special mind), setup on the 6m carbon pole. Generally running north-south. The weather was lovely, there was a breeze but it wasn’t too cold, and so for most of the time I tried chasing other summit activators. This worked well, as I ended up with five summit-to-summit (S2S) QSOs across England, German, Austria and Poland. I then put out spots for myself and got a few more contacts.</p>
+<p>I think the battery was low in the radio as it was only outputting 5W, not that 10W would’ve made a huge difference, but I still find it impressive what 5W can do.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/image-1024x809.png" class="img-fluid figure-img"></p>
+<figcaption>QSO Map</figcaption>
+</figure>
+</div>
+<p>It was time to pack up, and I thought I’d see if I could catch anyone else on VHF/UHF. There’s a local lunchtime net, although I can never remember if its 12:30, 1 or 1:30pm that it starts. I got my Slim G back out and on the mast and this time I did sit on the bench. The net was going on and after a long over I managed to break in and say hello. We also did a quick QSO on 70cm. I’m not sure if the Slim G is suitable for 70cm. It worked but at what SWR? I should measure it and see. Another couple with their dog came up and wanted to come to the view point but one look of me and they decided to keep going! 😅 At this point my HT ran out of battery too!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/img_7956-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slim G in the wind</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-086/img_7960-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Action shot!</figcaption>
+</figure>
+</div>
+<p>If I was YouTubing myself, everyone would think it normal! I ended up overtaking the couple walking back to the car. I said “Hi” but no QSL on that contact.</p>
 
 
 
  ]]></description>
   <guid>https://gm5alx.uk/sota/2024/gm-es-086/</guid>
   <pubDate>Fri, 21 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-086/placeholder.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-086/img_7960-768x1024" medium="image"/>
+</item>
+<item>
+  <title>QSL cards time</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/qsl-cards-time/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>It’s always slightly confusing getting a letter with your own handwriting on it, but that means it’s bureau delivery time!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_7947-1024x689.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Today’s selection"><img src="https://gm5alx.uk/posts/2024/qsl-cards-time/img_7947-1024x689.jpg" class="img-fluid figure-img" alt="Today’s selection"></a></p>
+<figcaption>Today’s selection</figcaption>
+</figure>
+</div>
+<p>Interesting to get a SWL (shortwave listener) card confirming they heard me make a contact with someone else. It was a QSL with PB37EUDXF, which I remember having a hard time copying as I wasn’t expecting their callsign to be so long!</p>
+<p>I laughed out loud at this guy’s card:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_7945-1024x678.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Swimwear edition"><img src="https://gm5alx.uk/posts/2024/qsl-cards-time/img_7945-1024x678.jpg" class="img-fluid figure-img" alt="Swimwear edition"></a></p>
+<figcaption>Swimwear edition</figcaption>
+</figure>
+</div>
+<p>Amateur radio is about the experimentation and education of radio, and politics and world affairs aren’t part of the hobby. I’m sure he doesn’t want the war as much as any other regular person. 🧑🤝🧑</p>
+
+
+
+ ]]></description>
+  <category>QSOs</category>
+  <guid>https://gm5alx.uk/posts/2024/qsl-cards-time/</guid>
+  <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/qsl-cards-time/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Cairn-mon-earn</title>
@@ -99,13 +485,74 @@
 
 
 
+<p>It’s been a few weeks since my last activation and I wanted to go out. I didn’t have much time as I was meant to be sorting out the garage, so I picked a summit close to home, Cairn-Mon-Earn (<a href="https://sotl.as/summits/GM/ES-080">GM/ES-080</a>).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7924-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>SSE working on one of the towers</figcaption>
+</figure>
+</div>
+<p>It’s quite an easy walk following the loggers roads up to the summit. There are multiple towers there for mobile phones and other networks. The local repeater, <a href="https://www.grampianrepeatergroup.co.uk/gb3gn">GB3GN</a>, is also here. The weather was dry, and I had the occasional blue sky, but showers were forecasted.</p>
+<p>It was windy too, so I hunkered down by the cairn, however, this probably wasn’t the best place being so close to the towers. I setup my slim G 2m on the mast and called CQ. I didn’t get any response so setup on HF. The ground slopes away with heather and bushes, so I decided just to go for the random wire vertical. It has a 5.5m radiator and 2 counterpoises. I started on 20m, and two stations replied, Spain and Finland. This turned out to be my lot on HF. I tried other bands and calling other stations but no one could hear me. It was a shame as there were several other summits I could hear.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7927-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slim G on the carbon 6 mast</figcaption>
+</figure>
+</div>
+<p>I managed to get MM0EFI on the HT, and so I was at 3 contacts. A SOTA summit needs 4 to activate. It had been about an hour and the rain started to come down heavily. I dashed across to some nearby trees and setup underneath one of them. After trying all the bands I came back to 20m, put out another spot and the same Spanish station came back to me…well at least I knew it wasn’t operator error with the radio or antenna!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7928-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Under the tree</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7929-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wet!</figcaption>
+</figure>
+</div>
+<p>This was meant to be a quick activation and I’d now been there for over and hour, and so decided to pack up HF. I could see the TV mast in the clouds and so walked over to get a better look. I then found what would be a great spot to activate (if it wasn’t raining) as it had clear views all around. I thought I might as well call on 2m and see if I could get anyone.</p>
+<p>I spoke to Fraser again, MM0EFI, now /M as he was driving to work. We made a contact with his intermediate callsign, 2M0EFI/M, so technically I’d activated the site. However, I was determined to get four different people, and in my next CQ, George, MM0SAX/M, replied.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7932-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>View across the to TV mast</figcaption>
+</figure>
+</div>
+<p>George was driving up from Glasgow on the A90 and has a radio in his work van. We had a nice chat for about 15 minutes, and that turned my “this has been a waste of time 🤬” attitude into a “that wasn’t so bad 🙂” one!</p>
+<p>I enjoy HF and setting up different antenna, but if I could reliably activate with just 2m/70cm I’d love to go up the hillside with just my HT.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-080/img_7926-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Before I knew what the activation would entail</figcaption>
+</figure>
+</div>
+<p>It was back down and back home. The kids were soon home from school and the garage didn’t get sorted out. I’ll try again next week…</p>
 
 
 
  ]]></description>
   <guid>https://gm5alx.uk/sota/2024/gm-es-080/</guid>
   <pubDate>Fri, 14 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-080/placeholder.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-080/img_7926-768x1024.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Glas Maol</title>
+  <link>https://gm5alx.uk/sota/2024/gm-es-012/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <guid>https://gm5alx.uk/sota/2024/gm-es-012/</guid>
+  <pubDate>Fri, 17 May 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-012/glas-maol-4.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Morven</title>
@@ -140,6 +587,55 @@
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-059/placeholder.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Building a tiny mic 🎙️</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/building-a-tiny-mic/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>In an effort to slim down my travel kit, I decided that a tiny mic was in order. I’ve seen several people on YouTube use small mics and I’ve seen some for sale on eBay but when I found this <a href="https://www.printables.com/model/320559-mini-microphone-for-trusdx-usdx-kx2-and-kx3">design</a>, I knew I had to build one.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_7503-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Testing, testing, 123"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7503-768x1024.jpg" class="img-fluid figure-img" alt="Testing, testing, 123"></a></p>
+<figcaption>Testing, testing, 123</figcaption>
+</figure>
+</div>
+<p>The site has a list of what you need and most of the components can be found on aliexpress for a very low price. You just have a wait a bit for delivery. You end up with 10 or more of each and my total was around £5 delivered.</p>
+<p>It is very small! First I connected it up with what I thought was thin hook up wire but it was too big and difficult when I tried to squeeze it into the case.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_7504-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Full of wires"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7504-768x1024.jpg" class="img-fluid figure-img" alt="Full of wires"></a></p>
+<figcaption>Full of wires</figcaption>
+</figure>
+</div>
+<p>I used some of the sotabeams thin wire I’d made an antenna from and this was much better. I also placed each component inside the 3D print and measured out the wire more precisely. It was fiddly but meant there wasn’t too much extra wire to squeeze in.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img_7506-1024x815.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Neatly tucked in"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7506-1024x815.jpg" class="img-fluid figure-img" alt="Neatly tucked in"></a></p>
+<figcaption>Neatly tucked in</figcaption>
+</figure>
+</div>
+<p>The top half of the case clicks together but does need a fair amount of force to get it on. The nut for the 3.5mm socket holds that in place and we’re ready to go.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="compare.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Side by side with MH3"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/compare.jpg" class="img-fluid figure-img" alt="Side by side with MH3"></a></p>
+<figcaption>Side by side with MH3</figcaption>
+</figure>
+</div>
+<p>I might make one for the G90 next.</p>
+
+
+
+ ]]></description>
+  <category>Construction</category>
+  <category>KX2</category>
+  <guid>https://gm5alx.uk/posts/2024/building-a-tiny-mic/</guid>
+  <pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/building-a-tiny-mic/compare.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Bennachie - Oxen Craig</title>
   <link>https://gm5alx.uk/sota/2024/gm-es-061/</link>
   <description><![CDATA[ 
@@ -147,611 +643,447 @@
 
 
 
+<p>I’ve chased a few SOTA activators before, it’s quite a fun thing to do, you watch the <a href="https://sotawatch.sota.org.uk/en/">spotting website</a> and then see if you can get them. Once someone posts a spot it’s pretty quick for them to get a pile up. I’ve kept thinking about doing it, and I do live in an ideal place where there are plenty of summits to chose from. I’ve not been on the radio much this year and I ended up taking a day off today to drop off and pick up the kids from school, so I decided I should make the most of it and go up a mountain!</p>
+<p>Using the great SOTA map website, <a href="https://sotl.as/map">Sotlas</a>, I had a look around to see where I should go first. As I was doing the school run, I was limited on time to about 6 hours all in. I also thought I shouldn’t try too much on my first attempt, in both walking and radio setup. I noticed that some summits get bonus points during the winter (between about December and March), and one of those was near me so I thought that would be ideal. The place is called Bennachie, and one of its highest peaks is Oxen Craig. The peaks are call a ‘tap’. This is the summit <a href="https://sotl.as/summits/GM/ES-061">GM/ES-061</a>, which is worth two points and five in the winter.</p>
+<p>As you can see from this photo taken by <a href="https://www.qrz.com/db/MM7MWL">MM7MWL</a>, it’s a beautiful view.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/mm7mwloxencraig-1024x576.jpg" class="img-fluid figure-img"></p>
+<figcaption>Photo by Mike Lowson, MM7MWL, 5th December 2022</figcaption>
+</figure>
+</div>
+<section id="gear" class="level2">
+<h2 class="anchored" data-anchor-id="gear">Gear</h2>
+<p>Radio-wise, I still have my Xiegu G90, which was my first radio, that is portable enough – certainly when compared to the Yaesu FTDX10! It’s got a bit of heft to it (2.5 kg 😰), but is 20W, has a great ATU and a nice waterfall.</p>
+<p>For the antenna, I wanted to keep it as simple as possible and to make use of my carbon 6m mast. I found <a href="https://www.youtube.com/watch?v=KFFTnBSUQM8">MM0EFI’s</a> random wire suggestion and it looked ideal. This is 5.5m radiator, with two 4.25m counterpoises. They’re attached via bananaplugs to a BNC, then a short piece of coax with a common mode choke into the radio.</p>
+<p>The battery situation isn’t ideal. I’m using an ultramax 18 Ah LiFePO4 battery, which has loads of capacity and much better than a lead acid or a LiPo one but it’s still around 2.5 kg. I use it when out in the garden, but have never had to carry it very far. I do have a few 18650 lithium cells which I’m meaning to make my own portable battery but I’ve not got round to it yet. So the ultramax had to do.</p>
+<p>I also brought my Boafeng 2m/70cm radio to try some 2m FM. I have a Kenwood TH-D72, which I thought of bringing for APRS, but it’s too complex for my liking. Plus I could’ve just used my phone for APRS if I really wanted to.</p>
+<p>All in, with lunch and water, my backpack was over 6 kg. Fine, but plenty of room for optimisation next time.</p>
+</section>
+<section id="the-activation" class="level2">
+<h2 class="anchored" data-anchor-id="the-activation">The Activation</h2>
+<p>With the kids dropped off at school, and backpack packed, I set off about 0915 to drive to the car park behind the summit.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7455-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>At the car park</figcaption>
+</figure>
+</div>
+<p>I wasn’t sure how long everything was going to take, so I opted to find the shortest and most direct route to the summit. There are quite a few walks you can do in the area via various taps and approach from different sides, but starting at the “back” looked the quickest. It was basically a straight up.</p>
+<p>I had looked at doing two activations in one trip, as Millstone Hill, GM/ES-077, isn’t that far away. However, when I worked out a couple of routes they were 4-5 hours of walking and I decided that was trying to do too much in one day.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/image-763x1024.png" class="img-fluid figure-img"></p>
+<figcaption>Route planned on <a href="https://explore.osmaps.com/">OS Maps</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/image-1.png" class="img-fluid figure-img"></p>
+<figcaption>Straight up 350m over 2.2km (or 1,150 ft over 1.4 miles)</figcaption>
+</figure>
+</div>
+<p>I paid my parking at 0953, and was being blown away on the summit by 1040, which was a bit quicker than the 1:08 hrs OSMaps suggested it would take to walk up. I was pretty hot and sweaty by the time I got to the top, and had taken off my hat, but once exposed in the wind, I was glad to have it.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7458-1024x768.jpg" class="img-fluid figure-img"></p>
+<figcaption>Looking North</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7456-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Up we go</figcaption>
+</figure>
+</div>
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7459-1024x768.jpg" class="img-fluid"></p>
+<p>It was quite nice weather on the way up, I could see the summits were under cloud cover, and when I reached the top the wind was howling and the air was very cold.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7462-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Cloud</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7461-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>View from the top</figcaption>
+</figure>
+</div>
+<p>I looked around for a nice place to setup, and ate my sandwich. Another guy came up and we said hello. I tried a few calls on 145.500 MHz, but I think I would’ve needed to organise this ahead of time with the locals. I found a nice outcrop to shelter behind that was in front of the summit, and setup the pole and radio on a rock. I had a little nook to crouch in and there I started to see if I could make any contacts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/img_7465-768x1024.jpg" class="img-fluid figure-img"></p>
+<figcaption>Radio Setup</figcaption>
+</figure>
+</div>
+<p>I started on 40m, had a listen to 10m, but it seemed dead, then moved to 15m and then finally 20m. I managed 37 contacts, with 14 countries, two summit to summit QSOs, and one <a href="https://pota.app/#/">parks on the air</a> contact. My furthest contact was with Z36T in The Republic of North Macedonia at 1501 miles.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://gm5alx.uk/sota/2024/gm-es-061/image-2-1015x1024.png" class="img-fluid figure-img"></p>
+<figcaption>Map (partial) from <a href="https://www.sotadata.org.uk/">SOTA database</a></figcaption>
+</figure>
+</div>
+<p>I’d been on the air 50 minutes and my logging hand was getting cold! Plus I was getting stiff in my funny crouching position, and concious of getting back in time to pick up the kids. I was using <a href="https://github.com/myzinsky/cloudLogOffline">Cloudlogoffline app</a> to log, which is handy as it can then sync to my cloudlog database but I don’t like that it doesn’t keep the frequency from the previous QSO as the default entry. [<em>update: you can under the settings, so set it there before starting to add QSOs.]</em> It’s also fiddly to add another SOTA reference due to the iOS keyboard coming up when you select an input box and not being able to scroll. I might just do <a href="https://df3cb.com/fle/documentation/#qsos">‘Fast Log Entry’ (FLE)</a> next time in an Apple note file. I’ll see what else there is too. <a href="http://vk3zpf.com/vk-port-a-log">VK port-a-log</a> seems to be a favourite for SOTA but it’s Android only.</p>
+<p>I was back in time for a nice cup of tea and sit down before it was school pick up. I look forward to the next one. It’s fun being the DX! 📻⛰️</p>
 
 
+</section>
 
  ]]></description>
   <guid>https://gm5alx.uk/sota/2024/gm-es-061/</guid>
   <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-061/placeholder.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-061/mm7mwloxencraig-1024x576.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>A Good Evening on 15m</title>
+  <title>CQWW SSB Contest 2023</title>
   <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/a-good-evening-on-15m/</link>
+  <link>https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/</link>
   <description><![CDATA[ 
 
 
 
 
+<p>If ever there’s a time when the bands are busy, it’s the huge contest of CQWW.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img_6743-1024x768.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Feed point of random wire with 9:1 unun"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/img_6743-1024x768.jpg" class="img-fluid figure-img" alt="Feed point of random wire with 9:1 unun"></a></p>
-<figcaption>Feed point of random wire with 9:1 unun</figcaption>
+<p><a href="img_7392-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="My certificate"><img src="https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/img_7392-1.png" class="img-fluid figure-img" alt="My certificate"></a></p>
+<figcaption>My certificate</figcaption>
 </figure>
 </div>
-<p>For some reason, I tend to avoid trying out 15 meters, but yesterday I decided to give it a shot, and it went quite well. I began by experimenting with my 39.5-meter random wire antenna in the garden. It has excellent reception, and I could hear approximately 20 Japanese stations. However, when it came to transmitting, it didn’t perform as well as expected. I thought that the higher frequency of 15 meters might compensate for its low height, but according to pskreporter, it seemed that no one was receiving my signals. While I believe I managed to make a few QSOs, I eventually wanted to move indoors. The random wire is just a temporary setup, and I have to sit outside to use it.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Far field plot at 15m on my random wire"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/image-1.png" class="img-fluid figure-img" alt="Far field plot at 15m on my random wire"></a></p>
-<figcaption>Far field plot at 15m on my random wire</figcaption>
-</figure>
-</div>
-<p>I switched back to using my EFHW (End-Fed Half-Wave) antenna, which still provided good reception. Being positioned at about 8 meters in height, it was much more effective for transmitting. My radio is currently set up in the kitchen, and I sit on the floor with a beanbag while operating it. I’m currently (or at least I like to think I am) in the process of designing a new workbench or shack in the garage. I’ve also been contemplating the idea of remote operation. I wanted to continue designing my garage setup, but at the same time, I was making numerous FT8 contacts with desirable DX countries. Given that I’m using a Windows laptop with the radio, an obvious solution is the Remote Desktop Connection application. I’m not sure why I didn’t try it earlier. The only thing I needed to check was the audio settings, as the default settings would route the remote computer’s audio to me, causing WSJT-X to lose access to the soundcard. However, it’s a simple fix in the options to prevent this.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="image.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Audio on remote computer"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/image.png" class="img-fluid figure-img" alt="Audio on remote computer"></a></p>
-<figcaption>Audio on remote computer</figcaption>
-</figure>
-</div>
-<p>With that sorted out, WSJT-X and Grid Tracker could occupy one screen while I worked on the other comfortably from my desk. WSJT-X doesn’t have all the CAT commands required, so if I needed to adjust more settings on the radio, I’d have to use another program. I’m also unsure if CAT can control everything on the FT-DX10, such as the preset option I use for digital modes. For the time being, that’s acceptable since it’s just across the house.</p>
-<p>Last night, 15 meters, with occasional forays into 17 meters, turned out to be quite successful for me. There were instances of signal fading, and sometimes it took a while to receive a “RR73” reply from the other station, so whether or not everyone will log the QSOs depends on their perspective. Nonetheless, from my standpoint, we successfully exchanged signal reports.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="15m.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Map of world with spots showing QSOs"><img src="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/15m.png" class="img-fluid figure-img" alt="Map of world with spots showing QSOs"></a></p>
-<figcaption>Map of world with spots showing QSOs</figcaption>
-</figure>
-</div>
-<p>I also found pskreporter not very reliable, as it would often show only two stations hearing me when I’d then get multiple replies to my CQ.</p>
+<p>12th in Scotland isn’t bad for 3.9 hours of operation. Least I don’t think so.</p>
+<p>Here’s my log summary</p>
+<pre><code>************************** Summary ***************************
+
+      94 Raw    QSO before checking (does not include duplicates or missing exchanges)
+      93 Final  QSO after  checking reductions
+
+     108 Raw    QSO points
+     105 Final  QSO points
+
+      17 Raw    zones
+      17 Final  zones
+
+      56 Raw    countries
+      56 Final  countries
+
+      73 Raw    mults
+      73 Final  mults
+
+    7884 Raw    score
+    7665 Final  score
+
+    1.1% error rate based on raw and final qso counts
+    2.8% score reduction
+      1  (1.1%) not in log
+      0  (0.0%) incorrect calls
+      0  (0.0%) incorrect exchanges
+      0  (0.0%) missing exchanges
+      0  (0.0%) duplicates removed
+      0  (0.0%) calls unique to this log only (not removed)
+
+********************** Results By Band ***********************
+
+             Band   QSO  QPts  Zone Cty Mult
+
+   Raw       160M     0     0     0   0    0
+   Final     160M     0     0     0   0    0
+
+   Raw        80M     0     0     0   0    0
+   Final      80M     0     0     0   0    0
+
+   Raw        40M    36    38     4  19   23
+   Final      40M    35    35     4  19   23
+
+   Raw        20M    33    39     5  21   26
+   Final      20M    33    39     5  21   26
+
+   Raw        15M     3     3     3   3    6
+   Final      15M     3     3     3   3    6
+
+   Raw        10M    22    28     5  13   18
+   Final      10M    22    28     5  13   18
+
+   Raw        All    94   108    17  56   73      7884
+   Final      All    93   105    17  56   73      7665
+
+************************* Not In Log *************************
+
+ 7061 PH 2023-10-29 2102 GM5ALX   14   IZ1OSP   15
+
+*******************  Multipliers by Band  ********************
+
+40M multiplier total 23
+
+9A    DL    F     G     GW    I     LA    LY    OE    OK
+OM    ON    OZ    PA    S5    SP    UA9   YO    YT
+
+ 14 15 18 20
+
+20M multiplier total 26
+
+9A    CN    CT    E7    EA    EA8   ES    F     HA    I
+IG9   IT9   LX    LZ    S5    SP    SV    UA    UR    YL
+YT
+
+ 14 15 16 20 33
+
+15M multiplier total 6
+
+CU    HA    UA
+
+ 14 15 16
+
+10M multiplier total 18
+
+9K    CT3   HA    I     IT9   LZ    SV    TA    UA    UR
+YO    YT    Z3
+
+ 15 16 20 21 33
+
+
+************ Stations Copying GM5ALX Incorrectly *************
+
+14209 PH 2023-10-29 1320 HA2KMR   15   GN5ALX   14
+14205 PH 2023-10-29 1322 HG5A     15   M5ALX    14
+ 7198 PH 2023-10-29 1957 YT1A     15   GM5ALE   14
+ 7163 PH 2023-10-29 2018 SP8R     15   GM5DLX   14</code></pre>
 
 
 
  ]]></description>
-  <category>FT8</category>
-  <guid>https://gm5alx.uk/posts/2023/a-good-evening-on-15m/</guid>
-  <pubDate>Sat, 23 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/a-good-evening-on-15m/15m.png" medium="image" type="image/png" height="87" width="144"/>
+  <category>contest</category>
+  <guid>https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/</guid>
+  <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/cq.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>QO-100 Build: Part 2 – The Hardware</title>
+  <title>One year on</title>
   <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/</link>
+  <link>https://gm5alx.uk/posts/2023/one-year-on/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>I spent a while debating if I really wanted to build this. I knew the build would be fun, but would it be fun using it? I also knew it wasn’t cheap, and would I regret it once I was done? After a few weeks of thinking this whilst researching the build, I ended up ordering the helix ice cone antenna late one June night. There was no going back now.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="qo-100-design.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The design"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/qo-100-design.png" class="img-fluid figure-img" alt="The design"></a></p>
-<figcaption>The design</figcaption>
-</figure>
-</div>
-<p>Over the course of a couple a weeks I ordered all the parts, buying a few each day made it feel like I wasn’t spending too much!</p>
-<table class="caption-top table">
-<caption>Bill of Materials</caption>
-<thead>
-<tr class="header">
-<th>Part</th>
-<th>Store</th>
-<th>Price inc. shipping</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Pluto+ SDR</td>
-<td>Aliexpress</td>
-<td>£201</td>
-</tr>
-<tr class="even">
-<td>CN-0417 pre-amp</td>
-<td>Digikey</td>
-<td>£43</td>
-</tr>
-<tr class="odd">
-<td>SG Labs 20W PA</td>
-<td>SG Labs</td>
-<td>€147</td>
-</tr>
-<tr class="even">
-<td>2.4 GHz helix antenna</td>
-<td>nolle engineering</td>
-<td>€126</td>
-</tr>
-<tr class="odd">
-<td>80cm dish, mount, RX cable</td>
-<td>Satellite Super Store</td>
-<td>£108</td>
-</tr>
-<tr class="even">
-<td>Bullseye LNB</td>
-<td>Amazon</td>
-<td>£31</td>
-</tr>
-<tr class="odd">
-<td>Biased tee</td>
-<td>Amazon</td>
-<td>£24</td>
-</tr>
-<tr class="even">
-<td><a href="https://www.ebay.co.uk/itm/193727621572">12V/5V DC-DC converter</a></td>
-<td>eBay</td>
-<td>£4.90</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.ebay.co.uk/itm/184179070285">12V/28V DC-DC converter</a></td>
-<td>eBay</td>
-<td>£7.45</td>
-</tr>
-<tr class="even">
-<td>Power Supply (Meanwell 12V 5A 60W Power Supply (GST60A12)) and 10m cable</td>
-<td>PiHut</td>
-<td>£31</td>
-</tr>
-<tr class="odd">
-<td>TX Coax (LMR-400-UF) and fittings</td>
-<td>Barenco</td>
-<td>£65</td>
-</tr>
-<tr class="even">
-<td><a href="https://www.screwfix.com/p/hylec-ip65-weatherproof-outdoor-enclosure-200mm-x-130mm-x-300mm/2597g">Waterproof box</a></td>
-<td>Screwfix</td>
-<td>£40</td>
-</tr>
-</tbody>
-</table>
-<p>There were also a bunch of bits and pieces I ended up buying as I didn’t have them. Like drill bits for making holes, screws, zip ties, small files, wire, etc. which I needed for this project but will be useful for other things. So accounting for some sundries, the total cost is about £800.</p>
-<p>To cut some costs, you could definitely get a cheaper dish and mount, there are plenty on eBay for less or you might be lucky and find something lying around. You might want to try an old sky dish too. The helix antenna is maybe another area to cut costs, either by building it yourself (if you have a 3D printer) or maybe getting a POTY. I didn’t look into the POTY, don’t have a 3D printer and mostly wanted something that I knew would just work. I could’ve tried cheaper cable for 2.4 GHz as well.</p>
-<p>If you already have a VHF/UHF radio, then an upconverter, like the one from <a href="https://dxpatrol.pt/produto/upconverter-mk4-for-qo-100/">DX Patrol</a>, will save you some money vs.&nbsp;going with the Pluto+SDR, although you will probably need to get an SDR receiver as well. The DX Patrol power amplifier is more expensive, but gives you pins for SWR etc. wheres the SG Labs doesn’t.</p>
-<p>SG Labs ordering process is a reassuring one 😅. You email them, they let you know the price, you send them money on paypal and then you wait a few weeks for the shipping confirmation. Lead time was about 3 weeks for me.</p>
-<section id="assembly" class="level2">
-<h2 class="anchored" data-anchor-id="assembly">Assembly</h2>
-<p>For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in betewen, not easy but not impossible. Here are some photos of my build underway.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6523-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Unpacking the dish"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6523-1024x768.jpg" class="img-fluid figure-img" alt="Unpacking the dish"></a></p>
-<figcaption>Unpacking the dish</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="icecone.jpg-768x1024.jpeg" class="lightbox" data-gallery="my-gallery" title="It’s a big ice cream"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/icecone.jpg-768x1024.jpeg" class="img-fluid figure-img" alt="It’s a big ice cream"></a></p>
-<figcaption>It’s a big ice cream</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="qo100-18-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="1st receive testing"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/qo100-18-768x1024.jpg" class="img-fluid figure-img" alt="1st receive testing"></a></p>
-<figcaption>1st receive testing</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6637-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Setting the voltage"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6637-1024x768.jpg" class="img-fluid figure-img" alt="Setting the voltage"></a></p>
-<figcaption>Setting the voltage</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6568-1024x381.jpg" class="lightbox" data-gallery="my-gallery" title="Fancy connectors"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6568-1024x381.jpg" class="img-fluid figure-img" alt="Fancy connectors"></a></p>
-<figcaption>Fancy connectors</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6688-895x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Oops!"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6688-895x1024.jpg" class="img-fluid figure-img" alt="Oops!"></a></p>
-<figcaption>Oops!</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6565-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="The team of expert dish aligners"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6565-1024x768.jpg" class="img-fluid figure-img" alt="The team of expert dish aligners"></a></p>
-<figcaption>The team of expert dish aligners</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6564-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Checking alignment"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6564-1024x768.jpg" class="img-fluid figure-img" alt="Checking alignment"></a></p>
-<figcaption>Checking alignment</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6690-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Fitting the helix"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6690-768x1024.jpg" class="img-fluid figure-img" alt="Fitting the helix"></a></p>
-<figcaption>Fitting the helix</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="20230814_184331570_iOS-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Making some more holes"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230814_184331570_iOS-1024x768.jpg" class="img-fluid figure-img" alt="Making some more holes"></a></p>
-<figcaption>Making some more holes</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="20230812_213415287_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Box of tricks"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230812_213415287_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Box of tricks"></a></p>
-<figcaption>Box of tricks</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="20230813_101021833_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Testing transmit"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230813_101021833_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Testing transmit"></a></p>
-<figcaption>Testing transmit</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="20230814_203453217_iOS-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Weatherproofing"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/20230814_203453217_iOS-768x1024.jpg" class="img-fluid figure-img" alt="Weatherproofing"></a></p>
-<figcaption>Weatherproofing</figcaption>
-</figure>
-</div>
-<p>The hardest parts for me was making up the fancy fittings on the LMR400 coax. There was a N type and a SMA fitting and they both had several parts and soldering of the pin. I fell foul to the usual thing of forgetting a bit and cutting off slightly too much. I also didn’t have a pair of wire cutters that could get through the coax – it’s so thick! However, after making the ends up, I really like the cable, and going back to RG58 is like using thread after holding some rope!</p>
-<p>My dish is located on a fake balcony, so it’s out the way but also not very accessible. I have to get the ladders out each time or climb out a bedroom window, this usually put me off doing much on an evening as I couldn’t be bothered with the ladders, and one of kids was sleeping in said bedroom! Overall I was very slow at putting it all together, but if you could dedicate a day to it, then you’d finish it in one go.</p>
-<p>At my QTH, the <a href="https://eshail.batc.org.uk/point/">dish elevation</a> has to be at 20.5 degrees. I found this to be the absolute lower limit for my dish, whereby the scale starts at 20 degrees, and I think for an 80 cm dish it only goes to 22 degrees. However, I receive signals well so that’s good enough. If you’re any further north you’ll have to get a non-standard mount, or possibly try installing it upside down, with the arm and LNB at the top. (This is for an offset dish).</p>
-</section>
-<section id="setting-up-the-pluto-sdr" class="level2">
-<h2 class="anchored" data-anchor-id="setting-up-the-pluto-sdr">Setting up the Pluto SDR</h2>
-<p>Before you pack the Pluto+ into the box, you’ll want to setup the networking on it and verify it works. It’s quite straight forward. You plug it into your computer’s USB via the data socket and it’ll show up as a drive. You want to edit the config.txt file, and find the section called USB Ethernet.</p>
-<pre><code>[USB_ETHERNET]
-ipaddr_eth = 192.168.1.200
-netmask_eth = 255.255.255.0</code></pre>
-<p>Set the IP to something for your network, ideally outside your router’s DHCP range. If you can’t do that, then give it an IP then set a reserved IP on your router for the Pluto+. I had to manually add a MAC address to the reserved IP, and now the router won’t give out .200 to anything else. Make sure you eject it/unmount it properly before disconnecting. You can then plug it into the network and see if you can ssh into it. The default username is <code>root</code> and password <code>analog</code>, and you should log in just fine.</p>
-<p>You might also want to upgrade the firmware whilst you’re at it. <a href="https://dk1mi.radio/plutoplus-firmware/">DK1MI has a nice post</a> on how to do that.</p>
-<p>I found the Pluto+ would make a new SSH key each time it booted up, and so SSH would complain that it didn’t match from last time (known_hosts) and prevent me from logging in. I avoided this with this entry in my <code>ssh/config</code> file:</p>
-<pre><code>Host pluto
-  HostName 192.168.1.200
-  User root
-  StrictHostKeyChecking no
-  UserKnownHostsFile=/dev/null</code></pre>
-<p>Now I can just type <code>ssh pluto</code> and it greets me with the logon prompt. &lt;security warnings etc.&gt;</p>
-</section>
-<section id="networking" class="level2">
-<h2 class="anchored" data-anchor-id="networking">Networking</h2>
-<p>The Pluto+’s built in gigabit network port is very convenient. Connecting it to my network in its place under the dish wasn’t. My temporary solution was to run a cable out the bedroom window. This is fine as a temporary setup, and even okay overnight during the summer. However, it was not a long term solution. I am fortunate that my house was built with network ports in all rooms, but the room underneath the dish has network ports that are nowhere near the right side of the house for the dish. I also had the problem of getting it out of the house, as I’d rather not drill holes though the walls if I can help it.</p>
-<p>Our garage has the heating boiler in it, and so has several large air vents. These just have grills over them on the inside and outside of the house and so I decided one of these would be the perfect conduit for network cable to get out of the house. However, there are no network drops in the garage, and it’s a good 20-25 m along two walls of the house to get from the vent to the dish. I was wanting a network connection in the garage, as it’s where I plan on having a workbench/shack setup at some stage, and running cables isn’t exactly the hardest DIY one can do! A big drill bit, and a long spool of cable and away I went.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6718-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15" title="Serious problems need serious solutions"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6718-768x1024.jpg" class="img-fluid figure-img" alt="Serious problems need serious solutions"></a></p>
-<figcaption>Serious problems need serious solutions</figcaption>
-</figure>
-</div>
-<p>The office backs onto the garage, and makes a good place to connect into the network. I ended up getting three drill bits as the first wasn’t long enough, the second was for masonary and I hit wood, and then finally the 40cm wood bit went the whole way through! For a while I was worried I’d hit a water waste pipe, or worse, soil pipe, as the bathroom is above me, but it turned out to be a wooden stud. I tried running the wire along the wall outside, but it looked messy. Being dark blue against a light finish didn’t help, and so then I buried it in the gravel instead.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6703-768x1024.jpg" class="lightbox" data-gallery="wall" title="Route to the outside"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6703-768x1024.jpg" class="img-fluid figure-img" alt="Route to the outside"></a></p>
-<figcaption>Route to the outside</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6706-1024x768.jpg" class="lightbox" data-gallery="wall" title="Ugly"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6706-1024x768.jpg" class="img-fluid figure-img" alt="Ugly"></a></p>
-<figcaption>Ugly</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_6708-1024x768.jpg" class="lightbox" data-gallery="wall" title="Tidy"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/img_6708-1024x768.jpg" class="img-fluid figure-img" alt="Tidy"></a></p>
-<figcaption>Tidy</figcaption>
-</figure>
-</div>
-<p>The only problem with the network cable is that the plug is made up inside the box, and so I can’t remove the box from its location. The coax is made up inside but I can disconnect the other end from the dish and just carry it with the box. The network cable is not quite as easy, given it’s 30m back to the network port. I left lots of excess, so if I really do have to move it, I can just cut off the plug and pull it out of the grommet.</p>
-<p>I did think I could make an outdoor network switch, and have jumper cables between the boxes, and this would enable me to setup something else outdoors. Like raspberry pis, or other SDRs. I’d need a power setup but that would be fairly straightforward as there’s an external plug socket nearby. That’s a project for another day.</p>
-<p>Next up will be the software!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sdr-console-1024x557.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="SDR Console"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/sdr-console-1024x557.png" class="img-fluid figure-img" alt="SDR Console"></a></p>
-<figcaption>SDR Console</figcaption>
-</figure>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>QO-100</category>
-  <guid>https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/</guid>
-  <pubDate>Mon, 04 Sep 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/qo-100-build-part-2-the-hardware/AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>QO-100 Build: Part 1 – The Design</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>I think I first heard about QO-100 when looking at a <a href="https://www.qrz.com/db/GM0NRT">local amateur’s QRZ page</a>. He’d setup a couple of satellite dishes in his garden and had his <a href="https://qo100dx.club/">QO-100 DX Club</a> logo on his profile page, along with some other links. That started me down the rabbit hole. 🐇🛰️</p>
-<p>Briefly, and there’s more details <a href="https://amsat-uk.org/satellites/geo/eshail-2/">here</a>, QO-100 is the name given to a geostationary satellite that sits above Africa and has amateur radio transponders. This means it’s always in the same place, and can be used by amateur radio license holders to make contacts across its coverage. Being in such a high orbit means it has a huge area of coverage, so you can contact anyone in this area and talk to them for hours without the worry of propagation changing and losing contact.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="coverage.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="QO-100 Coverage"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/coverage.png" class="img-fluid figure-img" alt="QO-100 Coverage"></a></p>
-<figcaption>QO-100 Coverage</figcaption>
-</figure>
-</div>
-<p>Another thing that makes this interesting is that it has both narrow and wide bands. This allows for voice, Morse and simpler digital modes on the narrowband and then on the wide band amateur television! So people can broadcast video via the satellite, there’s even a <a href="https://batc.org.uk/live/oscar100net?mc_cid=871329bb97">weekly net</a> by the British Amateur Television Club (BATC), and they sometimes save them to YouTube. Doing video broadcasting requires a lot more equipment and power, and is maybe a step too far for me.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="A huge 500 kHz available to amateurs on the QO-100 band plan."><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png" class="img-fluid figure-img" alt="A huge 500 kHz available to amateurs on the QO-100 band plan."></a></p>
-<figcaption>A huge 500 kHz available to amateurs on the QO-100 band plan.</figcaption>
-</figure>
-</div>
-<p>The satellite has been in orbit for about 5 years, so there are a lot of tutorials and guides online on how to get setup, together with people making items that help get connected. The main ones I found useful where <a href="https://dk1mi.radio/qo100-pluto-sdr/">DK1MI’s</a>, <a href="https://m0aws.co.uk/?cat=167">M0AWS’s</a>, and <a href="https://www.instructables.com/Satellite-Ground-Station-for-the-QO-100-Eshail-2-G/">G7IYK’s Instructables page</a>. My setup is basically the same as DK1MI and G7IYK’s, which I’ll explain shortly.</p>
-<p>There seems to be two approaches to getting on the air with QO-100, one is via a SDR that can transmit as well as receive and the other is a transverter that takes you transmitter’s 2m or 70cm output and ups it to the send frequency. This means you can use a real radio to transmit. You can then either use a SDR for receive or use a downconverter and have your radio be the Rx as well. As I don’t have a 2m/70cm radio, and the location of my dish is not conducive to using a radio, I went with the SDR option, as that means everything can be housed in a box underneath the dish and all I have to run to it is power and ethernet.</p>
-<p>Like most satellites the uplink and the downlink are on different frequencies, in this case it’s an uplink of 2.4 GHz (think wifi) and downlink is 10 GHz. The downlink is fairly easy, as a LNB (think Sky dish) can receive it and converts it down to 700 MHz range. This is perfectly fine for most SDR receivers to use. Uplink generally requires some amplification as either the upconverter or the SDR only outputs at very low power…but now we’re getting too into the detail.</p>
-<section id="my-plans" class="level2">
-<h2 class="anchored" data-anchor-id="my-plans">My Plans</h2>
-<p><em>My</em> in a loose sense of the word as it’s pretty much copying what many others have already done and figured out. I just found it useful to layout so that I could make sure I had all the right parts, particularly on the power side. I also attempted to figure out the power on the transmit side. <a href="https://docs.google.com/presentation/d/e/2PACX-1vTNkueu4v0V2oMeOootdOKTDNyaADicXvgvbXv-nbvk8gYSKnVk1AtFEtICr9DhfnB7kubBdHgr1bUr/pub?start=false&amp;loop=false&amp;delayms=3000">Original version here.</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="qo-100-design.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="My QO-100 Schematic"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/qo-100-design.png" class="img-fluid figure-img" alt="My QO-100 Schematic"></a></p>
-<figcaption>My QO-100 Schematic</figcaption>
-</figure>
-</div>
-<section id="the-receive" class="level3">
-<h3 class="anchored" data-anchor-id="the-receive">The Receive</h3>
-<p>You’ll want a dish. I mooned over a 1.2m dish for a long time, but the price and size meant it was a no go for me. 80 cm seemed a common size for narrowband, and wideband probably wants something bigger than 1.2 anyway. I measured up where I was planning on putting it and 1.2m was probably too big, maybe I could of squeezed in a 1m but 80 cm should be good enough.</p>
-<p>When thinking about what dish size, it’s important to think about the location of it. The satellite is to the south from the UK, near enough the same direction as sky dishes – a good guide if you or neighbours have on. You can get dish pointing info from the <a href="https://eshail.batc.org.uk/point/">BATC on their website</a>. So you can drag a pin around to place it exactly where you want it.</p>
-<p>I originally wanted it on a south westerly wall but it probably would’ve ended up being mounted at 90° and that would mean being at least 40cm off the wall – perfect for a gust of wind to rip it off! However, I’m lucky enough to have a south-ish facing wall at the back of my house and so it was okay to find another location. I also bought a U shaped mount, so it could sit flush to the wall, which helps with wind loading and keeping it out the way.</p>
-<p>The signal is focused onto a LNB (low-noise block downconverter). According to the internet, the Bullseye LNB is the “best” one. It’s fairly cheap, ~£30, and stable. In order for it to recieve the signal, a voltage has to be applied for polarisation of the signal. In our case, for the narrowband we need it to be vertically polarised and so applying 12V is what’s needed. This is done with a handy biased tee, that allows you to inject the voltage to the feed from the LNB, but blocks the DC voltage from continuing on to your recevier. I used satellite cable, the typical f type connector, 75 ohm stuff.</p>
-<p>That’s it! The signal then continues to your SDR, in my case the Pluto+ SDR. A cheap SDR like a RTL-SDR or NooElec will do the job. As I said, a(nother) downconverter is an option but not the route I took.</p>
-</section>
-<section id="pluto-sdr" class="level3">
-<h3 class="anchored" data-anchor-id="pluto-sdr">Pluto+ SDR</h3>
-<p>Now’s a good time to talk about this SDR. First came the <a href="https://wiki.analog.com/university/tools/pluto">Adalm-Pluto</a> by Analog devices. A great SDR which has transmit and recieve and ideal for students and amateurs alike. Many people use this SDR with great success and many have modified it themselves to improve it.</p>
-<p>The Pluto+ is an upgraded version of Analog device’s SDR with various improvements available out of the box. Most noticeable are the metal enclosure, the four SMA connections, for two sets of recevie and transmit, a gigabit ethernet connection, a microSD slot, a external clock input on the PCB, and 0.5 ppm TCXO. Probably there are other tweaks too but not things that stood out to me. To me the biggest selling point was the network port and the relative ease at which you can add a GPSDO for stability (not something I had as part of the original plan but a nice <a href="https://dk1mi.radio/qo100-gpsdo/">blog post from DK1MI</a> again shows how easy it is to add).</p>
-<p>In my hours of searching and reading forums I recall coming across something like “if you’re building on from scratch go for the Pluto+”, and so I did. I bought mine from Aliexpress.</p>
-<p><a href="https://www.youtube.com/watch?v=higdhj46aUk">Tech Minds has a nice video</a> on it if you want to see more.</p>
-</section>
-<section id="the-transmit" class="level3">
-<h3 class="anchored" data-anchor-id="the-transmit">The Transmit</h3>
-<p>The Pluto+ SDR has a transmit and can output 2.4 GHz in the region of up to 4 mW, which is great but also not going to get you a contact, and so some amplification is needed. These days it’s pretty much a standard design to use the Analog Devices CN-0417 amplifier straight out of the SDR and then another one to take it to up to 20 W. It seems like you really only need 10 W with a 80 cm dish to get a strong signal. In fact, if you transmit with too much power you hear a two-tone siren going off called LEILA warning you to turn down. A popular amp is the SG Labs 20W model from Bulgaria, and so that’s what I picked. 20W seems useful to overcome and losses in connectors and cables.</p>
-<p>Which brings to me to cables. At 2.4 GHz, losses are high on regular coax (RG58/213) and so you really want some fancier stuff. I went for LMR-400-UF (UF for ultra-flexible to get round corners). It has many layers and is quite something to hold after only ever using RG58 on HF. You also want to keep it as short as possible and so the amplifier needs to be near your dish.</p>
-<p>Finally, the actual feed to the dish. There seems to be two or three styles people use, a “POTY” or a helix seem most common. I felt like there were a lot of pieces to this build and so I wasn’t wanting to build everything myself, I decided to buy an Ice Cone feed from <a href="https://nolle.engineering/en/ice-cone-feed/">nolle engineering</a> in Germany. This is a helix design, housed in a 3D printed case that looks like a huge ice cream cone. It’s designed very well and sits on top of the LNB (they even sell adapters for the most common LNBs people use with QO-100).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="icecone.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="It’s a three scoop minimum."><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/icecone.jpeg" class="img-fluid figure-img" alt="It’s a three scoop minimum."></a></p>
-<figcaption>It’s a three scoop minimum.</figcaption>
-</figure>
-</div>
-</section>
-<section id="power" class="level3">
-<h3 class="anchored" data-anchor-id="power">Power</h3>
-<p>All these bits and bobs need power, and at different voltages:</p>
+<p>The 7th December 2022 I passed my foundation exam online. My invigilator, Bob G0OCB, would also become my full exam invigilator. I had done the Essex ham foundation course in August/September but then put off the exam for a while. I actually only just passed, and probably should’ve just read the manual instead of doing the course. I’d told a friend I was going to do it, and he ended up passing his exam first, so that spurred me on to take mine.</p>
+<p>So what have I done in this time? Well my licence didn’t actually arrive until the beginning of January due to the Christmas holidays and also the postal strikes at the time. That didn’t really matter as other than my Boafeng handheld, I didn’t get a radio until April. I was also mic shy and put off speaking to anyone on the handheld, think I listened once or twice to the local nets, but often couldn’t hear them that well.</p>
+<p>I eventually picked up a Xiegu G90 from the ham radio deals forum, and a 40m EFHW antenna kit, set it up in the garden and overcame my mic shyness to speak with GB2CC, a special event station for HQ Coastal Command. Although looking it up now on QRZ, I see it’s a new special event for something else. I was just another entry in his log and nothing of significance, whereas for me this was an incredible experience of all these pieces coming together and successfully speaking to someone else. I only managed a since QSO that lunchtime as was meant to be looking after the kids and had left them watching TV for hours. Later that evening I went back on the radio and my second QSO was with Croatia, 9A1CCY, and then my third of the day with someone in England. My first day on the air!</p>
+<p>I then proceeded to go on the air every evening for the following week, even managing a contact with Canada with my 10W. The G90 could tune up the EFHW to any band from 160-10m, and I tried them all out.</p>
+<p>The following week, I figured out how to get ft8 working on the G90 and all the software and found it interesting seeing who could hear me around the world, even if we didn’t have a QSO. Although did get some good countries like Angola and Brazil.</p>
+<p>Things continued in a similar fashion as I upgraded to my intermediate. I remember the first few days of getting my callsign all mixed up, between foundation (MM7RVP) and Intermediate (2M0RVM). Around this time I did visit the local club, Aberdeen amateur radio soceity, and knew a very seasoned ham (Allan, GM4ZUK) via a work colleague. The club is…okay…mostly it’s tricky for me to go to the sessions and the few events they do have, so it’s hard to break in if you’re not present. I’ve renewed my membership for 2024 and will see how it goes. I invited myself around to Allan’s house and he showed me his setup and lovely tower he’d just had installed. We chatted for a long time and enjoyed the sunny day in his garden in mid-June.</p>
+<p>He convinced me to get a Diamond V-2000 white stick which does 2m/70cm and also 6m. It was the RSGB 50 MHz Trophy competition the following weekend and Allan was going up the mountain with his trailer mast and big yagis and suggested I have a go. I managed to make four contacts, Allan, plus two Portgual and one Spain. This actually won me the Leading Intermediate Station in the competition, but I think there were only two or three others in the category! My first contest prize!</p>
+<p><a href="image.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/one-year-on/image.png" class="img-fluid"></a></p>
+<p>I’ve taken part in other contests, mostly just dipping in and out for an hour or so at a time, as I never really had the availability to be there for hours. It’s quite the endurance activity though, and those operators who do 1000+ QSOs are very impressive.</p>
+<p>Somewhere about this time, I found the <a href="https://matrix.to/#/#ham-radio-space:matrix.m0aws.co.uk">ham radio matrix group</a> and have been learning a lot and making new friends via this group. I also joined the OARC Discord and met several great people that way. Whilst I do still want to connect with the local radio enthusiasts, it is just so much easier to do it online.</p>
+<p>It was only about 2 months of operating as an intermediate before I upgraded to full. I just pushed on and studied for it as I knew I’d forget some of the things if I didn’t. I actually found the full exam easier than the intermediate, but maybe the step between the stages isn’t quite as much, or I was just lucky with the questions. I spent quite a while debating what my final callsign should be, and ended up going with what I first thought of…my name!</p>
+<p>After some more HF operation, I became intrigued with QO-100, and eventually pulled the trigger on all the parts to build a station for it. That was my first real project, and it was quite involved! Took me a few months to put it together, mount the dish and get the software going (I’m still to write up the software setup as part of my blog series on it). However, it’s been very enjoyable to use and I’m glad I did it. Although it opened the doors to more potential projects and builds that I want to do!</p>
+<p>This whole time my radio was setup in the kitchen, with the coax through the window. This was fine during the summer but by about September/October, it was getting too cold to have this setup. I setup a workbench in the garage and now have the radio sat through there with a computer as well. The coax runs around the side of the house and goes in via an air vent. Whilst the beanbag in the corner of the kitchen was quite nice, this proper setup is much better. Although if it’s windy or very cold outside, the garage can get down to about 8-10°C.</p>
+<p>I had started to try and do LEO satellite operation, and got the radio and handheld yagi setup, but now that it’s winter, I’ve eased off really doing much outside. I’ve not managed to make a contact this way yet but maybe in the new year.</p>
+<p>I’ve looked at digital radio on and off over the whole time, and generally decided it wasn’t something I was interested in. However, I do now have a small project ongoing to setup an allstar node but with a tiny Dell Wyse computer and fist mic, so that it’s like using a real radio but minising the computer part. I didn’t want to get a digital handheld and a hotspot as I suspect I’ll get bored of it quickly and then have no use for them. At least this way, I can repurpose the computer and the fist mic is always handy to have as a spare. I need to spend some time to figure out the software and configuration, plus find some groups to listen in to.</p>
+<section id="some-stats" class="level2">
+<h2 class="anchored" data-anchor-id="some-stats">Some stats</h2>
+<p>According to my log…</p>
 <ul>
-<li>The biased tee needs 12 V</li>
-<li>The Pluto+ SDR and CN-0417 need 5 V</li>
-<li>SG Labs PA needs 24-28 V</li>
+<li>I’ve had 1365 QSOs, worked 108 countries</li>
+<li>of which 667 QSOs in 91 countries have been confirmed on LoTW (98 on QRZ.com – so close to the DX 100 award!).</li>
+<li>72% of my contacts have been via digital modes, the remaining is SSB (just 2 on FM!)</li>
+<li>20m and 40m are my top two bands, with QO-100 coming in as my fourth most popular band.</li>
+<li>My furthest contact was with ZL3HAM on 40m via FT8, with the distance of 11,453 miles one September morning</li>
+<li>My furthest HF SSB contact was with PY2VM on 10m, at 6,142 miles away in October. A close second was ZS3Y at 6,080 miles, also on 10m.</li>
+<li>I’ve worked 140 stations on QO-100, across 44 DXCCs, including Coco Keeling Island.</li>
+<li>I’m not sure how to find the details, but my europe grid square chasing via FT8 is looking reasonable, picture below</li>
 </ul>
-<p>Again, as a common build, people have found a common solution, particularly as a lot of people power it from their shack power supply, and everything hangs off a 12 V supply. There are two DC converters, one to 5V with USB sockets for those users and then one that converts to 28V (although is adjustable) from 12V.</p>
-<p>For me, and the location of my shack and the dish meant I needed an external power supply. Luckily, I have an external power socket within 5m or so of the dish so I just needed to convert it to 12V. In the end I decided upon a Meanwell power brick – think laptop brick – which gives up to 5A on 12V, this should be more than enough. I also bought a great long kettle lead to plug it in. Going for the brick meant it could sit in my waterproof enclosure with everything else. Plus the 5V DC converter had a pin socket, so I could use the pin from the power supply to power it and then the input pins, which are in parallel, for transferring that 12V on to the other users.</p>
-<p>For the enclosure I found <a href="https://www.screwfix.com/p/hylec-ip65-weatherproof-outdoor-enclosure-250-x-150-x-350mm/7766g">this</a> on screwfix. It’s just about big enough. The mounting isn’t great but works.</p>
+<p><a href="image-1-1024x737.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://gm5alx.uk/posts/2023/one-year-on/image-1-1024x737.png" class="img-fluid"></a></p>
+<p>All the grids, green confirmed via LoTW</p>
 </section>
-<section id="cost" class="level3">
-<h3 class="anchored" data-anchor-id="cost">Cost</h3>
-<p>It’s quite pricey to do this build. Part of me doesn’t want to list it all here and add it up 😅 However, as I didn’t have a 70cm/2m radio this route was probably going to be the cheapest. I could’ve scounged more on items, or tried to find more things used, but insted I bought the parts over about 6 weeks, then when it was only one £100-150 thing a week it didn’t feel that bad! Ballpark is probably £600-700. I also ended up buying some tools and general items that I didn’t have, but will be useful for other projects.</p>
-</section>
-<section id="and-finally" class="level3">
-<h3 class="anchored" data-anchor-id="and-finally">and finally…</h3>
-<p>Have I built it yet? I have, (and maybe why I struggle with tense in this post!) it still has a couple of issues but I’ve made some QSOs. More details in the next part.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="qo100-1st-receive.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Inpromptu dish mounting"><img src="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/qo100-1st-receive.jpg" class="img-fluid figure-img" alt="Inpromptu dish mounting"></a></p>
-<figcaption>Inpromptu dish mounting</figcaption>
-</figure>
+<section id="year-two" class="level2">
+<h2 class="anchored" data-anchor-id="year-two">Year Two</h2>
+<p>Year one has been packed, and I’ve pretty much done nothing else. I think I’d like to take things a little easier and not try and do everything in one go! I’d also like to get back into some of my other hobbies that I’ve left standing!</p>
+<p>For 2024, I’d like to get some LEO satellite QSOs, and maybe even give Greencube MEO a go. I’ve recently bought a 3D printer, and so building my own rotator would be fun to do. Recently, I’ve been chasing SOTA activators at the weekend, and would like to do some activations myself. There are a few summits nearby and would give me a good excuse to try out different wire antenna. Speaking of which, I’d still like to try and setup something else at home, perhaps a vertical, or some hexbeam/yagi/moxon arrangement for a few of the higher bands to see if the bit of gain helps get some further contacts via SSB vs.&nbsp;just ft8. This summer, during our holiday away, I did do about 10 days of LCWO, and got up to copying 10 letters of CW. I immediately stopped when I came home again. Learning CW is on my list, will it be in 2024? I suspect not, but we’ll see.</p>
+<p>Well that list is already starting to seem like a lot of things, and having some balance is already starting to tip towards amateur radio! Not that it’s a bad thing. 😅</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This article featured in Amateur Radio Weekly - <a href="https://www.amateurradio.com/amateur-radio-weekly-issue-310/">Issue 310</a></p>
+</div>
 </div>
 
 
 </section>
-</section>
-
- ]]></description>
-  <category>QO-100</category>
-  <guid>https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/</guid>
-  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/qo-100-build-part-1-the-design/eshail-2-qatar-oscar-100.png" medium="image" type="image/png" height="81" width="144"/>
-</item>
-<item>
-  <title>Grid Square Chasing with GridTracker</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Shortly after getting on the air with my Xiegu G90, I became intrigued by FT8. After some initial experimentation, I managed to set it up and began making QSOs. Initially, I was thrilled to hear stations from all over the world – Australia, Japan, South America, and various other places. At first, I believed I could establish contact with all of them. However, after numerous attempts to connect with different stations, I discovered <a href="https://pskreporter.info/">pskreporter</a>. This tool allowed me to determine who could hear me. While it was disappointing to realize that hearing a station didn’t guarantee they could hear me, seeing the immediate feedback on pskreporter was just as enjoyable as making an actual contact, especially on days when distant countries could receive my signals.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="gridtracker-pskreporter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Who’s listening?"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-pskreporter.png" class="img-fluid figure-img" alt="Who’s listening?"></a></p>
-<figcaption>Who’s listening?</figcaption>
-</figure>
-</div>
-<p>The information provided by pskreporter makes FT8 interesting, especially when testing new antennas or different power levels. However, excessive usage of it can become somewhat monotonous. It’s convenient when used alongside other activities, but sitting in front of it for prolonged periods without any other engagement is not advisable. Depending on your antenna setup, you may find that you’re only able to reach specific parts of the world, making it nearly impossible to make new connections. While I occasionally manage to contact a few new countries with my horizontal EFHW antenna, it’s not as effective as a vertical, such as this one described by <a href="https://m0aws.co.uk/?p=1998">M0AWS</a>.</p>
-<p>I found the user interface of WSJT-X somewhat lacking and soon discovered <a href="https://gridtracker.org/">GridTracker</a>. As it says on the website “<em>GridTracker listens to traffic from WSJT-X and displays it on a map</em>“. While it offers more functionality, that’s the core idea. I use its call roster to identify who’s calling or communicating, making my contacts based on that information. Only recently did I delve into the manual on the website and decide to pursue grid square chasing.</p>
-<p>A conversation in the <a href="https://m0aws.co.uk/matrix/">Ham radio matrix chat</a> about gamifying FT8 caught my attention. This intrigued me, as it seemed like a way to inject more interest into FT8. The most apparent approach was to start collecting grid squares from different countries. Now, I had a reason to contact those Italian and German stations. GridTracker proved to be highly useful for this purpose.</p>
-<section id="useful-gridtracker-settings" class="level2">
-<h2 class="anchored" data-anchor-id="useful-gridtracker-settings">Useful GridTracker Settings</h2>
-<p>I encourage you to read the <a href="https://gitlab.com/gridtracker.org/gridtracker/-/wikis/home">full manual</a>, it’s not that long and you’ll then understand the whole software much better. Here are the settings I’ve discovered that simplify the process of collecting grid squares using the software.</p>
-<section id="call-roster" class="level3">
-<h3 class="anchored" data-anchor-id="call-roster">Call Roster</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="gridtacker-callroster.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Table of contacts"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtacker-callroster.png" class="img-fluid figure-img" alt="Table of contacts"></a></p>
-<figcaption>Table of contacts</figcaption>
-</figure>
-</div>
-<p>I hardly ever use the map view in GridTracker. While it does display pskreport spots along with grids, the map can become cluttered, making it challenging to discern the information. I might briefly glance at the spot heatmap or switch to pskreporter for my spotters. My primary focus is on the call roster. This window is positioned next to WSJT-X’s main window and waterfall display. The call roster streamlines the substantial amount of information from WSJT-X into a concise, organized format. It allows for various filters, but I generally keep the filters quite open, toggling between all activity and CQ calls only.</p>
-<p>The standout feature is the color coding of cells. A black background signifies a confirmed contact, a black-blue gradient indicates an unconfirmed contact, and a blue background represents a new grid. This arrangement allows me to quickly identify areas I still need to reach. With the CQ Only filter activated, it becomes easy to determine whom to respond to. Another setting I find useful is marking RR73 as a CQ. This way, I can spot stations just finishing up their last QSO, and I might have a chance to catch them as they start calling CQ.</p>
-<p>To open the call roster, click on the Clipboard/Medal button in the menu. 📋🥇</p>
-</section>
-<section id="map-view" class="level3">
-<h3 class="anchored" data-anchor-id="map-view">Map View</h3>
-<p>Although I seldom use the map view, it serves as a useful tool to track your progress with grids. The heatmap of spots can also provide valuable insights. Ensure that you have the bands set to “Mixed” rather than the default “Auto.” The Auto setting uses the band you’re currently on, which limts what you see, and unless your trying to get all the grids by band you probably want Mixed. Mixed displays all bands.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="gridtracker-map-view.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Mixed shows all bands"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-map-view.png" class="img-fluid figure-img" alt="Mixed shows all bands"></a></p>
-<figcaption>Mixed shows all bands</figcaption>
-</figure>
-</div>
-</section>
-<section id="log-data" class="level3">
-<h3 class="anchored" data-anchor-id="log-data">Log data</h3>
-<p>Grid Tracker is only useful if it knows all your logs. By default it’ll read the wsjt-x log file on your computer but that won’t always have everything, and if you want to include voice or other modes that won’t help. The way I’ve found to work best is to use its ability to import log data from elsewhere. There are a few options and you can set them in the Logging page of the settings.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="gridtracker-logging.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="All the logs"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-logging.png" class="img-fluid figure-img" alt="All the logs"></a></p>
-<figcaption>All the logs</figcaption>
-</figure>
-</div>
-<p>Grid Tracker can pull and push log data. The <strong>Startup?</strong> and <strong>Menu?</strong> settings show the options for pulling log data, with startup meaning it queries it when you open Grid Tracker, and Menu meaning it adds a button to the menu for you to trigger a download. As you can see above the options are local files, psk-reporter, qrz, clublog and LoTW. I decided to go with LoTW as that seems to be the most commonly used central logging database. This means that wherever I capture my QSOs, as long as they get into LoTW, Grid Tracker will know about them. I could just add all of the others too.</p>
-<p>For longer operating sessions with numerous QSOs, clicking the LoTW button in the menu will pull in confirmations. GridTracker maintains its own log, providing a record of your contacts.</p>
-<p>I also use GridTracker to send my WSJT-X logs to <a href="https://www.magicbug.co.uk/cloudlog/">Cloudlog</a>, my primary logbook. This process subsequently uploads all my logs to platforms like LoTW, Clublog, and eQSL. As indicated in the <strong>Log?</strong> column, GridTracker interfaces with various popular logging tools.</p>
-<p>In essence, GridTracker’s configuration is straightforward and quick, enhancing the appeal of WSJT-X data and simplifying the tracking of contacts.</p>
-</section>
-</section>
-<section id="appreciating-ft8" class="level2">
-<h2 class="anchored" data-anchor-id="appreciating-ft8">Appreciating FT8</h2>
-<p>While I’ve been licensed for a relatively short time, I’ve encountered strong opinions about FT8, including some negative viewpoints. I don’t enjoy coffee, but I wouldn’t tell coffee enthusiasts that they’re consuming it incorrectly. I won’t speculate on the reasons people dislike FT8, but instead, I’ll share some observations that might not be immediately apparent.</p>
-<p>These days, it’s common for unique locations to incorporate FT8 into their setups. Therefore, if you’re aiming to access new DX locations, FT8 offers a viable method. I also appreciate that it levels the playing field to some extent, unlike SSB or even CW. How often have I heard a VK or JA station (not rare DX, just less common), only to be faced with an overwhelming pileup as European countries with 2 kW power outputs drown out smaller stations like mine, operating at 100 W? Breaking through is nearly impossible. While CW might provide slightly better odds due to fewer operators compared to SSB, plus the reduced SNR needed to work someone, the challenge for QRP stations remains. With FT8, if your signal reaches them with 10W or 50W, your presence is acknowledged, significantly improving your chances. While there may be techniques for gaining an edge when working a pileup station on FT8, such as adjusting transmit settings or clock settings, the gap is much smaller. Skill is required here as well.</p>
-<p>When engaging with a popular station on SSB or CW, conversations are often minimal. Regular HF QSOs frequently consist of a brief exchange involving callsigns, RST, and possibly a name or location. This is not drastically different from an FT8 QSO. If your goal is to accumulate numerous contacts, reach various locations, or connect with rare stations, FT8 offers similar dynamics. If you seek in-depth discussions, FT8 isn’t the appropriate choice; it’s not a direct comparison. For that purpose, you might explore JS8Call.</p>
-<p>In closing, while I risk getting sidetracked into an argument, I emphasize that the beauty of amateur radio as a hobby is rooted in personal enjoyment. If you find it enjoyable, that’s fantastic! If not, then there’s no obligation to pursue it; everyone’s preferences differ.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="gridtracker-europe.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Gotta catch em all! 🐲🔴🎮📻"><img src="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/gridtracker-europe.png" class="img-fluid figure-img" alt="Gotta catch em all! 🐲🔴🎮📻"></a></p>
-<figcaption>Gotta catch em all! 🐲🔴🎮📻</figcaption>
-</figure>
-</div>
-<p>Now, back to the quilt! I initially thought the UK would be an easy starting point!</p>
-
-
-</section>
-
- ]]></description>
-  <category>FT8</category>
-  <guid>https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/</guid>
-  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/grid-square-chasing-with-gridtracker/grid-tracker.png" medium="image" type="image/png" height="84" width="144"/>
-</item>
-<item>
-  <title>What to do</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/what-to-do/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>It’s both a blessing and a curse that amateur radio has so many different facets and parts…I can’t even begin to list them all: antennas, operating frequencies, circuitry, radios, modes of operation, amplifiers, structures, networks, digital, analog, moon bounce, competitions, prizes, collecting, … and even each of those sections has subsections or intersections of sections 😅 It truly is a hobby for life.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="ftdx10-kid.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Better start young then"><img src="https://gm5alx.uk/posts/2023/what-to-do/ftdx10-kid.jpg" class="img-fluid figure-img" alt="Better start young then"></a></p>
-<figcaption>Better start young then</figcaption>
-</figure>
-</div>
-<p>This isn’t meant to sound like complaining, more of an expression of overwhelming amazement. The hardest thing for me is to work out what I want to do. I love reading, talking, listening and watching about what others are doing, and every time I do I learn about another facet that sounds really interesting and something I want to do. The fear I have is that I spend forever looking at what I could do but yet never actually do anything for myself! I have to remind myself that I don’t need to do everything immediately. I’ve only had a licence since January this year, and I’ve only been on the air for five months!</p>
-<p>I also get daily reminders of how little free time I actually have. I work full time and we have four children ≤ 10 years old. I only really have time for one thing each evening – which includes writing blog posts! – and so I’m going to use my favourite outliner app, Dynalist, to make a list of all the things I want to do, in order to pick and choose what I should do now and next. It also serves as a place to put useful things I find related to it, although that’s too organised for me and I’m more likely to put stuff in my wiki. Actually, I’m more likely to read something and think I should make a note of it but don’t. Anyway, it helps focus and stops me spending forever looking at stuff.</p>
-<p>Right now, my tasks are to finish the <a href="../qo-100-build-part-1-the-design/">QO-100 setup</a>, design the garage workshop layout and get it built including the relocation of the shack. But sometimes I’m tired after work and the kids, and just want to sit on the radio and see who’s out there.</p>
-<p>Which leaves me with the thought that even if I built or changed nothing ever again, there are always different people out there to speak to, different propagation patterns and the enjoyment of talking to someone else who also enjoys this hobby.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="apple-g4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="I should also finish my other projects I started before getting my licence!"><img src="https://gm5alx.uk/posts/2023/what-to-do/apple-g4.jpg" class="img-fluid figure-img" alt="I should also finish my other projects I started before getting my licence!"></a></p>
-<figcaption>I should also finish my other projects I started before getting my licence!</figcaption>
-</figure>
-</div>
-
-
 
  ]]></description>
   <category>meta</category>
-  <guid>https://gm5alx.uk/posts/2023/what-to-do/</guid>
-  <pubDate>Tue, 22 Aug 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/what-to-do/ftdx10-kid.jpg" medium="image" type="image/jpeg"/>
+  <category>contest</category>
+  <guid>https://gm5alx.uk/posts/2023/one-year-on/</guid>
+  <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/one-year-on/weird1year.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Portable ops in the Cairngorms</title>
+  <title>First attempts at LEO 🛰️</title>
   <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/</link>
+  <link>https://gm5alx.uk/posts/2023/first-attempts-at-leo/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>My first radio was the Xiegu G90, and when I bought my Yaesu FT-DX10 I decided I’d keep the G90 for portable operations. It’s pretty small, 20W, and I already have it and know how it works. With a few days planned to stay near Aviemore in the summer holidays I thought it was the perfect time to try it out.</p>
+<p>My previous attempt ended with just listening to the astronaut, and whilst fun, it wasn’t what I was actually meant to be doing. I’ve since read the manual and, mostly, figured out the D72. As the radio is quite old there is both lots of info online and also a lack of it, depending on where you like looking. By that I mean there’s info in email lists but virtually nothing on YouTube! Anyway, with combination of the manual and the Kenwood TH-D72 <a href="https://kenwood-radios.groups.io/g/TH-D72/topics">groups.io</a>, I’ve worked out the essentials.</p>
+<p>The summary of it all is, you must transmit from VFO B and receive on VFO A, and you have to enable DUP mode through the F(function) button and 0 (zero).</p>
+<p>I’ve got Gpredict on my computer and also ISS Detector app (with the amateur satellites extra) so it was easy to see what was coming up when I had a bit of time this past weekend. Next up was SO-50. My radio already had frequencies stored for SO-50, so I felt confident that I could do this. I keep meaning to add frequencies for most of the FM satellites but I’ve not got round to it yet.</p>
+<p><a href="image0-768x1024.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/first-attempts-at-leo/image0-768x1024.jpeg" class="img-fluid"></a></p>
+<p>I realise I never took any pictures of my setup, mostly as I had about 8 minutes before the satellite started its pass, so I was in a hurry. The equipment is the D72 radio, my Sony voice recorder, the Arrow antenna and a rats nest of cables. I wanted to record the audio on the voice recorder, I also wanted to use headphones. The D72 has a 2.5mm headphone socket and I don’t have a 2.5mm to 3.5mm adapter. However, the fist mic has a 3.5mm headphone out on it, and so I had that plugged into the side, the splitter out the mic with cables to the recorder and my headphones. Phew, what a mess.</p>
+<p>I did find it hard to figure out how to do everything at once. I was using my phone to try and see where the satellite was, I was holding the arrow yagi, I had the radio in my pocket, but also needed to hold the mic, had the voice recorder in my other pocket and headphones on my head.</p>
+<p>Like most people, I only have two hands so I was juggling between everything and couldn’t find a good process, and struggled to track the satellite very well. I did eventually copy some calls and QSOs on the satellite for a brief period during its 14 minute pass. I’ve edited my recording to just the best parts.</p>
+<figure class="figure">
+<figcaption>
+Best parts of the pass
+</figcaption>
+<audio controls="" src="2023-11-05-1433-SO50-First-pass.wav">
+Your browser does not support the <code>audio</code> element.
+</audio>
+</figure>
+<p>At one point I had a lovely clear copy on OH1ON calling, but then it degraded into static and I was only getting weak signals as I mis-aimed the yagi.</p>
+<p>A call I heard was G6UST, and looking at his <a href="https://www.qrz.com/db/G6UST">QRZ page</a> was interesting from satellite tracking. He has a nice picture of a homebrew tracker with PVC pipe and yagis mounted at an angle. Although looks like he’s moved on since then to a lovely G-5500 az/el rotator.</p>
+<p>Overall some progress, but lots of room for improvements. Even though I didn’t transmit, I am thinking about how I manage the VFOs and changing frequency to manage doppler on the 70cm side. This means I’ll have to press buttons on the radio to do so, and that’s not feeling very practical with the fist mic. One option is to skip the mic, get a 2.5 to 3.5mm adapter for the headphones and use the PTT on the radio. This keeps it in my hand and then I can hit the A/B and up/down to manage the frequencies using the memories. Alternatively, Kenwood make a mic with three buttons on the top, the SMC-34, and you can use MCP-4A program to set these buttons. The idea being I can hit A/B, then press up or down, and A/B again ready for transmitting, or just up and down depending on what link 70cms is on.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="holiday-house.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="A converted church was our accommodation for the trip. Very fancy!"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/holiday-house.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="A converted church was our accommodation for the trip. Very fancy!"></a></p>
+<p><a href="mcp-4a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Configure mic keys from the computer software, MCP-4A"><img src="https://gm5alx.uk/posts/2023/first-attempts-at-leo/mcp-4a.png" class="img-fluid figure-img" alt="Configure mic keys from the computer software, MCP-4A"></a></p>
+<figcaption>Configure mic keys from the computer software, MCP-4A</figcaption>
 </figure>
 </div>
-<figcaption>A converted church was our accommodation for the trip. Very fancy!</figcaption>
-</figure>
-</div>
-<p>I have a 6m telescopic pole and decided to make a vertical antenna with it. In an effort to keep it simple, I went for a 1/4 wave for 20m with some radials and a 1:1 choke wrapping the coax around a torroid.</p>
-<p>I’d left making the antenna until the night before we were due to go and so it was a bit of a rush to make it! I cut the wire considerably longer as I didn’t want to try and be too smart on my first attempt, and would use the NanoVNA to cut it to the right length.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="analyser.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Somewhat too long!"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/analyser.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Somewhat too long!"></a></p>
-</figure>
-</div>
-<figcaption>Somewhat too long!</figcaption>
-</figure>
-</div>
-<p>I think this worked against me as I ended up cutting it many times and then got sloppy and rushed, which meant I went from a 1.1 SWR at 14.035 MHz to 1.07 at 14.385 MHz..oops! By this time it was 9pm and I was meant to be packing other things. So I took the bit of wire I cut off and figured I’d reattach it later. I had also cut 5x 5m ish radials, and was using a dipole connector I had for the coax to wire connections.</p>
-<p>We were staying with friends who were interested in hearing about amateur radio and why I was doing it, particularly when I set everything up outside. I tried not to blah on too much…</p>
-<p>Our house backed onto the forest and there was no boundary between the garden ending and the forest starting, so I just setup near the bench and had the antenna towards the trees and out the way of running kids.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="setup.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Setup at the holiday house"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/setup.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="Setup at the holiday house"></a></p>
-</figure>
-</div>
-<figcaption>Setup at the holiday house</figcaption>
-</figure>
-</div>
-<p>As well as my first time portable, it was my first time with a vertical and I was interested in how it performed compared to my horizontal EFHW I have at home. This is where I really like FT8 and pskreporter. Regardless of QSOs I make, I can see who hears me and I can obviously see who I hear.</p>
-<p>I immediately noticed how many ZL stations I could hear, far more than I’ve ever had before. I think at home I’ve maybe seen one very briefly, but now I was seeing 5-8 stations for several hours in the morning. In fact I saw countries from all over the world that I’ve rarely heard before, it was like a deluxe buffet of locations!</p>
-<p>My hastily cut and then reattached wire wasn’t the greatest, the G90 could tune it on 20m and several other bands but I kept it on 20m as I didn’t have that long to play in the radio and this should be the least worst band for it! Nevertheless, it worked and I was heard all around the world.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="pskreporter.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Who’s listening?"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/pskreporter.jpg" class="img-fluid figure-img" alt="Who’s listening?"></a></p>
-<figcaption>Who’s listening?</figcaption>
-</figure>
-</div>
-<p>I made about 17 contacts that day, in the morning and then a little in the afternoon. A variety of European countries, including a couple of portable stations in Slovenia and Belgium, and also a contact in Oklahoma state. I listened in on SSB but didn’t get round to making any contacts on voice.</p>
-<p>All in all, I was pleased with my first go, plenty of things to improve on next time and maybe try a different vertical, perhaps an end fed or just a better job cutting it! I do also want to get a bigger pole to move up to half wave territory. I’m not hiking up mountains so weight isn’t a huge factor, and I’m thinking of taking it down to the sea one time and seeing if the salt water helps me reach the exotic locations!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="garden.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Testing in the garden"><img src="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/garden.jpg" class="img-fluid figure-img" alt="Testing in the garden"></a></p>
-<figcaption>Testing in the garden</figcaption>
-</figure>
-</div>
+<p>The other factor is seeing where the satellite is. The ISS detector app has the AR mode, but I don’t have a hand left to use it. Thinking either mounting the phone to the arrow antenna, or mounting the antenna on a tripod, and maybe still mounting the phone to the antenna. The tripod also saves me having to hold the antenna the whole time. It is quite light but be nice not to have to hold it, plus it’s better at keeping still than I am.</p>
+<p>So a few more improvements and plenty of practice needed. Not sure when I’ll next get out to try, and the weather doesn’t help. Still interested in building a rotator for satellite work, with elevation as well. Trying to avoid having to buy a G-5500 or equivalent as they’re very expensive, even used. They’ve been kits over time but they’ve all stopped and probably something like the <a href="https://wiki.satnogs.org/SatNOGS_Rotator_v3">SatNOGS rotator</a> is a good build but it’s quite involved for me, plus a lot of 3D printed parts. It would be nice to set something up on the roof, so when it is dark and raining, I can sit inside and still try them out.</p>
 
 
 
  ]]></description>
-  <category>Portable</category>
+  <category>LEO</category>
+  <category>satellites</category>
+  <guid>https://gm5alx.uk/posts/2023/first-attempts-at-leo/</guid>
+  <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/first-attempts-at-leo/so-50.png" medium="image" type="image/png" height="108" width="144"/>
+</item>
+<item>
+  <title>Listening to Astronauts 👨‍🚀</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/listening-to-astronauts/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A while ago I managed to pick up a Kenwood D72 from a SK sale for a good price. This is one of the few handhelds that do full duplex, and is also packed with features, including APRS and GPS. This makes it ideal for FM satellites. I recently picked up an Arrow II handheld 2m/70cm antenna to use with it. This is a fairly lightweight dual band yagi, with built in duplexer. All the elements screw together through the boom and so it makes it quick to put away and assemble.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="d72.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Kenwood radio with Sony voice recorder"><img src="https://gm5alx.uk/posts/2023/listening-to-astronauts/d72.jpeg" class="img-fluid figure-img" alt="Kenwood radio with Sony voice recorder"></a></p>
+<figcaption>Kenwood radio with Sony voice recorder</figcaption>
+</figure>
+</div>
+<p>I do still need to read the D72’s manual as I was struggling to set up the memories and I think it only works in full duplex in a certain way. I presume A VFO as TX and B as RX but I could be wrong! I also realised the headphones use 2.5mm port and not 3.5mm.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="iss-detector.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="ISS Detector AR View (whilst writing this post)"><img src="https://gm5alx.uk/posts/2023/listening-to-astronauts/iss-detector.jpg" class="img-fluid figure-img" alt="ISS Detector AR View (whilst writing this post)"></a></p>
+<figcaption>ISS Detector AR View (whilst writing this post)</figcaption>
+</figure>
+</div>
+<p>Anyway, I thought I’d mess about with it at lunch time. I’ve been investigating apps for tracking satellites and to find what’s coming next. I’ve found <a href="https://www.issdetector.com/">ISS Detector</a> with the Amateur radio satellites add-on to be a good option on iOS. I do have to manually add all the birds I want to use. Whilst it shows you the mode, there’s no filtering for it, and in fact when it shows FM, that doesn’t necessarily mean a repeater for use. I need to reconcile the list against this <a href="http://amsat.org.ar/pass.htm">tracking site</a>, or this <a href="https://www.amsat.org/status/">status site</a>.</p>
+<p>It just so happened that the ISS was in view, and the radio already had the voice frequency saved in the memory. So I started the recorder and tried to get my antenna in the right direction. It didn’t help that it was where the sun was and so it was hard to read my phone but the AR mode in the ISS Detector app makes it fairly easy to know where to point.</p>
+<p><a href="th000001-1-1024x576.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://gm5alx.uk/posts/2023/listening-to-astronauts/th000001-1-1024x576.jpg" class="img-fluid"></a></p>
+<p><a href="https://hunter.pairsite.com/theodolite/">Theodolite app</a> – still figuring this out too, but takes nice shots with all the info</p>
+<p>Turns out I was tuning into a <a href="https://www.ariss.org/upcoming-educational-contacts.html">planned school contact</a> with Valley Stream South High School in New York state, who were talking with astronaut <a href="https://blogs.esa.int/exploration/category/astronauts/andreas-mogensen/">Andreas Mogensen</a>, KG5GCZ, aboard the ISS. This is their <a href="https://youtube.com/live/g74NbsTEvVw">livestream</a>, although not that exciting to watch 😅. They had a ham, <a href="https://www.qrz.com/db/IK1SLD">IK1SLD</a>, who was co-ordinating the radio part and the school were patched in via the internet. His <a href="https://www.qrz.com/db/IK1SLD">QRZ profile</a> is quite interesting regarding the ISS and the telebridge ground station.</p>
+<p>As I didn’t have a 2.5mm jacket for the radio, I balanced the voice recorder on my arm whilst trying to hold the radio, antenna, and phone to see where the ISS was. The pass over me didn’t last long, maybe 5 minutes max, and I managed to record a couple of minutes of the astronaut’s answers to the kids questions. Obviously I don’t hear the kids transmission.</p>
+<figure class="figure">
+<figcaption>
+My recording of the transmission. Edited to remove breaks.
+</figcaption>
+<audio controls="" src="20231017_1326-ISS-Astronaut.mp3">
+Your browser does not support the <code>audio</code> element.
+</audio>
+</figure>
+<p>I ended up having to go and run errands and never got to work anything, but it was fun listening. I also need to sort out the handheld’s memories and RTFM!</p>
+
+
+
+ ]]></description>
+  <category>LEO</category>
+  <category>ISS</category>
+  <category>satellites</category>
+  <guid>https://gm5alx.uk/posts/2023/listening-to-astronauts/</guid>
+  <pubDate>Tue, 17 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/listening-to-astronauts/kg5gcz.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>A great day on 10</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2023/a-great-day-on-10/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>If you’ve been paying any attention you would know propagation on 10m has been exceptional this past week or so. Given my shack relocation, I’ve been missing out on it…until today!</p>
+<p>I had some time around lunchtime and when I looked at the maximum usable frequency on <a href="https://prop.kc2g.com/">this site</a>, I was amazed to see the whole of the UK (including Scotland!) was around 40!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="pskreporter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="PSKReporter"><img src="https://gm5alx.uk/posts/2023/a-great-day-on-10/pskreporter.png" class="img-fluid figure-img" alt="PSKReporter"></a></p>
+<figcaption>PSKReporter</figcaption>
+</figure>
+</div>
+<p>Needless to say, I could hear all over the world, and they could hear me too.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="10m-edited.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="10m QSOs"><img src="https://gm5alx.uk/posts/2023/a-great-day-on-10/10m-edited.png" class="img-fluid figure-img" alt="10m QSOs"></a></p>
+<figcaption>10m QSOs</figcaption>
+</figure>
+</div>
+<p>Several new DX locations for me today: China, Taiwan, Columbia, Azerbaijan, United Arab Emirates, plus some other good locations like South Africa. Later on the evening I tried 20m and got Cayman Islands, and Thailand.</p>
+<p>Hopefully these new locations confirm the QSOs, and that’ll take me closer to the 100 DXCC milestone. I have now worked 100 DX entities in my log, but only 75 have confirmed via LOTW (although 87 via qrz.com).</p>
+
+
+
+ ]]></description>
   <category>FT8</category>
-  <guid>https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/</guid>
-  <pubDate>Tue, 15 Aug 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/portable-ops-in-the-cairngorms/setup.jpg" medium="image" type="image/jpeg"/>
+  <category>10m</category>
+  <guid>https://gm5alx.uk/posts/2023/a-great-day-on-10/</guid>
+  <pubDate>Sat, 14 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/a-great-day-on-10/pskreporter.png" medium="image" type="image/png" height="83" width="144"/>
 </item>
 <item>
-  <title>Hello world! 📻</title>
+  <title>First on Give</title>
   <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/hello-world/</link>
+  <link>https://gm5alx.uk/posts/2023/first-on-five/</link>
   <description><![CDATA[ 
 
 
 
 
-<p>I’ve decided to make a dedicated amateur radio blog. Partially, so I can <del>run WordPress</del> now running <a href="https://quarto.org/">Quarto</a>!</p>
-<p>I hope to record contacts I make, things I build, antennas I try out, and generally anything related to amateur radio.</p>
-<p>It will be no surprise to anyone that my callsign is GM5ALX. and a .uk domain was much cheaper than a <a href="https://register.radio/">.radio domain</a>, even though .radio is cooler!</p>
+<p>For a little while, the <a href="https://m0aws.co.uk/matrix/">Matrix Radio group</a> have been talking about a HF net at some stage. I think I offered to do something, but have yet to do so! Steve, M0XVT, raised that he joins a 60m net and we all thought that sounded like a good idea to try. We’d agreed to join at 9pm on 5.3985 MHz. This would be my first attempts on the 60 m / 5 MHz band.</p>
+<p>My HF antenna is a EFHW for 40m, and it’s not naturally resonant on 60m, but I suspected my Xiegu G90 would be able to tune it up as it’s pretty decent at matching anything to anything!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="bandplan.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Band plan summary from RSGB"><img src="https://gm5alx.uk/posts/2023/first-on-five/bandplan.png" class="img-fluid figure-img" alt="Band plan summary from RSGB"></a></p>
+<figcaption>Band plan summary from <a href="https://rsgb.org/main/operating/band-plans/hf/5mhz/">RSGB</a></figcaption>
+</figure>
+</div>
+<p>My only experience with the 5 MHz band is from my full licence exam. The UK <a href="https://rsgb.org/main/operating/band-plans/hf/5mhz/">band plan</a> is probably the most complex band plan there is for amateur radio. It makes it ideal for writing exam questions! The amount of warnings about transmitting outside the band plan due to the other user of the frequecy, aka the military, does make for careful planning. The RSGB page has lots of info on it, but it’s not the sort of thing you just quickly tune to and call CQ or even respond to others.</p>
+<p>The 60m net, 5.3985 MHz, is on Sunday mornings at 0700 UTC, but I’ve not joined in as I’m still between shacks.</p>
+<p>I also learnt of the trick of using a WebSDR to listen to a net you’re in. Sometimes they can hear you but not vice-versa, and so at least this helps with the flow of the net. You can get some software to sync your SDR and rig (or write your own with NodeRed) but for a net, when you’re not moving about, manually setting is good enough.</p>
 
 
 
  ]]></description>
-  <category>meta</category>
-  <guid>https://gm5alx.uk/posts/2023/hello-world/</guid>
-  <pubDate>Fri, 11 Aug 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/hello-world/outside.jpeg" medium="image" type="image/jpeg"/>
+  <category>60m</category>
+  <guid>https://gm5alx.uk/posts/2023/first-on-five/</guid>
+  <pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2023/first-on-five/USB-on-5MHz-Channel.png" medium="image" type="image/png" height="90" width="144"/>
 </item>
 </channel>
 </rss>

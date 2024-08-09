@@ -1,9 +1,44 @@
 ---
 title: Cairn-mon-earn
 subtitle: Struggling with QRM, and rain
-image: "placeholder.jpg"
+image: "img_7926-768x1024.jpg"
 points: 1
 date: 2024-06-14
 qsos: 6
 total: 12
 ---
+
+It’s been a few weeks since my last activation and I wanted to go out. I didn’t have much time as I was meant to be sorting out the garage, so I picked a summit close to home, Cairn-Mon-Earn ([GM/ES-080](https://sotl.as/summits/GM/ES-080)).
+
+![SSE working on one of the towers](img_7924-1024x768.jpg)
+
+
+It’s quite an easy walk following the loggers roads up to the summit. There are multiple towers there for mobile phones and other networks. The local repeater, [GB3GN](https://www.grampianrepeatergroup.co.uk/gb3gn), is also here. The weather was dry, and I had the occasional blue sky, but showers were forecasted.
+
+It was windy too, so I hunkered down by the cairn, however, this probably wasn’t the best place being so close to the towers. I setup my slim G 2m on the mast and called CQ. I didn’t get any response so setup on HF. The ground slopes away with heather and bushes, so I decided just to go for the random wire vertical. It has a 5.5m radiator and 2 counterpoises. I started on 20m, and two stations replied, Spain and Finland. This turned out to be my lot on HF. I tried other bands and calling other stations but no one could hear me. It was a shame as there were several other summits I could hear.
+
+![Slim G on the carbon 6 mast](img_7927-768x1024.jpg)
+
+I managed to get MM0EFI on the HT, and so I was at 3 contacts. A SOTA summit needs 4 to activate. It had been about an hour and the rain started to come down heavily. I dashed across to some nearby trees and setup underneath one of them. After trying all the bands I came back to 20m, put out another spot and the same Spanish station came back to me…well at least I knew it wasn’t operator error with the radio or antenna!
+
+![Under the tree](img_7928-768x1024.jpg)
+
+![Wet!](img_7929-1024x768.jpg)
+
+This was meant to be a quick activation and I’d now been there for over and hour, and so decided to pack up HF. I could see the TV mast in the clouds and so walked over to get a better look. I then found what would be a great spot to activate (if it wasn’t raining) as it had clear views all around. I thought I might as well call on 2m and see if I could get anyone.
+
+I spoke to Fraser again, MM0EFI, now /M as he was driving to work. We made a contact with his intermediate callsign, 2M0EFI/M, so technically I’d activated the site. However, I was determined to get four different people, and in my next CQ, George, MM0SAX/M, replied.
+
+![View across the to TV mast](img_7932-1024x768.jpg)
+
+
+
+George was driving up from Glasgow on the A90 and has a radio in his work van. We had a nice chat for about 15 minutes, and that turned my “this has been a waste of time 🤬” attitude into a “that wasn’t so bad 🙂” one!
+
+I enjoy HF and setting up different antenna, but if I could reliably activate with just 2m/70cm I’d love to go up the hillside with just my HT.
+
+![Before I knew what the activation would entail](img_7926-768x1024.jpg)
+
+
+
+It was back down and back home. The kids were soon home from school and the garage didn’t get sorted out. I’ll try again next week…

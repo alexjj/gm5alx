@@ -1,9 +1,87 @@
 ---
 title: Bennachie - Oxen Craig
 subtitle: My first SOTA summit
-image: "placeholder.jpg"
+image: "mm7mwloxencraig-1024x576.jpg"
 points: 5
 date: 2024-03-07
 qsos: 37
 total: 5
 ---
+
+I’ve chased a few SOTA activators before, it’s quite a fun thing to do, you watch the [spotting website](https://sotawatch.sota.org.uk/en/) and then see if you can get them. Once someone posts a spot it’s pretty quick for them to get a pile up. I’ve kept thinking about doing it, and I do live in an ideal place where there are plenty of summits to chose from. I’ve not been on the radio much this year and I ended up taking a day off today to drop off and pick up the kids from school, so I decided I should make the most of it and go up a mountain!
+
+Using the great SOTA map website, [Sotlas](https://sotl.as/map), I had a look around to see where I should go first. As I was doing the school run, I was limited on time to about 6 hours all in. I also thought I shouldn’t try too much on my first attempt, in both walking and radio setup. I noticed that some summits get bonus points during the winter (between about December and March), and one of those was near me so I thought that would be ideal. The place is called Bennachie, and one of its highest peaks is Oxen Craig. The peaks are call a ‘tap’. This is the summit [GM/ES-061](https://sotl.as/summits/GM/ES-061), which is worth two points and five in the winter.
+
+As you can see from this photo taken by [MM7MWL](https://www.qrz.com/db/MM7MWL), it’s a beautiful view.
+
+![Photo by Mike Lowson, MM7MWL, 5th December 2022](mm7mwloxencraig-1024x576.jpg)
+
+## Gear
+
+Radio-wise, I still have my Xiegu G90, which was my first radio, that is portable enough – certainly when compared to the Yaesu FTDX10! It’s got a bit of heft to it (2.5 kg 😰), but is 20W, has a great ATU and a nice waterfall.
+
+For the antenna, I wanted to keep it as simple as possible and to make use of my carbon 6m mast. I found [MM0EFI’s](https://www.youtube.com/watch?v=KFFTnBSUQM8) random wire suggestion and it looked ideal. This is 5.5m radiator, with two 4.25m counterpoises. They’re attached via bananaplugs to a BNC, then a short piece of coax with a common mode choke into the radio.
+
+The battery situation isn’t ideal. I’m using an ultramax 18 Ah LiFePO4 battery, which has loads of capacity and much better than a lead acid or a LiPo one but it’s still around 2.5 kg. I use it when out in the garden, but have never had to carry it very far. I do have a few 18650 lithium cells which I’m meaning to make my own portable battery but I’ve not got round to it yet. So the ultramax had to do.
+
+I also brought my Boafeng 2m/70cm radio to try some 2m FM. I have a Kenwood TH-D72, which I thought of bringing for APRS, but it’s too complex for my liking. Plus I could’ve just used my phone for APRS if I really wanted to.
+
+All in, with lunch and water, my backpack was over 6 kg. Fine, but plenty of room for optimisation next time.
+
+## The Activation
+
+With the kids dropped off at school, and backpack packed, I set off about 0915 to drive to the car park behind the summit.
+
+![At the car park](img_7455-768x1024.jpg)
+
+
+
+I wasn’t sure how long everything was going to take, so I opted to find the shortest and most direct route to the summit. There are quite a few walks you can do in the area via various taps and approach from different sides, but starting at the “back” looked the quickest. It was basically a straight up.
+
+I had looked at doing two activations in one trip, as Millstone Hill, GM/ES-077, isn’t that far away. However, when I worked out a couple of routes they were 4-5 hours of walking and I decided that was trying to do too much in one day.
+
+![Route planned on [OS Maps](https://explore.osmaps.com/)](image-763x1024.png)
+
+
+
+![Straight up 350m over 2.2km (or 1,150 ft over 1.4 miles)](image-1.png)
+
+
+
+I paid my parking at 0953, and was being blown away on the summit by 1040, which was a bit quicker than the 1:08 hrs OSMaps suggested it would take to walk up. I was pretty hot and sweaty by the time I got to the top, and had taken off my hat, but once exposed in the wind, I was glad to have it.
+
+![Looking North](img_7458-1024x768.jpg)
+
+
+
+![Up we go](img_7456-768x1024.jpg)
+
+
+
+![](img_7459-1024x768.jpg)
+
+It was quite nice weather on the way up, I could see the summits were under cloud cover, and when I reached the top the wind was howling and the air was very cold.
+
+![Cloud](img_7462-768x1024.jpg)
+
+
+
+![View from the top](img_7461-768x1024.jpg)
+
+
+
+I looked around for a nice place to setup, and ate my sandwich. Another guy came up and we said hello. I tried a few calls on 145.500 MHz, but I think I would’ve needed to organise this ahead of time with the locals. I found a nice outcrop to shelter behind that was in front of the summit, and setup the pole and radio on a rock. I had a little nook to crouch in and there I started to see if I could make any contacts.
+
+![Radio Setup](img_7465-768x1024.jpg)
+
+
+
+I started on 40m, had a listen to 10m, but it seemed dead, then moved to 15m and then finally 20m. I managed 37 contacts, with 14 countries, two summit to summit QSOs, and one [parks on the air](https://pota.app/#/) contact. My furthest contact was with Z36T in The Republic of North Macedonia at 1501 miles.
+
+![Map (partial) from [SOTA database](https://www.sotadata.org.uk/)](image-2-1015x1024.png)
+
+
+
+I’d been on the air 50 minutes and my logging hand was getting cold! Plus I was getting stiff in my funny crouching position, and concious of getting back in time to pick up the kids. I was using [Cloudlogoffline app](https://github.com/myzinsky/cloudLogOffline) to log, which is handy as it can then sync to my cloudlog database but I don’t like that it doesn’t keep the frequency from the previous QSO as the default entry. \[_update: you can under the settings, so set it there before starting to add QSOs.\]_ It’s also fiddly to add another SOTA reference due to the iOS keyboard coming up when you select an input box and not being able to scroll. I might just do [‘Fast Log Entry’ (FLE)](https://df3cb.com/fle/documentation/#qsos) next time in an Apple note file. I’ll see what else there is too. [VK port-a-log](http://vk3zpf.com/vk-port-a-log) seems to be a favourite for SOTA but it’s Android only.
+
+I was back in time for a nice cup of tea and sit down before it was school pick up. I look forward to the next one. It’s fun being the DX! 📻⛰️

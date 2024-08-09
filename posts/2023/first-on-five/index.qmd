@@ -1,0 +1,19 @@
+---
+title: "First on Give"
+date: 2023-10-08
+subtitle: "Learning about this band"
+categories: ["60m"]
+image: USB-on-5MHz-Channel.png
+---
+
+For a little while, the [Matrix Radio group](https://m0aws.co.uk/matrix/) have been talking about a HF net at some stage. I think I offered to do something, but have yet to do so! Steve, M0XVT, raised that he joins a 60m net and we all thought that sounded like a good idea to try. We’d agreed to join at 9pm on 5.3985 MHz. This would be my first attempts on the 60 m / 5 MHz band.
+
+My HF antenna is a EFHW for 40m, and it’s not naturally resonant on 60m, but I suspected my Xiegu G90 would be able to tune it up as it’s pretty decent at matching anything to anything!
+
+![Band plan summary from [RSGB](https://rsgb.org/main/operating/band-plans/hf/5mhz/)](bandplan.png)
+
+My only experience with the 5 MHz band is from my full licence exam. The UK [band plan](https://rsgb.org/main/operating/band-plans/hf/5mhz/) is probably the most complex band plan there is for amateur radio. It makes it ideal for writing exam questions! The amount of warnings about transmitting outside the band plan due to the other user of the frequecy, aka the military, does make for careful planning. The RSGB page has lots of info on it, but it’s not the sort of thing you just quickly tune to and call CQ or even respond to others.
+
+The 60m net, 5.3985 MHz, is on Sunday mornings at 0700 UTC, but I’ve not joined in as I’m still between shacks.
+
+I also learnt of the trick of using a WebSDR to listen to a net you’re in. Sometimes they can hear you but not vice-versa, and so at least this helps with the flow of the net. You can get some software to sync your SDR and rig (or write your own with NodeRed) but for a net, when you’re not moving about, manually setting is good enough.

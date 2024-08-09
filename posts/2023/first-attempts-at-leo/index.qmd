@@ -1,0 +1,45 @@
+---
+title: "First attempts at LEO 🛰️"
+date: 2023-11-09
+subtitle: "The radio equivalent of patting your head and rubbing your tummy. Whilst using the radio."
+categories: ["LEO", "satellites"]
+image: so-50.png
+format:
+  html:
+    resources:
+      - 2023-11-05-1433-SO50-First-pass.wav
+---
+
+My previous attempt ended with just listening to the astronaut, and whilst fun, it wasn’t what I was actually meant to be doing. I’ve since read the manual and, mostly, figured out the D72. As the radio is quite old there is both lots of info online and also a lack of it, depending on where you like looking. By that I mean there’s info in email lists but virtually nothing on YouTube! Anyway, with combination of the manual and the Kenwood TH-D72 [groups.io](https://kenwood-radios.groups.io/g/TH-D72/topics), I’ve worked out the essentials.
+
+The summary of it all is, you must transmit from VFO B and receive on VFO A, and you have to enable DUP mode through the F(function) button and 0 (zero).
+
+I’ve got Gpredict on my computer and also ISS Detector app (with the amateur satellites extra) so it was easy to see what was coming up when I had a bit of time this past weekend. Next up was SO-50. My radio already had frequencies stored for SO-50, so I felt confident that I could do this. I keep meaning to add frequencies for most of the FM satellites but I’ve not got round to it yet.
+
+![](image0-768x1024.jpeg)
+
+I realise I never took any pictures of my setup, mostly as I had about 8 minutes before the satellite started its pass, so I was in a hurry. The equipment is the D72 radio, my Sony voice recorder, the Arrow antenna and a rats nest of cables. I wanted to record the audio on the voice recorder, I also wanted to use headphones. The D72 has a 2.5mm headphone socket and I don’t have a 2.5mm to 3.5mm adapter. However, the fist mic has a 3.5mm headphone out on it, and so I had that plugged into the side, the splitter out the mic with cables to the recorder and my headphones. Phew, what a mess.
+
+I did find it hard to figure out how to do everything at once. I was using my phone to try and see where the satellite was, I was holding the arrow yagi, I had the radio in my pocket, but also needed to hold the mic, had the voice recorder in my other pocket and headphones on my head.
+
+Like most people, I only have two hands so I was juggling between everything and couldn’t find a good process, and struggled to track the satellite very well. I did eventually copy some calls and QSOs on the satellite for a brief period during its 14 minute pass. I’ve edited my recording to just the best parts.
+
+<figure>
+<figcaption>Best parts of the pass</figcaption>
+<audio controls src="2023-11-05-1433-SO50-First-pass.wav">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+</figure>
+
+At one point I had a lovely clear copy on OH1ON calling, but then it degraded into static and I was only getting weak signals as I mis-aimed the yagi.
+
+A call I heard was G6UST, and looking at his [QRZ page](https://www.qrz.com/db/G6UST) was interesting from satellite tracking. He has a nice picture of a homebrew tracker with PVC pipe and yagis mounted at an angle. Although looks like he’s moved on since then to a lovely G-5500 az/el rotator.
+
+Overall some progress, but lots of room for improvements. Even though I didn’t transmit, I am thinking about how I manage the VFOs and changing frequency to manage doppler on the 70cm side. This means I’ll have to press buttons on the radio to do so, and that’s not feeling very practical with the fist mic. One option is to skip the mic, get a 2.5 to 3.5mm adapter for the headphones and use the PTT on the radio. This keeps it in my hand and then I can hit the A/B and up/down to manage the frequencies using the memories. Alternatively, Kenwood make a mic with three buttons on the top, the SMC-34, and you can use MCP-4A program to set these buttons. The idea being I can hit A/B, then press up or down, and A/B again ready for transmitting, or just up and down depending on what link 70cms is on.
+
+![Configure mic keys from the computer software, MCP-4A](mcp-4a.png)
+
+The other factor is seeing where the satellite is. The ISS detector app has the AR mode, but I don’t have a hand left to use it. Thinking either mounting the phone to the arrow antenna, or mounting the antenna on a tripod, and maybe still mounting the phone to the antenna. The tripod also saves me having to hold the antenna the whole time. It is quite light but be nice not to have to hold it, plus it’s better at keeping still than I am.
+
+So a few more improvements and plenty of practice needed. Not sure when I’ll next get out to try, and the weather doesn’t help. Still interested in building a rotator for satellite work, with elevation as well. Trying to avoid having to buy a G-5500 or equivalent as they’re very expensive, even used. They’ve been kits over time but they’ve all stopped and probably something like the [SatNOGS rotator](https://wiki.satnogs.org/SatNOGS_Rotator_v3) is a good build but it’s quite involved for me, plus a lot of 3D printed parts. It would be nice to set something up on the roof, so when it is dark and raining, I can sit inside and still try them out.

@@ -1,9 +1,48 @@
 ---
 title: Brimmond Hill
 subtitle: Scaring the locals
-image: "placeholder.jpg"
+image: "img_7960-768x1024"
 points: 1
 date: 2024-06-21
 qsos: 14
 total: 13
+format:
+  html:
+    resources:
+      - mm7rvc.mp4
 ---
+
+A lovely sunny day, and time for another activation. Hopefully better than the last – certainly the weather was better. 🌞
+
+Quite a close summit to home, [Brimmond Hill](https://sotl.as/summits/GM/ES-086) overlooks Aberdeen and the airport to the east and then Aberdeenshire to the west. There’s a walk up and over it which is popular with dog walkers, and so I met more people than I usually do on this summit. The hill also features several commercial towers which make a bit of noise on 2m. Usually a pip every so often and then a huge blast of rf that completely wipes anything out, interestingly around the 2m and 70cm calling frequencies but not so bad away from them.
+
+![Looking towards the sea](img_7959-1024x768.jpg)
+
+
+
+![Mast up and ready](img_7958-1024x768.jpg)
+
+
+
+![Noise machine](img_7962-768x1024.jpg)
+
+
+I tried 2m first, with the Slim G on the pole and made a couple of contacts locally. There’s a bench that looks out over Aberdeen that I was going to setup on, but the aforementioned dog walkers came by and sat on the bench, so I decided to move off and find a spot in the heather. MM7RVC recorded me calling at his house somewhere to the west, showing off his pole and slim G – so we got a SG2SG QSO.
+
+![](mm7rvc.mp4)
+
+For HF I went with the EFHW for 40m, with the 49:1 (keep meaning to write up making that but not got round to it yet! Nothing special mind), setup on the 6m carbon pole. Generally running north-south. The weather was lovely, there was a breeze but it wasn’t too cold, and so for most of the time I tried chasing other summit activators. This worked well, as I ended up with five summit-to-summit (S2S) QSOs across England, German, Austria and Poland. I then put out spots for myself and got a few more contacts.
+
+I think the battery was low in the radio as it was only outputting 5W, not that 10W would’ve made a huge difference, but I still find it impressive what 5W can do.
+
+![QSO Map](image-1024x809.png)
+
+
+
+It was time to pack up, and I thought I’d see if I could catch anyone else on VHF/UHF. There’s a local lunchtime net, although I can never remember if its 12:30, 1 or 1:30pm that it starts. I got my Slim G back out and on the mast and this time I did sit on the bench. The net was going on and after a long over I managed to break in and say hello. We also did a quick QSO on 70cm. I’m not sure if the Slim G is suitable for 70cm. It worked but at what SWR? I should measure it and see. Another couple with their dog came up and wanted to come to the view point but one look of me and they decided to keep going! 😅 At this point my HT ran out of battery too!
+
+![Slim G in the wind](img_7956-768x1024.jpg)
+
+![Action shot!](img_7960-768x1024.jpg)
+
+If I was YouTubing myself, everyone would think it normal! I ended up overtaking the couple walking back to the car. I said “Hi” but no QSL on that contact.

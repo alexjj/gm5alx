@@ -1,0 +1,9 @@
+---
+title: Glas Maol
+subtitle: 2m Excitement
+image: "glas-maol-4.jpg"
+points: 8
+date: 2024-05-17
+qsos: 8
+total: 25
+---

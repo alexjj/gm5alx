@@ -1,0 +1,27 @@
+---
+title: "Building a tiny mic 🎙️"
+date: 2024-03-24
+subtitle: "Weight saving for portable ops"
+categories: ["Construction", "KX2"]
+image: compare.jpg
+---
+
+In an effort to slim down my travel kit, I decided that a tiny mic was in order. I’ve seen several people on YouTube use small mics and I’ve seen some for sale on eBay but when I found this [design](https://www.printables.com/model/320559-mini-microphone-for-trusdx-usdx-kx2-and-kx3), I knew I had to build one.
+
+![Testing, testing, 123](img_7503-768x1024.jpg)
+
+The site has a list of what you need and most of the components can be found on aliexpress for a very low price. You just have a wait a bit for delivery. You end up with 10 or more of each and my total was around £5 delivered.
+
+It is very small! First I connected it up with what I thought was thin hook up wire but it was too big and difficult when I tried to squeeze it into the case.
+
+![Full of wires](img_7504-768x1024.jpg)
+
+I used some of the sotabeams thin wire I’d made an antenna from and this was much better. I also placed each component inside the 3D print and measured out the wire more precisely. It was fiddly but meant there wasn’t too much extra wire to squeeze in.
+
+![Neatly tucked in](img_7506-1024x815.jpg)
+
+The top half of the case clicks together but does need a fair amount of force to get it on. The nut for the 3.5mm socket holds that in place and we’re ready to go.
+
+![Side by side with MH3](compare.jpg)
+
+I might make one for the G90 next.

@@ -1,0 +1,113 @@
+---
+title: "CQWW SSB Contest 2023"
+date: 2024-02-03
+subtitle: "It's the taking part"
+categories: ["contest"]
+image: cq.jpg
+---
+
+If ever there’s a time when the bands are busy, it’s the huge contest of CQWW.
+
+![My certificate](img_7392-1.png)
+
+12th in Scotland isn’t bad for 3.9 hours of operation. Least I don’t think so.
+
+Here’s my log summary
+
+```
+************************** Summary ***************************
+
+      94 Raw    QSO before checking (does not include duplicates or missing exchanges)
+      93 Final  QSO after  checking reductions
+
+     108 Raw    QSO points
+     105 Final  QSO points
+
+      17 Raw    zones
+      17 Final  zones
+
+      56 Raw    countries
+      56 Final  countries
+
+      73 Raw    mults
+      73 Final  mults
+
+    7884 Raw    score
+    7665 Final  score
+
+    1.1% error rate based on raw and final qso counts
+    2.8% score reduction
+      1  (1.1%) not in log
+      0  (0.0%) incorrect calls
+      0  (0.0%) incorrect exchanges
+      0  (0.0%) missing exchanges
+      0  (0.0%) duplicates removed
+      0  (0.0%) calls unique to this log only (not removed)
+
+********************** Results By Band ***********************
+
+             Band   QSO  QPts  Zone Cty Mult
+
+   Raw       160M     0     0     0   0    0
+   Final     160M     0     0     0   0    0
+
+   Raw        80M     0     0     0   0    0
+   Final      80M     0     0     0   0    0
+
+   Raw        40M    36    38     4  19   23
+   Final      40M    35    35     4  19   23
+
+   Raw        20M    33    39     5  21   26
+   Final      20M    33    39     5  21   26
+
+   Raw        15M     3     3     3   3    6
+   Final      15M     3     3     3   3    6
+
+   Raw        10M    22    28     5  13   18
+   Final      10M    22    28     5  13   18
+
+   Raw        All    94   108    17  56   73      7884
+   Final      All    93   105    17  56   73      7665
+
+************************* Not In Log *************************
+
+ 7061 PH 2023-10-29 2102 GM5ALX   14   IZ1OSP   15
+
+*******************  Multipliers by Band  ********************
+
+40M multiplier total 23
+
+9A    DL    F     G     GW    I     LA    LY    OE    OK
+OM    ON    OZ    PA    S5    SP    UA9   YO    YT
+
+ 14 15 18 20
+
+20M multiplier total 26
+
+9A    CN    CT    E7    EA    EA8   ES    F     HA    I
+IG9   IT9   LX    LZ    S5    SP    SV    UA    UR    YL
+YT
+
+ 14 15 16 20 33
+
+15M multiplier total 6
+
+CU    HA    UA
+
+ 14 15 16
+
+10M multiplier total 18
+
+9K    CT3   HA    I     IT9   LZ    SV    TA    UA    UR
+YO    YT    Z3
+
+ 15 16 20 21 33
+
+
+************ Stations Copying GM5ALX Incorrectly *************
+
+14209 PH 2023-10-29 1320 HA2KMR   15   GN5ALX   14
+14205 PH 2023-10-29 1322 HG5A     15   M5ALX    14
+ 7198 PH 2023-10-29 1957 YT1A     15   GM5ALE   14
+ 7163 PH 2023-10-29 2018 SP8R     15   GM5DLX   14
+```

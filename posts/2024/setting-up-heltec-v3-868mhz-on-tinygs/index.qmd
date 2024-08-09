@@ -1,0 +1,31 @@
+---
+title: "Setting up Heltec V3 868MHz on TinyGS"
+date: 2024-07-07
+subtitle: "Groundstations!"
+categories: ["lora", "satellites"]
+image: img_8049.jpg
+---
+
+[TinyGS](https://tinygs.com/), is a network system to retrieve LoRa satellite data using ESP devices, much like SatNOGS. Everything is managed via the [GitHub](https://github.com/G4lile0/tinyGS) repo and the [Telegram channels](https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q).
+
+Getting started and flashing the software on devices is very easy via their [web installer](https://installer.tinygs.com/). You then request a username and password via their Telegram bot. I’m not detailing much as their instructions are plain and the process is super easy. You do have to use Telegram but it’s okay.
+
+They have a list of [supported hardware](https://github.com/G4lile0/tinyGS?tab=readme-ov-file#hardware), and whilst the V3 isn’t mentioned, people on Telegram says it works. Plus when I flashed mine, it came up in the dropdown to choose it. However, it only showed the 433 MHz version.
+
+Telegram is fine and that, but like Discord, it’s not the easiest to find useful information. Compared to Discourses forum or Github issues etc., however, it does cost the project team nothing so I don’t begrudge them that. You can search posts but it takes a lot of effort to work through them and likely multiple conversations happening at the same time. Hence this post…
+
+You can change the frequency by logging into the webadmin, which, strangely, is actually the public website and not the dashboard that runs locally on your device. You have to request a link from the TinyGS telegram bot with `/weblogin` and it produces a tinygs.com url for you. As it’s Telegram I’m using my phone for it, no doubt there’s a computer client too.
+
+![Weblogin page](img_8048-1-675x1024.jpg)
+
+You then click on your station, and a new menu appears.
+
+![Click on Operate to change frequency](img_8047-1-510x1024.jpg)
+
+![Autotune 🎶](img_8045-1-596x1024.jpg)
+
+The top dropdown lets you change it to 868 (or 900+ depending on your region) MHz, and voila!
+
+## But don’t bother
+
+Why? Because there are only four [supported satellites](https://tinygs.com/satellites) and at ~900 MHz you’ll need a decent antenna to pick up the data and I’m not sure the device can manage the doppler shift well enough to get anything meaningful. Just get a 433 MHz device and enjoy the experience. 🛰️

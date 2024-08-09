@@ -1,0 +1,23 @@
+---
+title: "Live on YouTube"
+date: 2023-09-23
+subtitle: "With our friend Cal, M0XXT"
+categories: ["QSO"]
+image: m0xxt.jpg
+---
+
+Was on the computer doing things and switched tabs to YouTube and I saw Callum, M0XXT, of DXCommander, doing a live stream on 40m. Thought I might as well give him a call.
+
+My antenna was unplugged, as it comes in through the window and now it’s getting chilly in the mornings, so I had to nip out to get that sorted. I don’t know why I was in a rush, he was on for hours, but always a chance he’d move on to 20m for EU/US stations. This meant I was still on 25 W from last time I used the radio for FT8 when I called him. Now, 25W to 100W is only 6 dB (notionally an S point), so in some respects not a big deal, but you never know and sometimes it can make a difference.
+
+He heard me just fine, 56. I meant to tell him he was 59 but forgot with telling him my name and location – he gets a bit frustrated when people don’t tell him their name 😅 – and thought I’d say it on the next over, but I didn’t get one. Not that it mattered at all.
+
+<iframe title="HAM RADIO UK Mega-Stream - How Many Station Can we Contact?" width="500" height="281" src="https://www.youtube.com/embed/E7xtEfKut-8?start=1472&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+20 seconds of fame. [Here’s the link](https://youtu.be/E7xtEfKut-8?t=1472) to the moment if the embed ignores that.
+
+So now my QSO is immortalised by Google on YouTube.
+
+Is this the radio equivalent of being behind a reporter on a live TV show? I don’t know, but a bit of fun anyway.
+
+![](hqdefault.jpg)

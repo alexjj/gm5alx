@@ -1,9 +1,39 @@
 ---
 title: Strathfinella Hill
-subtitle: Struggling with QRM, and rain
-image: "placeholder.jpg"
+subtitle: Struggling without mobile reception
+image: "img_7976.jpg"
 points: 1
-date: 2024-06-28
+date: 2024-07-05
 qsos: 8
 total: 14
 ---
+
+Another [hill](https://sotl.as/summits/GM/ES-075), this time to the south of Aberdeen. The weather was wet and windy in the morning, particularly so inland, so thought I’d stick to the coast. The two options were Strathfinella or [Hill of Garvock](https://sotl.as/summits/GM/ES-085). Reports of angry cows from Garvock, plus the sheltered nature of the wooded summit of Strathfinella made the decision for me.
+
+Consulting Fraser, [MM0EFI](https://youtube.com/@theradiorover), the local SOTA expert, I was going to climb it from the south, following forestry roads and mountain bike paths. Looked to be fairly short route and a quick claim to the top. It’s only a one pointer, so never going to be that far.
+
+![Route from the south](map.jpg)
+
+The weather was pretty good, breezy but some sun and mild. The route was straightforward- literally. There were a few bikers around who I met just before the turn off to the summit.
+
+![Left or right? Nope. Straight on.](img_7977-768x1024.jpg){group="my-gallery"}
+
+![](img_7981-768x1024.jpg){group="my-gallery"}
+
+![](img_7978-768x1024.jpg){group="my-gallery"}
+
+![](img_7979-768x1024.jpg){group="my-gallery"}
+
+I had a chat with some of the mountain bikers but just said I was out for a walk. Too much effort to get into the real reason! They pointed me towards the trig point which was off to the side of the main path. I almost missed it whilst walking along! It’s right in the trees, and reminded me of the portal stones from the Realm of the Enderlings book series!
+
+I set up 2m first and got a guy down in Brechin, unfortunately he was the only 2m QSO. I spent a long time calling and then decided to move to HF.
+
+The summit is a bit of a black spot for mobile reception and I wasn’t prepared for that. I use my phone for 2m spotting and for SOTA spotting or looking up other activators. I’ve signed up and registered for APRS to SOTA, and SOTAMAT, a FT8 spotter, and maybe even a SMS one, but do I know how to use them?! 😅
+
+I eventually managed to spot myself on 40m and got a few contacts. 20m spot did work but no one ever came back to me…even though I’d had a few contacts with other callers.
+
+![QSOs](strathfinella.png)
+
+I managed two S2S contacts in Germany. One was an exchange of 11-31 each way but we managed to get my callsign and SOTA reference communicated.
+
+On the way down I thought about doing Hill of Garvock but I hadn’t packed lunch and still had to get back home. Maybe a double activation next time!

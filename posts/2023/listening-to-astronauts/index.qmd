@@ -1,0 +1,42 @@
+---
+title: "Listening to Astronauts 👨‍🚀"
+date: 2023-10-17
+subtitle: "School kids talking to the ISS orbiting at 17,000 mph"
+categories: ["LEO", "ISS", "satellites"]
+image: kg5gcz.jpg
+format:
+  html:
+    resources:
+      - 20231017_1326-ISS-Astronaut.mp3
+---
+
+A while ago I managed to pick up a Kenwood D72 from a SK sale for a good price. This is one of the few handhelds that do full duplex, and is also packed with features, including APRS and GPS. This makes it ideal for FM satellites. I recently picked up an Arrow II handheld 2m/70cm antenna to use with it. This is a fairly lightweight dual band yagi, with built in duplexer. All the elements screw together through the boom and so it makes it quick to put away and assemble.
+
+![Kenwood radio with Sony voice recorder](d72.jpeg)
+
+I do still need to read the D72’s manual as I was struggling to set up the memories and I think it only works in full duplex in a certain way. I presume A VFO as TX and B as RX but I could be wrong! I also realised the headphones use 2.5mm port and not 3.5mm.
+
+![ISS Detector AR View (whilst writing this post)](iss-detector.jpg)
+
+Anyway, I thought I’d mess about with it at lunch time. I’ve been investigating apps for tracking satellites and to find what’s coming next. I’ve found [ISS Detector](https://www.issdetector.com/) with the Amateur radio satellites add-on to be a good option on iOS. I do have to manually add all the birds I want to use. Whilst it shows you the mode, there’s no filtering for it, and in fact when it shows FM, that doesn’t necessarily mean a repeater for use. I need to reconcile the list against this [tracking site](http://amsat.org.ar/pass.htm), or this [status site](https://www.amsat.org/status/).
+
+It just so happened that the ISS was in view, and the radio already had the voice frequency saved in the memory. So I started the recorder and tried to get my antenna in the right direction. It didn’t help that it was where the sun was and so it was hard to read my phone but the AR mode in the ISS Detector app makes it fairly easy to know where to point.
+
+![](th000001-1-1024x576.jpg)
+
+[Theodolite app](https://hunter.pairsite.com/theodolite/) – still figuring this out too, but takes nice shots with all the info
+
+Turns out I was tuning into a [planned school contact](https://www.ariss.org/upcoming-educational-contacts.html) with Valley Stream South High School in New York state, who were talking with astronaut [Andreas Mogensen](https://blogs.esa.int/exploration/category/astronauts/andreas-mogensen/), KG5GCZ, aboard the ISS. This is their [livestream](https://youtube.com/live/g74NbsTEvVw), although not that exciting to watch 😅. They had a ham, [IK1SLD](https://www.qrz.com/db/IK1SLD), who was co-ordinating the radio part and the school were patched in via the internet. His [QRZ profile](https://www.qrz.com/db/IK1SLD) is quite interesting regarding the ISS and the telebridge ground station.
+
+As I didn’t have a 2.5mm jacket for the radio, I balanced the voice recorder on my arm whilst trying to hold the radio, antenna, and phone to see where the ISS was. The pass over me didn’t last long, maybe 5 minutes max, and I managed to record a couple of minutes of the astronaut’s answers to the kids questions. Obviously I don’t hear the kids transmission.
+
+<figure>
+<figcaption>My recording of the transmission. Edited to remove breaks.</figcaption>
+<audio controls src="20231017_1326-ISS-Astronaut.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+</figure>
+
+
+I ended up having to go and run errands and never got to work anything, but it was fun listening. I also need to sort out the handheld’s memories and RTFM!

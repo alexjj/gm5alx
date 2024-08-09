@@ -1,0 +1,21 @@
+---
+title: "A great day on 10"
+date: 2023-10-14
+subtitle: "Lots of new DX"
+categories: ["FT8", "10m"]
+image: pskreporter.png
+---
+
+If you’ve been paying any attention you would know propagation on 10m has been exceptional this past week or so. Given my shack relocation, I’ve been missing out on it…until today!
+
+I had some time around lunchtime and when I looked at the maximum usable frequency on [this site](https://prop.kc2g.com/), I was amazed to see the whole of the UK (including Scotland!) was around 40!
+
+![PSKReporter](pskreporter.png)
+
+Needless to say, I could hear all over the world, and they could hear me too.
+
+![10m QSOs](10m-edited.png)
+
+Several new DX locations for me today: China, Taiwan, Columbia, Azerbaijan, United Arab Emirates, plus some other good locations like South Africa. Later on the evening I tried 20m and got Cayman Islands, and Thailand.
+
+Hopefully these new locations confirm the QSOs, and that’ll take me closer to the 100 DXCC milestone. I have now worked 100 DX entities in my log, but only 75 have confirmed via LOTW (although 87 via qrz.com).

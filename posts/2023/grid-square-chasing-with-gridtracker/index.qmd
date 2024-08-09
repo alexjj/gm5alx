@@ -1,6 +1,6 @@
 ---
 title: "Grid Square Chasing with GridTracker"
-date: 2023-08-22
+date: 2023-08-28
 subtitle: "Gotta catch em all!"
 categories: ["FT8"]
 image: grid-tracker.png

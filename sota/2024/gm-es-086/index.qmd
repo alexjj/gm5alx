@@ -1,7 +1,7 @@
 ---
 title: Brimmond Hill
 subtitle: Scaring the locals
-image: "img_7960-768x1024"
+image: "img_7960-768x1024.jpg"
 points: 1
 date: 2024-06-21
 qsos: 14

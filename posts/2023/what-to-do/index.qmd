@@ -1,6 +1,6 @@
 ---
 title: "What to do"
-date: 2023-08-22
+date: 2023-08-24
 subtitle: "There are so many options!"
 categories: ["meta"]
 image: ftdx10-kid.jpg

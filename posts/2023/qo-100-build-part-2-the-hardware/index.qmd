@@ -2,7 +2,7 @@
 title: "QO-100 Build: Part 2 – The Hardware"
 date: 2023-09-04
 subtitle: "Buying the shopping list"
-categories: ["QO-100"]
+categories: ["QO-100", "satellites"]
 image: AMSAT-QO-100-NB-Transponder-Bandplan-Graph.png
 ---
 

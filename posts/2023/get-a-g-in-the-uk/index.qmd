@@ -1,6 +1,6 @@
 ---
 title: "Get a G in the UK"
-date: 2023-08-22
+date: 2023-11-29
 subtitle: "Many more callsign options"
 categories: ["meta"]
 image: licence-featured.jpg

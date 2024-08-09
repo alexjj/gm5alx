@@ -2,7 +2,7 @@
 title: "QO-100 Build: Part 1 – The Design"
 date: 2023-08-22
 subtitle: "Figuring out the shopping list"
-categories: ["QO-100"]
+categories: ["QO-100", "satellites"]
 image: eshail-2-qatar-oscar-100.png
 ---
 

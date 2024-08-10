@@ -709,29 +709,62 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
 
 
 <p>I was hungry for points, and wanted something a bit more challenging to try out, and whilst browsing <a href="https://sotl.as/map/">sotlas</a> and chatting with the Aberdeenshire SOTA WhatsApp group, Morven was decided.</p>
-<p><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-1.jpg" class="img-fluid" alt="Make sure I wasn’t hungry in other ways"> <img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-2.jpg" class="img-fluid" alt="View of the way up"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Make sure I wasn’t hungry in other ways"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-1.jpg" class="img-fluid figure-img" alt="Make sure I wasn’t hungry in other ways"></a></p>
+<figcaption>Make sure I wasn’t hungry in other ways</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-2.jpg" class="lightbox" data-gallery="my-gallery" title="View of the way up"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-2.jpg" class="img-fluid figure-img" alt="View of the way up"></a></p>
+<figcaption>View of the way up</figcaption>
+</figure>
+</div>
 <p>I climbed from the east side, parking along the road just at a <a href="https://maps.app.goo.gl/wwGugdext5RNCAbA9">junction</a>. Space for maybe 5 cars here. You walk across the field and past an abandoned house. As you go through the gate you have to turn right immediately on a faint looking track otherwise you’ll be off walking around the hill wondering why you aren’t going up. It’s not very obvious at all, but after a little while the track starts to appear again. I’d been warned!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="morven-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Views to the south"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-4.jpg" class="img-fluid figure-img" alt="Views to the south"></a></p>
+<p><a href="morven-4.jpg" class="lightbox" data-gallery="my-gallery" title="Views to the south"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-4.jpg" class="img-fluid figure-img" alt="Views to the south"></a></p>
 <figcaption>Views to the south</figcaption>
 </figure>
 </div>
 <p>The gradient steps up quite a bit and it’s a pretty relentless 300m climb. It starts to level out and you think you must be nearly there…but no you’re probably only about half way, but at least it’s nearly flat for a while. This process repeats and you think you’re nearly there again after climbing another steep section but no! Still a bit further to go.</p>
-<p><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-5.jpg" class="img-fluid" alt="A false summit"> <img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-7.jpg" class="img-fluid" alt="The real summit"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-5.jpg" class="lightbox" data-gallery="my-gallery" title="A false summit"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-5.jpg" class="img-fluid figure-img" alt="A false summit"></a></p>
+<figcaption>A false summit</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-7.jpg" class="lightbox" data-gallery="my-gallery" title="The real summit"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-7.jpg" class="img-fluid figure-img" alt="The real summit"></a></p>
+<figcaption>The real summit</figcaption>
+</figure>
+</div>
 <p>It was a glorious day at the top and I tried 2m FM first. I just have the slightly longer whip on the Boafeng, it’s okay but not the best. Others seem to have the slim G antenna from <a href="http://www.spectrumcomms.co.uk/Aerials.htm">Spectrum communications</a>, so I might need to get one of those. Only £20. I had 3 on 2m, and then tried the repeater and got one of the same people again!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="morven-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Need a longer arm"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-11.jpg" class="img-fluid figure-img" alt="Need a longer arm"></a></p>
+<p><a href="morven-11.jpg" class="lightbox" data-gallery="my-gallery" title="Need a longer arm"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-11.jpg" class="img-fluid figure-img" alt="Need a longer arm"></a></p>
 <figcaption>Need a longer arm</figcaption>
 </figure>
 </div>
 <p>I then setup HF, it was quite windy and the pole was getting blown about a lot but it was fine. I was trying out my newly made EFHW. It would only tune with a counterpoise but I think my feedpoint might be too close to the ground, however, it still works so that’s all that matters at the top!</p>
-<p><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-12.jpg" class="img-fluid" data-group="my-gallery" alt="EFHW 49:1 transformer"> <img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-13.jpg" class="img-fluid" data-group="my-gallery" alt="View of antenna looking south"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-12.jpg" class="lightbox" data-gallery="my-gallery" title="EFHW 49:1 transformer"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-12.jpg" class="img-fluid figure-img" alt="EFHW 49:1 transformer"></a></p>
+<figcaption>EFHW 49:1 transformer</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="morven-13.jpg" class="lightbox" data-gallery="my-gallery" title="View of antenna looking south"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-13.jpg" class="img-fluid figure-img" alt="View of antenna looking south"></a></p>
+<figcaption>View of antenna looking south</figcaption>
+</figure>
+</div>
 <p>Managed 11 contacts on 20m, including a summit to summit in France. 40m seemed completely dead with just a local contact being the only one.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="qsos.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="QSOs"><img src="https://gm5alx.uk/sota/2024/gm-es-018/qsos.png" class="img-fluid figure-img" alt="QSOs"></a></p>
+<p><a href="qsos.png" class="lightbox" data-gallery="my-gallery" title="QSOs"><img src="https://gm5alx.uk/sota/2024/gm-es-018/qsos.png" class="img-fluid figure-img" alt="QSOs"></a></p>
 <figcaption>QSOs</figcaption>
 </figure>
 </div>
@@ -739,7 +772,7 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
 <p>Back down was easier although you had to be careful with loose stones on the path when it was quite steep. Driving home I did a big sneeze in the car and felt something strange in my abdomen, this later turned out to be an inguinal hernia. Eugh.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="morven-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Summit selfie"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-6.jpg" class="img-fluid figure-img" alt="Summit selfie"></a></p>
+<p><a href="morven-6.jpg" class="lightbox" data-gallery="my-gallery" title="Summit selfie"><img src="https://gm5alx.uk/sota/2024/gm-es-018/morven-6.jpg" class="img-fluid figure-img" alt="Summit selfie"></a></p>
 <figcaption>Summit selfie</figcaption>
 </figure>
 </div>
@@ -782,31 +815,54 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
 </figure>
 </div>
 <p>The gradient picks up in the forest area and then you emerge around 400m up looking up to the summit and across to the south, where there’s a wind farm on the side of the hill. The walk from here continues up and round to the summit. I had blue skies and a bit of haze in the distance but great views all round.</p>
-<p><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-5.jpg" class="img-fluid" data-group="my-gallery" alt="Windfarm"> <img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-6.jpg" class="img-fluid" data-group="my-gallery" alt="Not far to the top"> <img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-7.jpg" class="img-fluid" data-group="my-gallery" alt="Looking East"> <img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-9.jpg" class="img-fluid" data-group="my-gallery" alt="From the summit"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kerloch-5.jpg" class="lightbox" data-gallery="my-gallery" title="Windfarm"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-5.jpg" class="img-fluid figure-img" alt="Windfarm"></a></p>
+<figcaption>Windfarm</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kerloch-6.jpg" class="lightbox" data-gallery="my-gallery" title="Not far to the top"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-6.jpg" class="img-fluid figure-img" alt="Not far to the top"></a></p>
+<figcaption>Not far to the top</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kerloch-7.jpg" class="lightbox" data-gallery="my-gallery" title="Looking East"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-7.jpg" class="img-fluid figure-img" alt="Looking East"></a></p>
+<figcaption>Looking East</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kerloch-9.jpg" class="lightbox" data-gallery="my-gallery" title="From the summit"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-9.jpg" class="img-fluid figure-img" alt="From the summit"></a></p>
+<figcaption>From the summit</figcaption>
+</figure>
+</div>
 <p>This time I had a much lighter pack with me. I’d been lucky in find a used KX2, and it is <em>considerably</em> lighter than my G90 plus huge battery! I have it tucked into a little LowePro camera case and I printed a <a href="https://www.thingiverse.com/thing:4973035">front cover</a> to protect it whilst in transit. I was using the short random wire vertical as before. This is a 5.5m radiator, with two 4.25m counterpoises. They’re attached via bananaplugs to a BNC, then a short piece of coax with a common mode choke into the radio. I also had my Boafeng for 2m FM.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="kerloch-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Essentials"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-4.jpg" class="img-fluid figure-img" alt="Essentials"></a></p>
+<p><a href="kerloch-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Essentials"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-4.jpg" class="img-fluid figure-img" alt="Essentials"></a></p>
 <figcaption>Essentials</figcaption>
 </figure>
 </div>
 <p>I got 3 on 2m FM from Aberdeen and shire, then setup on HF. Where the G90 can tune the antenna on 40m, the KX2 can’t - not without a helper transformer. So I went straight to 20m, where I managed another 10 contacts. The highlight being <a href="https://www.qrz.com/db/JW9DSA">JW9DSA</a> from Svalbard. I didn’t know where JW was at the time and he was a very strong signal, so I didn’t think much of it. He did keep saying “hello from the artic”, and thanking me for the SOTA activation. I sort of assumed it was Russian somewhere. When I got home I looked him up and saw where and what they were up to! He wasn’t on a summit at the time, just in the camp calling others. A good contact at around 1,500 miles, and makes the map look bigger!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="qsos.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="QSOs"><img src="https://gm5alx.uk/sota/2024/gm-es-059/qsos.jpeg" class="img-fluid figure-img" alt="QSOs"></a></p>
+<p><a href="qsos.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="QSOs"><img src="https://gm5alx.uk/sota/2024/gm-es-059/qsos.jpeg" class="img-fluid figure-img" alt="QSOs"></a></p>
 <figcaption>QSOs</figcaption>
 </figure>
 </div>
 <p>I’d also tried out the <a href="posts/2024/building-a-tiny-mic/">tiny mic</a> for the first time. I assumed it worked okay as no-one said anything untowards. I also had the audio repeat (I forget the proper term), so I could hear myself and it seemed fine to me also. It was back down and back home. I was hot by the time I got back as the weather was warm and it was sunny. Had a nice cup of tea at home, looked at the logs and then it was time to pick the kids up from school!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="kerloch-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Tiny Mic in action"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-11.jpg" class="img-fluid figure-img" alt="Tiny Mic in action"></a></p>
+<p><a href="kerloch-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Tiny Mic in action"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-11.jpg" class="img-fluid figure-img" alt="Tiny Mic in action"></a></p>
 <figcaption>Tiny Mic in action</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="kerloch-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Looking forward to the next one!"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-12.jpg" class="img-fluid figure-img" alt="Looking forward to the next one!"></a></p>
+<p><a href="kerloch-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Looking forward to the next one!"><img src="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-12.jpg" class="img-fluid figure-img" alt="Looking forward to the next one!"></a></p>
 <figcaption>Looking forward to the next one!</figcaption>
 </figure>
 </div>

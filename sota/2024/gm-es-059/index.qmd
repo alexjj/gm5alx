@@ -22,8 +22,11 @@ Once you start getting into the forest part you turn off the road and onto a tra
 The gradient picks up in the forest area and then you emerge around 400m up looking up to the summit and across to the south, where there's a wind farm on the side of the hill. The walk from here continues up and round to the summit. I had blue skies and a bit of haze in the distance but great views all round.
 
 ![Windfarm](kerloch-5.jpg){group="my-gallery"}
+
 ![Not far to the top](kerloch-6.jpg){group="my-gallery"}
+
 ![Looking East](kerloch-7.jpg){group="my-gallery"}
+
 ![From the summit](kerloch-9.jpg){group="my-gallery"}
 
 This time I had a much lighter pack with me. I'd been lucky in find a used KX2, and it is *considerably* lighter than my G90 plus huge battery! I have it tucked into a little LowePro camera case and I printed a [front cover](https://www.thingiverse.com/thing:4973035) to protect it whilst in transit. I was using the short random wire vertical as before. This is a 5.5m radiator, with two 4.25m counterpoises. They’re attached via bananaplugs to a BNC, then a short piece of coax with a common mode choke into the radio. I also had my Boafeng for 2m FM.

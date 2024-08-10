@@ -12,32 +12,35 @@ summit: "GM/ES-018"
 I was hungry for points, and wanted something a bit more challenging to try out, and whilst browsing [sotlas](https://sotl.as/map/) and chatting with the Aberdeenshire SOTA WhatsApp group, Morven was decided.
 
 ![Make sure I wasn't hungry in other ways](morven-1.jpg)
-![View of the way up](morven-2.jpg)
+
+![View of the way up](morven-2.jpg){group="my-gallery"}
 
 I climbed from the east side, parking along the road just at a [junction](https://maps.app.goo.gl/wwGugdext5RNCAbA9). Space for maybe 5 cars here. You walk across the field and past an abandoned house. As you go through the gate you have to turn right immediately on a faint looking track otherwise you'll be off walking around the hill wondering why you aren't going up. It's not very obvious at all, but after a little while the track starts to appear again. I'd been warned!
 
-![Views to the south](morven-4.jpg)
+![Views to the south](morven-4.jpg){group="my-gallery"}
 
 The gradient steps up quite a bit and it's a pretty relentless 300m climb. It starts to level out and you think you must be nearly there...but no you're probably only about half way, but at least it's nearly flat for a while. This process repeats and you think you're nearly there again after climbing another steep section but no! Still a bit further to go.
 
-![A false summit](morven-5.jpg)
-![The real summit](morven-7.jpg)
+![A false summit](morven-5.jpg){group="my-gallery"}
+
+![The real summit](morven-7.jpg){group="my-gallery"}
 
 It was a glorious day at the top and I tried 2m FM first. I just have the slightly longer whip on the Boafeng, it's okay but not the best. Others seem to have the slim G antenna from [Spectrum communications](http://www.spectrumcomms.co.uk/Aerials.htm), so I might need to get one of those. Only £20. I had 3 on 2m, and then tried the repeater and got one of the same people again!
 
-![Need a longer arm](morven-11.jpg)
+![Need a longer arm](morven-11.jpg){group="my-gallery"}
 
 I then setup HF, it was quite windy and the pole was getting blown about a lot but it was fine. I was trying out my newly made EFHW. It would only tune with a counterpoise but I think my feedpoint might be too close to the ground, however, it still works so that's all that matters at the top!
 
 ![EFHW 49:1 transformer](morven-12.jpg){group="my-gallery"}
+
 ![View of antenna looking south](morven-13.jpg){group="my-gallery"}
 
 Managed 11 contacts on 20m, including a summit to summit in France. 40m seemed completely dead with just a local contact being the only one.
 
-![QSOs](qsos.png)
+![QSOs](qsos.png){group="my-gallery"}
 
 A couple of folks started up the hill a bit after me, I was probably at the gate when they left the car park but I think the steepness slowed them down considerable as I was on my way back down before I met them.
 
 Back down was easier although you had to be careful with loose stones on the path when it was quite steep. Driving home I did a big sneeze in the car and felt something strange in my abdomen, this later turned out to be an inguinal hernia. Eugh.
 
-![Summit selfie](morven-6.jpg)
+![Summit selfie](morven-6.jpg){group="my-gallery"}

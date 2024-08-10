@@ -1,10 +1,32 @@
 ---
 title: Benaquhallie
 subtitle: Second of two summits, yer quhallie!
-image: "placeholder.jpg"
+image: "benaquhallie-3.jpg"
 points: 1
 date: 2024-07-05
 qsos: 19
 total: 16
 summit: "GM/ES-065"
 ---
+
+After [Hill of Fare](/sota/2024/gm-es-070/), I drove across to Benaquhallie, and [parked](https://maps.app.goo.gl/a8nNR6BCH9RMpJiQ7) by the side of an old farm building. There's not really much space to park, and I think the house is still occupied so you can't block the road, but maybe two cars could park there.
+
+![Park at the red dot and follow the path](route.png)
+
+The route up is fairly easy going, you walk east in front and around the summit before turning back on yourself and climbing up to the top. There's a trig point where the summit marker is but then down the hill a little, along that path, is the cairn.
+
+![Imagine Peace](benaquhallie-1.jpg)
+
+I started with 2m at the trig point and managed 3, and then another 3 on 70cm. Meanwhile Chris, MM7RVP, was up Cairn-mon-earn and calling CQ on 2m as well. The four of us could hear him but he seemed to struggle to recieve. Like [I did](/sota/2024/gm-es-080/), there's quite a bit of QRM from the communications towers there and I think his handheld was getting overloaded.
+
+![Slim G by the cairn](benaquhallie-2.jpg)
+
+I setup the Slim G to see if that would help get through the Chris, but no luck again. So I took it down and setup HF. I did manage to get Chris on both 40m and 20m, for our summit to summit. I then called on 20m and ended up with another 11 EU contacts, including a summit to summit in Switzerland.
+
+![QSOs](qsos.png)
+
+I was pleased to manage two summits in one day. I had to be back for school pickup so timing wise it worked out quite well. There was a 1:20 gap between my last contact on Hill of Fare and my first on Benaquhallie, so these pair are a good combo, espeically if you can activate on VHF/UHF!
+
+Mike, 2M0WMA, also taught us all, over the air, how to pronounce Benaquhallie. It's something like "ben-a-whallie", but with some good accent on the Wh. I think I was the only whallie that day.
+
+![SSummit selfie](benaquhallie-4.jpg)

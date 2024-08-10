@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,11 +75,11 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="Hill of Fare – 📻 GM5ALX Radio">
 <meta property="og:description" content="First of two summits">
-<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-070/placeholder.jpg">
+<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-070/hilloffare-2.jpg">
 <meta property="og:site_name" content="📻 GM5ALX Radio">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -118,13 +121,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -163,6 +161,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Another nice day and another chance for some activiations. After my trip to <a href="../../../sota/2024/gm-es-075/">Strathfinella</a> and not doing Garvock on the same day, I was determined to try for two in one day today. So I was more prepared with lunch and routes this time.</p>
+<p>First was Hill of Fare. There’s a car park called <a href="https://maps.app.goo.gl/ERdUMuy4Y7aU9nzL8">Back of Hill of Fare</a> on the B993 where there’s space for 5-10 cars by the side of a log store. I then followed the path up from there. A couple of new looking fences have been installed but there are some nice gates. They had very high handles, which I thought was strange, but then someone pointed out they’re for horse riders.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="hilloffare-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Good views on the way up"><img src="hilloffare-1.jpg" class="img-fluid figure-img" alt="Good views on the way up"></a></p>
+<figcaption>Good views on the way up</figcaption>
+</figure>
+</div>
+<p>Probably took around 50-60 minutes to reach the top. It’s quite a wide opening at the top, with some small pools of water.</p>
+<p>I didn’t want to hang about long, so 2M FM got me 3 contacts and then I switched to 70cm to activate the summit. Three people, 4 callsigns and 2 bands in about 10 minutes! Time to go to the next one, and hopefully arrive in time to catch Chris, MM7RVP, going up Cairn-mon-earn for a summit to summit contact.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="hilloffare-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Slim G on the pole"><img src="hilloffare-3.jpg" class="img-fluid figure-img" alt="Slim G on the pole"></a></p>
+<figcaption>Slim G on the pole</figcaption>
+</figure>
+</div>
 
 
 
@@ -589,6 +603,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/sota/2024/gm-es-070/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

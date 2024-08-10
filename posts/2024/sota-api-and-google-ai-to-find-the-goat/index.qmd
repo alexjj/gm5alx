@@ -4,6 +4,7 @@ date: 2024-07-06
 subtitle: "Lots of data to play with"
 categories: ["programming"]
 image: randomgoat.jpg
+toc: false
 ---
 
 After my double activation yesterday (which I’ve yet to write up), I bumped into Fraser, [MM0EFI](https://www.qrz.com/db/MM0EFI) of [RadioRover](https://www.youtube.com/@theradiorover/) YouTube fame, in Tesco. He was asking when I was going to be doing some higher point summits, as mostly I’ve been doing ones near to the house which don’t score that high. There are quite a [few in my region](https://sotl.as/summits/GM/ES). After browsing sotl.as some more, I was curious as to how long it took Fraser to reach Mountain Goat. This is the award you get when you reach 1,000 points.

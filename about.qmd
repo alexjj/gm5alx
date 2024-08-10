@@ -4,6 +4,9 @@ image: profile.jpg
 about:
   template: marquee
   links:
+    - icon: envelope-at
+      text: Email Me
+      href: mailto:alex@gm5alx.uk
     - icon: broadcast-pin
       text: QRZ
       href: https://www.qrz.com/db/GM5ALX
@@ -13,6 +16,7 @@ about:
     - icon: github
       text: Github
       href: https://github.com/alexjj
+
 
 ---
 

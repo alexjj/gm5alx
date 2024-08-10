@@ -4,6 +4,7 @@ date: 2024-07-07
 subtitle: "Groundstations!"
 categories: ["lora", "satellites"]
 image: img_8049.jpg
+toc: false
 ---
 
 [TinyGS](https://tinygs.com/), is a network system to retrieve LoRa satellite data using ESP devices, much like SatNOGS. Everything is managed via the [GitHub](https://github.com/G4lile0/tinyGS) repo and the [Telegram channels](https://t.me/joinchat/DmYSElZahiJGwHX6jCzB3Q).

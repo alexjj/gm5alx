@@ -2,7 +2,7 @@
 title: "Building a tiny mic 🎙️"
 date: 2024-03-24
 subtitle: "Weight saving for portable ops"
-categories: ["Construction", "KX2"]
+categories: ["Building"]
 image: compare.jpg
 ---
 

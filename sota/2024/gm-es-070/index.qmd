@@ -1,10 +1,22 @@
 ---
 title: Hill of Fare
 subtitle: First of two summits
-image: "placeholder.jpg"
+image: "hilloffare-2.jpg"
 points: 1
 date: 2024-07-05
 qsos: 5
 total: 15
 summit: "GM/ES-070"
 ---
+
+Another nice day and another chance for some activiations. After my trip to [Strathfinella](/sota/2024/gm-es-075/) and not doing Garvock on the same day, I was determined to try for two in one day today. So I was more prepared with lunch and routes this time.
+
+First was Hill of Fare. There's a car park called [Back of Hill of Fare](https://maps.app.goo.gl/ERdUMuy4Y7aU9nzL8) on the B993 where there's space for 5-10 cars by the side of a log store. I then followed the path up from there. A couple of new looking fences have been installed but there are some nice gates. They had very high handles, which I thought was strange, but then someone pointed out they're for horse riders.
+
+![Good views on the way up](hilloffare-1.jpg)
+
+Probably took around 50-60 minutes to reach the top. It's quite a wide opening at the top, with some small pools of water.
+
+I didn't want to hang about long, so 2M FM got me 3 contacts and then I switched to 70cm to activate the summit. Three people, 4 callsigns and 2 bands in about 10 minutes! Time to go to the next one, and hopefully arrive in time to catch Chris, MM7RVP, going up Cairn-mon-earn for a summit to summit contact.
+
+![Slim G on the pole](hilloffare-3.jpg)

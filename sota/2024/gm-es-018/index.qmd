@@ -8,3 +8,6 @@ qsos: 16
 total: 11
 summit: "GM/ES-018"
 ---
+
+I was hungry for points, and wanted something a bit more challenging to try out, and whilst browsing [sotlas](https://sotl.as/map/) and chatting with the Aberdeenshire SOTA WhatsApp group, Morven was decided.
+

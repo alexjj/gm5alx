@@ -11,9 +11,7 @@ title-block-banner: false
 author: "Alex Johnstone"
 
 # Default for table of contents
-toc: true
-toc-title: Table of contents
-toc-location: left
+toc: false
 
 lightbox: true
 match: auto

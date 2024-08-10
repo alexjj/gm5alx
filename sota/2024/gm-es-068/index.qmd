@@ -1,10 +1,44 @@
 ---
 title: Craiglich
 subtitle: SOTA with daughter
-image: "placeholder.jpg"
+image: "craiglich-5.jpg"
 points: 1
 date: 2024-07-28
 qsos: 4
 total: 17
 summit: "GM/ES-068"
 ---
+
+It's the summer holidays and so the kids are home all the time, or we're away etc. and I didn't think I would get to do very much SOTA during the holidays. However, today the younger ones were off on a play date with some friends, so that just left my eldest and I at home. Left to her own devices she would spend all her time **on** devices! So I figured we should go climb a hill!
+
+My usual research method of browsing the [sotlas map](https://sotl.as/map/) and asking the WhatsApp group led to Craiglich with the prospect of a tea room afterwards. The tea room was the real winner here. 🍰
+
+![Path to the top](route.png)
+
+There's a small car park on the north side of the road and after climbing a rickerty gate, we were off!
+
+![Happy to start](craiglich-1.jpg)
+
+The path starts along through a field and then enters the forest. It's a little wet and boggy at first, but nothing major. The pathway is quite narrow with heather and pines growing close by. I was wearing shorts and was beginning to regret that idea on the grounds of tick risk! Although I managed the whole walk without any incident.
+
+![Through the forest](craiglich-2.jpg)
+
+There's only one real turn that you have to look for in the forest, where you bear to the left to climb the hill. At this point it's a little steeper but overall the path is gentle and very pleasant. You come out of the forest into the open area with nice purple heather covering the hillside. I'd recently bought [Sotagoat app](https://apps.apple.com/gb/app/sota-goat/id590206108), so my daugther was using it to track the summit. It's a convenient app for finding the summit and telling you when you're in the activation area. It offers an offline database too, so you can find information without phone reception, and finally spotting is easy from it. Probably does more but I've not looked into it too much yet.
+
+We reached the top and I setup my slim G on the mast on the cairn, with the D72 and called CQ on 2m FM. I spoke to the locals, including Chris, MM7RVC, who'd literally just completed his intermediate exam and had passed. So we all congratulated him on that! I also spoke with Bruce, MM6BWS, who was a new local contact for me.
+
+![](craiglich-5.jpg)
+
+I did hear another station on a summit, and heard him having a QSO with MM7MOX (Andy), although I couldn't hear Andy. Looking at MM7MOX's activations and logs, he was on Torlum (GM/SS-227) at the time I think it must've been Lee, MM7LEF/P, on Scald Law (GM/SS-125) that I could hear. He was working 2m FM at exactly the time I could hear him as it was interrupting my chat with Bruce. Pretty amazing as it's almost 150 km away and there are big hills between us. Aircraft scatter? I don't know, I should email him!
+
+![That is quite the distance!](mm7lef.png)
+
+I got my four and this trip was not about contacts, so we packed and headed down the hill in preparation for the best part of the trip!
+
+We were going to go to Tarland tea room but when I looked at the map I saw there was one in Lumphanan and that was on our route home, so seemed a better choice. Alas! it proved no good as they only took cash and I had none. The nearest cash machine was miles away and, being a Sunday, the local post office was shut. That was a shame as it looked a lovely little tea room. So we continued on into Banchory and found somewhere there. The Birdhouse cafe. It was fine - a bit too hipster coffee house for me but I had a cup of tea and my daugther a can of diet coke.
+
+Our other task was to find some jam sugar after our strawberry picking, and it seems the only store in Aberdeenshire that had any was the Morrisons in Banchory - whilst it was the last shop we visited it wasn't the first!
+
+![Happy smiles all round](craiglich-6.jpg)
+
+Maybe we'll manage another in the holidays...and I'll have to be better prepared on the tea shop side!

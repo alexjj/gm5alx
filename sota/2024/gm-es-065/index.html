@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../../styles.css">
 <meta property="og:title" content="Benaquhallie – 📻 GM5ALX Radio">
 <meta property="og:description" content="Second of two summits, yer quhallie!">
-<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-065/placeholder.jpg">
+<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-065/benaquhallie-3.jpg">
 <meta property="og:site_name" content="📻 GM5ALX Radio">
 </head>
 
@@ -158,6 +161,42 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>After <a href="../../../sota/2024/gm-es-070/">Hill of Fare</a>, I drove across to Benaquhallie, and <a href="https://maps.app.goo.gl/a8nNR6BCH9RMpJiQ7">parked</a> by the side of an old farm building. There’s not really much space to park, and I think the house is still occupied so you can’t block the road, but maybe two cars could park there.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="route.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Park at the red dot and follow the path"><img src="route.png" class="img-fluid figure-img" alt="Park at the red dot and follow the path"></a></p>
+<figcaption>Park at the red dot and follow the path</figcaption>
+</figure>
+</div>
+<p>The route up is fairly easy going, you walk east in front and around the summit before turning back on yourself and climbing up to the top. There’s a trig point where the summit marker is but then down the hill a little, along that path, is the cairn.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="benaquhallie-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Imagine Peace"><img src="benaquhallie-1.jpg" class="img-fluid figure-img" alt="Imagine Peace"></a></p>
+<figcaption>Imagine Peace</figcaption>
+</figure>
+</div>
+<p>I started with 2m at the trig point and managed 3, and then another 3 on 70cm. Meanwhile Chris, MM7RVP, was up Cairn-mon-earn and calling CQ on 2m as well. The four of us could hear him but he seemed to struggle to recieve. Like <a href="../../../sota/2024/gm-es-080/">I did</a>, there’s quite a bit of QRM from the communications towers there and I think his handheld was getting overloaded.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="benaquhallie-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Slim G by the cairn"><img src="benaquhallie-2.jpg" class="img-fluid figure-img" alt="Slim G by the cairn"></a></p>
+<figcaption>Slim G by the cairn</figcaption>
+</figure>
+</div>
+<p>I setup the Slim G to see if that would help get through the Chris, but no luck again. So I took it down and setup HF. I did manage to get Chris on both 40m and 20m, for our summit to summit. I then called on 20m and ended up with another 11 EU contacts, including a summit to summit in Switzerland.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qsos.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="QSOs"><img src="qsos.png" class="img-fluid figure-img" alt="QSOs"></a></p>
+<figcaption>QSOs</figcaption>
+</figure>
+</div>
+<p>I was pleased to manage two summits in one day. I had to be back for school pickup so timing wise it worked out quite well. There was a 1:20 gap between my last contact on Hill of Fare and my first on Benaquhallie, so these pair are a good combo, espeically if you can activate on VHF/UHF!</p>
+<p>Mike, 2M0WMA, also taught us all, over the air, how to pronounce Benaquhallie. It’s something like “ben-a-whallie”, but with some good accent on the Wh. I think I was the only whallie that day.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="benaquhallie-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="SSummit selfie"><img src="benaquhallie-4.jpg" class="img-fluid figure-img" alt="SSummit selfie"></a></p>
+<figcaption>SSummit selfie</figcaption>
+</figure>
+</div>
 
 
 
@@ -584,6 +623,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 <footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/sota/2024/gm-es-065/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

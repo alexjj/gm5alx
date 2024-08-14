@@ -2,7 +2,7 @@
 title: "QSL cards time"
 date: 2024-06-20
 subtitle: "Radio christmas"
-categories: ["QSOs"]
+categories: [QSO]
 image: image.jpg
 ---
 

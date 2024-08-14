@@ -15,7 +15,7 @@ listing:
     date: "Date"
     title: "Name"
     summit: "Summit"
-    qsos: "QSOs"
+    qsos: QSO
     points: "Points"
     total: "Total Points"
 page-layout: article

@@ -1,0 +1,58 @@
+---
+title: "Finally Making a LEO QSO"
+date: 2024-08-14
+subtitle: "Mostly..."
+categories: ["LEO", "satellites", "QSO"]
+image: d72.jpeg
+format:
+  html:
+    resources:
+      - first-contact.ogg
+---
+
+After what seems [like ages ago](/posts/2023/first-attempts-at-leo/), when I last went out into the garden with the yagi and HT to try and make a contact via a FM satellite, I finally did it.
+
+Last time I struggled with holding all the things, trying to find the satellite and using the radio. I only managed to hear for a short period and that was it. So I decided to make a phone holder which goes on the antenna. I've seen several people do this on YouTube, and there are lots of designs already made online. I printed this [one](https://www.printables.com/model/69675-arrow-antenna-tripod-and-cellphone-mount), and bought a phone holder from Amazon that screws in.
+
+![Phone Mount Ready](iphone-arrow.jpg)
+
+In practice it wasn't quite as perfect as I thought it would've been. It's probably a few factors, not being perfectly aligned, maybe the metal in the antenna messes with the phone's compass and perhaps other things but I had to hunt around a little for the satellite. Together with deciding at what orientation I should hold the antenna, and if it's about time I change the frequency due to doppler, still left me feeling like I wasn't going to have a chance.
+
+![Radio and voice recorder](d72.jpeg)
+
+I did simplify the radio and audio end. Last time I had a series of cables from the radio splitting the audio into the voice recorder and into ear phones. This was either directly connected to the radio or via the mini-fist mic which has the three buttons on. I thought those buttons might be useful for swithcing VFO and adjusting the memories which have the doppler corrections pre-programmed.
+
+This time I put the voice recorder in my shirt top pocket, and held the HT and used it directly. No audio cables. This cleared out the clutter and meant I had one hand on the yagi and one on the radio.
+
+One Sunday evening in July I decided to go out and try it. I'd seen SO-50 was coming up and had a reasonable pass of around 10-15 minutes and at a good elevation. It was coming up over the neighbour's house and then I would see it. I found it pretty quick and heard [M5JFS](https://www.qrz.com/db/M5JFS) calling CQ. I replied but he made a QSO with someone else, however, he then ended with "I think there's a GM5 station calling". Here was my chance, and I made the contact!
+
+<figure>
+<figcaption>Audio of my first QSO</figcaption>
+<audio controls src="first-contact.ogg">
+        Your browser does not support the
+        <code>audio</code> element.
+</audio>
+</figure>
+
+However, in the excitement I lost the satellite and only heard the very beginning of John talking about it being my first satellite contact. I did find the satellite again and people had moved on. I didn't manage to make another contact on that pass.
+
+Hearing John and myself on the audio made me "see" how slick an experienced satellite operator is and how much thinking I was doing just to say what I did 😅.
+
+The D72 is a full duplex radio, however, I didn't hear myself on the downlink. Now perhaps I didn't have some setting right (although I checked it several times), but when I emailed John afterwards and meantioned it, he suggested that I wasn't hearing myself when I tx'd because the sat downlink is weakish relative to my uplink power and it was a fairly low pass. So even with filtering in the radio, there might still have been some de-sense going on sufficient to knock out your downlink.
+
+I have since made one more contact, also on SO-50, also not doing that great at keeping the satellite in my yagi's path. I've heard people talk about printing out the sat's path, and then working out landmarks around my house and what bearing they are, to then try and follow the path without the AR phone app.
+
+![One of these looks good](sarcnet.jpg)
+
+What I am thinking of doing, is building a rotator for the yagi, and having the computer control the tracking. I think it would be a fun project. I've started buying some of the pieces of this [simple rotator](https://www.sarcnet.org/rotator-mk1.html) by the Australia SARCnet. It's not a permanent setup but more of a sunny afternoon in the garden arrangement.
+
+However, at the moment, because of the sunny afternoons, and the school holidays, I haven't had time to make it, and any free time I have had, I've gone out to a SOTA summit instead! So it may take another 6 months before I build it and try for a satellite QSO again. Maybe next time I'll try a SSB one!
+
+### Useful links
+
+Some links I've saved for figuring out satellites:
+
+* [AMSAT Status page](https://www.amsat.org/status/)
+* [Calculate passes at your location](https://hams.at/passes)
+* [AMSAT passes tracker](http://amsat.org.ar/pass.htm#top)
+* [AMSAT FM Frequency summary](https://www.amsat.org/fm-satellite-frequency-summary/)

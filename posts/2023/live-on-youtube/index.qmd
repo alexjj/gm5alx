@@ -2,7 +2,7 @@
 title: "Live on YouTube"
 date: 2023-09-23
 subtitle: "With our friend Cal, M0XXT"
-categories: ["QSOs"]
+categories: [QSO]
 image: m0xxt.jpg
 ---
 

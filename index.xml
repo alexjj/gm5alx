@@ -28,7 +28,7 @@
 <figcaption>Phone Mount Ready</figcaption>
 </figure>
 </div>
-<p>In practice it wasn’t quite as perfect as I thought it would’ve been. It’s probably a few factors, not being perfectly aligned, maybe the metal in the antenna messes with the phone’s compass and perhaps other things but I had to hunt around a little for the satellite. Together with deciding at what orientation I should hold the antenna, and if it’s about time I change the frequency due to doppler, still left me feeling like I wasn’t going to have a chance.</p>
+<p>In practice it wasn’t quite as perfect as I thought it would be. It’s probably a few factors, not being perfectly aligned, maybe the metal in the antenna messes with the phone’s compass and perhaps other things but I had to hunt around a little for the satellite. Together with deciding at what orientation I should hold the antenna, and if it’s about time I change the frequency due to doppler, still left me feeling like I wasn’t going to have a chance.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="d72.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Radio and voice recorder"><img src="https://gm5alx.uk/posts/2024/finally-making-a-leo-qso/d72.jpeg" class="img-fluid figure-img" alt="Radio and voice recorder"></a></p>
@@ -48,7 +48,7 @@ Your browser does not support the <code>audio</code> element.
 </figure>
 <p>However, in the excitement I lost the satellite and only heard the very beginning of John talking about it being my first satellite contact. I did find the satellite again and people had moved on. I didn’t manage to make another contact on that pass.</p>
 <p>Hearing John and myself on the audio made me “see” how slick an experienced satellite operator is and how much thinking I was doing just to say what I did 😅.</p>
-<p>The D72 is a full duplex radio, however, I didn’t hear myself on the downlink. Now perhaps I didn’t have some setting right (although I checked it several times), but when I emailed John afterwards and meantioned it, he suggested that I wasn’t hearing myself when I tx’d because the sat downlink is weakish relative to my uplink power and it was a fairly low pass. So even with filtering in the radio, there might still have been some de-sense going on sufficient to knock out your downlink.</p>
+<p>The D72 is a full duplex radio, however, I didn’t hear myself on the downlink. Now perhaps I didn’t have some setting right (although I checked it several times), but when I emailed John afterwards and mentioned it, he suggested that I wasn’t hearing myself when I tx’d because the sat downlink is weakish relative to my uplink power and it was a fairly low pass. So even with filtering in the radio, there might still have been some de-sense going on sufficient to knock out my downlink.</p>
 <p>I have since made one more contact, also on SO-50, also not doing that great at keeping the satellite in my yagi’s path. I’ve heard people talk about printing out the sat’s path, and then working out landmarks around my house and what bearing they are, to then try and follow the path without the AR phone app.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">

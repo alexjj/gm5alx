@@ -1,27 +1,60 @@
 ---
 title: "Something for the weekend"
-date: 2024-07-06
+date: 2024-08-22
 subtitle: "Trying a new antenna"
 categories: ["Vertical"]
-image: randomgoat.jpg
+image: qsos.png
 toc: false
-draft: true
 ---
 
-Ever since I've been on HF, I had the same EFHW in the back garden as my antenna. It's been great, lots of contacts made all over the world on SSB and digital modes. Pretty much worldwide with FT8/4 but also good DX on SSB into South Africa, Japan, Brazil amoungst others. Plus of course nice chats in UK/EU predominately across 40m and 20m. If the conditions are right, then pretty much any bit of wire in the air will work! However, I've been looking to try something else, particularly a vertical and see how that works. I've spoken to Mike, M0AWS, several times about different antenna and he recommended the [vertical that he uses](https://m0aws.co.uk/?p=1998). I's a multiband antenna from 80-10m and as you can see from his article, he's made many contacts with it around the world. It seemed like something that I could put up in the garden on a temporary basis and give it a go...so with my ordered delivered and wire measured I was ready to go!
+Ever since I've been on HF, I had the same EFHW in the back garden as my antenna. It's been great, lots of contacts made all over the world on SSB and digital modes. Pretty much worldwide with FT8/4 but also good DX on SSB into South Africa, Japan, Brazil amongst others. Plus of course nice chats in UK/EU predominately across 40m and 20m. If the conditions are right, then pretty much any bit of wire in the air will work! However, I've been looking to try something else, particularly a vertical and see how that works. I've spoken to Mike, M0AWS, several times about different antenna and he recommended the [vertical that he uses](https://m0aws.co.uk/?p=1998). It's a multiband antenna from 80-10m and, as you can see from his article, he's made many contacts with it around the world. It seemed like something that I could put up in the garden on a temporary basis and give it a go...so with my ordered delivered and wire measured I was ready to go!
 
 ![Schematic of setup](schematic.png)
 
-The antenna is fairly simple, and relies on a remote ATU to match the wire to the band of interest. I managed to pick up a CG-3000 from ebay recently, but there are many brands and options available, you can even use a manual tuner at the base - just obviously less convenient. I've seen the CG-3000 go for as little as £75, although they're typically around £150. The radiating element is a 13.4m long piece of wire, attached to the CG-3000, up the side of the mast and then around 1m of it is tucked inside the mast. On the ground connector of the CG3000 I connected an earth rod, suitable beaten into the ground around 60cm, and then four ~12m long radials laid on the ground at 90° to each other. The CG-3000 has a SO-239 connector for coax and a 4 pin connector for the power and control cable. Mine came with 5m of control cable, so that was my limiting factor in this setup.
+The antenna is fairly simple, and relies on a remote ATU to match the wire to the band of interest. I managed to pick up a CG-3000 from ebay recently, but there are many brands and options available, you can even use a manual tuner at the base - obviously less convenient. I've seen the CG-3000 go for as little as £75, although they're typically around £150. The radiating element is a 13.4m long piece of wire, attached to the CG-3000, up the side of the mast and then around 1m of it is tucked inside the mast. On the ground connector of the CG-3000 I connected an earth rod, suitable beaten into the ground around 60cm, and then four \~12m long radials laid on the ground at 90° to each other. The CG-3000 has a SO-239 connector for coax and a 4 pin connector for the power and control cable. Mine came with 5m of control cable, so that was my limiting factor in this setup. The controller on my unit was missing the power cable, it seemed to have been cut off only leaving two tiny ends of wire. I wanted to hook it into my Anderson powerpole junction box but turned out I had no red and black cables, and the replacement connector I found had the terminals the wrong way around. So I present the most error trap prone design for powering the CG-3000. My controller is an older model and says "Tune" next to the button at the top, but really that's reset - which is what it says on later models.
 
-![A wonky mast, pre-base fitting](spiderbeam.jpg)
+![Power and Reset - but you never need to press it](controller-2.jpeg){group="my-gallery"}
 
-As I knew this was a temporary setup I didn't do anything too special with the mounting, I made use of a piece of 68mm diameter drain pipe, a kids toy structure, some straps and a piece of wood with a hole drilled for the pole and some for ground pegs. DJ0IP has lots of [good information](https://www.dj0ip.de/spiderbeam/fiberglass-spiderpole/) on using a spiderbeam pole, including mounting options. I found the wooden base was needed to keep it from tilting over, and luckily I had a holesaw of the right size.  Although with the rubber cap on the bottom, it's a tight fit and repeated taking in and out could rub the rubber away, so I might enlarge the hole a little. With the drain pipe mounted and the pole inside it was just a case of pulling up each section and tightening them. I think for long term installation, putting hose clamps at the base of each section, just above the section below, helps stop it collapsing. There's lots of info online about this.
+![It works...but not recommended!](controller.jpeg){group="my-gallery"}
+
+![A wonky mast, pre-base fitting - also, it's so tall!](spiderbeam.jpg){group="my-gallery"}
+
+As I knew this was a temporary setup I didn't do anything too special with the mounting, I made use of a piece of 68mm diameter drain pipe, a kids toy structure, some straps and a piece of wood with a hole drilled for the pole and some for ground pegs. DJ0IP has lots of [good information](https://www.dj0ip.de/spiderbeam/fiberglass-spiderpole/) on using a spiderbeam pole, including mounting options. I found the wooden base was needed to keep it from tilting over, and luckily I had a holesaw of the right size. Although with the rubber cap on the bottom, it's a tight fit and repeated taking in and out could rub the rubber away, so I might enlarge the hole a little. With the drain pipe mounted and the pole inside it was just a case of pulling up each section and tightening them. I think for long term installation, putting hose clamps at the base of each section, just above the section below, helps stop it collapsing. There's lots of info online about this.
 
 ![ATU at mast base](cg3000.jpg)
 
-I did install a ground post next to the tuner, but in retrospect, for a temporary setup, I think this wasn't necessary...mostly as it was a pain to get back out again, which I'll come to later. I laid the radials out on the ground, trying to get them to cover the most space. The advantage of setting up in the middle of the garden is being able to lay them out in all directions. Any permanent home I find for it will likely be along one side of the garden, so the radials will have to just go where they can. 
+I did install a ground post next to the tuner, but in retrospect, for a temporary setup, I think this wasn't necessary...mostly as it was a pain to get back out again, which I'll come to later. I laid the radials out on the ground, trying to get them to cover the most space. The advantage of setting up in the middle of the garden is being able to lay them out in all directions. Any permanent home I find for it will likely be along one side of the garden, so the radials will have to just go where they can.
 
 ![Temporary kitchen shack](station.jpg)
 
-My shack isn't convenient for this setup, particularly with only 5m of control cable - although I suppose there's no need for the control to be next to the radio - so I just setup in the kitchen and ran the cables out the door. This temporary setup just used a big LiFePO4 battery for radio and ATU, and that lasted the whole time. For my testing I wanted to use FT4/8, so I hooked up the G90 to my laptop. It's been a long time since I've used the G90 with WSJTX, and that ended up taking me a while to sort out. I wanted to use the IC-705 as it's so easy to use with a computer, however, this doesn't work with the ATU. The CG3000 will automatically match the frequency when it receives rf of about 3-5W. The IC-705 has a protection system that will immediately reduce the output power to 1W when it detects a high SWR, this means it won't trigger the tuning. I've seen people online use 
+My shack isn't convenient for this setup, particularly with only 5m of control cable - although I suppose there's no need for the control to be next to the radio - so I just setup in the kitchen and ran the cables out the door. This temporary setup just used a big LiFePO4 battery for radio and ATU, and that lasted the whole time. For my testing I wanted to use FT4/8, so I hooked up the G90 to my laptop. It's been a long time since I've used the G90 with WSJTX, and that ended up taking me a while to sort out. I wanted to use the IC-705 as it's so easy to use with a computer, however, this doesn't work with the ATU. The CG3000 will automatically match the frequency when it receives rf of about 3-5W. The IC-705 has a protection system that will immediately reduce the output power to 1W when it detects a high SWR, this means it won't trigger the tuning. I've seen people online use a manual tuner in between the 705 and ATU to prevent the 705 dropping the power and getting it to tune, they then bypass the manual one. Of course the [AH-705](https://icomuk.co.uk/AH-705-HF-50-MHz-automatic-antenna-tuner/4051/1359/41/) would be ideal for this situation and work effortlessly, perhaps perfect for portable/mobile setups. After some faffing things were fine. I could always put the radio into AM and hit the PTT and I could hear the relays working and watch the SWR drop.
+
+It tuned every band from 80m to 10m, most were virtually 1.0 except 30m and 17m which were nearly 2, not sure why that was but they still worked fine and I made many contacts on 30m. I put out a test CQ on 20m to see what was what and the first pskreporter view was pleasing. I should've saved the pskreporter view after my first 24 hours operation but I forgot.
+
+![Good Tx on 20m](pskreporter.png)
+
+By the time I had it all sorted out on the first day, it was pretty late at night, so I had a look on 80m, 60m, and 40m. Lots of activity on 60m which I've never really been on, so that was fun, and I spent most of the evening there. The next day I tried as many bands as I could. Conditions weren't the greatest but I still managed some nice contacts with a few new DX locations. I did notice I could hear all around the world, and many places I'd never heard before, so that was fun too. The most exciting from a DX perspective was 15m, particularly early evening, there seemed to be several openings both east and west. They'd come and go, but around long enough to make a QSO.
+
+![My weekend's activity](qsos-2.png)
+
+Highlights included California, Uruguay, Kyrgyzstan, Svalbard, Japan and Australia. I had potential to get some South Asia, pskreporter showed I was heard there, but never managed to get a QSO. These were all with 20W FT8 from the G90.
+
+| Band | QSOs | Highlights                                   |
+|:----:|:----:|----------------------------------------------|
+| 80m  |  2   | Ukraine                                      |
+| 60m  |  10  | Aland Islands                                |
+| 40m  |  5   |                                              |
+| 30m  |  17  |                                              |
+| 20m  |  6   | Australia, Svalbard                          |
+| 17m  |  2   | California                                   |
+| 15m  |  16  | Barbados, Uruguay, Brazil, Kyrgyzstan, Japan |
+
+: Activity Summary
+
+All in all, 30 countries, three or four new DX, and furthest contact was with VK3JLM, at 16,864 km. Pretty good I think!
+
+Sunday afternoon, it was time to pack it away, and this is when I realised the ground rod might not have been such a good idea. A rod hammered over 0.5m into the ground doesn't tend to want to come out that easily. Several places online suggested a jack to lift it out, I don't have one of those, and someone suggested a drill and watering the ground. So that's what I did. You have to be careful as the drill wants to turn and the rod doesn't...but once it's loosened off, then drilling and pulling up brings it out.
+
+![Bish bash Bosch](removal.jpg)
+
+Now all that's left is to figure out how to set it up more permanently. Ideally it needs to go away from the house, but then it needs a lot of cabling running around the garden. There's also the fact that it's not the most attractive thing in the garden, even I admit that, and the best place is probably in full view of the kitchen and lounge. I've read about people painting them grey/blue to soften their impact on the surroundings. I'll have to think about it. Probably for now, it'll be temporary setups, and hopefully I'll get slicker at that so I can pop it up for the day/evening and then take it down in the morning and not get in anyone's way. MM0OPX has a [nice video](https://www.youtube.com/watch?v=cl7830vNGjo) on quickly setting up a spiderbeam.

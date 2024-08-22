@@ -10,7 +10,137 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Sun, 18 Aug 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Something for the weekend</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/something-for-the-weekend/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Ever since I’ve been on HF, I had the same EFHW in the back garden as my antenna. It’s been great, lots of contacts made all over the world on SSB and digital modes. Pretty much worldwide with FT8/4 but also good DX on SSB into South Africa, Japan, Brazil amongst others. Plus of course nice chats in UK/EU predominately across 40m and 20m. If the conditions are right, then pretty much any bit of wire in the air will work! However, I’ve been looking to try something else, particularly a vertical and see how that works. I’ve spoken to Mike, M0AWS, several times about different antenna and he recommended the <a href="https://m0aws.co.uk/?p=1998">vertical that he uses</a>. It’s a multiband antenna from 80-10m and, as you can see from his article, he’s made many contacts with it around the world. It seemed like something that I could put up in the garden on a temporary basis and give it a go…so with my ordered delivered and wire measured I was ready to go!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="schematic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Schematic of setup"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/schematic.png" class="img-fluid figure-img" alt="Schematic of setup"></a></p>
+<figcaption>Schematic of setup</figcaption>
+</figure>
+</div>
+<p>The antenna is fairly simple, and relies on a remote ATU to match the wire to the band of interest. I managed to pick up a CG-3000 from ebay recently, but there are many brands and options available, you can even use a manual tuner at the base - obviously less convenient. I’ve seen the CG-3000 go for as little as £75, although they’re typically around £150. The radiating element is a 13.4m long piece of wire, attached to the CG-3000, up the side of the mast and then around 1m of it is tucked inside the mast. On the ground connector of the CG-3000 I connected an earth rod, suitable beaten into the ground around 60cm, and then four ~12m long radials laid on the ground at 90° to each other. The CG-3000 has a SO-239 connector for coax and a 4 pin connector for the power and control cable. Mine came with 5m of control cable, so that was my limiting factor in this setup. The controller on my unit was missing the power cable, it seemed to have been cut off only leaving two tiny ends of wire. I wanted to hook it into my Anderson powerpole junction box but turned out I had no red and black cables, and the replacement connector I found had the terminals the wrong way around. So I present the most error trap prone design for powering the CG-3000. My controller is an older model and says “Tune” next to the button at the top, but really that’s reset - which is what it says on later models.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="controller-2.jpeg" class="lightbox" data-gallery="my-gallery" title="Power and Reset - but you never need to press it"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/controller-2.jpeg" class="img-fluid figure-img" alt="Power and Reset - but you never need to press it"></a></p>
+<figcaption>Power and Reset - but you never need to press it</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="controller.jpeg" class="lightbox" data-gallery="my-gallery" title="It works…but not recommended!"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/controller.jpeg" class="img-fluid figure-img" alt="It works…but not recommended!"></a></p>
+<figcaption>It works…but not recommended!</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="spiderbeam.jpg" class="lightbox" data-gallery="my-gallery" title="A wonky mast, pre-base fitting - also, it’s so tall!"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/spiderbeam.jpg" class="img-fluid figure-img" alt="A wonky mast, pre-base fitting - also, it’s so tall!"></a></p>
+<figcaption>A wonky mast, pre-base fitting - also, it’s so tall!</figcaption>
+</figure>
+</div>
+<p>As I knew this was a temporary setup I didn’t do anything too special with the mounting, I made use of a piece of 68mm diameter drain pipe, a kids toy structure, some straps and a piece of wood with a hole drilled for the pole and some for ground pegs. DJ0IP has lots of <a href="https://www.dj0ip.de/spiderbeam/fiberglass-spiderpole/">good information</a> on using a spiderbeam pole, including mounting options. I found the wooden base was needed to keep it from tilting over, and luckily I had a holesaw of the right size. Although with the rubber cap on the bottom, it’s a tight fit and repeated taking in and out could rub the rubber away, so I might enlarge the hole a little. With the drain pipe mounted and the pole inside it was just a case of pulling up each section and tightening them. I think for long term installation, putting hose clamps at the base of each section, just above the section below, helps stop it collapsing. There’s lots of info online about this.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cg3000.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="ATU at mast base"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/cg3000.jpg" class="img-fluid figure-img" alt="ATU at mast base"></a></p>
+<figcaption>ATU at mast base</figcaption>
+</figure>
+</div>
+<p>I did install a ground post next to the tuner, but in retrospect, for a temporary setup, I think this wasn’t necessary…mostly as it was a pain to get back out again, which I’ll come to later. I laid the radials out on the ground, trying to get them to cover the most space. The advantage of setting up in the middle of the garden is being able to lay them out in all directions. Any permanent home I find for it will likely be along one side of the garden, so the radials will have to just go where they can.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="station.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Temporary kitchen shack"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/station.jpg" class="img-fluid figure-img" alt="Temporary kitchen shack"></a></p>
+<figcaption>Temporary kitchen shack</figcaption>
+</figure>
+</div>
+<p>My shack isn’t convenient for this setup, particularly with only 5m of control cable - although I suppose there’s no need for the control to be next to the radio - so I just setup in the kitchen and ran the cables out the door. This temporary setup just used a big LiFePO4 battery for radio and ATU, and that lasted the whole time. For my testing I wanted to use FT4/8, so I hooked up the G90 to my laptop. It’s been a long time since I’ve used the G90 with WSJTX, and that ended up taking me a while to sort out. I wanted to use the IC-705 as it’s so easy to use with a computer, however, this doesn’t work with the ATU. The CG3000 will automatically match the frequency when it receives rf of about 3-5W. The IC-705 has a protection system that will immediately reduce the output power to 1W when it detects a high SWR, this means it won’t trigger the tuning. I’ve seen people online use a manual tuner in between the 705 and ATU to prevent the 705 dropping the power and getting it to tune, they then bypass the manual one. Of course the <a href="https://icomuk.co.uk/AH-705-HF-50-MHz-automatic-antenna-tuner/4051/1359/41/">AH-705</a> would be ideal for this situation and work effortlessly, perhaps perfect for portable/mobile setups. After some faffing things were fine. I could always put the radio into AM and hit the PTT and I could hear the relays working and watch the SWR drop.</p>
+<p>It tuned every band from 80m to 10m, most were virtually 1.0 except 30m and 17m which were nearly 2, not sure why that was but they still worked fine and I made many contacts on 30m. I put out a test CQ on 20m to see what was what and the first pskreporter view was pleasing. I should’ve saved the pskreporter view after my first 24 hours operation but I forgot.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="pskreporter.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Good Tx on 20m"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/pskreporter.png" class="img-fluid figure-img" alt="Good Tx on 20m"></a></p>
+<figcaption>Good Tx on 20m</figcaption>
+</figure>
+</div>
+<p>By the time I had it all sorted out on the first day, it was pretty late at night, so I had a look on 80m, 60m, and 40m. Lots of activity on 60m which I’ve never really been on, so that was fun, and I spent most of the evening there. The next day I tried as many bands as I could. Conditions weren’t the greatest but I still managed some nice contacts with a few new DX locations. I did notice I could hear all around the world, and many places I’d never heard before, so that was fun too. The most exciting from a DX perspective was 15m, particularly early evening, there seemed to be several openings both east and west. They’d come and go, but around long enough to make a QSO.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qsos-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="My weekend’s activity"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/qsos-2.png" class="img-fluid figure-img" alt="My weekend’s activity"></a></p>
+<figcaption>My weekend’s activity</figcaption>
+</figure>
+</div>
+<p>Highlights included California, Uruguay, Kyrgyzstan, Svalbard, Japan and Australia. I had potential to get some South Asia, pskreporter showed I was heard there, but never managed to get a QSO. These were all with 20W FT8 from the G90.</p>
+<table class="caption-top table">
+<caption>Activity Summary</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Band</th>
+<th style="text-align: center;">QSOs</th>
+<th>Highlights</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">80m</td>
+<td style="text-align: center;">2</td>
+<td>Ukraine</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">60m</td>
+<td style="text-align: center;">10</td>
+<td>Aland Islands</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">40m</td>
+<td style="text-align: center;">5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">30m</td>
+<td style="text-align: center;">17</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">20m</td>
+<td style="text-align: center;">6</td>
+<td>Australia, Svalbard</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">17m</td>
+<td style="text-align: center;">2</td>
+<td>California</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15m</td>
+<td style="text-align: center;">16</td>
+<td>Barbados, Uruguay, Brazil, Kyrgyzstan, Japan</td>
+</tr>
+</tbody>
+</table>
+<p>All in all, 30 countries, three or four new DX, and furthest contact was with VK3JLM, at 16,864 km. Pretty good I think!</p>
+<p>Sunday afternoon, it was time to pack it away, and this is when I realised the ground rod might not have been such a good idea. A rod hammered over 0.5m into the ground doesn’t tend to want to come out that easily. Several places online suggested a jack to lift it out, I don’t have one of those, and someone suggested a drill and watering the ground. So that’s what I did. You have to be careful as the drill wants to turn and the rod doesn’t…but once it’s loosened off, then drilling and pulling up brings it out.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="removal.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Bish bash Bosch"><img src="https://gm5alx.uk/posts/2024/something-for-the-weekend/removal.jpg" class="img-fluid figure-img" alt="Bish bash Bosch"></a></p>
+<figcaption>Bish bash Bosch</figcaption>
+</figure>
+</div>
+<p>Now all that’s left is to figure out how to set it up more permanently. Ideally it needs to go away from the house, but then it needs a lot of cabling running around the garden. There’s also the fact that it’s not the most attractive thing in the garden, even I admit that, and the best place is probably in full view of the kitchen and lounge. I’ve read about people painting them grey/blue to soften their impact on the surroundings. I’ll have to think about it. Probably for now, it’ll be temporary setups, and hopefully I’ll get slicker at that so I can pop it up for the day/evening and then take it down in the morning and not get in anyone’s way. MM0OPX has a <a href="https://www.youtube.com/watch?v=cl7830vNGjo">nice video</a> on quickly setting up a spiderbeam.</p>
+
+
+
+ ]]></description>
+  <category>Vertical</category>
+  <guid>https://gm5alx.uk/posts/2024/something-for-the-weekend/</guid>
+  <pubDate>Thu, 22 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/something-for-the-weekend/qsos.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Hill of Garvock</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1429,51 +1559,6 @@ Note
   <guid>https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/</guid>
   <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/licence-featured.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>First attempts at LEO 🛰️</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/first-attempts-at-leo/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>My previous attempt ended with just listening to the astronaut, and whilst fun, it wasn’t what I was actually meant to be doing. I’ve since read the manual and, mostly, figured out the D72. As the radio is quite old there is both lots of info online and also a lack of it, depending on where you like looking. By that I mean there’s info in email lists but virtually nothing on YouTube! Anyway, with combination of the manual and the Kenwood TH-D72 <a href="https://kenwood-radios.groups.io/g/TH-D72/topics">groups.io</a>, I’ve worked out the essentials.</p>
-<p>The summary of it all is, you must transmit from VFO B and receive on VFO A, and you have to enable DUP mode through the F(function) button and 0 (zero).</p>
-<p>I’ve got Gpredict on my computer and also ISS Detector app (with the amateur satellites extra) so it was easy to see what was coming up when I had a bit of time this past weekend. Next up was SO-50. My radio already had frequencies stored for SO-50, so I felt confident that I could do this. I keep meaning to add frequencies for most of the FM satellites but I’ve not got round to it yet.</p>
-<p><a href="image0-768x1024.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/first-attempts-at-leo/image0-768x1024.jpeg" class="img-fluid"></a></p>
-<p>I realise I never took any pictures of my setup, mostly as I had about 8 minutes before the satellite started its pass, so I was in a hurry. The equipment is the D72 radio, my Sony voice recorder, the Arrow antenna and a rats nest of cables. I wanted to record the audio on the voice recorder, I also wanted to use headphones. The D72 has a 2.5mm headphone socket and I don’t have a 2.5mm to 3.5mm adapter. However, the fist mic has a 3.5mm headphone out on it, and so I had that plugged into the side, the splitter out the mic with cables to the recorder and my headphones. Phew, what a mess.</p>
-<p>I did find it hard to figure out how to do everything at once. I was using my phone to try and see where the satellite was, I was holding the arrow yagi, I had the radio in my pocket, but also needed to hold the mic, had the voice recorder in my other pocket and headphones on my head.</p>
-<p>Like most people, I only have two hands so I was juggling between everything and couldn’t find a good process, and struggled to track the satellite very well. I did eventually copy some calls and QSOs on the satellite for a brief period during its 14 minute pass. I’ve edited my recording to just the best parts.</p>
-<figure class="figure">
-<figcaption>
-Best parts of the pass
-</figcaption>
-<audio controls="" src="2023-11-05-1433-SO50-First-pass.wav">
-Your browser does not support the <code>audio</code> element.
-</audio>
-</figure>
-<p>At one point I had a lovely clear copy on OH1ON calling, but then it degraded into static and I was only getting weak signals as I mis-aimed the yagi.</p>
-<p>A call I heard was G6UST, and looking at his <a href="https://www.qrz.com/db/G6UST">QRZ page</a> was interesting from satellite tracking. He has a nice picture of a homebrew tracker with PVC pipe and yagis mounted at an angle. Although looks like he’s moved on since then to a lovely G-5500 az/el rotator.</p>
-<p>Overall some progress, but lots of room for improvements. Even though I didn’t transmit, I am thinking about how I manage the VFOs and changing frequency to manage doppler on the 70cm side. This means I’ll have to press buttons on the radio to do so, and that’s not feeling very practical with the fist mic. One option is to skip the mic, get a 2.5 to 3.5mm adapter for the headphones and use the PTT on the radio. This keeps it in my hand and then I can hit the A/B and up/down to manage the frequencies using the memories. Alternatively, Kenwood make a mic with three buttons on the top, the SMC-34, and you can use MCP-4A program to set these buttons. The idea being I can hit A/B, then press up or down, and A/B again ready for transmitting, or just up and down depending on what link 70cms is on.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mcp-4a.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Configure mic keys from the computer software, MCP-4A"><img src="https://gm5alx.uk/posts/2023/first-attempts-at-leo/mcp-4a.png" class="img-fluid figure-img" alt="Configure mic keys from the computer software, MCP-4A"></a></p>
-<figcaption>Configure mic keys from the computer software, MCP-4A</figcaption>
-</figure>
-</div>
-<p>The other factor is seeing where the satellite is. The ISS detector app has the AR mode, but I don’t have a hand left to use it. Thinking either mounting the phone to the arrow antenna, or mounting the antenna on a tripod, and maybe still mounting the phone to the antenna. The tripod also saves me having to hold the antenna the whole time. It is quite light but be nice not to have to hold it, plus it’s better at keeping still than I am.</p>
-<p>So a few more improvements and plenty of practice needed. Not sure when I’ll next get out to try, and the weather doesn’t help. Still interested in building a rotator for satellite work, with elevation as well. Trying to avoid having to buy a G-5500 or equivalent as they’re very expensive, even used. They’ve been kits over time but they’ve all stopped and probably something like the <a href="https://wiki.satnogs.org/SatNOGS_Rotator_v3">SatNOGS rotator</a> is a good build but it’s quite involved for me, plus a lot of 3D printed parts. It would be nice to set something up on the roof, so when it is dark and raining, I can sit inside and still try them out.</p>
-
-
-
- ]]></description>
-  <category>LEO</category>
-  <category>satellites</category>
-  <guid>https://gm5alx.uk/posts/2023/first-attempts-at-leo/</guid>
-  <pubDate>Thu, 09 Nov 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/first-attempts-at-leo/so-50.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 </channel>
 </rss>

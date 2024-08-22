@@ -1,0 +1,15 @@
+---
+title: "Something for the weekend"
+date: 2024-07-06
+subtitle: "Trying a new antenna"
+categories: ["Vertical"]
+image: randomgoat.jpg
+toc: false
+draft: true
+---
+
+Ever since I've been on HF, I had the same EFHW in the back garden as my antenna. It's been great, lots of contacts made all over the world on SSB and digital modes. Pretty much worldwide with FT8/4 but also good DX on SSB into South Africa, Japan, Brazil amoungst others. Plus of course nice chats in UK/EU predominately across 40m and 20m. If the conditions are right, then pretty much any bit of wire in the air will work! However, I've been looking to try something else, particularly a vertical and see how that works. I've spoken to Mike, M0AWS, several times about different antenna and he recommended the [vertical that he uses](https://m0aws.co.uk/?p=1998). I's a multiband antenna from 80-10m and as you can see from his article, he's made many contacts with it around the world. It seemed like something that I could put up in the garden on a temporary basis and give it a go...so with my ordered delivered and wire measured I was ready to go!
+
+![Schematic of setup](schematic.png)
+
+The antenna is fairly simple, and relies on a remote ATU to match the wire to the band of interest. I managed to pick up a CG-3000 from ebay recently, but there are many brands and options available, you can even use a manual tuner at the base - just obviously less convenient. I've seen the CG-3000 go for as little as £75, although they're typically around £150. The radiating element is a 13.4m long piece of wire, attached to the CG-3000, up the side of the mast and then around 1m of it is tucked inside the mast. On the ground connector of the CG3000 I connected an earth rod, suitable beaten into the ground around 60cm, and then four ~12m long radials laid on the ground at 90° to each other. The CG-3000 has a SO-239 connector for coax and a 4 pin connector for the power and control cable. Mine came with 5m of control cable, so that was my limiting factor in this setup.

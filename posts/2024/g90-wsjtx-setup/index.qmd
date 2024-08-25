@@ -1,0 +1,41 @@
+---
+title: "Xiegu G90 WSJT-X Setup"
+date: 2024-08-25
+subtitle: "Wires!"
+categories: ["FT8"]
+image: g90-cables.jpg
+---
+
+Last weekend when playing with the [new antenna](/posts/2024/something-for-the-weekend/), I ended up using my G90 for running FT8. However, it had been a long time since I'd used it for this and I'd forgotten what to do, even of which cable to plug in where! I also ran into a few issues, so this post is a reminder for myself of what to do.
+
+## Hardware
+
+![Cabling required](g90-cables.jpg)
+
+I'm using the CAT cable that comes with the radio (with the blue USB), this plugs into the side of the head unit, with the person image (under the headphones). For audio I use a USB soundcard dongle (random off Amazon), and a headphones/mic splitter, and then a 8 pin mini DIN to TRRS audio cable. Think I bought this off ebay, like this [one](https://www.ebay.co.uk/itm/176417679066). The alternative is buying the CE-19 expansion port...but that's more expensive. This cable plugs into the DIN port on the back and then the USB into the computer.
+
+On the G90 (I have firmware 1.78 so no U-D data mode), put the audio to line in with Fn+Power button, turn off compressor, turn off Preamo, and push the volume knob so it switches to headphones (unless you like listening to data modes!). There are some other recommended settings [from the internet](https://www.digitalshack.org/xiegu-g90-ft8/) in the menu. Not sure how important they really are but I set them anyway:
+
+-   RF gain 50%
+
+-   Mic Gain to 10
+
+-   AUX In volume to 8
+
+-   AUX out volume to 15
+
+## Software
+
+WSJT-X has Xiegu G90 in the Radio menu but it's very temperamental...at least for me. I found using [FLRig](http://www.w1hkj.com/) as an intermediate for CAT control to be much better. You could just use VOX and skip CAT control. I also found newer version of FLRig had issues and went back to [v1.4.8](http://www.w1hkj.com/files/archives/Windows/flrig-1.4.8_setup.exe) for a more stable experience.
+
+![FLRig Setup](flrig.png)
+
+Once FLRig is running, you can then setup WSJT-X as follows:
+
+![Radio Settings](wsjtx-3.png)
+
+![Audio Settings](wsjtx-2.png)
+
+I adjust the sound in Windows Sound Settings so that the receive on the left is about 70 dB, and then adjust the slider in WSJT-X for the transmit power such that ALC is 99-100 on the G90. This should correspond to the power output set.
+
+Then enjoy your digital operations! Probably works for all digital modes with other software too.

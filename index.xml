@@ -10,7 +10,68 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 22 Aug 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 25 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Xiegu G90 WSJT-X Setup</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/g90-wsjtx-setup/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Last weekend when playing with the <a href="../../../posts/2024/something-for-the-weekend/">new antenna</a>, I ended up using my G90 for running FT8. However, it had been a long time since I’d used it for this and I’d forgotten what to do, even of which cable to plug in where! I also ran into a few issues, so this post is a reminder for myself of what to do.</p>
+<section id="hardware" class="level2">
+<h2 class="anchored" data-anchor-id="hardware">Hardware</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="g90-cables.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Cabling required"><img src="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/g90-cables.jpg" class="img-fluid figure-img" alt="Cabling required"></a></p>
+<figcaption>Cabling required</figcaption>
+</figure>
+</div>
+<p>I’m using the CAT cable that comes with the radio (with the blue USB), this plugs into the side of the head unit, with the person image (under the headphones). For audio I use a USB soundcard dongle (random off Amazon), and a headphones/mic splitter, and then a 8 pin mini DIN to TRRS audio cable. Think I bought this off ebay, like this <a href="https://www.ebay.co.uk/itm/176417679066">one</a>. The alternative is buying the CE-19 expansion port…but that’s more expensive. This cable plugs into the DIN port on the back and then the USB into the computer.</p>
+<p>On the G90 (I have firmware 1.78 so no U-D data mode), put the audio to line in with Fn+Power button, turn off compressor, turn off Preamo, and push the volume knob so it switches to headphones (unless you like listening to data modes!). There are some other recommended settings <a href="https://www.digitalshack.org/xiegu-g90-ft8/">from the internet</a> in the menu. Not sure how important they really are but I set them anyway:</p>
+<ul>
+<li><p>RF gain 50%</p></li>
+<li><p>Mic Gain to 10</p></li>
+<li><p>AUX In volume to 8</p></li>
+<li><p>AUX out volume to 15</p></li>
+</ul>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<p>WSJT-X has Xiegu G90 in the Radio menu but it’s very temperamental…at least for me. I found using <a href="http://www.w1hkj.com/">FLRig</a> as an intermediate for CAT control to be much better. You could just use VOX and skip CAT control. I also found newer version of FLRig had issues and went back to <a href="http://www.w1hkj.com/files/archives/Windows/flrig-1.4.8_setup.exe">v1.4.8</a> for a more stable experience.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="flrig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="FLRig Setup"><img src="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/flrig.png" class="img-fluid figure-img" alt="FLRig Setup"></a></p>
+<figcaption>FLRig Setup</figcaption>
+</figure>
+</div>
+<p>Once FLRig is running, you can then setup WSJT-X as follows:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="wsjtx-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Radio Settings"><img src="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/wsjtx-3.png" class="img-fluid figure-img" alt="Radio Settings"></a></p>
+<figcaption>Radio Settings</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="wsjtx-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Audio Settings"><img src="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/wsjtx-2.png" class="img-fluid figure-img" alt="Audio Settings"></a></p>
+<figcaption>Audio Settings</figcaption>
+</figure>
+</div>
+<p>I adjust the sound in Windows Sound Settings so that the receive on the left is about 70 dB, and then adjust the slider in WSJT-X for the transmit power such that ALC is 99-100 on the G90. This should correspond to the power output set.</p>
+<p>Then enjoy your digital operations! Probably works for all digital modes with other software too.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>FT8</category>
+  <guid>https://gm5alx.uk/posts/2024/g90-wsjtx-setup/</guid>
+  <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/g90-cables.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Something for the weekend</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1509,56 +1570,6 @@ Note
   <guid>https://gm5alx.uk/posts/2023/one-year-on/</guid>
   <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2023/one-year-on/weird1year.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Get a G in the UK</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>If you pass your full licence today, you can apply online to get a M0 callsign but you can also apply and get any previously issued prefix. Well, nearly every one. However, it’s not entirely obvious how to do this. In fact, when I spoke to ofcom about reserving a call or putting a hold on it, the guy said “oh don’t worry about it, hardly anyone knows how to apply for a G callsign anyway”. 😅</p>
-<p>You can get all the G# except G2, and they also no longer give out 2 letter callsigns, e.g.&nbsp;G3DX<sup>1</sup>. You can only get a two letter callsign one is given to you. This is typically if a relative of the original holder (who is now sk) writes a letter or does something that convinces ofcom to give it to you. The original holder doesn’t necessarily need to be a relative of yours, but perhaps the story has to be somewhat more convincing.</p>
-<p>The process is fairly simple, but it will cost you a one off fee of £20 (compared to free if you get a M0). You fill in the <a href="https://www.ofcom.org.uk/__data/assets/pdf_file/0019/47233/OfW346-Amateur-Radio-Application.pdf">form</a>, email ofcom, wait for a reply in which an invoice is added to your <a href="https://ofcomlive.my.site.com/licensingcomlogin">ofcom account</a> (that you’ll have as you’d have needed it for foundation and intermediate….unless you never bothered getting those or you did the direct to full exam). You pay the invoice online and your licence is generated immediately! This method can also be used if you want a club callsign that doesn’t start M0.</p>
-<p>The form is pretty self-explanatory, but an important thing to note is that you only get to enter three choices of callsign, with the order of preference stated. If those ones aren’t available, then they’ll assign you a M0 callsign randomly. They don’t contact you to say those three aren’t available and would you like to try again. So I’d recommend calling them (020 7981 3131) before you send in your form to check the availability. Surprisingly, there’s virtually no wait and they’re happy to check a few calls, I tried three but sensed more than five and they might get annoyed – depends on who you get. You could of course call back another day and try some more.</p>
-<p>The online application for M0 is great as it immediately tells you if the callsign is available or not, whereas the form you have to call to check. Now there are ways you can check yourself to try and screen things out.</p>
-<section id="whats-available" class="level2">
-<h2 class="anchored" data-anchor-id="whats-available">What’s available?</h2>
-<p>Every so often someone does a freedom of information request to ofcom for all the amateur radio licences issued, and they produce a spreadsheet. Searching for this is a quick way to find it, or using the whatdotheyknow website and a search, such as <a href="https://www.whatdotheyknow.com/body/ofcom/successful?utf8=%E2%9C%93&amp;query=amateur&amp;request_date_after=&amp;request_date_before=&amp;commit=Search">this one against ofcom</a>. This will show you what’s been taken, and then you can see if someone already has the call you want or not. Plus you can use Excel filtering and formula to check or test calls you are thinking of. Personally, I found these lists to be full of errors, so I’d recommend a second way to filter down your list of potential calls.</p>
-<p>This would be via qrz.com. I think the majority of UK amateur radio operators make an account on QRZ. Even if they have absolutely nothing in their profile they probably have one. If you’re registered, then you can use the wildcard search and then look for profiles to see if someone has the call already. You can use a question mark (?) to match a single wildcard character or star (*) to match multiple characters. The thing to remember is the regional locator in the UK, so whilst G5ALX might look available, I actually have that callsign but my profile is under GM5ALX. Also, ofcom make available sk callsigns after two years…assuming they know the person is silent.</p>
-<p>Of course, phoning them up and asking is the final test, but it’s best if you’ve got a shortlist prepared already. Assuming they say it’s available, then away goes your form and welcome to the full licence!</p>
-<p>Future upgrades to the online system were part of the recent consultation, and so in time this process won’t be necessary and you can select all the prefixes and see immediately if it’s available or not. The consultation also suggested they would let people change their callsigns every so often, so maybe you’ll get another shot at it and you whole amateur radio career won’t all be resting on this decision!</p>
-<p><a href="image-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/image-1.png" class="img-fluid"></a></p>
-</section>
-<section id="how-to-pick-a-callsign" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-pick-a-callsign">How to pick a callsign?</h2>
-<p>This is all well and good, but how do you choose a callsign in the first place! In some ways the old style of “you get what you’re given” takes the pain out of it but it’s nice having a choice. It’s a personal preference, but there are a couple of things you might want to consider:</p>
-<ol type="1">
-<li>How does it sound phonetically?</li>
-<li>How does it sound and what’s the weight via CW?</li>
-</ol>
-<p>Say it out loud a few time, and see if you like the ring of it. There might be some words you don’t like, or you might want to avoid as in your accent they sound like other words. I find people think I’m saying papa when I say alpha, which can get annoying, so I might say “America” instead. Mike and Golf are only one syllable, which might seem good but the point of phonetics is to help the listener understand and one syllable only gives them one chance vs.&nbsp;two/three.</p>
-<p>CW wise, I think it’s worth thinking about even if you don’t do CW now. You can’t change you callsign again, and even if we do get the ability later, will you really want to? You get used to things, and sorting out logbooks and QSL cards or even friends you’ve made, all rely on the same callsign. I think it’s worth considering, even if you still pick you call with a “terrible” CW factor.</p>
-<p>I picked up that letter that end with dit ( . ) aren’t great as they might get missed, and particularly avoid your callsign ending in B or K or E. If you search about for advice, it seems like there aren’t any letters left that you should use! You can also calculate the weight of a call, such as on <a href="https://fists.co.uk/measurecallsign.aspx">FISTs website</a>, which is a measure of how long it takes to send. Given that we’re all G(RSL)# and three letters, I don’t think there’s a huge variation but maybe it helps differentiate some calls for you.</p>
-<p>Think about when you’ve been on the air and heard others’ callsigns. I’m sure you’ve come across some that you think sound good. If you can’t remember them now, then try and make a note in your log when you do, and see what it is about them you like. I think repetition of letters makes things easier to copy. I’ve heard the DX call out “the delta delta call”, because it sticks out and instantly memorable.</p>
-<p>This <a href="https://docs.google.com/presentation/d/e/2PACX-1vSNUBBMUgiBkTRz-QFsY_Oc3k0myYiahkrbTZS-nUwcKpAZl_XAJLkNdxeaA8s_pDE1iNqi4MEdsSr7/pub?start=false&amp;loop=false&amp;delayms=3000#slide=id.g79754f0101_0_321">guy made some slides</a> and a spreadsheet to help you decide. If you’re an analysis person then you might like it, but try not to spend too long!</p>
-
-
-</section>
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>If you got your full licence between 2018 and 2020 you could’ve got a G2 or a two letter callsign. 🤷↩︎</p></li>
-</ol>
-</section></div> ]]></description>
-  <category>meta</category>
-  <guid>https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/</guid>
-  <pubDate>Wed, 29 Nov 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/get-a-g-in-the-uk/licence-featured.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

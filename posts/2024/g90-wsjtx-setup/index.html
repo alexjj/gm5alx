@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alex Johnstone">
-<meta name="dcterms.date" content="2024-07-28">
+<meta name="dcterms.date" content="2024-08-25">
 
-<title>Craiglich – 📻 GM5ALX Radio</title>
+<title>Xiegu G90 WSJT-X Setup – 📻 GM5ALX Radio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,13 +73,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Craiglich – 📻 GM5ALX Radio">
-<meta property="og:description" content="SOTA with daughter">
-<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-068/craiglich-5.jpg">
+<meta property="og:title" content="Xiegu G90 WSJT-X Setup – 📻 GM5ALX Radio">
+<meta property="og:description" content="Wires!">
+<meta property="og:image" content="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/g90-cables.jpg">
 <meta property="og:site_name" content="📻 GM5ALX Radio">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -121,17 +121,29 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#hardware" id="toc-hardware" class="nav-link active" data-scroll-target="#hardware">Hardware</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/posts/2024/g90-wsjtx-setup/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Craiglich</h1>
-<p class="subtitle lead">SOTA with daughter</p>
+<h1 class="title">Xiegu G90 WSJT-X Setup</h1>
+<p class="subtitle lead">Wires!</p>
   <div class="quarto-categories">
-    <div class="quarto-category">sota</div>
+    <div class="quarto-category">FT8</div>
   </div>
   </div>
 
@@ -149,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 28, 2024</p>
+      <p class="date">August 25, 2024</p>
     </div>
   </div>
   
@@ -161,50 +173,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>It’s the summer holidays and so the kids are home all the time, or we’re away etc. and I didn’t think I would get to do very much SOTA during the holidays. However, today the younger ones were off on a play date with some friends, so that just left my eldest and I at home. Left to her own devices she would spend all her time <strong>on</strong> devices! So I figured we should go climb a hill!</p>
-<p>My usual research method of browsing the <a href="https://sotl.as/map/">sotlas map</a> and asking the WhatsApp group led to Craiglich with the prospect of a tea room afterwards. The tea room was the real winner here. 🍰</p>
+<p>Last weekend when playing with the <a href="../../../posts/2024/something-for-the-weekend/">new antenna</a>, I ended up using my G90 for running FT8. However, it had been a long time since I’d used it for this and I’d forgotten what to do, even of which cable to plug in where! I also ran into a few issues, so this post is a reminder for myself of what to do.</p>
+<section id="hardware" class="level2">
+<h2 class="anchored" data-anchor-id="hardware">Hardware</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="route.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Path to the top"><img src="route.png" class="img-fluid figure-img" alt="Path to the top"></a></p>
-<figcaption>Path to the top</figcaption>
+<p><a href="g90-cables.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Cabling required"><img src="g90-cables.jpg" class="img-fluid figure-img" alt="Cabling required"></a></p>
+<figcaption>Cabling required</figcaption>
 </figure>
 </div>
-<p>There’s a small car park on the north side of the road and after climbing a rickerty gate, we were off!</p>
+<p>I’m using the CAT cable that comes with the radio (with the blue USB), this plugs into the side of the head unit, with the person image (under the headphones). For audio I use a USB soundcard dongle (random off Amazon), and a headphones/mic splitter, and then a 8 pin mini DIN to TRRS audio cable. Think I bought this off ebay, like this <a href="https://www.ebay.co.uk/itm/176417679066">one</a>. The alternative is buying the CE-19 expansion port…but that’s more expensive. This cable plugs into the DIN port on the back and then the USB into the computer.</p>
+<p>On the G90 (I have firmware 1.78 so no U-D data mode), put the audio to line in with Fn+Power button, turn off compressor, turn off Preamo, and push the volume knob so it switches to headphones (unless you like listening to data modes!). There are some other recommended settings <a href="https://www.digitalshack.org/xiegu-g90-ft8/">from the internet</a> in the menu. Not sure how important they really are but I set them anyway:</p>
+<ul>
+<li><p>RF gain 50%</p></li>
+<li><p>Mic Gain to 10</p></li>
+<li><p>AUX In volume to 8</p></li>
+<li><p>AUX out volume to 15</p></li>
+</ul>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<p>WSJT-X has Xiegu G90 in the Radio menu but it’s very temperamental…at least for me. I found using <a href="http://www.w1hkj.com/">FLRig</a> as an intermediate for CAT control to be much better. You could just use VOX and skip CAT control. I also found newer version of FLRig had issues and went back to <a href="http://www.w1hkj.com/files/archives/Windows/flrig-1.4.8_setup.exe">v1.4.8</a> for a more stable experience.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="craiglich-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Happy to start"><img src="craiglich-1.jpg" class="img-fluid figure-img" alt="Happy to start"></a></p>
-<figcaption>Happy to start</figcaption>
+<p><a href="flrig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="FLRig Setup"><img src="flrig.png" class="img-fluid figure-img" alt="FLRig Setup"></a></p>
+<figcaption>FLRig Setup</figcaption>
 </figure>
 </div>
-<p>The path starts along through a field and then enters the forest. It’s a little wet and boggy at first, but nothing major. The pathway is quite narrow with heather and pines growing close by. I was wearing shorts and was beginning to regret that idea on the grounds of tick risk! Although I managed the whole walk without any incident.</p>
+<p>Once FLRig is running, you can then setup WSJT-X as follows:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="craiglich-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Through the forest"><img src="craiglich-2.jpg" class="img-fluid figure-img" alt="Through the forest"></a></p>
-<figcaption>Through the forest</figcaption>
+<p><a href="wsjtx-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Radio Settings"><img src="wsjtx-3.png" class="img-fluid figure-img" alt="Radio Settings"></a></p>
+<figcaption>Radio Settings</figcaption>
 </figure>
 </div>
-<p>There’s only one real turn that you have to look for in the forest, where you bear to the left to climb the hill. At this point it’s a little steeper but overall the path is gentle and very pleasant. You come out of the forest into the open area with nice purple heather covering the hillside. I’d recently bought <a href="https://apps.apple.com/gb/app/sota-goat/id590206108">Sotagoat app</a>, so my daugther was using it to track the summit. It’s a convenient app for finding the summit and telling you when you’re in the activation area. It offers an offline database too, so you can find information without phone reception, and finally spotting is easy from it. Probably does more but I’ve not looked into it too much yet.</p>
-<p>We reached the top and I setup my slim G on the mast on the cairn, with the D72 and called CQ on 2m FM. I spoke to the locals, including Chris, MM7RVC, who’d literally just completed his intermediate exam and had passed. So we all congratulated him on that! I also spoke with Bruce, MM6BWS, who was a new local contact for me.</p>
-<p><a href="craiglich-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="craiglich-5.jpg" class="img-fluid"></a></p>
-<p>I did hear another station on a summit, and heard him having a QSO with MM7MOX (Andy), although I couldn’t hear Andy. Looking at MM7MOX’s activations and logs, he was on Torlum (GM/SS-227) at the time I think it must’ve been Lee, MM7LEF/P, on Scald Law (GM/SS-125) that I could hear. He was working 2m FM at exactly the time I could hear him as it was interrupting my chat with Bruce. Pretty amazing as it’s almost 150 km away and there are big hills between us. Aircraft scatter? I don’t know, I should email him!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="mm7lef.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="That is quite the distance!"><img src="mm7lef.png" class="img-fluid figure-img" alt="That is quite the distance!"></a></p>
-<figcaption>That is quite the distance!</figcaption>
+<p><a href="wsjtx-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Audio Settings"><img src="wsjtx-2.png" class="img-fluid figure-img" alt="Audio Settings"></a></p>
+<figcaption>Audio Settings</figcaption>
 </figure>
 </div>
-<p>I got my four and this trip was not about contacts, so we packed and headed down the hill in preparation for the best part of the trip!</p>
-<p>We were going to go to Tarland tea room but when I looked at the map I saw there was one in Lumphanan and that was on our route home, so seemed a better choice. Alas! it proved no good as they only took cash and I had none. The nearest cash machine was miles away and, being a Sunday, the local post office was shut. That was a shame as it looked a lovely little tea room. So we continued on into Banchory and found somewhere there. The Birdhouse cafe. It was fine - a bit too hipster coffee house for me but I had a cup of tea and my daugther a can of diet coke.</p>
-<p>Our other task was to find some jam sugar after our strawberry picking, and it seems the only store in Aberdeenshire that had any was the Morrisons in Banchory - whilst it was the last shop we visited it wasn’t the first!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="craiglich-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Happy smiles all round"><img src="craiglich-6.jpg" class="img-fluid figure-img" alt="Happy smiles all round"></a></p>
-<figcaption>Happy smiles all round</figcaption>
-</figure>
-</div>
-<p>Maybe we’ll manage another in the holidays…and I’ll have to be better prepared on the tea shop side!</p>
+<p>I adjust the sound in Windows Sound Settings so that the receive on the left is about 70 dB, and then adjust the slider in WSJT-X for the transmit power such that ALC is 99-100 on the G90. This should correspond to the power output set.</p>
+<p>Then enjoy your digital operations! Probably works for all digital modes with other software too.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -628,8 +641,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/sota/2024/gm-es-068/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/posts/2024/g90-wsjtx-setup/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

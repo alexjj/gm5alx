@@ -10,7 +10,30 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Sun, 25 Aug 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Aug 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>More QSL cards</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/more-qsl-cards/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A formal looking letter arrived for me this morning, when I looked closely I could see it was from Germany. Inside were some nice QSL cards.</p>
+<p><a href="dk1mi.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2024/more-qsl-cards/dk1mi.jpg" class="img-fluid"></a></p>
+<p><a href="https://dk1mi.radio/about/">Micheal</a> has two of his own from our HF SSB, HF FT8 and QO-100 QSOs over the past year, plus then the special one, <a href="https://www.qrz.com/db/DF0MF">DF0MF</a>, from the lightship in Emden. <a href="https://dk1mi.radio/amrumbank/">Micheal describes</a> his discovery and subsequent visit and activation of this historical ship.</p>
+<p>I shall need to QSL, although Micheal’s two different cards makes me think about making a new QSL card for my portable SOTA operations. ⛰️</p>
+<p>The TH-79E in the background of the photo also arrived today. The battery is dead and I have no power supply for it, and it was sold as “seen” so let’s hope a new battery will fix it!</p>
+
+
+
+ ]]></description>
+  <category>QSO</category>
+  <guid>https://gm5alx.uk/posts/2024/more-qsl-cards/</guid>
+  <pubDate>Wed, 28 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/more-qsl-cards/dk1mi.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Xiegu G90 WSJT-X Setup</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1501,75 +1524,6 @@ YO    YT    Z3
   <guid>https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/</guid>
   <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/cq.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>One year on</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2023/one-year-on/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>The 7th December 2022 I passed my foundation exam online. My invigilator, Bob G0OCB, would also become my full exam invigilator. I had done the Essex ham foundation course in August/September but then put off the exam for a while. I actually only just passed, and probably should’ve just read the manual instead of doing the course. I’d told a friend I was going to do it, and he ended up passing his exam first, so that spurred me on to take mine.</p>
-<p>So what have I done in this time? Well my licence didn’t actually arrive until the beginning of January due to the Christmas holidays and also the postal strikes at the time. That didn’t really matter as other than my Boafeng handheld, I didn’t get a radio until April. I was also mic shy and put off speaking to anyone on the handheld, think I listened once or twice to the local nets, but often couldn’t hear them that well.</p>
-<p>I eventually picked up a Xiegu G90 from the ham radio deals forum, and a 40m EFHW antenna kit, set it up in the garden and overcame my mic shyness to speak with GB2CC, a special event station for HQ Coastal Command. Although looking it up now on QRZ, I see it’s a new special event for something else. I was just another entry in his log and nothing of significance, whereas for me this was an incredible experience of all these pieces coming together and successfully speaking to someone else. I only managed a since QSO that lunchtime as was meant to be looking after the kids and had left them watching TV for hours. Later that evening I went back on the radio and my second QSO was with Croatia, 9A1CCY, and then my third of the day with someone in England. My first day on the air!</p>
-<p>I then proceeded to go on the air every evening for the following week, even managing a contact with Canada with my 10W. The G90 could tune up the EFHW to any band from 160-10m, and I tried them all out.</p>
-<p>The following week, I figured out how to get ft8 working on the G90 and all the software and found it interesting seeing who could hear me around the world, even if we didn’t have a QSO. Although did get some good countries like Angola and Brazil.</p>
-<p>Things continued in a similar fashion as I upgraded to my intermediate. I remember the first few days of getting my callsign all mixed up, between foundation (MM7RVP) and Intermediate (2M0RVM). Around this time I did visit the local club, Aberdeen amateur radio soceity, and knew a very seasoned ham (Allan, GM4ZUK) via a work colleague. The club is…okay…mostly it’s tricky for me to go to the sessions and the few events they do have, so it’s hard to break in if you’re not present. I’ve renewed my membership for 2024 and will see how it goes. I invited myself around to Allan’s house and he showed me his setup and lovely tower he’d just had installed. We chatted for a long time and enjoyed the sunny day in his garden in mid-June.</p>
-<p>He convinced me to get a Diamond V-2000 white stick which does 2m/70cm and also 6m. It was the RSGB 50 MHz Trophy competition the following weekend and Allan was going up the mountain with his trailer mast and big yagis and suggested I have a go. I managed to make four contacts, Allan, plus two Portgual and one Spain. This actually won me the Leading Intermediate Station in the competition, but I think there were only two or three others in the category! My first contest prize!</p>
-<p><a href="image.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="https://gm5alx.uk/posts/2023/one-year-on/image.png" class="img-fluid"></a></p>
-<p>I’ve taken part in other contests, mostly just dipping in and out for an hour or so at a time, as I never really had the availability to be there for hours. It’s quite the endurance activity though, and those operators who do 1000+ QSOs are very impressive.</p>
-<p>Somewhere about this time, I found the <a href="https://matrix.to/#/#ham-radio-space:matrix.m0aws.co.uk">ham radio matrix group</a> and have been learning a lot and making new friends via this group. I also joined the OARC Discord and met several great people that way. Whilst I do still want to connect with the local radio enthusiasts, it is just so much easier to do it online.</p>
-<p>It was only about 2 months of operating as an intermediate before I upgraded to full. I just pushed on and studied for it as I knew I’d forget some of the things if I didn’t. I actually found the full exam easier than the intermediate, but maybe the step between the stages isn’t quite as much, or I was just lucky with the questions. I spent quite a while debating what my final callsign should be, and ended up going with what I first thought of…my name!</p>
-<p>After some more HF operation, I became intrigued with QO-100, and eventually pulled the trigger on all the parts to build a station for it. That was my first real project, and it was quite involved! Took me a few months to put it together, mount the dish and get the software going (I’m still to write up the software setup as part of my blog series on it). However, it’s been very enjoyable to use and I’m glad I did it. Although it opened the doors to more potential projects and builds that I want to do!</p>
-<p>This whole time my radio was setup in the kitchen, with the coax through the window. This was fine during the summer but by about September/October, it was getting too cold to have this setup. I setup a workbench in the garage and now have the radio sat through there with a computer as well. The coax runs around the side of the house and goes in via an air vent. Whilst the beanbag in the corner of the kitchen was quite nice, this proper setup is much better. Although if it’s windy or very cold outside, the garage can get down to about 8-10°C.</p>
-<p>I had started to try and do LEO satellite operation, and got the radio and handheld yagi setup, but now that it’s winter, I’ve eased off really doing much outside. I’ve not managed to make a contact this way yet but maybe in the new year.</p>
-<p>I’ve looked at digital radio on and off over the whole time, and generally decided it wasn’t something I was interested in. However, I do now have a small project ongoing to setup an allstar node but with a tiny Dell Wyse computer and fist mic, so that it’s like using a real radio but minising the computer part. I didn’t want to get a digital handheld and a hotspot as I suspect I’ll get bored of it quickly and then have no use for them. At least this way, I can repurpose the computer and the fist mic is always handy to have as a spare. I need to spend some time to figure out the software and configuration, plus find some groups to listen in to.</p>
-<section id="some-stats" class="level2">
-<h2 class="anchored" data-anchor-id="some-stats">Some stats</h2>
-<p>According to my log…</p>
-<ul>
-<li>I’ve had 1365 QSOs, worked 108 countries</li>
-<li>of which 667 QSOs in 91 countries have been confirmed on LoTW (98 on QRZ.com – so close to the DX 100 award!).</li>
-<li>72% of my contacts have been via digital modes, the remaining is SSB (just 2 on FM!)</li>
-<li>20m and 40m are my top two bands, with QO-100 coming in as my fourth most popular band.</li>
-<li>My furthest contact was with ZL3HAM on 40m via FT8, with the distance of 11,453 miles one September morning</li>
-<li>My furthest HF SSB contact was with PY2VM on 10m, at 6,142 miles away in October. A close second was ZS3Y at 6,080 miles, also on 10m.</li>
-<li>I’ve worked 140 stations on QO-100, across 44 DXCCs, including Coco Keeling Island.</li>
-<li>I’m not sure how to find the details, but my europe grid square chasing via FT8 is looking reasonable, picture below</li>
-</ul>
-<p><a href="image-1-1024x737.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://gm5alx.uk/posts/2023/one-year-on/image-1-1024x737.png" class="img-fluid"></a></p>
-<p>All the grids, green confirmed via LoTW</p>
-</section>
-<section id="year-two" class="level2">
-<h2 class="anchored" data-anchor-id="year-two">Year Two</h2>
-<p>Year one has been packed, and I’ve pretty much done nothing else. I think I’d like to take things a little easier and not try and do everything in one go! I’d also like to get back into some of my other hobbies that I’ve left standing!</p>
-<p>For 2024, I’d like to get some LEO satellite QSOs, and maybe even give Greencube MEO a go. I’ve recently bought a 3D printer, and so building my own rotator would be fun to do. Recently, I’ve been chasing SOTA activators at the weekend, and would like to do some activations myself. There are a few summits nearby and would give me a good excuse to try out different wire antenna. Speaking of which, I’d still like to try and setup something else at home, perhaps a vertical, or some hexbeam/yagi/moxon arrangement for a few of the higher bands to see if the bit of gain helps get some further contacts via SSB vs.&nbsp;just ft8. This summer, during our holiday away, I did do about 10 days of LCWO, and got up to copying 10 letters of CW. I immediately stopped when I came home again. Learning CW is on my list, will it be in 2024? I suspect not, but we’ll see.</p>
-<p>Well that list is already starting to seem like a lot of things, and having some balance is already starting to tip towards amateur radio! Not that it’s a bad thing. 😅</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>This article featured in Amateur Radio Weekly - <a href="https://www.amateurradio.com/amateur-radio-weekly-issue-310/">Issue 310</a></p>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>meta</category>
-  <category>contest</category>
-  <guid>https://gm5alx.uk/posts/2023/one-year-on/</guid>
-  <pubDate>Thu, 07 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2023/one-year-on/weird1year.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

@@ -9,7 +9,7 @@
 <link>https://gm5alx.uk/</link>
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
-<generator>quarto-1.5.56</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 28 Aug 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>More QSL cards</title>
@@ -94,6 +94,51 @@
   <guid>https://gm5alx.uk/posts/2024/g90-wsjtx-setup/</guid>
   <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2024/g90-wsjtx-setup/g90-cables.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Millstone Hill</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/sota/2024/gm-es-077/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="millstone4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Route Map"><img src="https://gm5alx.uk/sota/2024/gm-es-077/millstone4.jpg" class="img-fluid figure-img" alt="Route Map"></a></p>
+<figcaption>Route Map</figcaption>
+</figure>
+</div>
+<p>Took two of the kids with me on this one. They were keen for an adventure! Even packed their own bags with toys and random things, including ice cream and tea sets for a picnic on the summit. We parked in Donview forest car park and followed the red route up. Quite a steep bit near the start with wooden steps that the kids started counting, but then eased off and a more gentle climb after that. Nice and sheltered in the trees for much of the way. When we did get near the summit the wind was blowing an absolute gale - which everyone found amusing. We hunkered down behind a rock and the kids has their snack and picnic and I tried 2m FM. Managed three and then was worried I wouldn’t get my fourth. Heard MM0EFI calling but he couldn’t hear me, so I walked over the summit to the west side, just holding the pole with the slim G waving as the wind was blowing and then managed the QSO and even one more after that. Glad I didn’t have to get out HF as I think the kids had had enough of me messing about. Plus we had to be back in time for swim training.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="millstone1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="At the summit"><img src="https://gm5alx.uk/sota/2024/gm-es-077/millstone1.jpg" class="img-fluid figure-img" alt="At the summit"></a></p>
+<figcaption>At the summit</figcaption>
+</figure>
+</div>
+<p>The walk down was much easier, the little one started getting tired half way down but kept soldering on. We went into Kemney in search of a cafe for lunch but they were all closed except one. That one was mobbed and looked too fancy for us, so we had a picnic in the car from the Co-op!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="millstone5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Well prepared"><img src="https://gm5alx.uk/sota/2024/gm-es-077/millstone5.jpg" class="img-fluid figure-img" alt="Well prepared"></a></p>
+<figcaption>Well prepared</figcaption>
+</figure>
+</div>
+<p>Little one is keen to go again and packed several backpacks in the garage, so will have to see what’s next for us.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="millstone2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="View towards Mither Tap"><img src="https://gm5alx.uk/sota/2024/gm-es-077/millstone2.jpg" class="img-fluid figure-img" alt="View towards Mither Tap"></a></p>
+<figcaption>View towards Mither Tap</figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <guid>https://gm5alx.uk/sota/2024/gm-es-077/</guid>
+  <pubDate>Sun, 25 Aug 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-077/millstone2.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Something for the weekend</title>
@@ -1402,128 +1447,6 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
   <guid>https://gm5alx.uk/sota/2024/gm-es-061/</guid>
   <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-061/mm7mwloxencraig-1024x576.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>CQWW SSB Contest 2023</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>If ever there’s a time when the bands are busy, it’s the huge contest of CQWW.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_7392-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="My certificate"><img src="https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/img_7392-1.png" class="img-fluid figure-img" alt="My certificate"></a></p>
-<figcaption>My certificate</figcaption>
-</figure>
-</div>
-<p>12th in Scotland isn’t bad for 3.9 hours of operation. Least I don’t think so.</p>
-<p>Here’s my log summary</p>
-<pre><code>************************** Summary ***************************
-
-      94 Raw    QSO before checking (does not include duplicates or missing exchanges)
-      93 Final  QSO after  checking reductions
-
-     108 Raw    QSO points
-     105 Final  QSO points
-
-      17 Raw    zones
-      17 Final  zones
-
-      56 Raw    countries
-      56 Final  countries
-
-      73 Raw    mults
-      73 Final  mults
-
-    7884 Raw    score
-    7665 Final  score
-
-    1.1% error rate based on raw and final qso counts
-    2.8% score reduction
-      1  (1.1%) not in log
-      0  (0.0%) incorrect calls
-      0  (0.0%) incorrect exchanges
-      0  (0.0%) missing exchanges
-      0  (0.0%) duplicates removed
-      0  (0.0%) calls unique to this log only (not removed)
-
-********************** Results By Band ***********************
-
-             Band   QSO  QPts  Zone Cty Mult
-
-   Raw       160M     0     0     0   0    0
-   Final     160M     0     0     0   0    0
-
-   Raw        80M     0     0     0   0    0
-   Final      80M     0     0     0   0    0
-
-   Raw        40M    36    38     4  19   23
-   Final      40M    35    35     4  19   23
-
-   Raw        20M    33    39     5  21   26
-   Final      20M    33    39     5  21   26
-
-   Raw        15M     3     3     3   3    6
-   Final      15M     3     3     3   3    6
-
-   Raw        10M    22    28     5  13   18
-   Final      10M    22    28     5  13   18
-
-   Raw        All    94   108    17  56   73      7884
-   Final      All    93   105    17  56   73      7665
-
-************************* Not In Log *************************
-
- 7061 PH 2023-10-29 2102 GM5ALX   14   IZ1OSP   15
-
-*******************  Multipliers by Band  ********************
-
-40M multiplier total 23
-
-9A    DL    F     G     GW    I     LA    LY    OE    OK
-OM    ON    OZ    PA    S5    SP    UA9   YO    YT
-
- 14 15 18 20
-
-20M multiplier total 26
-
-9A    CN    CT    E7    EA    EA8   ES    F     HA    I
-IG9   IT9   LX    LZ    S5    SP    SV    UA    UR    YL
-YT
-
- 14 15 16 20 33
-
-15M multiplier total 6
-
-CU    HA    UA
-
- 14 15 16
-
-10M multiplier total 18
-
-9K    CT3   HA    I     IT9   LZ    SV    TA    UA    UR
-YO    YT    Z3
-
- 15 16 20 21 33
-
-
-************ Stations Copying GM5ALX Incorrectly *************
-
-14209 PH 2023-10-29 1320 HA2KMR   15   GN5ALX   14
-14205 PH 2023-10-29 1322 HG5A     15   M5ALX    14
- 7198 PH 2023-10-29 1957 YT1A     15   GM5ALE   14
- 7163 PH 2023-10-29 2018 SP8R     15   GM5DLX   14</code></pre>
-
-
-
- ]]></description>
-  <category>contest</category>
-  <guid>https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/</guid>
-  <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2024/cqww-ssb-contest-2023/cq.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

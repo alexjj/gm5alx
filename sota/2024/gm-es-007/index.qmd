@@ -1,0 +1,12 @@
+---
+title: Beinn Bhrotain
+subtitle: First 10 pointer and joint activation
+image: "bhrotain-22.jpg"
+points: 10
+date: 2024-09-01
+qsos: 13
+total: 37
+summit: "GM/ES-007"
+draft: true
+---
+

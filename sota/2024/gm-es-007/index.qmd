@@ -7,29 +7,70 @@ date: 2024-09-01
 qsos: 13
 total: 37
 summit: "GM/ES-007"
-draft: true
 ---
 
-Alan, MM0VPM, was doing a [tour of the Cairngorms](https://reflector.sota.org.uk/t/gm-es-002-003-and-007/36165), and the local SOTA group was listening out for him. I commented that no one had done [Beinn Bhrotain](https://sotl.as/summits/GM/ES-007) for a long time, not even Fraser. His response was, "How about Sunday, then?" The offer included transportation and a loan of a mountain bike, plus, of course, the guided tour—an offer too good to refuse! Free time on the weekends can be tricky, with several sets of kids' activities and potential birthday parties, so we needed to start early so I could be back in time for my wife to start her coaching session at the swim club. Fraser was good with that, and our rendezvous was at 6 a.m. in the Dinnet car park for the onward journey to the Linn of Dee.
+After hearing that Alan, MM0VPM, was doing a [tour of the Cairngorms](https://reflector.sota.org.uk/t/gm-es-002-003-and-007/36165), the local SOTA group was listening out for him. I commented that no one had done [Beinn Bhrotain](https://sotl.as/summits/GM/ES-007) for a long time, not even Fraser. His response was, "How about Sunday, then?" The offer included transportation and a loan of a mountain bike, plus, of course, the guided tour—an offer too good to refuse! Free time on the weekends can be tricky, with several sets of kids' activities and potential birthday parties, so we needed to start early so I could be back in time for my wife to start her coaching session at the swim club. Fraser was good with that, and our rendezvous was at 6 a.m. in the Dinnet car park for the onward journey to the Linn of Dee.
+
+![Ready to Ride!](bhrotain-1.jpg)
 
 We'd all seen a photo recently shared of the midge in the area, which is quite unusual away from the west of Scotland. Sure enough, there were plenty about when we arrived and unpacked the bikes. We met a DoE group packing up their tents at White Bridge, and they told tales of woe and suffering in the evening; the leader seemed very pleased to be going home. My wife later told me about one of her swimmers sending home a photo of a pan of custard he was cooking on his expedition, which had a nice layer of midges on top. 🤢
 
+![Along the Dee, summit in the clouds](bhrotain-3.jpg)
+
+![They're deeper than they look](bhrotain-24.jpg)
+
 The weather was pleasant enough, although the promised clear skies had yet to appear, and the cloud level was fairly low. We continued on our ride, following the Dee along a rockier track with plenty of culverts to negotiate. After around 7.5 km of cycling, we left the bikes by the side of the fence and took the track up towards the first summit we could just about see, Carn Cloich-mhuilinn. The path came and went, or we found and lost it several times, but with the rocky peak to aim for, it wasn't too difficult to navigate. Every so often, Fraser would point out surrounding summits or features, complete with name, SOTA points, and YouTube URL, the names of which I'd immediately forget until he told them to me again on the way back down. The last 200m or so climb of this Carn was bouldery but nice underfoot, a bit like clambering across rocks at a beach. With the interim summit climbed, we admired the view. The cloud was still low, and a few patches of sun were appearing in the distance. It looked promising that it would clear for us, although I wasn't sure if it would in time for our final ascent.
 
+![Path to the summit](bhrotain-21.jpg)
+
+![View back towards the Dee](bhrotain-15.jpg)
+
 We had a good view across a small gully where the path was as obvious as could be. After a short descent down to a wee stream, the path was lost to us. A few phantom paths appeared, and we followed them, probably veering more towards the west than necessary, but we found a way. I kept my eye on SOTAGoat, to be sure I wasn't being led astray, and we soon found ourselves both within the activation zone and the cloud. The trig appeared out of the mist, and we had made it!
+
+![The summit, with LoRa beaconing (to no-one ☹️)](bhrotain-12.jpg)
 
 Having eaten breakfast in Aberdeen at 5 a.m., it now felt like lunchtime, even though it was only around 09:15. At this point, I found out one of Fraser's secrets to successful mountaineering — [butteries](https://en.wikipedia.org/wiki/Buttery_(bread)). Claiming "this was all he could find in the cupboard," he proceeded to eat what I'd estimate to be around 8,000 calories in a matter of minutes. Checking the schedule, we decided we had around 45 minutes on the summit before we should head back down.
 
 Fraser had brought the FT-857 and his [100g yagi](https://www.iz2uuf.net/wp/index.php/2013/04/06/100g-yagi/), and was hopeful to activate on 2m. I was on HF with the KX2 and the 18ft (5.5m) random wire vertical. We each found a suitable pile of rocks to shelter behind and set to work.
 
+![Setting up yagi](bhrotain-5.jpg)
+
+![A brief spell of sun](bhrotain-7.jpg)
+
+![Working the south](bhrotain-13.jpg)
+
 I started on 40m; the antenna needs a transformer to get a match, and even though it's short, I've made contacts this way before. I thought I'd try 40m, as maybe it's a desirable trig point or WAB etc., place that folks would want. I could hear some contest callers, but after my spot and calling with no replies, it was clearly completely dead for me, so I moved to 20m. After spotting and calling CQ, a slow trickle of replies came, and I relaxed once I crossed number 4! The replies kept coming, including four summit-to-summit stations in Germany, Switzerland, and Romania. I considered some other bands, but time was marching on, my hands were cold, and everything was getting wet. The sun suddenly shone through for a few moments, and it looked lovely. Two runners then came by, having climbed from the opposite side. They asked what I was doing, to which my usual answer is "amateur radio, speaking to other people on mountains." They were impressed with Switzerland and asked if I could say hi from them. They soon ran off again, and given they were in running shorts and vests, I'm not surprised they didn't want to hang around.
 
-I could hear Fraser still calling and trying to keep his wind vane under control. I got the thumbs up that he didn't need to get on HF, so I packed up. We had a brief celebration—this was my first 10-pointer—and then turned around and headed back down. Once we were down out of the cloud, the view improved significantly! The cloud had started to lift, and we could see the surrounding summits and valleys—spectacular! Similar to the way up, paths came and went, but we had a clear view of the Dee and knew where to go.
+![Carbon 6 and 5.5 m vertical](bhrotain-11.jpg)
+
+![Activation attire](bhrotain-9.jpg)
+
+![My QSOs on 20m](gm5alx-20m.png)
+
+I could hear Fraser still calling and trying to keep his wind vane under control. I got the thumbs up that he didn't need to get on HF, so I packed up. We had a brief celebration—this was my first 10-pointer—and then turned around and headed back down.
+
+![Success! ⛰️📻](bhrotain-14.jpg)
+
+Once we were down out of the cloud, the view improved significantly! The cloud had started to lift, and we could see the surrounding summits and valleys—spectacular! Similar to the way up, paths came and went, but we had a clear view of the Dee and knew where to go.
+
+![Back into the light](bhrotain-17.jpg)
+
+![Path back to Carn Cloich-mhuilinn](bhrotain-19.jpg)
+
+![Back into the light](bhrotain-17.jpg)
+
+![More 10 pointers](bhrotain-20.jpg)
+
+![Dee in the background](bhrotain-25.jpg)
 
 Back on the bikes and back towards civilisation. We had a quick stop at the Chest of Dee waterfalls, where the pool looked lovely and inviting, before the final 5km or so to the car park. Up, activated, and back in under 6 hours.
 
 Fraser did well on 2m, with an FM contact into the Yorkshire coast, 310 km away. Although, I think he would've liked some more SSB activity.
 
-Back home, and back to reality of family life. A great trip out, and thanks to Fraser for making it happen. I've bought a lot of things since starting amateur radio, but didn't think mountain bike shopping would be one of them! 🚵
+![MM0EFI/P on 2m](mm0efi-2m.png)
 
-[Route link.](https://explore.osmaps.com/route/23148061/gmes007-ben-bhrotain?lat=56.995974&lon=-3.651355&zoom=12.7686&style=Standard&type=2d)
+Back home, and back to reality of family life. A great trip out, and thanks to Fraser for making it happen. I've bought a lot of things since starting amateur radio, but didn't think mountain bike shopping would next on my list! 🚵
+
+OSMaps [route link.](https://explore.osmaps.com/route/23148061/gmes007-ben-bhrotain?lat=56.995974&lon=-3.651355&zoom=12.7686&style=Standard&type=2d)
+
+Also posted to the [SOTA Reflector.](https://reflector.sota.org.uk/t/a-busy-beinn-bhrotain/36174)

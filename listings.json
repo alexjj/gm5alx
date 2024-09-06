@@ -1,25 +1,8 @@
 [
   {
-    "listing": "/sota.html",
-    "items": [
-      "/sota/2024/gm-es-007/index.html",
-      "/sota/2024/gm-es-077/index.html",
-      "/sota/2024/gm-es-085/index.html",
-      "/sota/2024/gm-es-012/index.html",
-      "/sota/2024/gm-es-068/index.html",
-      "/sota/2024/gm-es-065/index.html",
-      "/sota/2024/gm-es-070/index.html",
-      "/sota/2024/gm-es-075/index.html",
-      "/sota/2024/gm-es-086/index.html",
-      "/sota/2024/gm-es-080/index.html",
-      "/sota/2024/gm-es-018/index.html",
-      "/sota/2024/gm-es-059/index.html",
-      "/sota/2024/gm-es-061/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/2024/building-a-2m-portable-yagi/index.html",
       "/sota/2024/gm-es-007/index.html",
       "/posts/2024/more-qsl-cards/index.html",
       "/posts/2024/g90-wsjtx-setup/index.html",
@@ -56,6 +39,24 @@
       "/posts/2023/qo-100-build-part-1-the-design/index.html",
       "/posts/2023/portable-ops-in-the-cairngorms/index.html",
       "/posts/2023/hello-world/index.html"
+    ]
+  },
+  {
+    "listing": "/sota.html",
+    "items": [
+      "/sota/2024/gm-es-007/index.html",
+      "/sota/2024/gm-es-077/index.html",
+      "/sota/2024/gm-es-085/index.html",
+      "/sota/2024/gm-es-012/index.html",
+      "/sota/2024/gm-es-068/index.html",
+      "/sota/2024/gm-es-065/index.html",
+      "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-075/index.html",
+      "/sota/2024/gm-es-086/index.html",
+      "/sota/2024/gm-es-080/index.html",
+      "/sota/2024/gm-es-018/index.html",
+      "/sota/2024/gm-es-059/index.html",
+      "/sota/2024/gm-es-061/index.html"
     ]
   }
 ]

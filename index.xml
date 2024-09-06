@@ -10,7 +10,160 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Sun, 01 Sep 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Sep 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building a portable 2m yagi</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve been enjoying activating SOTA summits on 2m, and after visiting <a href="https://gm5alx.uk/sota/2024/gm-es-012/">Glas Maol</a> and seeing how far I could get with an omni directional antenna, and watching videos of people using a 2m yagi to get into England from the highlands, I wanted to build a yagi.</p>
+<p>All my research pointed me towards <a href="https://www.qsl.net/dk7zb/start1.htm">DK7ZB’s</a> designs, specifically the <a href="https://www.qsl.net/dk7zb/PVC-Yagis/PVC-details.htm">lightweight ones</a>. I decided the 4 element design with a 1m boom was optimal between gain and practicalities. This has a gain of 7 dBd and a front to back ratio of 12 dB. It also has the advantage of being able to use it with 70 cms.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-16.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Parts to build"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-16.jpg" class="img-fluid figure-img" alt="Parts to build"></a></p>
+<figcaption>Parts to build</figcaption>
+</figure>
+</div>
+<p>I went to B&amp;Q and bought some 22mm PVC pipe, some wall clips, 4mm aluminium rods, and a 6mm aluminium tube. I already had some electrical connector blocks and RG58 cable at home. I made the boom a little longer than 1m, so I could hand hold it if I wanted to, otherwise it only needs to be 1m in length.</p>
+<table class="caption-top table">
+<caption>Dimensions from DK7ZB - using 4mm elements</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;">Positions along boom (mm)</th>
+<th style="text-align: center;">Length of element (mm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reflector</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">1020</td>
+</tr>
+<tr class="even">
+<td>Radiator</td>
+<td style="text-align: center;">260</td>
+<td style="text-align: center;">977</td>
+</tr>
+<tr class="odd">
+<td>Director 1</td>
+<td style="text-align: center;">470</td>
+<td style="text-align: center;">930</td>
+</tr>
+<tr class="even">
+<td>Director 2</td>
+<td style="text-align: center;">985</td>
+<td style="text-align: center;">910</td>
+</tr>
+</tbody>
+</table>
+<p><a href="https://vk1nam.wordpress.com/2018/04/07/antenna-project-portable-2m-4el-dl6wu-yagi/">VK1AD’s post</a> on building a similar yagi helped me decide how to mount everything to the boom, and I set to cutting the aluminium rods and drilling the holes in the clamp. The directors are easy, as they just slide through the clamp as a single piece. The reflector is slightly longer than 1m which the rods come in, so I used the 6mm tube as a connector between two 4mm rods. Sounds good in theory but it’s tricky to get the rods into the tube - precision hammering needed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-14.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Best way to drill"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-14.jpg" class="img-fluid figure-img" alt="Best way to drill"></a></p>
+<figcaption>Best way to drill</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-13.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Driven element"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-13.jpg" class="img-fluid figure-img" alt="Driven element"></a></p>
+<figcaption>Driven element</figcaption>
+</figure>
+</div>
+<p>The driven element used the connectors from inside an electrical connector block, zip tied and then glued into one of the clamps. I used some solder wick to attach the coax to and screwed the elements in on each side.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Attaching coax"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-12.jpg" class="img-fluid figure-img" alt="Attaching coax"></a></p>
+<figcaption>Attaching coax</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="More hot glue and amalgamation tape"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-11.jpg" class="img-fluid figure-img" alt="More hot glue and amalgamation tape"></a></p>
+<figcaption>More hot glue and amalgamation tape</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="With choke"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-10.jpg" class="img-fluid figure-img" alt="With choke"></a></p>
+<figcaption>With choke</figcaption>
+</figure>
+</div>
+<p>RG58 is a bit heavy but it’s all I had so would do. Whilst this was easy to build, it does mean the only way I can transport it is by unscrewing the elements. Not the best solution but I wanted to get it built vs.&nbsp;debating over other ways or buying more things. A common way others do it is with a box mounted on the boom and there’s a coax connector on it, so you can remove the box with driven element in one. My one has about 3-4m of coax on which is enough from the mast mounting position to having the radio on the ground underneath.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The length of the driven element is from tip to tip, including the gap in between.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Packs up small-ish"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-1.jpg" class="img-fluid figure-img" alt="Packs up small-ish"></a></p>
+<figcaption>Packs up small-ish</figcaption>
+</figure>
+</div>
+<p>I marked the PVC tube with sharpie for the location of each clamp, together with numbers. I also put a mark in the centre of the rod on the directors so I could centre it if it moved about in the clamp. It’s all about 1m long and I found a thin bag to carry it in. It’s not the greatest but will do. I used bungees to tie it to the side of my backpack.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Total weight - including coax"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-2.jpg" class="img-fluid figure-img" alt="Total weight - including coax"></a></p>
+<figcaption>Total weight - including coax</figcaption>
+</figure>
+</div>
+<p>I’m using a SOTABeams <a href="https://www.sotabeams.co.uk/tactical-mini-compact-ultra-portable-6-m-19-6-ft-mast/">tactical mini</a> mast to support it. It’s 6m telescopic fibreglass pole that has more strength than my usual <a href="https://www.sotabeams.co.uk/carbon-6-ultra-light-6-m-19-6-ft-mast/">Carbon-6</a> mast. There are two conduit wall mounts attached to the boom, so the yagi can be mounted vertically or horizontally. It works well enough, although if I want to change polarisation I have to take the mast down and then put it up again. I could take out all the other sections I don’t need but if I’m only taking one mast on an activation I want the 6m in case I need to setup HF.</p>
+<p>I 3D printed some guying rings and rope tensioners from <a href="https://www.thingiverse.com/thing:5616644">this design</a> and cut some cord to length for the mast. The 2nd lowest ring fitted perfectly on the bottom segment of the tactical mini.</p>
+<p><a href="2m-yagi-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-6.jpg" class="img-fluid"></a></p>
+<p><a href="2m-yagi-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-7.jpg" class="img-fluid"></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="2m-yagi-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Testing in the garden"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/2m-yagi-3.jpg" class="img-fluid figure-img" alt="Testing in the garden"></a></p>
+<figcaption>Testing in the garden</figcaption>
+</figure>
+</div>
+<p>First test was in the garden, listening to the 2m lunchtime net…so it received well enough.</p>
+<p>The first outing was to <a href="https://sotl.as/summits/GM/ES-072">Cairn William</a>, where I’d set it up on the top. We’d arranged SSB activity on another summit, although that guy had to pull out, however, we’d also prepared the locals to listen out. I started with SSB and managed to make four contacts locally with it. I then flipped it to FM and made a few more. Including a nice summit to summit with Schiehallion, around 112 km away! I brought it out later in the day on <a href="https://sotl.as/summits/GM/ES-079">Tillymorgan</a>, and managed a contact with Helmsdale, around 100 km to the north…whilst the yagi was pointing south! Turning it around turned me from a 53 and a 59 by the chaser</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cairn-william.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="On Cairn William"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/cairn-william.jpg" class="img-fluid figure-img" alt="On Cairn William"></a></p>
+<figcaption>On Cairn William</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="tillymorgan-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13" title="On TIllymorgan"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/tillymorgan-1.jpg" class="img-fluid figure-img" alt="On TIllymorgan"></a></p>
+<figcaption>On TIllymorgan</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="qsos.png" class="lightbox" data-gallery="quarto-lightbox-gallery-14" title="Long distance QSOs"><img src="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/qsos.png" class="img-fluid figure-img" alt="Long distance QSOs"></a></p>
+<figcaption>Long distance QSOs</figcaption>
+</figure>
+</div>
+<p>I’m pleased with the results and think it worked rather well! It wasn’t too tricky to setup and use in the field, nor heavy to carry. It takes a bit of getting used to the length of it, especially when walking through forests as I kept catching it on trees and causing them to dump all their water onto my back!</p>
+<p>I think a different way to connect the coax and the driven element would improve it, and maybe a dedicated mast that was just the right length would be better.</p>
+<p>I did find this design for a <a href="https://www.iz2uuf.net/wp/index.php/2013/04/06/100g-yagi/">100g yagi</a> that looks nice, and have saved a few links to 2m moxon’s. Not sure when or if I’ll make these, as I do like the convenience of the slim G. I also <a href="https://www.printables.com/model/754860-mast-clip-for-2m-slim-g-antenna-for-sota-use-espec">printed a clip</a> for it, so it doesn’t flap around in the breeze.</p>
+
+
+
+ ]]></description>
+  <category>Construction</category>
+  <category>sota</category>
+  <category>2m</category>
+  <guid>https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/</guid>
+  <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/cairn-william.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Beinn Bhrotain</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1443,54 +1596,6 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
   <guid>https://gm5alx.uk/sota/2024/gm-es-059/</guid>
   <pubDate>Fri, 03 May 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-059/kerloch-10.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Building a tiny mic 🎙️</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/posts/2024/building-a-tiny-mic/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>In an effort to slim down my travel kit, I decided that a tiny mic was in order. I’ve seen several people on YouTube use small mics and I’ve seen some for sale on eBay but when I found this <a href="https://www.printables.com/model/320559-mini-microphone-for-trusdx-usdx-kx2-and-kx3">design</a>, I knew I had to build one.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_7503-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Testing, testing, 123"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7503-768x1024.jpg" class="img-fluid figure-img" alt="Testing, testing, 123"></a></p>
-<figcaption>Testing, testing, 123</figcaption>
-</figure>
-</div>
-<p>The site has a list of what you need and most of the components can be found on aliexpress for a very low price. You just have a wait a bit for delivery. You end up with 10 or more of each and my total was around £5 delivered.</p>
-<p>It is very small! First I connected it up with what I thought was thin hook up wire but it was too big and difficult when I tried to squeeze it into the case.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_7504-768x1024.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Full of wires"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7504-768x1024.jpg" class="img-fluid figure-img" alt="Full of wires"></a></p>
-<figcaption>Full of wires</figcaption>
-</figure>
-</div>
-<p>I used some of the sotabeams thin wire I’d made an antenna from and this was much better. I also placed each component inside the 3D print and measured out the wire more precisely. It was fiddly but meant there wasn’t too much extra wire to squeeze in.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_7506-1024x815.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Neatly tucked in"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/img_7506-1024x815.jpg" class="img-fluid figure-img" alt="Neatly tucked in"></a></p>
-<figcaption>Neatly tucked in</figcaption>
-</figure>
-</div>
-<p>The top half of the case clicks together but does need a fair amount of force to get it on. The nut for the 3.5mm socket holds that in place and we’re ready to go.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="compare.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Side by side with MH3"><img src="https://gm5alx.uk/posts/2024/building-a-tiny-mic/compare.jpg" class="img-fluid figure-img" alt="Side by side with MH3"></a></p>
-<figcaption>Side by side with MH3</figcaption>
-</figure>
-</div>
-<p>I might make one for the G90 next.</p>
-
-
-
- ]]></description>
-  <category>Construction</category>
-  <guid>https://gm5alx.uk/posts/2024/building-a-tiny-mic/</guid>
-  <pubDate>Sun, 24 Mar 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/posts/2024/building-a-tiny-mic/compare.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

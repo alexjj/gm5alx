@@ -1,6 +1,6 @@
 ---
 title: Hill of Tillymorgan
-subtitle: 2m yagi test
+subtitle: 3rd summit of the day!
 image: "bee.jpg"
 points: 1
 date: 2024-09-04

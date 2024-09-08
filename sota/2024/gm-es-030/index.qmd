@@ -1,0 +1,52 @@
+---
+title: Carn Ealasaid
+subtitle: A failed HT, but a lovely hike
+image: "ealasaid-3.jpg"
+points: 4
+date: 2024-09-08
+qsos: 5
+total: 44
+summit: "GM/ES-030"
+---
+
+Sunday and a busy day for the kids planned, however, it did mean my eldest and I were free all morning. She'd enjoyed our [last SOTA activation](https://gm5alx.uk/sota/2024/gm-es-068/) and this time I wanted to try somewhere further afield, and do more than a one-pointer! Especially after my mid-week three summits trip.
+
+![Admiring the view from the ski centre](ealasaid-1.jpg)
+
+We drove to the Lecht ski centre through thick fog and mist ([haar](https://en.wikipedia.org/wiki/Haar_(fog))) for about an hour. I'd looked at the forecast and it was meant to be partially sunny, but I was wondering if it had changed but I'd not seen it. However, with about 20 minutes to go, it suddenly cleared up and when we reached the car park it was a lovely day. This significantly helped the trip as I'm not sure my hiking partner would've been too pleased other wise! She immediately commented that the first path looked steep. She wasn't wrong, it was the steepest part of the journey, although later on, on the way back, it was taxing again.
+
+![The route](route.png)
+
+You walk around the lifts and towards another summit before descending and then ascending again to the final summit. Alone, and determined, I reckon I could do it in 45 minutes, but today it took us 1:15, with a couple of stops to sit down for a bit.
+
+![View of summit from Beinn A'Chruinnich by the ski lifts](ealasaid-2.jpg)
+
+![Admiring the bogs we crossed](ealasaid-3.jpg)
+
+The peat bogs weren't too bad and quite dry, but I can imagine after some rainfall they'd be very squelchy.
+
+![At the top!](ealasaid-4.jpg)
+
+We made it up the last slope, watching every meter on SOTAGoat app! I emptied out the snacks and set to work getting on 2m.
+
+![Slim G on Carbon-6 mast](ealasaid-5.jpg)
+
+Annoyingly my Kenwood D72 wouldn't turn on. It had died on Foudland during the week and I assumed it was just flat. I'd charged it and the charging light had turned green so I assumed all was good. Well no, it wasn't. I tried fiddling with the battery clip to get it out but couldn't work the mechanism and soon gave up on it. I had an old TH-79 with me which did turn on (although the LCD screen doesn't show all the segments and is difficult to read). I have tested the TH-79 at home and it transmitted, but no-one could hear me and I wasn't sure if it was really working.
+
+I didn't want to spend too long faffing about as the summit is very exposed, and whilst it was a nice day, my daughter would soon get cold just sitting around. So I switched to HF. I debated between the 5.5m random wire vertical or the 40m EFHW. I wanted to go on 40m and the random wire isn't necessarily great for 40m. However, I should've just gone with the vertical. As I was rushing, it meant it took me ages to get setup as things kept going wrong. Eventually I was sorted, but then the challenge of finding a free frequency. Seemed to be a contest going on, bunkers on the air and all sorts, but I did manage. Got 5 on 40m, including two locals from the SOTA Whatsapp group and that meant success! I thought I'd quickly try 20m. I heard one faint German station but when I looked up the cloud had come right in and we were sat in it. I knew it was time to go, and so we quickly packed up and started heading down. A summit in the cloud is disorientating and cold.
+
+![From fun to fog in five seconds](ealasaid-6.jpg)
+
+We headed back down, and wanted to cut off part of the path up to the first summit, and follow the contours around. We were sort of successful but did get caught up in the bog and ended up walking a bit further downhill than we should've. Again, the cloud level didn't help. It was a big of a struggle to get back on to the path at the top of the ski runs but we made it, and then it was an easy downhill from there.
+
+Quite the change when we got to the bottom, the nice view at the start of this post was replaced by white cloud!
+
+![What wind turbine?](ealasaid-7.jpg)
+
+I'm glad we arrived when we did, else it would've been quite miserable and the only excitement of the radio activation wouldn't have been shared by all!
+
+We stopped at the Spar in [Bellabeg](https://www.undiscoveredscotland.co.uk/strathdon/bellabeg/index.html) for some diet coke and a jam swiss roll, which we ate nearly half each before driving home.
+
+There are a few more 4 pointers in the area, and hopefully I can get back to do some of those. Most have been activated less than 10 times, which suggests they're maybe not that exciting or easy to get to. [Brown Cow Hill](https://sotl.as/summits/GM/ES-023), [Geallaig](https://sotl.as/summits/GM/ES-036), and [Mona Gowan](https://sotl.as/summits/GM/ES-034) don't seem too bad, so perhaps I should try those first.
+
+When I got home I checked the D72. It wouldn't turn on, but when I plugged in an external power supply it turned on and then worked fine on battery. I don't like the reliability of this, and being caught out on a summit again. I might get a new battery pack but I also might look for another HT. Perhaps a Yeasu FT-65 etc. that has great battery life is just a simple HT.

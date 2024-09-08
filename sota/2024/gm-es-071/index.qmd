@@ -1,0 +1,26 @@
+---
+title: Hill of Foudland
+subtitle: Making the most of the activation zone!
+image: "foudland-3.jpg"
+points: 1
+date: 2024-09-04
+qsos: 4
+total: 39
+summit: "GM/ES-071"
+---
+
+Next summit of the day. A short drive up the A96 and off at Colpy to Hill of Foudland. I was approaching from the east so I was close to Tillymorgan but it's not a very exciting route. I think there's a better one from the east. I'd read on Walkinghighlands that there's more [parking in the forest](https://maps.app.goo.gl/CWsRgrzdmu87g1Ma9), beyond the limits of the public road. Not sure if this is really allowed or not but it seemed better than parking on essentially [nothing](https://maps.app.goo.gl/v4MQV2DuYVNJe6as6), as I was out of the way. This also saved me some walking along a boring track. After the chat with G0JSO, I was 30 minutes later than planned, and so I wasn't sure if I was going to make it in time to get at the summit for the lunchtime 2m net.
+
+![View south to [Bennachie](https://gm5alx.uk/sota/2024/gm-es-061/)](foudland-1.jpg)
+
+As I was walking up I had my HT tuned into 145.550 MHz listening out for them. I managed to call into the net and said I was hiking up and I'd come back to them when I was at the top. I knew the top was quite flat, and watching SOTAGoat app I saw I was within the activation zone but still a good \~650 m from the actual summit point. At this stage I setup the telescopic pole between my legs with the slim G on the top.
+
+![3D printed part to keep it attached to mast](slimg.jpg)
+
+On the way up, with the RH770, Bill and Paul couldn't hear me (nor I Paul), but once I had the slim G up on the 6m mast, everyone was a very good signal. So I had three from the net and Mike was trying break in but the other guys kept chatting! Eventually it came round to me and I was answering their questions and building up to bringing Mike in when the D72 died on me! Luckily I had the 705 and got that hooked up. I rejoined and explained, plus got Mike in. If I just had the KX2 I'd been annoyed about that one!
+
+![Towers](foudland-3.jpg)
+
+I was sat right in front of the towers but they were quiet on 145.550. I think the 705 had some issues with them but I turned off the pre-amp and that seemed to keep it calm. I said my goodbyes and turned back down the path to my third and final summit of the day!
+
+![Tillymorgan, left of the wind turbines](foudland-4.jpg)

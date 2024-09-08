@@ -1,0 +1,46 @@
+---
+title: Cairn William
+subtitle: 2m yagi test, and SSB!
+image: "cairn-william-5.jpg"
+points: 1
+date: 2024-09-04
+qsos: 8
+total: 38
+summit: "GM/ES-072"
+---
+
+This was the first summit I tested my [new 2m yagi](https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/) on. I was pleased with the summit to summit with Schiehallion around 112 km away.
+
+I parked in a lay by just [here](https://maps.app.goo.gl/vJktHhqjE538fz6N6), and walked up several mountain bike trails.
+
+![](route.png)
+
+The first part was pretty muddy, but once up on the forestry track and beyond it was fine. It was a nice day if you looked south, but not so much to the north. The summit was in the clouds and somewhat damp.
+
+![Muddy track](cairn-william-8.jpg)
+
+![Looking South](cairn-william-4.jpg)
+
+![North to [Millstone](https://gm5alx.uk/sota/2024/gm-es-077/)](cairn-william-3.jpg)
+
+The track is fairly easy to follow, just make sure to turn off the roadway on to the path, and the no entry signs are because the route is intended for mountain bikers.
+
+![Turn off here!](cairn-william-1.jpg)
+
+![⛔](cairn-william-2.jpg)
+
+Was fairly light breeze on the summit but nothing too bad, so it wasn't hard setting up the mast with the guys. They do get tangled somewhat so I might look at alternatives.
+
+![](cairn-william-6.jpg)
+
+![](cairn-william-7.jpg)
+
+Spoke to a couple of locals on the HT, once I was within the activation zone, and then setup the yagi for SSB. Managed 4 on sideband - a first for me - and 2M0RVZ had his first 2m sideband as well. Both of us using the ic-705. I think Chris just used the RH-770 for his antenna on the radio!
+
+![Action shot!](cairn-william-5.jpg)
+
+I let Bill, GM0NRT, know I was going up some other hills later that day, so he was going to keep an ear out for me.
+
+As I was packing up I met G0JSO (although now GM0JSO as he's moved locally) and we had a nice long chat about amateur radio. He's not been on the air in ages and was asking lots of questions. I sent him an email when I got home, and hopefully we will hear him on the air soon. It would be good to add him to the local SOTA chat for activator and chaser...but will see what happens.
+
+Off to the next summit!

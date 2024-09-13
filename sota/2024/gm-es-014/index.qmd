@@ -1,0 +1,46 @@
+---
+title: Mount Keen
+subtitle: Bike, hike and lovely weather
+image: "keen-5.jpg"
+points: 6
+date: 2024-09-13
+qsos: 22
+total: 50
+summit: "GM/ES-014"
+---
+
+![Start of the ascent](keen-7.jpg)
+
+Another day off and the forecast was promising blue skies and sunshine. I'd spent the evenings this week trawling sotlas trying to figure out where to go. It was our youngest's P1 stay and play this morning, plus swim training after school, so I had to fit my trip into that window. I've been finding I go faster than OS Maps walking prediction but yet to keep detailed enough records to figure out my speed, so planning a new location is always hit or miss (along with the [alerts](https://sotawatch.sota.org.uk/en/) I post!) To complicate matters more, I was planning on cycling the first part of the route before walking. I settled on Mount Keen and left after a fun session with the P1s.
+
+![OS Map of the route](route.png)
+
+I was also going to go the Glen Esk route, from the south, vs. the Glen Tanar one from the north. I thought it was a closer drive to home, but it was actually further, however, I think the walk is shorter this way. The road into Glen Esk seems to go on and on and on! Plus no end of dumb pheasants to watch out for on the road. I've actually done this hill before, maybe 12/13 years ago and on that trip we ended up walking through a blizzard! I can't remember if we even made it to the top or decided to head back down, to then find the stream crossing to be more challenging than the way up!
+
+![Stream crossing](keen-8.jpg)
+
+I cycled from the car park, just before the Lochlee Parish Church, along the north side of the river. My bike is a "hybrid" which is more road bike than mountain bike but has thickish tyres. I think this was probably the limit for it, as it was quite rocky and the ride was very rattly! I made it, and it cut off a good chunk of time but wasn't always pleasant. I set off at 10:45 from the car park, and cycled for 30 minutes to just before the stream crossing in the picture above. The terrain is fairly flat with only a small incline the whole way. You also pass the Queen's Well, which is nice to look at if you've never seen it before.
+
+![Looking back and Queen's Well](keen-9.jpg)
+
+The path is very clear and well made the whole way, some places its been eroded by water, or repaired with big chunks of rock. The roadway keeps going and you have to make sure you turn off towards Mount Keen.
+
+![A good view back down the Glen on the way up](keen-4.jpg)
+
+![Final path to the summit (beyond the ridge)](keen-5.jpg)
+
+After an hour I'd reached the top and had my HT out as MM0VPM was on [Sgor Gaoith](https://sotl.as/summits/GM/ES-009) and I was hoping for a summit to summit. Seems the weather wasn't as good with him inland, and the snow I could see in the distance was probably where he was! I heard GM4CCN calling CQ and tried to answer but the Aberdeen folk thought I was calling CQ and called me back. Made a couple of contacts on the telescopic RH770 with the new FT-65 before setting up the slim G off to the side.
+
+![Made it!](keen-2.jpg)
+
+There were quite a few folks on the summit so I was over to the west side. Not sure if that was the best as I was in the shadow of the cairn and perhaps they might've been blocking my signal. I heard GM4CCN a few more times and we tried to have a QSO. I found holding the PTT on the FT65 difficult when my hands were getting cold, that I don't think I was actually transmitting and so we never made the QSO. Bill, GM0NRT, kept saying I dropped out but I think it was not holding the PTT. I was probably holding it wrong, in my right hand and using my finger on the PTT, vs. my left and using my thumb. Or I should've put on a glove.
+
+![Lochnagar](keen-6.jpg)
+
+I tried the slim G for a bit, had a couple more but not as many as I thought I'd get on this summit. I switched to HF with the 5.5m vertical and tried 20m. A good reply on 20m with 16 in the log. I did try 10m for a bit. I heard a VK station absolutely booming in, who was talking to a MW0 station in Wales, but only one reply to my CQ. By this time I was getting cold and I'd been on the summit an hour, and should probably be getting back.
+
+![Towards Aberdeen](keen-1.jpg)
+
+As I was packing up a lady, who I'd passed on my bike, asked me to take a photo of her. She also asked if I was a Russian spy. I said a good spy wouldn't reveal if they were one - but also that could be double bluffing. We ended up walking back down together until I got to my bike. She was trying to complete all the Munros, and had about 20-odd left. I thought about making my excuses and running ahead but it was nice having a little chat and she wasn't really any slower than me.
+
+The bike ride back was easier as slightly downhill, so only took 20 minutes, and I was back at the car in no time, and home with 30 minutes to spare! Although only 12% battery in the car. The journey out had used 51% of the battery, which was slightly worrying but I suspect it was the colder morning, and now it was 15 C.

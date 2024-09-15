@@ -14,7 +14,7 @@ One such tool is [CloudlogCAT](https://github.com/magicbug/CloudlogCAT) (windows
 
 I also have a nicer way of setting up the spiderbeam mast using a base clamp wooden block and guy wires attached to a hose clamp with rubber nitrile protecting the mast. It takes no time at all to setup, and the remote ATU, radials, cables, and radio are all critical path items now!
 
-![Mast base](Vertical-2.jpg)
+![Mast base - I've since made the hole bigger so the mast rubber foot goes all the way in](Vertical-2.jpg)
 
 I might upgrade to 4mm rope for the guys, as the cleats don't have much area to bite and in high winds they did slip.
 

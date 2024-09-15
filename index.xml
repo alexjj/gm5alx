@@ -10,7 +10,54 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 13 Sep 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Sep 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>FTDX10 and Omirig - for CloudlogCAT</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>I’ve been using <a href="https://github.com/magicbug/Cloudlog">Cloudlog</a> for my logs, and have also recently migrated to <a href="https://github.com/wavelog/wavelog">wavelog</a>. Both of these share the same API which you can use with various CAT command software to get data from your radio into the logging program. Most useful for when doing live QSOs and to have it update the frequency and mode for you.</p>
+<p>One such tool is <a href="https://github.com/magicbug/CloudlogCAT">CloudlogCAT</a> (windows only). It uses omnirig behind the scenes to interface with the radio. Other tools can be seen on the <a href="https://github.com/wavelog/Wavelog/wiki/Third-Party-Tools">wiki</a> pages of the two loggers. I had this working on another laptop but for various reasons was using a different one. I’d setup the vertical again in the garden and brought out the FTDX10 to use. I spent ages faffing about trying to get this to work and eventually found the right settings.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="cloudcat-omnirig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Settings to use"><img src="https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/cloudcat-omnirig.png" class="img-fluid figure-img" alt="Settings to use"></a></p>
+<figcaption>Settings to use</figcaption>
+</figure>
+</div>
+<p>I also have a nicer way of setting up the spiderbeam mast using a base clamp wooden block and guy wires attached to a hose clamp with rubber nitrile protecting the mast. It takes no time at all to setup, and the remote ATU, radials, cables, and radio are all critical path items now!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="Vertical-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Mast base"><img src="https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/Vertical-2.jpg" class="img-fluid figure-img" alt="Mast base"></a></p>
+<figcaption>Mast base</figcaption>
+</figure>
+</div>
+<p>I might upgrade to 4mm rope for the guys, as the cleats don’t have much area to bite and in high winds they did slip.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Don’t tighten the hose clamps too much, as you’ll damage the mast
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>FTDX10</category>
+  <guid>https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/</guid>
+  <pubDate>Sun, 15 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/Vertical-1.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Mount Keen</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1533,54 +1580,6 @@ font-style: inherit;">"Row index with Total equal to 1000:"</span>, first_1000_r
   <guid>https://gm5alx.uk/sota/2024/gm-es-070/</guid>
   <pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-070/hilloffare-2.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Strathfinella Hill</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2024/gm-es-075/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Another <a href="https://sotl.as/summits/GM/ES-075">hill</a>, this time to the south of Aberdeen. The weather was wet and windy in the morning, particularly so inland, so thought I’d stick to the coast. The two options were Strathfinella or <a href="https://sotl.as/summits/GM/ES-085">Hill of Garvock</a>. Reports of angry cows from Garvock, plus the sheltered nature of the wooded summit of Strathfinella made the decision for me.</p>
-<p>Consulting Fraser, <a href="https://youtube.com/@theradiorover">MM0EFI</a>, the local SOTA expert, I was going to climb it from the south, following forestry roads and mountain bike paths. Looked to be fairly short route and a quick claim to the top. It’s only a one pointer, so never going to be that far.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="map.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Route from the south"><img src="https://gm5alx.uk/sota/2024/gm-es-075/map.jpg" class="img-fluid figure-img" alt="Route from the south"></a></p>
-<figcaption>Route from the south</figcaption>
-</figure>
-</div>
-<p>The weather was pretty good, breezy but some sun and mild. The route was straightforward- literally. There were a few bikers around who I met just before the turn off to the summit.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img_7977-768x1024.jpg" class="lightbox" data-gallery="my-gallery" title="Left or right? Nope. Straight on."><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7977-768x1024.jpg" class="img-fluid figure-img" alt="Left or right? Nope. Straight on."></a></p>
-<figcaption>Left or right? Nope. Straight on.</figcaption>
-</figure>
-</div>
-<p><a href="img_7981-768x1024.jpg" class="lightbox" data-gallery="my-gallery"><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7981-768x1024.jpg" class="img-fluid"></a></p>
-<p><a href="img_7978-768x1024.jpg" class="lightbox" data-gallery="my-gallery"><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7978-768x1024.jpg" class="img-fluid"></a></p>
-<p><a href="img_7979-768x1024.jpg" class="lightbox" data-gallery="my-gallery"><img src="https://gm5alx.uk/sota/2024/gm-es-075/img_7979-768x1024.jpg" class="img-fluid"></a></p>
-<p>I had a chat with some of the mountain bikers but just said I was out for a walk. Too much effort to get into the real reason! They pointed me towards the trig point which was off to the side of the main path. I almost missed it whilst walking along! It’s right in the trees, and reminded me of the portal stones from the Realm of the Enderlings book series!</p>
-<p>I set up 2m first and got a guy down in Brechin, unfortunately he was the only 2m QSO. I spent a long time calling and then decided to move to HF.</p>
-<p>The summit is a bit of a black spot for mobile reception and I wasn’t prepared for that. I use my phone for 2m spotting and for SOTA spotting or looking up other activators. I’ve signed up and registered for APRS to SOTA, and SOTAMAT, a FT8 spotter, and maybe even a SMS one, but do I know how to use them?! 😅</p>
-<p>I eventually managed to spot myself on 40m and got a few contacts. 20m spot did work but no one ever came back to me…even though I’d had a few contacts with other callers.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="strathfinella.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="QSOs"><img src="https://gm5alx.uk/sota/2024/gm-es-075/strathfinella.png" class="img-fluid figure-img" alt="QSOs"></a></p>
-<figcaption>QSOs</figcaption>
-</figure>
-</div>
-<p>I managed two S2S contacts in Germany. One was an exchange of 11-31 each way but we managed to get my callsign and SOTA reference communicated.</p>
-<p>On the way down I thought about doing Hill of Garvock but I hadn’t packed lunch and still had to get back home. Maybe a double activation next time!</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-075/</guid>
-  <pubDate>Fri, 28 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-075/img_7976.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

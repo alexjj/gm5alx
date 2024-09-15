@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Alex Johnstone">
-<meta name="dcterms.date" content="2024-07-28">
+<meta name="dcterms.date" content="2024-09-15">
 
-<title>Craiglich – 📻 GM5ALX Radio</title>
+<title>FTDX10 and Omirig - for CloudlogCAT – 📻 GM5ALX Radio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,13 +73,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="Craiglich – 📻 GM5ALX Radio">
-<meta property="og:description" content="SOTA with daughter">
-<meta property="og:image" content="https://gm5alx.uk/sota/2024/gm-es-068/craiglich-5.jpg">
+<meta property="og:title" content="FTDX10 and Omirig - for CloudlogCAT – 📻 GM5ALX Radio">
+<meta property="og:description" content="FTDX10 data into [cloud, wave]log for live logging">
+<meta property="og:image" content="https://gm5alx.uk/posts/2024/cloudcat-with-ftdx10/Vertical-1.jpg">
 <meta property="og:site_name" content="📻 GM5ALX Radio">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -121,17 +121,22 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Craiglich</h1>
-<p class="subtitle lead">SOTA with daughter</p>
+<h1 class="title">FTDX10 and Omirig - for CloudlogCAT</h1>
+<p class="subtitle lead">FTDX10 data into [cloud, wave]log for live logging</p>
   <div class="quarto-categories">
-    <div class="quarto-category">sota</div>
+    <div class="quarto-category">FTDX10</div>
   </div>
   </div>
 
@@ -149,7 +154,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 28, 2024</p>
+      <p class="date">September 15, 2024</p>
     </div>
   </div>
   
@@ -161,48 +166,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>It’s the summer holidays and so the kids are home all the time, or we’re away etc. and I didn’t think I would get to do very much SOTA during the holidays. However, today the younger ones were off on a play date with some friends, so that just left my eldest and I at home. Left to her own devices she would spend all her time <strong>on</strong> devices! So I figured we should go climb a hill!</p>
-<p>My usual research method of browsing the <a href="https://sotl.as/map/">sotlas map</a> and asking the WhatsApp group led to Craiglich with the prospect of a tea room afterwards. The tea room was the real winner here. 🍰</p>
+<p>I’ve been using <a href="https://github.com/magicbug/Cloudlog">Cloudlog</a> for my logs, and have also recently migrated to <a href="https://github.com/wavelog/wavelog">wavelog</a>. Both of these share the same API which you can use with various CAT command software to get data from your radio into the logging program. Most useful for when doing live QSOs and to have it update the frequency and mode for you.</p>
+<p>One such tool is <a href="https://github.com/magicbug/CloudlogCAT">CloudlogCAT</a> (windows only). It uses omnirig behind the scenes to interface with the radio. Other tools can be seen on the <a href="https://github.com/wavelog/Wavelog/wiki/Third-Party-Tools">wiki</a> pages of the two loggers. I had this working on another laptop but for various reasons was using a different one. I’d setup the vertical again in the garden and brought out the FTDX10 to use. I spent ages faffing about trying to get this to work and eventually found the right settings.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="route.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Path to the top"><img src="route.png" class="img-fluid figure-img" alt="Path to the top"></a></p>
-<figcaption>Path to the top</figcaption>
+<p><a href="cloudcat-omnirig.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Settings to use"><img src="cloudcat-omnirig.png" class="img-fluid figure-img" alt="Settings to use"></a></p>
+<figcaption>Settings to use</figcaption>
 </figure>
 </div>
-<p>There’s a small car park on the north side of the road and after climbing a rickerty gate, we were off!</p>
+<p>I also have a nicer way of setting up the spiderbeam mast using a base clamp wooden block and guy wires attached to a hose clamp with rubber nitrile protecting the mast. It takes no time at all to setup, and the remote ATU, radials, cables, and radio are all critical path items now!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="craiglich-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Happy to start"><img src="craiglich-1.jpg" class="img-fluid figure-img" alt="Happy to start"></a></p>
-<figcaption>Happy to start</figcaption>
+<p><a href="Vertical-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Mast base"><img src="Vertical-2.jpg" class="img-fluid figure-img" alt="Mast base"></a></p>
+<figcaption>Mast base</figcaption>
 </figure>
 </div>
-<p>The path starts along through a field and then enters the forest. It’s a little wet and boggy at first, but nothing major. The pathway is quite narrow with heather and pines growing close by. I was wearing shorts and was beginning to regret that idea on the grounds of tick risk! Although I managed the whole walk without any incident.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="craiglich-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Through the forest"><img src="craiglich-2.jpg" class="img-fluid figure-img" alt="Through the forest"></a></p>
-<figcaption>Through the forest</figcaption>
-</figure>
+<p>I might upgrade to 4mm rope for the guys, as the cleats don’t have much area to bite and in high winds they did slip.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>There’s only one real turn that you have to look for in the forest, where you bear to the left to climb the hill. At this point it’s a little steeper but overall the path is gentle and very pleasant. You come out of the forest into the open area with nice purple heather covering the hillside. I’d recently bought <a href="https://apps.apple.com/gb/app/sota-goat/id590206108">Sotagoat app</a>, so my daugther was using it to track the summit. It’s a convenient app for finding the summit and telling you when you’re in the activation area. It offers an offline database too, so you can find information without phone reception, and finally spotting is easy from it. Probably does more but I’ve not looked into it too much yet.</p>
-<p>We reached the top and I setup my slim G on the mast on the cairn, with the D72 and called CQ on 2m FM. I spoke to the locals, including Chris, MM7RVC, who’d literally just completed his intermediate exam and had passed. So we all congratulated him on that! I also spoke with Bruce, MM6BWS, who was a new local contact for me.</p>
-<p><a href="craiglich-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="craiglich-5.jpg" class="img-fluid"></a></p>
-<p>I did hear another station on a summit, and heard him having a QSO with MM7MOX (Andy), although I couldn’t hear Andy. Looking at MM7MOX’s activations and logs, he was on Torlum (GM/SS-227) at the time I think it must’ve been Lee, MM7LEF/P, on Scald Law (GM/SS-125) that I could hear. He was working 2m FM at exactly the time I could hear him as it was interrupting my chat with Bruce. Pretty amazing as it’s almost 150 km away and there are big hills between us. Aircraft scatter? I don’t know, I should email him!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="mm7lef.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="That is quite the distance!"><img src="mm7lef.png" class="img-fluid figure-img" alt="That is quite the distance!"></a></p>
-<figcaption>That is quite the distance!</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Don’t tighten the hose clamps too much, as you’ll damage the mast
 </div>
-<p>I got my four and this trip was not about contacts, so we packed and headed down the hill in preparation for the best part of the trip!</p>
-<p>We were going to go to Tarland tea room but when I looked at the map I saw there was one in Lumphanan and that was on our route home, so seemed a better choice. Alas! it proved no good as they only took cash and I had none. The nearest cash machine was miles away and, being a Sunday, the local post office was shut. That was a shame as it looked a lovely little tea room. So we continued on into Banchory and found somewhere there. The Birdhouse cafe. It was fine - a bit too hipster coffee house for me but I had a cup of tea and my daugther a can of diet coke.</p>
-<p>Our other task was to find some jam sugar after our strawberry picking, and it seems the only store in Aberdeenshire that had any was the Morrisons in Banchory - whilst it was the last shop we visited it wasn’t the first!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="craiglich-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Happy smiles all round"><img src="craiglich-6.jpg" class="img-fluid figure-img" alt="Happy smiles all round"></a></p>
-<figcaption>Happy smiles all round</figcaption>
-</figure>
 </div>
-<p>Maybe we’ll manage another in the holidays…and I’ll have to be better prepared on the tea shop side!</p>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
 
 
 
@@ -628,8 +620,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/sota/2024/gm-es-068/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/alexjj/gm5alx/blob/main/posts/2024/cloudcat-with-ftdx10/index.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li></ul></div></div></div></footer><script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer=""></script>
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

@@ -1,7 +1,7 @@
 ---
 title: "FTDX10 and Omirig - for CloudlogCAT"
 date: 2024-09-15
-subtitle: "FTDX10 data into [cloud, wave]log for live logging"
+subtitle: "FTDX10 data into cloud/wavelog for live logging"
 categories: ["FTDX10"]
 image: Vertical-1.jpg
 ---

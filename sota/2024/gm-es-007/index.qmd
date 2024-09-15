@@ -1,6 +1,6 @@
 ---
 title: Beinn Bhrotain
-subtitle: First 10 pointer and joint activation
+subtitle: First 10 pointer and joint activation with MM0EFI
 image: "bhrotain-22.jpg"
 points: 10
 date: 2024-09-01

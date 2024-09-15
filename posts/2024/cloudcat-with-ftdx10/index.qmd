@@ -1,0 +1,23 @@
+---
+title: "FTDX10 and Omirig - for CloudlogCAT"
+date: 2024-09-15
+subtitle: "FTDX10 data into [cloud, wave]log for live logging"
+categories: ["FTDX10"]
+image: Vertical-1.jpg
+---
+
+I've been using [Cloudlog](https://github.com/magicbug/Cloudlog) for my logs, and have also recently migrated to [wavelog](https://github.com/wavelog/wavelog). Both of these share the same API which you can use with various CAT command software to get data from your radio into the logging program. Most useful for when doing live QSOs and to have it update the frequency and mode for you.
+
+One such tool is [CloudlogCAT](https://github.com/magicbug/CloudlogCAT) (windows only). It uses omnirig behind the scenes to interface with the radio. Other tools can be seen on the [wiki](https://github.com/wavelog/Wavelog/wiki/Third-Party-Tools) pages of the two loggers. I had this working on another laptop but for various reasons was using a different one. I'd setup the vertical again in the garden and brought out the FTDX10 to use. I spent ages faffing about trying to get this to work and eventually found the right settings.
+
+![Settings to use](cloudcat-omnirig.png)
+
+I also have a nicer way of setting up the spiderbeam mast using a base clamp wooden block and guy wires attached to a hose clamp with rubber nitrile protecting the mast. It takes no time at all to setup, and the remote ATU, radials, cables, and radio are all critical path items now!
+
+![Mast base](Vertical-2.jpg)
+
+I might upgrade to 4mm rope for the guys, as the cleats don't have much area to bite and in high winds they did slip.
+
+::: callout-caution
+## Don't tighten the hose clamps too much, as you'll damage the mast
+:::

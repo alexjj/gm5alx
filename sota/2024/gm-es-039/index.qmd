@@ -1,0 +1,48 @@
+---
+title: The Buck
+subtitle: Amazing weather and fun with Lora too
+image: "buck-8.jpg"
+points: 4
+date: 2024-09-19
+qsos: 4
+total: 54
+summit: "GM/ES-030"
+---
+
+Not wanting to waste a glorious day, I had time for a quick activation in the morning and [The Buck](https://sotl.as/summits/GM/ES-039) was the recommendation.
+
+![Short ascent](buck-11.jpg)
+
+The route is pretty easy, not quite a straight line as I've drawn but I parked slightly east on the road and walked up until I met this fence line. A quick march and you can be at the top in 30 minutes. The sub-500m area is pretty boggy and wet, even today when it hasn't rained in a while. It was a little slow in places, trying to avoid plunging my feet into ankle deep water. The path is also vague at this stage but then becomes more defined within about 1km of the summit.
+
+![View to the top](buck-2.jpg)
+
+![Squelchy](buck-3.jpg)
+
+The weather was amazing, brilliant sunshine, blue skies and not a breath of wind. I was roasting on the way up!
+
+![Trig point on top of the rocky summit](buck-4.jpg)
+
+Even at the top the wind was minimal, and I've never seen my carbon-6 stand so straight at a summit before! I made use of the nice clear hole in the trig point and put the mast in it with the slim g on top. I could see for miles and miles!
+
+![Setup for 2m](buck-6.jpg)
+
+I was hoping it would be a quick activation on 2m, as I needed to get back home by lunchtime, and this summit would cover a huge area. Back from his hols in [Barbados](https://reflector.sota.org.uk/t/the-sota-rough-guide-to-barbados/36296), MM0EFI was first in the log. After 5 minutes, Bill in Aberdeen, GM0NRT, called back, and whilst we were talking I heard another station call. This time it was GM0UDL up in Fortrose, just north of Inverness who had seen my Lora tracker being picked up by GM4SJB (even further north!). He told me about his lora setup and how everyone around that area has setup iGates and DMR repeaters. Sounds like a great setup they have. Not long afterwards my fourth 2m contact, needed to qualify the summit, came from GM8ZKU across to the east by the coast. Again, another nice QSO with Simon for the first time. Time was getting on and I did need to be back home, I tried on more CQ but then called it a day.
+
+I
+
+![Looking North](buck-7.jpg)
+
+had a quick look around for the [ancient engravings](https://www.walkhighlands.co.uk/aberdeenshire/the-buck.shtml) but couldn't find them. It was a quick walk back down the hill to the car. I'd forgotten about the sogginess but managed to escape with dry feet.
+
+When I got home I looked up the Lora tracking on [EA2RCF's mapping page](https://lora.ham-radio-op.net/), and was surprised to see just how far away GM4SJB's receiving igate was! It had also tracked me nearly the whole route up and down, which I then realised was me walking the county boundaries. The power on the tracker is tiny and the antenna isn't amazing but this time it all worked well. I've been carrying it with me on most summits but there haven't been any igates nearby that have picked me up.
+
+![Lora 70cm distance](buck-13.jpeg)
+
+![Tracking my route](buck-14.jpeg)
+
+![Speedy!](buck-12.jpeg)
+
+A nice quick 4-pointer summit - I'm beginning to think [Morven](https://gm5alx.uk/sota/2024/gm-es-018/) is a brutal 4-pointer! - although not for a wet day, or post a lot of rain. The summit is quite exposed, although maybe you could find some shelter depending on the wind direction. It's a popular summit to do with Tap O'Noth, as that's just a few miles away, however, I just didn't have time on this occasion. Maybe they'll be a good combo next year during the winter bonus period.
+
+![What the Buck](uncle-buck.jpg)

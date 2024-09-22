@@ -1,0 +1,11 @@
+---
+title: Largo Law
+subtitle: Anniversary SOTA
+image: "img_7960-768x1024.jpg"
+points: 1
+date: 2024-09-22
+qsos: 4
+total: 55
+summit: "GM/SS-259"
+draft: true
+---

@@ -1,6 +1,6 @@
 ---
 title: An Socach
-subtitle: Midweek sm sideband
+subtitle: Midweek 2m sideband
 image: "ansocach-5.jpg"
 points: 6
 date: 2024-09-25
@@ -52,4 +52,7 @@ The views were spectacular all around, with snow on the high summits.
 ![](ansocach-9.jpg){group="my-group"}
 
 ![](ansocach-4.jpg){group="my-group"}
+
+![](ansocach-3.jpg){group="my-group"}
+
 :::

@@ -1,0 +1,55 @@
+---
+title: An Socach
+subtitle: Midweek sm sideband
+image: "ansocach-5.jpg"
+points: 6
+date: 2024-09-25
+qsos: 14
+total: 61
+summit: "GM/CS-038"
+---
+
+Fraser, MM0EFI, messaged asking who wanted to do a Munro midweek, and I thought it was a good opportunity to go. He also rallied Chris, 2M0RVZ, and Simon, GM4JXP. I decided to go up An Socach, whilst Fraser and Chris were going up Carn a'Gheoidh, and Simon on Glas Maol. A notice was posted on the [reflector](https://reflector.sota.org.uk/t/upcoming-2m-activity-wednesday-25th-september/36335/65), and several others were keen to go up summits in Scotland and England. Later on we came to realise that the time posted on the reflector and Alerts was two hours late! Oops...no wonder no-one else turned up "at the right time".
+
+![Car Park](ansocach-14.jpg)
+
+I got to the start around 7:45, and it was a chilly start, with -1.5 degC in Braemar as I drove through, however, the weather was stunning with clear blue skies and not a breath of wind.
+
+I cycled along the estate track until the actual ascent starts - probably saves about 20-30 minutes walking each way, as I thought Fraser and Chris would have a quicker walk back on their summit. I need to buy an actual mountain bike as this and Mount Keen the other week have felt like I was going to shake the bike, and me, to pieces. The bike made a helpful support when crossing the ford before turning up the hill.
+
+![Bike ends here](ansocach-12.jpg)
+
+Quite boggy on the way up until the final steep ascent onto the long plateau.
+
+![Up to the plateau](ansocach-13.jpg)
+
+The first cairn is only 6m below the actual summit but still around 2km away. At this point I called in with Fraser and Chris on the HT, and they were a similar 1.5km away from their summit.
+
+![Passing the residents](ansocach-7.jpg)
+
+Lots of good views and, as already said, lovely weather! I found a nice grassy patch near to the cairn to setup the yagi.
+
+![Yagi and IC-705](ansocach-2.jpg)
+
+Some good QSOs on 2m FM and SSB, not quite what Fraser managed but his summit was higher and so he was in the way! 😅
+
+![Pink for FM and green for SSB](qsos.jpeg)
+
+After calling for a long time on sideband I was impatient on FM and kept jumping around when I saw activity on the waterfall, either following Fraser like an annoying puppy, or jumping onto the calling frequency when it was free. Probably should’ve just stayed still!
+
+I made use of the flat plateau and large activation zone to start heading back but still ready with the HT for Alan, MM0VPM. [SotaGoat](https://apps.apple.com/gb/app/sota-goat/id590206108) app kept me in check and that saved a bit of time coming back. My worries of being slow down were unnecessary as I ended up being at the Bothy for a full round of cakes before the others arrived…and I couldn’t let them feel guilty for eating in front of me.
+
+G4IPB reported hearing me on from [Blencathra](https://sotl.as/summits/G/LD-008) - in the lake district just north of Keswick - and after seeing his report I realised that I also heard him but we were in the middle of some other QSOs so I never followed up and changed frequency. I was only on the HT and RH770 but he'd give me 55 and he was clear to me, although the first QSO was a bit muffled and dogs barking made it unclear.
+
+The views were spectacular all around, with snow on the high summits.
+
+::: {layout-ncol="3"}
+
+![](ansocach-10.jpg){group="my-group"}
+
+![](ansocach-11.jpg){group="my-group"}
+
+![](ansocach-9.jpg){group="my-group"}
+
+![](ansocach-4.jpg){group="my-group"}
+:::

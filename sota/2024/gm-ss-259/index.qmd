@@ -1,0 +1,34 @@
+---
+title: Largo Law
+subtitle: Anniversary SOTA
+image: "largolaw-5.jpg"
+points: 1
+date: 2024-09-22
+qsos: 4
+total: 55
+summit: "GM/SS-259"
+---
+
+My wife and I had a trip away for the weekend, and I suggested a nice walk nearby...which of course was a SOTA summit! We were staying near St. Andrews, which is quite a flat area, however, there are a few granite lumps you can climb. Today's one was Largo Law. If the weather was good, we'd have a lovely view of the Forth, Edinburgh and Esat Lothian. However, that wasn't the case today...more like gray and cloudy.
+
+![Summit ahead!](largolaw-4.jpg)
+
+The route is straight forward, as shown on [Sotlas](https://sotl.as/summits/GM/SS-259), park at the school/cemetery, up towards the farm and then straight up the hill! The track was tricky in places as the ground was dry and covered in loose soil, but we made it up fine.
+
+![Looking back down the path over the Firth of Forth](largolaw-2.jpg)
+
+I setup the slim g on the 6m carbon mast, put out a spot and called CQ. It took a few calls but stations did start coming back. Good coverage across Glasgow, Edinburgh and up to Montrose area. Had a nice chat with GM4PKJ, who lives very close to where we used to live around 10 years ago. His wife is a ham too, but I didn't realise until I got home and looked him up on QRZ, otherwise I could've said hi to her too.
+
+![Horses in the field](largolaw-3.jpg)
+
+Got my four contacts and packed up. My wife was sat nearby and commented the radio conversation was so "old man". It was mostly what's the weather and setup but I probably do adopt some old man tendencies when talking...it's as though you've got to fit in. I should just ignore that and say whatever I want. Although I do like describing the weather on a summit, as quite often it's different from "ground" level.
+
+![Heard across the water](gmss259%20lora.png)
+
+I had my Lora tracker with me and looked up if I'd been tracked. Two stations across the water had followed me up and down the summit. One was a new one in the centre of Edinburgh owned by [GM5AUG](https://gm5aug.topple.scot/).
+
+![GM5AUG-6](gm5aug-6 igate.jpg)
+
+We headed back down and then back to the hotel, to enjoy the silence of no kids for the rest of the weekend!
+
+![Smile!](largolaw-1.jpg)

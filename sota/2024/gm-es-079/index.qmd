@@ -3,7 +3,7 @@ title: Hill of Tillymorgan
 subtitle: 3rd summit of the day!
 image: "bee.jpg"
 points: 1
-date: 2024-09-04
+date: 2024-09-04 16:00
 qsos: 4
 total: 40
 summit: "GM/ES-079"

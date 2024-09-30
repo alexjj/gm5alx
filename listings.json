@@ -2,13 +2,14 @@
   {
     "listing": "/sota.html",
     "items": [
+      "/sota/2024/gm-es-087/index.html",
       "/sota/2024/gm-cs-038/index.html",
       "/sota/2024/gm-ss-259/index.html",
       "/sota/2024/gm-es-039/index.html",
       "/sota/2024/gm-es-014/index.html",
       "/sota/2024/gm-es-030/index.html",
-      "/sota/2024/gm-es-071/index.html",
       "/sota/2024/gm-es-079/index.html",
+      "/sota/2024/gm-es-071/index.html",
       "/sota/2024/gm-es-072/index.html",
       "/sota/2024/gm-es-007/index.html",
       "/sota/2024/gm-es-077/index.html",
@@ -28,6 +29,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/sota/2024/gm-es-087/index.html",
       "/sota/2024/gm-cs-038/index.html",
       "/sota/2024/gm-ss-259/index.html",
       "/sota/2024/gm-es-039/index.html",
@@ -35,8 +37,8 @@
       "/sota/2024/gm-es-014/index.html",
       "/sota/2024/gm-es-030/index.html",
       "/posts/2024/building-a-2m-portable-yagi/index.html",
-      "/sota/2024/gm-es-071/index.html",
       "/sota/2024/gm-es-079/index.html",
+      "/sota/2024/gm-es-071/index.html",
       "/sota/2024/gm-es-072/index.html",
       "/sota/2024/gm-es-007/index.html",
       "/posts/2024/more-qsl-cards/index.html",

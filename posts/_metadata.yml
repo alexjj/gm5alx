@@ -17,3 +17,7 @@ toc-location: left
 
 lightbox: true
 match: auto
+
+format:
+  html:
+    include-after-body: ../footer.html

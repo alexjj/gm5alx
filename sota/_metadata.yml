@@ -17,3 +17,7 @@ lightbox: true
 match: auto
 
 categories: ["sota"]
+
+format:
+  html:
+    include-after-body: ../footer.html

@@ -19,12 +19,14 @@ The path up is short, although does cross a field full of cows, and you soon fin
 
 I've not long had the IC-705 and whilst it is very simple to use, sometimes I get into some modes or settings that I don't know how to get out of. Today I was already on 2m FM but would the VFO change the frequency? No. First I was worried I'd bashed it in my bag and the dial was broken, then thought perhaps I'd selected 10 or 100 Hz increment but that didn't seem to matter. I ended up just pressing stuff and then going to band and choosing 144 MHz again seemed to fix it. Phew!
 
-It was nice having the waterfall to see is there was any activity and there certainly was some! I knew MM0EFI and MM0RFN were going up Ben Macdui and Glas Maol respectively, but not sure if they'd got to the summit in time. Fraser was supposed to be on 145.250, so I tuned to it and heard Bill, GM0NRT, talking to someone but couldn't hear the other end. I was worried I couldn't hear Fraser on Ben Macdui, but turned out was just someone else. Tuning around, I heard a guy down at the car park by [Hill of Garvock](https://gm5alx.uk/sota/2024/gm-es-085/) and ended up qualifying the summit with those on his net. I managed to work four summit to summits, two on Ben Macdui, Glas Maol and then Morven. I heard a station down in East Lothian calling on 145.500 but he didn't hear my reply. After about an hour, I had 10 QSOs and thought it was about time we packed up. 
+![QSOs](qsos.png)
+
+It was nice having the waterfall to see is there was any activity and there certainly was some! I knew MM0EFI and MM0RFN were going up Ben Macdui and Glas Maol respectively, but not sure if they'd got to the summit in time. Fraser was supposed to be on 145.250, so I tuned to it and heard Bill, GM0NRT, talking to someone but couldn't hear the other end. I was worried I couldn't hear Fraser on Ben Macdui, but turned out was just someone else. Tuning around, I heard a guy down at the car park by [Hill of Garvock](https://gm5alx.uk/sota/2024/gm-es-085/) and ended up qualifying the summit with those on his net. I managed to work four summit to summits, two on Ben Macdui, Glas Maol and then Morven. I heard a station down in East Lothian calling on 145.500 but he didn't hear my reply. After about an hour, I had 10 QSOs and thought it was about time we packed up.
 
 ![Off to Aden Country Park](Waughton3.jpg)
 
-We headed back down, and went to [Aden Country Park](https://adencountrypark.org.uk/) for some more fun. Turned out to be an old timey tractor fair and there were loads of them on the roads as we drove there. 
+We headed back down, and went to [Aden Country Park](https://adencountrypark.org.uk/) for some more fun. Turned out to be an old timey tractor fair and there were loads of them on the roads as we drove there.
 
-Was a fun day all round, and nice to join in with this event. Maybe next time I'll try for a higher summit! 
+Was a fun day all round, and nice to join in with this event. Maybe next time I'll try for a higher summit!
 
 The guys up Ben Macdui had a [fun trip.](https://reflector.sota.org.uk/t/carn-amhaim-gm-es-013-ben-macdui-gm-es-001-slightly-broken/36399). Not jealous in the slightest...😅 Also afterwards, Chris, 2M0RVZ, was boasting about his points compared to mine...challenge accepted!

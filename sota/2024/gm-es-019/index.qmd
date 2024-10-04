@@ -1,0 +1,11 @@
+---
+title: Conachcraig
+subtitle: Second summit of the day
+image: "lochnagar-6.jpg"
+points: 4
+date: 2024-10-03
+qsos: 4
+total: 76
+summit: "GM/ES-008"
+draft: true
+---

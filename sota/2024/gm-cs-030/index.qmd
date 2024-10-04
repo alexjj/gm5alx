@@ -1,0 +1,11 @@
+---
+title: Carn a'Gheoidh
+subtitle: A windy munro
+image: "ansocach-5.jpg"
+points: 6
+date: 2024-10-04
+qsos: 9
+total: 82
+summit: "GM/CS-030"
+draft: true
+---

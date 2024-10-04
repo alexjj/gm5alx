@@ -1,11 +1,52 @@
 ---
 title: Lochnagar - Cac Carn Beag
 subtitle: A windy munro
-image: "ansocach-5.jpg"
+image: "lochnagar-5.jpg"
 points: 10
 date: 2024-10-03
 qsos: 5
 total: 72
 summit: "GM/ES-008"
-draft: true
 ---
+
+I’ve been eyeing Lochnagar [GM/ES-008](https://summits.sota.org.uk/summit/GM/ES-008) for a while, and this Thursday’s forecast was looking reasonable, so decided to take the day off. It’s little neighbour, Conachcraig [GM/ES-019](https://summits.sota.org.uk/summit/GM/ES-019), is asking to be activated at the same time. I was going to take the common route starting at Glenmuick, but Fraser, MM0EFI, suggested biking from Balmoral castle.
+
+As I was trying to fit this into the family schedule, any time I could save would be an advantage. I used [plotaroute](https://www.plotaroute.com/) to figure out the times for the biking and hiking sections, matching the speed I think I move at, plus the drive back and forth, it looked like the cycle route would be the quickest. 8:05 hrs for the cycle route vs. 8:40 for the walk from Glenmuick (times include driving). I considered cycling from Glenmuick but supposedly the path isn’t great beyond the forest, so not really worth it.
+
+Was only a few degrees at the start in Crathie car park, but cycling generally uphill and in the![](images/paste-2.jpeg) sun I was soon roasting! It was around 1:15 cycle up to the intersection of Lochnagar and Conachcraig and I’d had enough of the bike! Much of the route is a gentle incline but there are areas where it’s steeper and much less enjoyable.
+
+![Summit in sight](lochnagar-19.jpg)
+
+I met a nice German couple on the way up Lochnagar. They’d been in Scotland for nearly 3 weeks and had brillant weather all round. Climbed Ben Nevis, Ben Lomond and visited several cities and towns.
+
+> “Of course the weather is always like this”.
+
+A german ham I know told me: “Nice German” is as redundant as “false error” or “undead zombie”. His choice of words. Enough chit-chat, I had a schedule to keep and kept going.
+
+![Boulders!](lochnagar-15.jpg)
+
+I’ve not been on a popular summit for a while and was surprised to see so many people on a random Thursday. I say so many people, it probably it was about 15, but compared to zero to two, it seemed a lot.
+
+The forecast had said cloudy in the afternoon and I was due on the summit at 1300 local (that’s 1200z in case anyone is wondering) so I was hoping it would stay clear. I wasn’t disappointed.
+
+![Lochnagar](lochnagar-14.jpg)
+
+![Up to the summit](lochnagar-13.jpg)
+
+I waited my turn in the queue to take photos at the summit, offering to take those of others. The wind was strong at this point and you wanted to be sure of your footing whilst scrambling about on the top. The views were incredible in all directions, and anyone on a summit in GM/ES would’ve had a great day.
+
+![At the top!](lochnagar-8.jpg)
+
+![Looking NW into the hills](lochnagar-12.jpg)
+
+I’d made it to the top ahead of schedule but I spent a long time admiring the views and walking around. The wind was strong so I looked for somewhere sheltered and away from the main path to setup, but ended up just sitting on the grass to one side. With my back to the wind it wasn’t too bad. I setup the slim G on the 6m mast and used my HT to call CQ. I was hoping to qualify the summit on 2m and in short order to keep on my way. I also noticed the clouds rolling in from the south. Got 5 in the log, mostly the locals plus Jace MM7VXJ who called when I was eating a biscuit. Credit to Jace for trying to relay messages to Jack, GM4COX, who was a 59 for me but think I was a 01 for him, and wanted to move to sideband. I was surprised not to get anyone else further south.
+
+![Summit instructions from 1924](lochnagar-10.jpg)
+
+Time to head back. I should’ve taken a photo of Conachcraig from the summit, as it looked tiny from atop Lochnagar! All around the cliff edges are openings that just drop away, and on a lovely sunny day they’re interesting to look at but if it were cloudy these are a literal death trap!
+
+![A straight down](lochnagar-7.jpg)
+
+Back down, passed my bike, and then up to the next summit.
+
+![Conachcraig](lochnagar-6.jpg)

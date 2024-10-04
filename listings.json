@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
       "/sota/2024/gm-es-087/index.html",
       "/sota/2024/gm-cs-038/index.html",
@@ -79,7 +79,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
       "/sota/2024/gm-es-087/index.html",
       "/sota/2024/gm-cs-038/index.html",

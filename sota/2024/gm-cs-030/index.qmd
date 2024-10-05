@@ -10,7 +10,7 @@ summit: "GM/CS-030"
 draft: true
 ---
 
-After a lovely day yesterday on Lochnagar and Conachcraig, I was looking to see where I could go today. There was a swimming competition on, in addition to the usual activities, so I needed to be back for 3pm. Last week when I was on An Socach, the others went to Carn a'Gheoidh, and I remembered them leaving later than me but arriving at the top at the same time. Sure enough when I check all the times, it looked doable to get there and back in time. The longest part is the drive to Glenshee ski centre, and that's right at the limit of the electric car - returning home with 20 miles range still makes me a little nervous!
+After a lovely day yesterday on Lochnagar and Conachcraig, I was looking to see where I could go today. There was a swimming competition on, in addition to the usual activities, so I needed to be back for 3pm. Last week when I was on [An Socach](https://gm5alx.uk/sota/2024/gm-cs-038/), the others went to Carn a'Gheoidh, and I remembered them leaving later than me but arriving at the top at the same time. Sure enough when I check all the times, it looked doable to get there and back in time. The longest part is the drive to Glenshee ski centre, and that's right at the limit of the electric car - returning home with 20 miles range still makes me a little nervous!
 
 ![A grey day](carnagheoidh-14.jpg)
 
@@ -34,10 +34,18 @@ I setup behind the cairn, which was a very good shelter from the wind, had a san
 
 ![Wind battered carbon mast](carnagheoidh-4.jpg)
 
+![Kenwood V71, trying to keep dry](V71.jpg)
+
 I now wonder if I'd setup the mast on the outside of the cairn pointing into the wind, if I could've made it more vertical. Particularly as right at the end the antenna got blown off and I ended up holding it with my arm to finish the QSO - I didn't do an EMF assessment on that setup...
 
-It was a little slow to start.
+![QSOs](qsos.png)
+
+It was a little slow to start, but eventually I'd work 9 stations, including GM4OAS 90 miles to the west in Mallaig. I did find the lowest squelch on the V71 was quite high and not breaking for several stations. I eventually turned it off and then heard several locals and others. I do wonder how many had been replying to my CQs before. Did 50W make any difference? The map looks remarkably similar to when I was on [Glas Maol](https://gm5alx.uk/sota/2024/gm-es-012/), and that was with the 5W D72 handheld. Technically, it's 10 dB which is 1.x S points, and on Glas Maol GM4OAS gave me 32 and this time he gave me 42, so whilst not more power, I was readable more? I do like the form factor of using the mobile rig with the fist mic, means I can position things easier than being tied directly to the end of the mast, but probably for the most part it makes no real difference and it's all in my head!
 
 ![Cloud clearing...for a moment](carnagheoidh-1.jpg)
 
-On the way down the cloud cleared briefly and I had glimpses of nice views but it didn't last long.
+Keeping an eye on the time, I needed to pack up and head back. The wind was still relentless and on the top I had to lean into it. I was grateful of my big hood as I followed the path back down. It's amazing how you can forget some of the details of the walk on the way back, being surprised that I had to climb up and down a few places which I didn't remember on the way up to the summit! For a few moments the wind seemed to blow the clouds away and there was even a hint of sunshine coming through. The view opened up and I could see all around. Certainly not the spectacular views of [last week](https://gm5alx.uk/sota/2024/gm-cs-038/), but enjoyable for the few moments. Back down to the car and back home.
+
+![Lift to the clouds](carnagheoidh-13.jpg)
+
+I think this summit and Glas Maol would make a nice day trip out, one in the morning and one in the afternoon, with the option of a hot lunch at the ski centre cafe. For 6 and 8 pointers, they have fairly easy and short walks, and both great locations for 2m, particularly to the south. Doing both would be 14 points, and a lot less walking and climbing than my 14 point day yesterday on [Lochnagar](https://gm5alx.uk/sota/2024/gm-es-008/) and [Conachcraig](https://gm5alx.uk/sota/2024/gm-es-019/)!

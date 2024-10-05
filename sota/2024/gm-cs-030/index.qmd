@@ -1,6 +1,6 @@
 ---
 title: Carn a'Gheoidh
-subtitle: A windy munro
+subtitle: Carn a gooey?
 image: "carnagheoidh-6.jpg"
 points: 6
 date: 2024-10-04
@@ -10,4 +10,34 @@ summit: "GM/CS-030"
 draft: true
 ---
 
-After a lovely day yesterday on Lochnagar and Conachcraig, I was looking to see where I could go today.
+After a lovely day yesterday on Lochnagar and Conachcraig, I was looking to see where I could go today. There was a swimming competition on, in addition to the usual activities, so I needed to be back for 3pm. Last week when I was on An Socach, the others went to Carn a'Gheoidh, and I remembered them leaving later than me but arriving at the top at the same time. Sure enough when I check all the times, it looked doable to get there and back in time. The longest part is the drive to Glenshee ski centre, and that's right at the limit of the electric car - returning home with 20 miles range still makes me a little nervous!
+
+![A grey day](carnagheoidh-14.jpg)
+
+The weather forecast had it cloudy with chance of showers and reasonably breezy. It did rain a little on the way out but was dry when I arrived. I wasted about 10 minutes getting a parking ticket from the cafe - I should've just opened the link in the car park when I was up the hill and had signal, like I did with Glas Maol.
+
+![Look, snow!](carnagheoidh-11.jpg)
+
+The track follows up the ski maintenance tracks, which are quite steep to start. There's a shortcut across part way up which I just walked right past. My Inreach mini started beeping as I'd gone of course and so I backtracked and found it. It was a small track at right angles to the main path just behind a fence, so not too obvious, so thanks to the Garmin!
+
+![Navigation via Inreach Mini](carnagheoidh-8.jpg)
+
+I was soon in the cloud and did check on the inreach every so often to make sure I was heading in the right direction. I doesn't have topo maps, and just a line but it has a compass and so points in the right direction and is enough to make sure you're following the right path.
+
+![Cloudy](carnagheoidh-7.jpg)
+
+I didn't see much on the way up, other than about 20m around me, mostly looking like the photo. In exposed places the wind picked up a lot and gave me a good push. At one point I was about 3m from a small loch and I didn't realise until I was right upon it. The track was decent and only in a few places was it boggy but nothing like The Buck. The final ascent to the summit is steep again after a while of walking on the mostly flat plateau. At this point the wind was howling and I was glad there was a cairn at the top.
+
+![Made it!](carnagheoidh-6.jpg)
+
+I setup behind the cairn, which was a very good shelter from the wind, had a sandwich and then got on the air. I thought I'd try a bit more power on 2m and see if I could get any further than usual. I'd brought the Kenwood V71 and battery. This is the first time I've taken it out with me, and I also haven't used it much at home, so I was hoping I wouldn't get into any operating issues with it! I had the slim G, and was glad I hadn't brought the yagi to try and setup in the wind.
+
+![Wind battered carbon mast](carnagheoidh-4.jpg)
+
+I now wonder if I'd setup the mast on the outside of the cairn pointing into the wind, if I could've made it more vertical. Particularly as right at the end the antenna got blown off and I ended up holding it with my arm to finish the QSO - I didn't do an EMF assessment on that setup...
+
+It was a little slow to start.
+
+![Cloud clearing...for a moment](carnagheoidh-1.jpg)
+
+On the way down the cloud cleared briefly and I had glimpses of nice views but it didn't last long.

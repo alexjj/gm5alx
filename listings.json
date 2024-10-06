@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
+      "/posts/2024/bunkers-on-the-air/index.html",
       "/sota/2024/gm-cs-030/index.html",
       "/sota/2024/gm-es-019/index.html",
       "/sota/2024/gm-es-008/index.html",
@@ -85,8 +86,9 @@
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2024/bunkers-on-the-air/index.html",
       "/sota/2024/gm-cs-030/index.html",
       "/sota/2024/gm-es-019/index.html",
       "/sota/2024/gm-es-008/index.html",

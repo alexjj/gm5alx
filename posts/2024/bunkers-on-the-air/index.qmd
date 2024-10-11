@@ -1,0 +1,28 @@
+---
+title: "Getting started with Bunkers on the Air"
+date: 2024-10-06
+subtitle: "More ways to get you out the house"
+categories: ["BOTA"]
+image: UKBOTA.png
+---
+
+I've heard about it before but only just looked into bunkers on the air (or UK BOTA). Turns out there are a lot of sites around and good way to get out and about, use the radio, explore your local region and maybe learn a little bit of history.
+
+Here's a list of useful sites to get you going:
+
+* [Main site](https://bunkersontheair.org/site/)
+* [Database](https://bunkerbase.org/)
+* [Maps](https://bunkerbase.org/bunker-3/)
+  * The Google Map didn't appear for me, but the OS map is nice, or use the combined on below:
+* [Combined awards map](https://kwirk.github.io/pota-gb-map/)
+
+The main rules are:
+
+* Be within 1000 m of the bunker location (with the right permissions etc.)
+* Qualify the bunker with 25 HF contacts or 10 VHF+ contacts
+
+I'd recommend joining the WhatsApp group listed on the website, and you'll get invited to the spotting group too.
+
+I was surprised by the number of bunkers locally to me, especailly compared to doing SOTA activations and having to drive at least an hour to get anywhere!
+
+I've not activated one yet but there appear to be plenty that have never been done near me.

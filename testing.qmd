@@ -1,6 +1,8 @@
 ---
 title: SOTA Testing Page
 format: html
+execute:
+  echo: false
 ---
 
 Testing out pulling SOTA data...
@@ -18,6 +20,8 @@ activations = await d3.json(
     Total: +d.Total
   }));
 ```
+
+## MM0EFI
 
 ```{ojs}
 Inputs.table(data, { sort: "ActivationDate", reverse: true })

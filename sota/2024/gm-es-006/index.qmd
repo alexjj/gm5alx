@@ -1,11 +1,46 @@
 ---
 title: Ben Avon
-subtitle: Midweek 2m sideband
-image: "ansocach-5.jpg"
+subtitle: A very windy summit
+image: "ben-avon-5.jpg"
 points: 10
 date: 2024-10-15 10:00
 qsos: 4
 total: 94
 summit: "GM/ES-006"
-draft: true
 ---
+
+After a lovely [Lochnagar trip](https://gm5alx.uk/sota/2024/gm-es-008/) the other week (with the now amusing subtitle of windy munro), I was keen to do some more high summits before the weather got worse and the darkness set in. Although turns out the weather is already worse! It’s school holidays here, so with no family schedule constraints, I could go out for the whole day, and I decided to try these two big uns - Ben Avon and Beinn A'Bhuird, pronounced Ben Ann and Ben a Vour respectively.
+
+![Journey there and back](route.jpg)
+
+The route is pretty standard for these two, parking at Keiloch, paying the £3.50, then cycling, before hiking. I decided to bike as far as I could towards The Sneck (the T junction between the two summits at 986m), and just retrace my steps from Beinn a’Bhuird back. This is instead of doing the loop where you walk from Beinn a'Bhuird North Top (the full summit name) to South Top across the plateau, then down the side and meet the path again after crossing Quoich Water. As I could see the low cloud I thought I’d rather not be walking that route for the first time, and just retrace my steps. Although given my “retracing” aka wildly veering route, and the completely indistinguishable terrain, it probably didn’t matter. It also meant more cycling on the way in, which helped my timing, for a chance of a good summit to summit with Fraser, MM0EFI, on Mull.
+
+![Into the Valley](ben-avon-5.jpg)
+
+The route in has a few parallel paths, including the Fairy Glen, and I’m not sure I took the best ones, and had to push the bike up some steep rocky parts in places. I tried the other way on the way back and it wasn’t much better, and then I missed the turn and went through the Fairy Glen - although didn’t see the secret howff (a hidden bothy), but also didn’t look very hard as I wanted to get back.
+
+![Looking back along Gleann an t-slugain route](ben-avon-2.jpg)
+
+![Low route from fairy glen](ben-avon-3.jpg)
+
+![Some snow on Carn Faiclach](ben-avon-4.jpg)
+
+![Path up to The Sneck](ben-avon-7.jpg)
+
+![Lots of waterfalls](ben-avon-9.jpg)
+
+The weather was reasonable in the morning, patches of sun between the clouds and fairly mild for 8am. The forecast had the summits in cloud with strong winds, 30-40 mph with gusts of 50 mph. However, until I got to The Sneck, there was minimal wind, but boy, once I did! 🌬️ It was absolutely relentless, with my hood acting like a reed in a trumpet with an enthusiastic player. I gave the edge a wide berth, not trusting myself if there was a sudden gust that I wasn’t braced for. Snow was minimal on the way to the Ben Avon summit, with just small pockets that resisted being blown away.
+
+![A bleak route to the summit](ben-avon-11.jpg)
+
+Out of the mist the tor emerges and I have arrived! Peaking through the rock formation - which acted like the mouth piece of the trumpet - revealed more snow on that side.
+
+![Snow on the east side of the tor](ben-avon-12.jpg)
+
+I found a nice rock to hide behind and setup the slim G on the carbon mast. My last activation on [Carn a’Gheoidh](https://gm5alx.uk/sota/2024/gm-cs-030/), suffered a lot from the mast bending too much in the wind and the antenna sliding off. Up until this point, I’d forgotten about this and so hadn’t prepared anything else. Luckily the slight sheltering seem to keep the antenna on and I managed to make my QSOs. The most exciting was a summit to summit with Fraser, MM0EFI, who’s on Mull and was up [GM/SI-016](https://sotl.as/summits/GM/SI-016), 100 miles away. We were both on HTs and slim G antenna!
+
+![160km summit to summit on 2m FM](s2s.png)
+
+Off to the next summit! The walk was barren, non-identifiable and had much more snow, oh, plus the wind continued.
+
+![Selfie at the top](ben-avon-14.jpg)

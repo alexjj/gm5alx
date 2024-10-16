@@ -13,7 +13,7 @@ activations = await d3.json(
   "https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&id=46844"
 )
 
-  data = result.map(d => ({
+  data = activations.map(d => ({
     ActivationDate: new Date(d.ActivationDate),
     Total: +d.Total
   }));

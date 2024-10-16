@@ -1,0 +1,11 @@
+---
+title: Ben Avon
+subtitle: Midweek 2m sideband
+image: "ansocach-5.jpg"
+points: 10
+date: 2024-10-15 10:00
+qsos: 4
+total: 94
+summit: "GM/ES-006"
+draft: true
+---

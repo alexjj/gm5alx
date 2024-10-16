@@ -1,11 +1,36 @@
 ---
 title: Beinn a'Bhuird - North Top
-subtitle: Midweek 2m sideband
-image: "ansocach-5.jpg"
+subtitle: Part two of the trip, now with more snow
+image: "bhuird-7.jpg"
 points: 10
 date: 2024-10-15 13:00
 qsos: 7
 total: 104
 summit: "GM/ES-004"
-draft: true
 ---
+
+After activating [Ben Avon](https://gm5alx.uk/sota/2024/gm-es-006/), and a brief stop for some food, it was time to head back to The Sneck and then up to Beinn a'Bhuird.
+
+![A barren landscape](bhuird-3.jpg)
+
+![How is it still standing in this wind?](bhuird-6.jpg)
+
+The frozen burns were interesting, some I could walk over, and some were only partially frozen. The small waterfalls would trap air underneath and then the bubbles would travel under the ice for a few meters before escaping.
+
+![Frozen burns](bhuird-7.jpg)
+
+The summit was hard to find, my GPS route had come to an end but I couldn’t see anything. Some general blind amberling around eventually found it hidden in the cloud. I was a bit disappointed in the cairn, I was hoping I could at least hide in it, and even when crouched down behind it, the wind still got me.
+
+![At the summit!](bhuird-8.jpg)
+
+I then proceeded to spend ages messing about, trying to get setup on HF, but nothing would stay still. The wind pulled out guys and pegs, it bent the top of mast over 90° and so wires would come off, I angled the mast 35° off the ground into the wind, and the top still bent over enough for the wire to be pulled off. I held the mast with my body weight but still the wind could pick me up with only the surface area of the mast! Just when I had everything set for 40m it all blew down :sweat_smile: I thought I’d try 2m but that was just as challenging. I could hear the local lunch time net in Aberdeen but it was hard to get a word in edgeways and I’m not sure they could hear me anyway. So back to HF it was, this time with a short 5.5m vertical random wire for 20m. This I did manage to make some contacts with but, again, the wind blew me and the mast over mid-way through a QSO. By this time I was fed up, cold and wet, but had qualified the summit, so it was time to go! Also, there was no signal just behind the cairn…to add to the fun.
+
+![Which way was it?](bhuird-5.jpg)
+
+I generally took the same route back, without a compass, or device with a compass, it would be impossible to know which way to go. At one point on the way back it was so windy I could lean into the wind and it would hold me up! But I was soon back at The Sneck and heading down, and it wasn’t long before the conditions were more pleasant again. The weather wasn’t quite so nice down in the valley on the way back, but much nicer than on the summits. Found my bike, generally took the same route back, and was pleased to arrive back at the car to drive home.
+
+![Back down and out of the clouds](bhuird-1.jpg)
+
+A big day out for me, 38 km or so round trip…and did I mention it was windy? 🍃
+
+Also on the [SOTA reflector](https://reflector.sota.org.uk/t/a-very-windy-ben-avon-gm-es-006-and-beinn-abhuird-gm-es-004/36517).

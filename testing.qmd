@@ -1,8 +1,9 @@
 ---
 title: SOTA Testing Page
-format: dashboard
+format: html
 ---
 
+Testing out pulling SOTA data...
 
 
 ```{ojs}

@@ -183,7 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&amp;id=46844"</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  data <span class="op">=</span> result<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  data <span class="op">=</span> activations<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="dt">ActivationDate</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Date</span>(d<span class="op">.</span><span class="at">ActivationDate</span>)<span class="op">,</span></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Total</span><span class="op">:</span> <span class="op">+</span>d<span class="op">.</span><span class="at">Total</span></span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  }))<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -222,7 +222,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIuc290YS5vcmcudWsvYWRtaW4vYWN0aXZhdG9yX2xvZ19ieV9pZD95ZWFyPWFsbCZpZD00Njg0NFwiXG4pXG5cbiAgZGF0YSA9IHJlc3VsdC5tYXAoZCA9PiAoe1xuICAgIEFjdGl2YXRpb25EYXRlOiBuZXcgRGF0ZShkLkFjdGl2YXRpb25EYXRlKSxcbiAgICBUb3RhbDogK2QuVG90YWxcbiAgfSkpO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLnRhYmxlKGRhdGEsIHsgc29ydDogXCJBY3RpdmF0aW9uRGF0ZVwiLCByZXZlcnNlOiB0cnVlIH0pXG4ifV19
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIuc290YS5vcmcudWsvYWRtaW4vYWN0aXZhdG9yX2xvZ19ieV9pZD95ZWFyPWFsbCZpZD00Njg0NFwiXG4pXG5cbiAgZGF0YSA9IGFjdGl2YXRpb25zLm1hcChkID0+ICh7XG4gICAgQWN0aXZhdGlvbkRhdGU6IG5ldyBEYXRlKGQuQWN0aXZhdGlvbkRhdGUpLFxuICAgIFRvdGFsOiArZC5Ub3RhbFxuICB9KSk7XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJJbnB1dHMudGFibGUoZGF0YSwgeyBzb3J0OiBcIkFjdGl2YXRpb25EYXRlXCIsIHJldmVyc2U6IHRydWUgfSlcbiJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

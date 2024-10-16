@@ -1,0 +1,23 @@
+---
+title: SOTA Testing Page
+format: dashboard
+---
+
+
+
+```{ojs}
+d3 = require('d3')
+
+activations = await d3.json(
+  "https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&id=46844"
+)
+
+  data = result.map(d => ({
+    ActivationDate: new Date(d.ActivationDate),
+    Total: +d.Total
+  }));
+```
+
+```{ojs}
+Inputs.table(data, { sort: "ActivationDate", reverse: true })
+```

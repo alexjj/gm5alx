@@ -1,0 +1,60 @@
+---
+title: Brown Cow Hill
+subtitle: Clear views above the clouds
+image: "brown-cow-14.jpg"
+points: 4
+date: 2024-10-25
+qsos: 37
+total: 108
+summit: "GM/ES-023"
+---
+
+Tim, GM5OLD, is up in the area and doing a few summits. I took the opportunity (with kind support from the family...for the morning at least!) to be out at the same time for some S2S action. Tim was going up both Mona Gowan and Morven today, and so I picked a 4-pointer nearby - the very Scottish sounding, Brown Cow Hill.
+
+![Corgarff Castle](brown-cow-14.jpg)
+
+The route starts in the car park for Corgarff castle and takes a nice track up the hill. Weather was okay, some low cloud and the possibility of rain in the afternoon. Our rendezvous time was around 10-10:30am. After my previous epic journey up two high peaks, this felt like a walk in the park. There was almost no wind and that alone made it enjoyable.
+
+![Watchers](brown-cow-12.jpg)
+
+I soon entered the cloud and visibility dropped considerably. This was fine whilst I was following the track but after a while it mostly disappears into the heather...and peat hags.
+
+![Mist](brown-cow-13.jpg)
+
+![Peat hags](brown-cow-11.jpg)
+
+![and more peat hags](brown-cow-10.jpg)
+
+There must've been some serious water coming down as the channels carved by it were huge, I had to make quite a few detours to find crossable areas without having to scramble down a muddy cliff face. It was wet and boggy underfoot, and I had plenty of full foot submersions.
+
+![New fence](brown-cow-6.jpg)
+
+Near the top, I emerged from the cloud and could enjoy some of the scenery again. A very new looking fence seemed to cross across the path but luckily a gate was nearby, so I didn't have to clamber over it. Being out of the mist, I was rewarded with some lovely views across to nearby summits, including [Ben Avon](https://gm5alx.uk/sota/2024/gm-es-006/) I recently did. There wasn't any snow at the top of them any more, they were out of the cloud and probably enjoyed the minimal wind as I was. Today would've been a much better day to climb them! If I did have the whole day, it would've been good to try Ben Macdui or some of the other high peaks too.
+
+![Culardoch to the south](brown-cow-7.jpg)
+
+![A sunny summit - not sure which, Morrone?](brown-cow-8.jpg)
+
+![Ben Avon and Beinn a'Bhuird (perhaps South Top)](brown-cow-4.jpg)
+
+I reached the summit about 10am and setup my mast with the slim G and sloper L random wire antenna. The complete lack of wind was so enjoyable, although I still managed not to fully extend the mast and it collapsed on me! I knew Tim was nearly at the top too, so once setup I just listened to the bands and had something to eat. Unfortunately, just at the moment the cloud came in and the lovely views disappeared - oh well!
+
+![Not much of a cairn](summit.jpeg)
+
+![Station setup](brown-cow-1.jpg)
+
+I brought the G90 and 4Ah LiFePO4 battery today. I like the G90, it's a bit heavier than the KX2, but as my first radio, I have a soft spot for it. It's pretty capable, especially given the price, and 20W and a tuner than can match the 5.5m vertical random wire on 40m is pretty sweet. 20W over 10W probably makes no discernible difference, but I do like the little waterfall for finding quiet spots on the band. If I'm going on a long walk, and multiple summits, I'd probably stick with the KX2. If the weather is bad, I'd lean more to the KX2 also, as its form factor makes it easier to keep hidden from the rain in my shadow or a plastic bag. However, on a short walk, and nice weather, I'd probably take the G90, or if I just want a change.
+
+![QSOs](qsos.png)
+
+I had some nice QSOs with Tim, GM5OLD, Fraser, MM0EFI, and Chris, 2M0RVZ, on 2m. I could hear Bill, GM0NRT, in Aberdeen about a 31, but he couldn't hear me. Tim had Bill as a 59, but it seemed Mona Gowan/Morven were enough to block my signal. Tim and I had a nice chat for a while, on 145.500, but there's no-one around here so it doesn't matter 😅, and then we both went to HF. Plenty of contacts on 40m, in England, Ireland and into Europe. I hunted a few summit to summits, with a pair in Italy and one in Norway. I moved up to 10m, a band I've not tried much, usually as I'm in a rush and once the summit is qualified I'm off, and got several more stations in Europe and a couple into "Africa", the Canary Islands, receiving 55 and 59 from them.
+
+![Views to the north](brown-cow-3.jpg)
+
+I was meant to be home by 1pm but I was having a blast on the air, and the weather was pleasant, so I ended up staying at the summit for much longer than I planned. However, I did have to get back, so I packed up and headed down. I tried walking a straight route from the crossing the fence back to the main track, but managed to wind all over the place. There did seem to be fewer peat hags on the way back, although the few that there were, they were a lot steeper. I also managed to miss the turning on the track back to the castle and looked up to find the castle much higher than me, so then scrambled up the side of the slope to get back on the proper track. At this point it started to rain a little but I was nearly back to the car.
+
+I'm only the 8th person to activate Brown Cow Hill. It's clearly not a popular summit, and likely one for just those looking to complete GM/ES or other lists. There are plenty of other ones nearby that are more appealing. However, if the weather is clear, you get some stunning views all around, and the walk up isn't that bad - around 6.6 km and 425m ascent, with minimal ups and downs - just the peat hags to deal with but other summits have those too. I still stand by that Morven is the worst summit for brutality of ascent!
+
+Here's Fraser at the other end of our 2m QSO.
+
+<iframe width="515" height="915" src="https://www.youtube.com/embed/r1TF48JEdYU" title="Two #SOTA in 20 secs. #Yaesu VX-7r #portableradio #hamradio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

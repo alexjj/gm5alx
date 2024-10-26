@@ -1,0 +1,40 @@
+---
+title: Fourman Hill
+subtitle: Making the most of CQ Worldwide DX Contest
+image: "qsos.png"
+points: 1
+date: 2024-10-26
+qsos: 27
+total: 109
+summit: "GM/ES-083"
+---
+
+![Looking NE](fourman-6.jpg)
+
+The kids have been enjoying the [previous](https://gm5alx.uk/sota/2024/gm-es-077/) [adventures](https://gm5alx.uk/sota/2024/gm-es-087/) we've gone on, and wanted to go out again. Tim, GM5OLD, was going to be going up Sgor Mor but had hurt his knee on the descent of Morven, so called it off. I'd originally planned to go up Craigendarroch, as that's likely to be in reach, via 2m, of Sgor Mor, but as we weren't constrained by that anymore, I decided Fourman Hill would be a good summit. It's quite a low summit and the route up is short, around 1.3 km with 115m of elevation change. Makes for a nice pleasant walk, also when you're carrying a tent, lunch for four and various things the kids want, you appreciate the short trip! If I was on my own, it would've only taken 20 minutes to get to the top.
+
+![Looking south](fourman-5.jpg)
+
+Perhaps I should've done it that day I did [three 1-pointers](https://gm5alx.uk/sota/2024/gm-es-071/) in the area - then I could've used Mike's, 2M0WNA, joke about being a four hill man.
+
+![Following the leader](fourman-4.jpg)
+
+Weather was good today, nearly clear blue skies, although some wind, particularly on the summit. The walk up is mostly sheltered by trees but when you near the top these are sparse and we were getting blown about quite a bit. The trig point is in the middle of some gorse and there's not much space around it. We found a nearby tree in the heather to setup camp.
+
+![Tent and station](fourman-1.jpg)
+
+The kids kept out of the wind in the tent and had their lunch in there. I setup just behind a tree and used another to tie off the random wire in more of an inverter L shape rather than the usual inverted sloper L. I also had the slim G on the mast for 2m. Fraser, MM0EFI, was first in the log on 60m. I thought others would come but after about 10-15 minutes of calling, no-one else appeared so I moved to 40m. Whilst the CQ Worldwide DX Contest was going on, there was still space on the band and I worked 5 stations - including Tim, GM5OLD, from his camper van across at Glenshee.
+
+![GM5OLD Station](gm5old.jpeg)
+
+As the contest was on, I thought I'd make the most of it and see what DX I could work. I moved to 10m and the band was chock-a-block! I started with a few European and Russian contacts, and they were easy to work. Everyone just gives you a 59 in a contest so not sure what my signal really was but when they come back after my first call and get my callsign correct, it must be a pretty decent signal. I saw Barbados, 8P5A, on the cluster, so thought I'd give them a try. It took a few attempts but eventually managed to get through! My first transatlantic SOTA QSO!
+
+![QSOs - Green is 10m](qsos.png)
+
+I switched the antenna to the 5.5m random vertical and started at 29.000 MHz and worked down. Lots of US stations at this end of the band and pretty much each one I tried, came back straight away. I heard many stations worldwide, Canada, Aruba, China, Brazil, Saudi Arabia, but didn't manage to work them. It's always a trade off of how long do you keep calling them before you decide they can't hear you due to propagation vs. being drowned out by bigger stations. Plus the kids had had enough by this point and wanted to move on.
+
+![Heading back down](fourman-2.jpg)
+
+I did join the lunchtime net and made a couple of local contacts on 2m, I didn't spot on 2m or try calling, as I wanted to spend the time on 10m instead. We were back to the car in 20 minutes and nearly everyone fell asleep on the way home! A friend at work asked me about good walks for kids, and thanks to SOTA. I now have a long list of nice walks to recommend!
+
+![Cheese!](fourman-3.jpg)

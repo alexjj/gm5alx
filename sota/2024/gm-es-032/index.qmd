@@ -1,0 +1,43 @@
+---
+title: Mount Battock
+subtitle: First 2m QSO into England
+image: "battock-10.jpg"
+points: 4
+date: 2024-10-31
+qsos: 5
+total: 113
+summit: "GM/ES-032"
+draft: true
+---
+
+This is the most the most easterly Corbett, which make it the most easterly mountain in Scotland. The weather was absolutely lovely, although the forecast for the summit was high winds.
+
+![Clachnaben view from the start](battock-1.jpg)
+
+The route was a long cycle, around 1:30, including pushing it up much of the steep parts to have a quick journey home. The path is very well made up the whole way, but you just have to watch you take the right turns at a few locations.
+
+![Was it left or right?](battock-3.jpg)
+
+![](battock-4.jpg)
+
+I dropped my bike at the turn off to the summit. As I approached the summit the wind was picking up considerably, I could also smell and see a lot of smoke in the air. Seemed to be some fires to the south, but at times the wind would blow great clouds of it towards me and it were as if I was right to a bonfire.
+
+![Fires](battock-8.jpg)
+
+![Looking north with view of path from the summit](battock-7.jpg)
+
+This is a good summit for 2m, I think Fraser has done a 145 Alive event from here, and from looking at past logs on [sotlas](https://sotl.as/summits/GM/ES-032), so I was hoping for a quick activation on 2m. It wasn't quite as quick as I'd hoped, but also turned out my spot didn't really work properly, and showed as Test, due to the changes to the SOTA API and SOTAGoat not being updated.
+
+![At the top, in the wind!](battock-9.jpg)
+
+However, my first CQ, with just the RH-770 telescopic antenna on, was immediately replied by G6BIA from South Shields, outside Newcastle, at 235 km/146 miles away! Great signal! It took another 30 minutes to get the 3 more needed to qualify and then one more from Hibby, MM0RFN, who met Fraser, MM0EFI, for lunch in Westhill.
+
+![](qsos.png)
+
+Some good shelter on the summit - thank goodness - but also lots of fences and posts for future antenna mounting options! A good summit to spend the day if the weather co-operates.
+
+![Slim G in the air](battock-10.jpg)
+
+Descent was quick, thanks to pushing the bike up so much of the ascent. Some parts were a bit hairy - steep, loose gravel and gusty winds, but once I was a little lower it was some nice free wheeling much of the way. It's also a nice close summit, only being about 30 minutes drive from my house.
+
+![More views from the top](battock-6.jpg)

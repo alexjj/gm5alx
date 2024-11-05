@@ -1,0 +1,28 @@
+---
+title: Geallaig Hill
+subtitle: Hike with auntie
+image: "geallaig-3.jpg"
+points: 4
+date: 2024-11-01
+qsos: 22
+total: 117
+summit: "GM/ES-036"
+---
+
+My auntie was visiting for the weekend and she's a keen hill walker, so of course we had to go out! I picked Gaellaig Hill as it's not too long, and close to Ballater for a nice lunch afterwards and then still home in time to do school pick up.
+
+Whilst yesterday the weather was lovely, and the forecast looked great over the weekend, today was much greyer and wetter. Thankfully it had stopped raining by the time we reached the start, and even a little blue sky appeared.
+
+![Looking back down the hill](geallaig-3.jpg)
+
+The walk up was straight forward, following the track right to the summit. I forgot to take any photos of the summit, but there's a nice cairn you have to climb into with the trig point, and you're very well protected from any wind. The rain less so, for obvious reasons.
+
+Whilst the radio is somewhat of a novelty for her, I didn't think that would last long. Fraser, MM0EFI, knew I was going up and we had a quick QSO on 2m, but then I jumped straight to 20m on HF. It was quite a considerable pile up and I really struggled to make anyone out. There was some QRM, tuning, tones that kept sounding too which made it harder. Probably if I had headphones on I would've done better but I at least wanted auntie to be able to hear.
+
+![QSOs](qsos.png)
+
+Had a few England and Welsh stations come back who were booming signals, and cut through the pile up! Quite the short skip on 20m. Managed three summit-to-summits in England, Italy and Germany too.
+
+After about 30 minutes, it was time to pack up and head back down...and warm up again! We went into Ballater - the first time I've actually been there! - had lunch at The Bothy and had a look around a few shops. Some classic granny shops on the high street!
+
+![Smile!](geallaig-1.jpg)

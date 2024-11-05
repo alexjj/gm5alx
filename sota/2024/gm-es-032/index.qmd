@@ -7,7 +7,6 @@ date: 2024-10-31
 qsos: 5
 total: 113
 summit: "GM/ES-032"
-draft: true
 ---
 
 This is the most the most easterly Corbett, which make it the most easterly mountain in Scotland. The weather was absolutely lovely, although the forecast for the summit was high winds.

@@ -1,0 +1,12 @@
+---
+title: Ben Macdui
+subtitle: The big one
+image: "145-alive.jpg"
+points: 10
+date: 2024-11-06
+qsos: 15
+total: 135
+summit: "GM/ES-001"
+draft: true
+---
+

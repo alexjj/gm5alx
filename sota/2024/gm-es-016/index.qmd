@@ -1,0 +1,12 @@
+---
+title: Ben Tirran
+subtitle: The clouds part for a sunny summit
+image: "145-alive.jpg"
+points: 4
+date: 2024-11-08
+qsos: 29
+total: 139
+summit: "GM/ES-016"
+draft: true
+---
+

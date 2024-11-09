@@ -1,11 +1,46 @@
 ---
 title: Carn a'Mhaim
-subtitle: First summit of the day
-image: "145-alive.jpg"
-points: 1
+subtitle: First summit of a big day
+image: "mhaim-6.jpg"
+points: 8
 date: 2024-11-06 10:00
 qsos: 9
 total: 125
 summit: "GM/ES-013"
 ---
 
+After the lovely weekend's weather, I was watching the forecast and today's was looking good, so I decided to take the day off work and go for a big trip in the Cairngorms. Unfortunately, by the time it got to today, the weather wasn't quite as nice as originally forecast. It was mild though, 12 degC at the Linn of Dee when I set off in the morning.
+
+![Cycle through the forest](mhaim-13.jpg)
+
+![Path to Derry Lodge, Carn a Mhaim in the clouds at the back](mhaim-12.jpg)
+
+I started at Linn of Dee, and cycled along the nice track to Derry Lodge, a now boarded up hunting lodge. It's common for people to leave their bikes here as the paths beyond aren't quite as nice, or people are doing the big loop around Derry Cairngorm, Ben Macdui and back, and this is where all the paths return to. My route today did have a loop but not as big, and I continued to cycle on to Luibeg burn.
+
+![Derry Lodge Bridge](mhaim-9.jpg)
+
+After crossing the bridge, the ground soon beomes very muddy and boggy, with the bike wheels disappearing half way into the mud. It was hard work finding a path across, but once that was done the track was reasonable again. There were some surface drains across the path but they were wide and easy to cycle over, but as I neared Luibed these became more rocky and less navigable whilst cycling. I reached Luibeg and wanted to leave my bike near the bridge, as this would be where I'd be coming on the way back.
+
+![Luibeg Bridge - I was approaching from the right and heading to the left on this map](luibeg.png)
+
+There are actually three routes from east to west from when you meet the trees at Luibeg. I'd planned to take the upper route, ended up on the lower route, and found that the middle one would've been best! I ended up trying to get my bike through the woods on a tiny track, with rocks and roots and all sorts. It was not easy, but I eventually made it to the bridge. I left my bike there, crossed the bridge and walked down to rejoin the path before taking the northern split to ascent Carn a Mhaim. As I was walking up I realised I'd lost my LoRa tracker somewhere in those woods. It was on the top of my bag and the trees must've knocked it off. 😢 It wasn't on as there are no igates nearby and I'm in the valley, so it's not like I can even track the tracker!
+
+![Luibeg Bridge - the alternative to fording the burn](mhaim-8.jpg)
+
+![Looking back the way I came along Glen Lui](mhaim-10.jpg)
+
+As I climbed I entered the cloud and the lovely views all disappeared. The walk up was steep but straightforward.
+
+![In the cloud](mhaim-5.jpg)
+
+Then out of the mist the summit cairn appeared and I setup for my first activation of the day. I'd hoped to qualify the summit on 2m, so I could get moving, but being mid-week I wasn't hopeful. I did get three 2m QSOs fairly quickly, and then set up the quick 5.5m vertical for 20m. Contacts came in quick with that and then I thought I heard Bill, GM0NRT, call on 20m but I think it was on the HT still and then in my confusion the chasers stopped. However, I had enough contacts so just packed up. As I was doing so, Denis, MM0CBC, was out on a summit further west near Aviemore and he'd just reached the top. We had a tricky QSO as Bill thought I was speaking to him still on 2m, he struggled to hear me but heard me asking Denis to QSY, again thinking it was me asking Bill to QSY! Denis couldn't hear Bill so it was probably confusing for him too but we made it in the end. As I was chatting with Denis, a lady came by to the summit. She was curious as to what I was doing and we had a brief chat. She then left and continued up to Ben Macdui. I packed up and started towards it myself.
+
+![At the summit](mhaim-3.jpg)
+
+![Station setup](mhaim-2.jpg)
+
+The path that continues towards Ben Macdui follows the ridge between the two glens until it gets to the side of the mountain. This is quite a narrow ridge, but thankfully the wind was gentle. The clouds did start to part and I had a few glimpses down into Lairig Ghru, including Corrour bothy at the foot of Cairn Toul and Devil's Point climb.
+
+![Corrour Bothy](mhaim-1.jpg)
+
+![Ridge to Ben Macdui](mhaim-6.jpg)

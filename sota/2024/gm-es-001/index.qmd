@@ -1,7 +1,7 @@
 ---
 title: Ben Macdui
 subtitle: The big one
-image: "145-alive.jpg"
+image: "ben-macdui-20.jpg"
 points: 10
 date: 2024-11-06 13:00
 qsos: 15
@@ -10,6 +10,30 @@ summit: "GM/ES-001"
 draft: true
 ---
 
-Ben Macdui is Scotland's (and the UK's) second highest mountain at 1,309 m, only beaten by 36m by the famous Ben Nevis. My journey continues from [Carn A' Mhaim](https://gm5alx.uk/sota/2024/gm-es-013/), whereby I walked along the ridge, then down (unfortunately) to the side of Ben Macdui.
+Ben Macdui is Scotland's (and the UK's) second highest mountain at 1,309 m, only beaten by 36m by the famous Ben Nevis. My journey continues from [Carn A' Mhaim](https://gm5alx.uk/sota/2024/gm-es-013/), whereby I walked along the ridge, then down (unfortunately) to the side of Ben Macdui. I'd caught up with the lady who passed me at the previous summit, and so we ended up walking to the summit of Ben Macdui together. She was visiting from Manchester and staying a few days in Braemar. She asked lots of questions about amateur radio and seemed interested, particularly in SOTA. Once we started going back up the hill it was just boulders for as far as the eye can see - although we were once again in the cloud so not that far.
 
+![The start of the ascent - lady in the foreground for scale](ben-macdui-22.jpg)
 
+![Last view before climbing into the clouds](ben-macdui-21.jpg)
+
+The path came and went a few times as we went up, occasionally small patches of red sandstone gravel could be spotted, and we followed that as best we could. We came to a small stream to cross and that meant we were nearing the top, and the boulders eased off. Soon enough the trig point and cairn appeared in the cloud and we'd made it!
+
+![Trig point](ben-macdui-19.jpg)
+
+![Marker from 1920s](ben-macdui-20.jpg)
+
+There were a few other people at the top, and a trickle of walkers continued for most of the time I was there. I looked around and found another sheltered cairn to setup behind. There wasn't much wind at the top, but being in the cloud was a bit damp. Water would condense on the mast and wires and then drip down onto me.
+
+![Summit setup](ben-macdui-summit-2.jpg)
+
+I had hoped 2m would be good from up here, certainly during the [145 Alive event](https://gm5alx.uk/sota/2024/gm-es-087/), Fraser made contacts all over Scotland and north England. However, after Fraser and calling CQ a few times it seemed no-one was listening and I went to 40m - I also knew I had a long way back to go and didn't want to hang about too long. 40m was good, with 13 contacts, including a summit to summit with 2W0OMX on GW/SW-001 - the tallest Brecon Beacon in Wales. As I was thinking of packing up I heard a mobile station call on 2m, and had a brief chat with him. I'd been on the air for about 30 minutes and it was time to pack up and head down. The lady (who I never asked her name) who climbed with me had gone on to do the big loop around Derry Cairngorm and back to Derry Lodge. I'd looked at that route but it would add at least 30 minutes, and I was on a schedule to get home for 5pm, so I'll save that Munro for next year. A bit of wandering around and I found my route down, and after not very long the clouds started to part and the views improved considerably!
+
+![](ben-macdui-15.jpg)
+
+![Cloud over Cairn Toul](ben-macdui-3.jpg)
+
+![Ridge walk from Carn A' Mhaim](ben-macdui-12.jpg)
+
+![Route down](ben-macdui-10.jpg)
+
+I soon found the path in the photo above, and then it was plain sailing from there. It did get quite steep in places on the way down but manageable.

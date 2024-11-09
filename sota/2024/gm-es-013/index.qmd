@@ -3,7 +3,7 @@ title: Carn a'Mhaim
 subtitle: First summit of the day
 image: "145-alive.jpg"
 points: 1
-date: 2024-09-29
+date: 2024-11-06 10:00
 qsos: 9
 total: 125
 summit: "GM/ES-013"

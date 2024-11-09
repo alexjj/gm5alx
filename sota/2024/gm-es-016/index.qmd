@@ -1,7 +1,7 @@
 ---
 title: Ben Tirran
 subtitle: The clouds part for a sunny summit
-image: "145-alive.jpg"
+image: "ben-tirran-8.jpg"
 points: 4
 date: 2024-11-08
 qsos: 29
@@ -10,3 +10,52 @@ summit: "GM/ES-016"
 draft: true
 ---
 
+I had originally planned to do Ben Tirran, [GM/ES-016](https://sotl.as/summits/GM/ES-016), with Hunt Hill, [GM/ES-042](https://sotl.as/summits/GM/ES-042), starting from Loch Lee and going back and forth, but I had to do the school pick up so needed to be home by 3pm. For a while I still thought I could do both until I realised my time spreadsheet had an error, although it took writing an email to someone saying I was going to be on Ben Tirran at 2pm…and then home by 3pm :thinking: Anyway, I decided to just do Ben Tirran as it’s taller…(only if it were 4m taller still…)
+
+![Car park and cafe](ben-tirran-16.jpg)
+
+Starting by Wheen farm, there’s a little area off the road where you can park, and, at some point during the year, even buy some refreshments!
+
+![What's on the menu](ben-tirran-1.jpg)
+
+The cloud was low but wind was minimal, and it was mild at 10 degC. The path is straight forward from the car park, with a small stream crossing at one point.
+
+![Looking west down Glen Clova](ben-tirran-14.jpg)
+
+![Path ahead](ben-tirran-13.jpg)
+
+I did miss the turning, and then stomped across the heather to find the path. When I came back down I looked to see why I’d missed the turning…
+
+![Turn off here...](ben-tirran-2.jpg)
+
+Perhaps on a clear day it would be more obvious, and the small cairn would stand out.
+
+As I reached the summit, it was getting brighter, and I had hopes of the sun breaking through. I setup on 2m with the FT65 and RH770 and called a few times. Soon enough I had five contacts, including G6BIA down by Newcastle - who I also got on Mount Battock the other week.
+
+![Fog bow](ben-tirran-12.jpg)
+
+A surprise one was Fraser, MM0EFI, at home, with Mount Keen right between us. At this point the clouds parted and I was in glorious sunshine.
+
+![Looking south](ben-tirran-7.jpg)
+
+![North to Mount Keen](ben-tirran-10.jpg)
+
+![Trig Point](ben-tirran-11.jpg)
+
+Also out was Denis, MM0CBC, up on holiday from Wales. He was on [GM/ES-027](https://summits.sota.org.uk/summit/GM/ES-027) and we had a nice summit to summit on 2m. Also impressive given the high peaks of Lochnagar, and Beinn a’Bhuird were between us.
+
+Several people reported my audio kept dropping and I was difficult to hear, but the carrier was still strong. Think I’ve come to the conclusion the FT-65 mic/design isn’t that great (judging from commentary online) and even though I’m right next to it when talking, small movements cause the levels to drop. That sounded annoying for those at the other end, especially after I’d witter on for 3 minutes and they only heard every 5th word.
+
+![Setup for HF](ben-tirran-6.jpg)
+
+I setup for 40m and had plenty of contacts. I’d arrived at the summit sooner than I expected, and so could afford to spend more time on the radio. I tried chasing a few other summits, although not too many active at the time, but made contact with HB9CYX and \@DG4SFF. Tried a little 10m, and was rewarded with W4GO and N2BTD on the east of the US. I thought about changing from my sloper L antenna to a vertical but then realised I didn’t have enough time for that. Packing up I heard someone calling on 2m and ended up having a chat with a few others. At this point I was now behind schedule and had to get a move on! Back into the cloud and a quick trot down to the car.
+
+![Back at the farm](ben-tirran-15.jpg)
+
+A very enjoyable day out. It’s a nice summit, with good take off for 2m, some shelter at the trig, and lovely views when the cloud clears. I could see many summits peaking above the clouds - Mount Keen, Lochnagar, and even across to Ben Avon. On a cloudless day, I bet the views would be stunning all round.
+
+It’s almost been two years since anyone came here, [Fraser being the last of course 2](https://reflector.sota.org.uk/t/gm-es-all-88-out-of-87-uniques-activated/31625). Perhaps the route from either north or south isn’t great, and there are plenty of other options closer from both sides. However, it would be one I’d recommend. I did get Tim, G5OLD, on 40m and so now he’s compelled to come up for a complete.
+
+![QSOs](qsos.jpeg)
+
+Also posted on the [reflector](https://reflector.sota.org.uk/t/a-sunny-summit-on-ben-tirran-gm-es-016/36735).

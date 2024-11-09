@@ -833,6 +833,24 @@
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-087/145-alive.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Carn a’Mhaim</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/sota/2024/gm-es-013/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <guid>https://gm5alx.uk/sota/2024/gm-es-013/</guid>
+  <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-013/145-alive.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>An Socach</title>
   <dc:creator>Alex Johnstone</dc:creator>
   <link>https://gm5alx.uk/sota/2024/gm-cs-038/</link>
@@ -1427,60 +1445,6 @@ Tip
   <guid>https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/</guid>
   <pubDate>Fri, 06 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/posts/2024/building-a-2m-portable-yagi/cairn-william.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Hill of Tillymorgan</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2024/gm-es-079/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="tillymorgan-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Looking back at Foudland"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-1.jpg" class="img-fluid figure-img" alt="Looking back at Foudland"></a></p>
-<figcaption>Looking back at Foudland</figcaption>
-</figure>
-</div>
-<p>A quick drive across the A96 and I was parked by the old church - <a href="https://maps.app.goo.gl/pah11Z7VKxTnonEh7">Kirkton of Culsalmond Old Parish Church</a>. The path is easy, straight up the road to the turbines and then either around them bypassing the fence, or past them and then finding a spot where the barbed wire fence has come down.</p>
-<p><a href="tillymorgan-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-2.jpg" class="img-fluid"></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="tillymorgan-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="They’re big!"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-3.jpg" class="img-fluid figure-img" alt="They’re big!"></a></p>
-<figcaption>They’re big!</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="tillymorgan-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="South towards Bennachie"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-4.jpg" class="img-fluid figure-img" alt="South towards Bennachie"></a></p>
-<figcaption>South towards Bennachie</figcaption>
-</figure>
-</div>
-<p>Doesn’t take long and you’re in the activation zone, but I wanted to get to the trig point. Turns out there’s an old quarry here and you have to navigate it, but the trig offers lovely views all around once you do get there.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="tillymorgan-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Slates"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-5.jpg" class="img-fluid figure-img" alt="Slates"></a></p>
-<figcaption>Slates</figcaption>
-</figure>
-</div>
-<p>Decided to setup the yagi again and try it out, just on FM this time. The wind blew it around a little which caused signal reports to jump up and down. Managed across the water to the North to Helmsdale, about 100 km away…from the back of the yagi! I was 53 at first but when I turned it around I was 59 to him.</p>
-<p><a href="tillymorgan-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-7.jpg" class="img-fluid"></a></p>
-<p>Just managed four in the log but that was enough, starting to feel the days activities now and it was time to be heading home. My shoes hadn’t done well on Cairn William, and were soaked back then, and still wet now.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="tillymorgan-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Looking tired!"><img src="https://gm5alx.uk/sota/2024/gm-es-079/tillymorgan-6.jpg" class="img-fluid figure-img" alt="Looking tired!"></a></p>
-<figcaption>Looking tired!</figcaption>
-</figure>
-</div>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-079/</guid>
-  <pubDate>Wed, 04 Sep 2024 16:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-079/bee.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

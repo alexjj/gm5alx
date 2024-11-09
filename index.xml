@@ -10,7 +10,25 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 06 Nov 2024 10:00:00 GMT</lastBuildDate>
+<item>
+  <title>Carn a’Mhaim</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/sota/2024/gm-es-013/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <guid>https://gm5alx.uk/sota/2024/gm-es-013/</guid>
+  <pubDate>Wed, 06 Nov 2024 10:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2024/gm-es-013/145-alive.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Geallaig Hill</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -831,24 +849,6 @@
   <guid>https://gm5alx.uk/sota/2024/gm-es-087/</guid>
   <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-087/145-alive.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Carn a’Mhaim</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2024/gm-es-013/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-013/</guid>
-  <pubDate>Sun, 29 Sep 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-013/145-alive.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>An Socach</title>

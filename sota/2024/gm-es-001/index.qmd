@@ -3,10 +3,13 @@ title: Ben Macdui
 subtitle: The big one
 image: "145-alive.jpg"
 points: 10
-date: 2024-11-06
+date: 2024-11-06 13:00
 qsos: 15
 total: 135
 summit: "GM/ES-001"
 draft: true
 ---
+
+Ben Macdui is Scotland's (and the UK's) second highest mountain at 1,309 m, only beaten by 36m by the famous Ben Nevis. My journey continues from [Carn A' Mhaim](https://gm5alx.uk/sota/2024/gm-es-013/), whereby I walked along the ridge, then down (unfortunately) to the side of Ben Macdui.
+
 

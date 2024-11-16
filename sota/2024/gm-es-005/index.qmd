@@ -3,7 +3,7 @@ title: Beinn Mheadhoin
 subtitle: Part one in the wind and damp
 image: "mheadhoin-9.jpg"
 points: 10
-date: 2024-11-14 10:00
+date: 2024-11-13 10:00
 qsos: 6
 total: 149
 summit: "GM/ES-005"

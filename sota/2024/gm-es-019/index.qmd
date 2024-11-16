@@ -3,10 +3,10 @@ title: Conachcraig
 subtitle: Second summit of the day
 image: "lochnagar-6.jpg"
 points: 4
-date: 2024-10-03
+date: 2024-10-03 14:00
 qsos: 4
 total: 76
-summit: "GM/ES-008"
+summit: "GM/ES-019"
 ---
 
 After the [big hill](https://gm5alx.uk/sota/2024/gm-es-008/), it was time to do the small one - [Conachcraig](https://sotl.as/summits/GM/ES-019). It certainly looked small from Lochnagar summit but it's still a respectable 865m tall.

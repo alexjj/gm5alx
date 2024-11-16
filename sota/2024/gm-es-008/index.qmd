@@ -3,7 +3,7 @@ title: Lochnagar - Cac Carn Beag
 subtitle: A windy munro
 image: "lochnagar-5.jpg"
 points: 10
-date: 2024-10-03
+date: 2024-10-03 10:00
 qsos: 5
 total: 72
 summit: "GM/ES-008"

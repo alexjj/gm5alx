@@ -1,0 +1,44 @@
+---
+title: "Beinn a'Chaorainn"
+subtitle: Summit two with improving weather
+image: "chaorainn-2.jpg"
+points: 8
+date: 2024-11-13 13:00
+qsos: 14
+total: 157
+summit: "GM/ES-011"
+---
+
+Continuing my journey from [Beinn Mheadoin](https://gm5alx.uk/sota/2024/gm-es-005/)...
+
+It was pretty much downhill and then back up. It was now about 1230 and I was a little behind schedule, but enjoying the sun and rainbows. I looked back over to Mheadoin and, typically, now it was in the sun too!
+
+![Across to Chaorainn](chaorainn-1.jpg)
+
+![🌈](chaorainn-2.jpg)
+
+![Beinn Mheadoin in the sun](chaorainn-3.jpg)
+
+The climb up Beinn a’Chaorainn starts quite steep with loose gravel but soon turns into a nice climb, aside from the boulder patch, but you can mostly work around it. As I got higher the wind picked up again. The summit cairn didn’t look very impressive, but actually offered decent shelter and I was quite comfortable behind it.
+
+![At the summit](chaorainn-6.jpg)
+
+![Station (in the process of being dismantled!)](chaorainn-7.jpg)
+
+This time I tried 20m and the band was much more enjoyable, with a strong signal everywhere between south of England and Greece around 1,700 miles away.
+
+Denis, MM0CBC on holiday from Wales, was on his way up Ben Tinnes, GM/ES-021, and by the time I was done with HF he was just setting up there, so we had a nice 2m S2S.
+
+It was 1345 and I really needed to be back at Linn of Dee by 1530, to get home in time, so after getting distracted taking more photos, I hot stepped it back down and retrieved my bike. A reasonable number of other cyclists and hikers out, I didn’t meet any on the summits but along the main routes. It seemed now was the best weather of the day and plnety to enjoy as I cycled back.
+
+![Sun shining on Beinn Mheadoin](chaorainn-8.jpg)
+
+![Looking back up the Glen - Beinn Mheadoin at the back](chaorainn-9.jpg)
+
+Back at Linn of Dee at exactly 1530, and then the 1.5 hours drive back to Aberdeen. There was a huge moon and the road back to Braemar offered some lovely views of the moon between the trees and hills, together with the start of the sunsetting, my potato photo doesn’t do it justice.
+
+![Big moon](chaorainn-10.jpg)
+
+Another big trip, probably the last of this year, unless there’s a December heat wave, and two infrequently visited and activated summits. It’s hard not to be biased by the weather but Beinn a’Chaorainn was my favourite today. When the clouds cleared I could see over to Beinn a’Bhuird area, down to Beinn Bhreac and big sweeping expanses of hillsides. It would’ve been nice to have been on Beinn Mheadhoin when the cloud lifted to see across to the west, and probably that would’ve been more spectacular. I’ll be revisiting them both next year, hopefully finding a day with clear blue skies! 🌞
+
+Also posted on the [reflector](https://reflector.sota.org.uk/t/beinn-mheadhoin-gm-es-005-and-beinn-achaorainn-gm-es-011/36785).

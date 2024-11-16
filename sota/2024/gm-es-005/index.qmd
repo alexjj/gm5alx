@@ -1,0 +1,64 @@
+---
+title: Beinn Mheadhoin
+subtitle: Part one in the wind and damp
+image: "bhuird-7.jpg"
+points: 10
+date: 2024-11-14 10:00
+qsos: 6
+total: 149
+summit: "GM/ES-005"
+---
+
+The weather has been lovely up here all week - next week, however less so…
+
+![Mountain Forecast](weather.jpg)
+
+So I wanted to make the most of it, and took today off. Monday or Tuesday were better days but alas I couldn’t make that happen. As you can see the forecast was meant to be lovely clear skies and maybe some cloud creeping in later. Well it was the opposite, with the best weather as I was cycling back…oh well. Here we go:
+
+![Route for the day. Light blue section is mostly cycling.](route.jpg)
+
+Last week I did [GM/ES-001](https://gm5alx.uk/sota/2024/gm-es-001/) and [GM/ES-013](https://gm5alx.uk/sota/2024/gm-es-013/) on a big bike and hike, and today would be similar. I had debated between Cairn Toul + Braeriach and the two summits today, but everyone told me Cairn Toul circuit was too much, and save that for a summer’s day (or maybe camp in the Corrour bothy at the bottom). They’d all done the route so I should probably listen…and eventually I did. I’m glad, because it would’ve been too long, and the weather wasn’t the best - particularly the wind - and so that wouldn’t have been enjoyable.
+
+![Crossing Lui Water](mheadhoin-1.jpg)
+
+![Bridge at Derry Lodge](mheadhoin-2.jpg)
+
+Starting at Linn of Dee car park, around 0830, I cycled on the nice track to Derry Lodge. Here my route would take me east following the Derry Burn up Glen Derry. This section of the track is not great for cycling on, lots of roots, rocks, narrow sections with overhanging heather. It was slow going, much slower than I planned. Once you get to the next bridge and a few 10s metres along it’s much better. Some maps show an ATV track that runs somewhat parallel to this route. I didn’t see the start of it, but wondered if it would be better. Near the bridge you see it, and I did try it on the way back but it was very boggy, muddy and wet, and quick to disappear, so I just stuck to what I knew. The return run is less bad, as at least you’re generally going downhill.
+
+![This is not the path to cycle](hardcycle.jpg)
+
+![Looking up Derry Glen to the summits](mheadhoin-4.jpg)
+
+The cycling continues along the track, and once you pass the final wooded area it starts to become rocky and difficult again. I started pushing my bike through the bad sections but they just became more and more, and it wouldn’t save time as I’d have to push it on the way back. So I dumped the bike in the heather and continued up to the Y junction.
+
+![Bike left here](bikedrop.jpg)
+
+It was about 09:40, so 1-1:10 of cycling. My route was left at the Y, following the Coire Etchachan burn, past Hutchison Memorial hut and to the shores of little loch Etchachan.
+
+![Footbridge over Coire Etchachan burn](mheadhoin-5.jpg)
+
+![Up to the loch, bothy on the left](mheadhoin-6.jpg)
+
+I had a peak inside the bothy and looked through the visitors book. Always interesting the little odds and ends people have left for others. Actually my first time in a bothy, would be fun one time…as long as I remembered to bring firewood!
+
+![Bothy](mheadhoin-7.jpg)
+
+![Memorial Plaque](mheadhoin-8.jpg)
+
+![Inside the bothy](mheadhoin-9.jpg)
+
+Now the climb really started, and this brought the wind with it. It was relentless, reaching the peak at the top by the Loch.
+
+I’d hoped the wind was just strong in the valley, and coming off the loch and that the summit would be better. Perhaps hoping in vain of course. The weather was not the clear skies forecast but very grey clouds, that I was about to be walking through. Not sure if it was raining or the wind just pushing huge volumes of air against me and the resultant water condensing made it seem like it was raining, but I was pretty wet all over.
+
+![Arriving at the lochs](mheadhoin-10.jpg)
+
+![Path up to Beinn Mheadhoin](mheadhoin-11.jpg)
+
+Eventually a tor appeared out of the cloud and I thought I’d made it…looking at my map I realised it wasn’t and I still had some way to go. The next one appeared and I climbed up on top, but that was pushing it in the wind, and so I decided not to climb anymore. I thought the tors would shelter me from the wind but it seemed to come around from every direction and there was nowhere sheltered. I setup the mast and long wire, as I planned to start with 40m. I had the wrong guy ring for the carbon 6 and so it kept sliding all the way down, plus the peg into the wind kept lifting. I ended up putting three of the guys into the wind, plus pegging down the wire into the wind and it reached some equilibrium and held in place. It did remind me of the wacky waving inflatable arm flailing tube men.
+
+!["Enjoying it"](mheadhoin-12.jpg)
+
+40m wasn’t great, lots of QSB and I didn’t hang around long. Time for summit #2. Packed up and headed down into the Lairig an Laoigh. The sun was starting to peak through and once I was on the descent the wind abated. I took quite a direct route down, which was very steep and probably not the best route, although not sure where would’ve been better.
+
+Also posted on the [SOTA reflector.](https://reflector.sota.org.uk/t/beinn-mheadhoin-gm-es-005-and-beinn-achaorainn-gm-es-011/36785) Following the discussion there, it turns out my route from Derry Lodge was not the best one when cycling. In fact, not crossing the Derry Burn at the lodge and continuing on the east side until I got to the foot bridge would've been a better cycle path - oh well, I know for next time!

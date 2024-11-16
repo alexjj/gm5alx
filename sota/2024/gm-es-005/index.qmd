@@ -1,7 +1,7 @@
 ---
 title: Beinn Mheadhoin
 subtitle: Part one in the wind and damp
-image: "bhuird-7.jpg"
+image: "mheadhoin-9.jpg"
 points: 10
 date: 2024-11-14 10:00
 qsos: 6

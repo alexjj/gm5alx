@@ -1,0 +1,25 @@
+---
+title: "Calibrating the KX2 by ear"
+date: 2024-11-19
+subtitle: "I knew multiple radios would be useful!"
+categories: ["KX2"]
+image: kx2-cal-1.jpg
+---
+
+On my last [SOTA activiation](https://gm5alx.uk/sota/2024/gm-es-011/), a couple of reports said I was off-frequency. At the weekend I setup the KX2 in the garden and arranged for a [friend](https://dk1mi.radio/) to listen to me and see if I was really off-frequency or if I'd somehow managed to knock the VFO or turn on XIT etc. on the mountain top and not realise.
+
+![Calibration setting](kx2-cal-3.jpg)
+
+We had a QSO and he recorded me a few times, once "normally" with the KX2, once with XIT on and then again using the G90. This was very helpful as I could hear my voice was a little high normally, and so I needed to XIT down. I'd guessed at 0.5 MHz but that was slightly too much. The G90 QSO was a nice benchmark as well. Whilst I was swapping to the G90 a US station called Micheal and he ended up talking to him for a while! It was Micheal who then suggested that as I've got two radios I can just use them to test myself, without having to deal with propagation and everything else!
+
+![Calibration instructions](calibration.png)
+
+The KX2 manual details what needs to be done to calibrate the radio. It's fairly straight forward to do, but you need a reference frequency in order to calibrate it. This can either be from a signal generator or a known accurate broadcast. A well known one is [WWV](https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv), the time station from America, which broadcasts on 5, 10, 15, 20 and 25 MHz. It announces the time and has a nice carrier to lock onto. I tried listening for WWV but had no luck on any bands. I did think I heard a carrier on 10 MHz and tried to use it to calibrate the radio but that put me wildly off.
+
+However, all is not lost, as you can just manually adjust the reference frequency on the radio via the VFO dial, and that's where listening to my own voice is beneficial.
+
+![Checking the bands](kx2-cal-1.jpg)
+
+It's pretty straight forward to do, you put a dummy load on the transceiver you want to transmit from and I just had some wire plugged into the other. Perhaps they'll both work with dummy loads, or perhaps even no antenna on the receiving station! I found that 40m was fine but 20m and higher frequencies were off by 0.3-0.4 MHz. So I iterated back and forth between changing the reference calibration frequency and then testing my audio again. After a few attempts I was pretty happy and everything sounded good to me.
+
+In the end I went from 24,999,380 to 24,999,440. I've yet to try it on the air but my tests sounded good to me. I think if I wanted to improve the accuracy, I'd used CW and then I could lock onto the signal. I might still do that but for now my "by ear" will do.

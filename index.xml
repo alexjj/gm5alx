@@ -10,7 +10,49 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 13 Nov 2024 13:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 19 Nov 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Calibrating the KX2 by ear</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>On my last <a href="https://gm5alx.uk/sota/2024/gm-es-011/">SOTA activiation</a>, a couple of reports said I was off-frequency. At the weekend I setup the KX2 in the garden and arranged for a <a href="https://dk1mi.radio/">friend</a> to listen to me and see if I was really off-frequency or if I’d somehow managed to knock the VFO or turn on XIT etc. on the mountain top and not realise.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kx2-cal-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Calibration setting"><img src="https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/kx2-cal-3.jpg" class="img-fluid figure-img" alt="Calibration setting"></a></p>
+<figcaption>Calibration setting</figcaption>
+</figure>
+</div>
+<p>We had a QSO and he recorded me a few times, once “normally” with the KX2, once with XIT on and then again using the G90. This was very helpful as I could hear my voice was a little high normally, and so I needed to XIT down. I’d guessed at 0.5 MHz but that was slightly too much. The G90 QSO was a nice benchmark as well. Whilst I was swapping to the G90 a US station called Micheal and he ended up talking to him for a while! It was Micheal who then suggested that as I’ve got two radios I can just use them to test myself, without having to deal with propagation and everything else!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="calibration.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Calibration instructions"><img src="https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/calibration.png" class="img-fluid figure-img" alt="Calibration instructions"></a></p>
+<figcaption>Calibration instructions</figcaption>
+</figure>
+</div>
+<p>The KX2 manual details what needs to be done to calibrate the radio. It’s fairly straight forward to do, but you need a reference frequency in order to calibrate it. This can either be from a signal generator or a known accurate broadcast. A well known one is <a href="https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv">WWV</a>, the time station from America, which broadcasts on 5, 10, 15, 20 and 25 MHz. It announces the time and has a nice carrier to lock onto. I tried listening for WWV but had no luck on any bands. I did think I heard a carrier on 10 MHz and tried to use it to calibrate the radio but that put me wildly off.</p>
+<p>However, all is not lost, as you can just manually adjust the reference frequency on the radio via the VFO dial, and that’s where listening to my own voice is beneficial.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="kx2-cal-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Checking the bands"><img src="https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/kx2-cal-1.jpg" class="img-fluid figure-img" alt="Checking the bands"></a></p>
+<figcaption>Checking the bands</figcaption>
+</figure>
+</div>
+<p>It’s pretty straight forward to do, you put a dummy load on the transceiver you want to transmit from and I just had some wire plugged into the other. Perhaps they’ll both work with dummy loads, or perhaps even no antenna on the receiving station! I found that 40m was fine but 20m and higher frequencies were off by 0.3-0.4 MHz. So I iterated back and forth between changing the reference calibration frequency and then testing my audio again. After a few attempts I was pretty happy and everything sounded good to me.</p>
+<p>In the end I went from 24,999,380 to 24,999,440. I’ve yet to try it on the air but my tests sounded good to me. I think if I wanted to improve the accuracy, I’d used CW and then I could lock onto the signal. I might still do that but for now my “by ear” will do.</p>
+
+
+
+ ]]></description>
+  <category>KX2</category>
+  <guid>https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/</guid>
+  <pubDate>Tue, 19 Nov 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2024/calibrating-kx2-by-ear/kx2-cal-1.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Beinn a’Chaorainn</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -1471,93 +1513,6 @@
   <guid>https://gm5alx.uk/sota/2024/gm-ss-259/</guid>
   <pubDate>Sun, 22 Sep 2024 00:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-ss-259/largolaw-5.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Buck</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2024/gm-es-039/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>Not wanting to waste a glorious day, I had time for a quick activation in the morning and <a href="https://sotl.as/summits/GM/ES-039">The Buck</a> was the recommendation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-11.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Short ascent"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-11.jpg" class="img-fluid figure-img" alt="Short ascent"></a></p>
-<figcaption>Short ascent</figcaption>
-</figure>
-</div>
-<p>The route is pretty easy, not quite a straight line as I’ve drawn but I parked slightly east on the road and walked up until I met this fence line. A quick march and you can be at the top in 30 minutes. The sub-500m area is pretty boggy and wet, even today when it hasn’t rained in a while. It was a little slow in places, trying to avoid plunging my feet into ankle deep water. The path is also vague at this stage but then becomes more defined within about 1km of the summit.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="View to the top"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-2.jpg" class="img-fluid figure-img" alt="View to the top"></a></p>
-<figcaption>View to the top</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Squelchy"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-3.jpg" class="img-fluid figure-img" alt="Squelchy"></a></p>
-<figcaption>Squelchy</figcaption>
-</figure>
-</div>
-<p>The weather was amazing, brilliant sunshine, blue skies and not a breath of wind. I was roasting on the way up!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Trig point on top of the rocky summit"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-4.jpg" class="img-fluid figure-img" alt="Trig point on top of the rocky summit"></a></p>
-<figcaption>Trig point on top of the rocky summit</figcaption>
-</figure>
-</div>
-<p>Even at the top the wind was minimal, and I’ve never seen my carbon-6 stand so straight at a summit before! I made use of the nice clear hole in the trig point and put the mast in it with the slim g on top. I could see for miles and miles!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Setup for 2m"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-6.jpg" class="img-fluid figure-img" alt="Setup for 2m"></a></p>
-<figcaption>Setup for 2m</figcaption>
-</figure>
-</div>
-<p>I was hoping it would be a quick activation on 2m, as I needed to get back home by lunchtime, and this summit would cover a huge area. Back from his hols in <a href="https://reflector.sota.org.uk/t/the-sota-rough-guide-to-barbados/36296">Barbados</a>, MM0EFI was first in the log. After 5 minutes, Bill in Aberdeen, GM0NRT, called back, and whilst we were talking I heard another station call. This time it was GM0UDL up in Fortrose, just north of Inverness who had seen my Lora tracker being picked up by GM4SJB (even further north!). He told me about his lora setup and how everyone around that area has setup iGates and DMR repeaters. Sounds like a great setup they have. Not long afterwards my fourth 2m contact, needed to qualify the summit, came from GM8ZKU across to the east by the coast. Again, another nice QSO with Simon for the first time. Time was getting on and I did need to be back home, I tried on more CQ but then called it a day.</p>
-<p>I</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Looking North"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-7.jpg" class="img-fluid figure-img" alt="Looking North"></a></p>
-<figcaption>Looking North</figcaption>
-</figure>
-</div>
-<p>had a quick look around for the <a href="https://www.walkhighlands.co.uk/aberdeenshire/the-buck.shtml">ancient engravings</a> but couldn’t find them. It was a quick walk back down the hill to the car. I’d forgotten about the sogginess but managed to escape with dry feet.</p>
-<p>When I got home I looked up the Lora tracking on <a href="https://lora.ham-radio-op.net/">EA2RCF’s mapping page</a>, and was surprised to see just how far away GM4SJB’s receiving igate was! It had also tracked me nearly the whole route up and down, which I then realised was me walking the county boundaries. The power on the tracker is tiny and the antenna isn’t amazing but this time it all worked well. I’ve been carrying it with me on most summits but there haven’t been any igates nearby that have picked me up.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-13.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Lora 70cm distance"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-13.jpeg" class="img-fluid figure-img" alt="Lora 70cm distance"></a></p>
-<figcaption>Lora 70cm distance</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-14.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Tracking my route"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-14.jpeg" class="img-fluid figure-img" alt="Tracking my route"></a></p>
-<figcaption>Tracking my route</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="buck-12.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Speedy!"><img src="https://gm5alx.uk/sota/2024/gm-es-039/buck-12.jpeg" class="img-fluid figure-img" alt="Speedy!"></a></p>
-<figcaption>Speedy!</figcaption>
-</figure>
-</div>
-<p>A nice quick 4-pointer summit - I’m beginning to think <a href="https://gm5alx.uk/sota/2024/gm-es-018/">Morven</a> is a brutal 4-pointer! - although not for a wet day, or post a lot of rain. The summit is quite exposed, although maybe you could find some shelter depending on the wind direction. It’s a popular summit to do with Tap O’Noth, as that’s just a few miles away, however, I just didn’t have time on this occasion. Maybe they’ll be a good combo next year during the winter bonus period.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="uncle-buck.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="What the Buck"><img src="https://gm5alx.uk/sota/2024/gm-es-039/uncle-buck.jpg" class="img-fluid figure-img" alt="What the Buck"></a></p>
-<figcaption>What the Buck</figcaption>
-</figure>
-</div>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-039/</guid>
-  <pubDate>Thu, 19 Sep 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-039/buck-8.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

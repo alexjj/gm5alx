@@ -1,0 +1,11 @@
+---
+title:
+subtitle:
+image: "largolaw-5.jpg"
+points:
+date: 2024-09-22
+qsos:
+total:
+summit: "GM/"
+draft: true
+---

@@ -1,0 +1,11 @@
+---
+title: Ben Gulabin
+subtitle: Spotting for others
+image: "largolaw-5.jpg"
+points: 7
+date: 2024-12-05
+qsos: 5
+total: 201
+summit: "GM/CS-077"
+draft: true
+---

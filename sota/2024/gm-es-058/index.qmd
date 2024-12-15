@@ -1,11 +1,11 @@
 ---
-title:
-subtitle:
-image: "largolaw-5.jpg"
+title: Meall Mor
+subtitle: Bonus summit of the day
+image: "meallmor-2.jpg"
 points:
-date: 2024-09-22
-qsos:
-total:
-summit: "GM/"
+date: 2024-12-02 15:00
+qsos: 27
+total: 187
+summit: "GM/ES-058"
 draft: true
 ---

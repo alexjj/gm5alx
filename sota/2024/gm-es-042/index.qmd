@@ -1,7 +1,7 @@
 ---
 title: Hunt Hill
 subtitle: Snow and scrambling
-image: "largolaw-5.jpg"
+image: "hunthill-12.jpg"
 points: 7
 date: 2024-09-22
 qsos: 14

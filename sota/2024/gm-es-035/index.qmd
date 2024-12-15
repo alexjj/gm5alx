@@ -1,11 +1,11 @@
 ---
 title: Mount Blair
 subtitle: The final Folda Four
-image: "largolaw-5.jpg"
-points:
-date: 2024-12-05
+image: "mt-blair-1.jpg"
+points: 7
+date: 2024-12-05 13:00
 qsos: 13
-total:
+total: 208
 summit: "GM/ES-035"
 draft: true
 ---

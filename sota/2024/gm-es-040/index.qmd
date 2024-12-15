@@ -1,11 +1,11 @@
 ---
 title: Cnap Chaochan Aitinn
 subtitle: 40 on 40 on 40!
-image: "largolaw-5.jpg"
+image: "cnap-chaochan-27.jpg"
 points: 7
 date: 2024-12-04
-qsos: 0
-total:
+qsos: 9
+total: 194
 summit: "GM/ES-040"
 draft: true
 ---

@@ -1,11 +1,11 @@
 ---
-title:
-subtitle:
-image: "largolaw-5.jpg"
-points:
-date: 2024-09-22
-qsos:
-total:
-summit: "GM/"
+title: Mealna Letter
+subtitle: Hill three behind the wall
+image: "mealna-1.jpg"
+points: 7
+date: 2024-12-02 12:00
+qsos: 21
+total: 182
+summit: "GM/ES-043"
 draft: true
 ---

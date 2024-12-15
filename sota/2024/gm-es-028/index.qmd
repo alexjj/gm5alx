@@ -1,11 +1,11 @@
 ---
-title:
-subtitle:
+title: Monamenach
+subtitle: First of four
 image: "largolaw-5.jpg"
-points:
-date: 2024-09-22
-qsos:
+points: 7
+date: 2024-12-02
+qsos: 4
 total:
-summit: "GM/"
+summit: "GM/ES-028"
 draft: true
 ---

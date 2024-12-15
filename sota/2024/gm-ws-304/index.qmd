@@ -1,11 +1,11 @@
 ---
-title:
-subtitle:
-image: "largolaw-5.jpg"
-points:
-date: 2024-09-22
-qsos:
-total:
-summit: "GM/"
+title: Carn a'Bhodaich
+subtitle: Quick summit from Inverness
+image: "bhodaich-4.jpg"
+points: 5
+date: 2024-12-08
+qsos: 9
+total: 213
+summit: "GM/WS-304"
 draft: true
 ---

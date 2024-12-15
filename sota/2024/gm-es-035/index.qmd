@@ -1,11 +1,77 @@
 ---
-title:
-subtitle:
+title: Mount Blair
+subtitle: The final Folda Four
 image: "largolaw-5.jpg"
 points:
-date: 2024-09-22
-qsos:
+date: 2024-12-05
+qsos: 13
 total:
-summit: "GM/"
+summit: "GM/ES-035"
 draft: true
 ---
+
+Apart from the [40 on 40 on 40 activation](https://reflector.sota.org.uk/t/40th-birthday-2m-gm-activity-this-wednesday/36887/45) I wanted to do last week, I was also planning on doing the “four Folda fours”, specifically Mount Blair, [GM/ES-035](https://summits.sota.org.uk/summit/GM/ES-035), Mealna Letter, [GM/ES-043](https://summits.sota.org.uk/summit/GM/ES-043), Monamenach, [GM/ES-028](https://summits.sota.org.uk/summit/GM/ES-028) and Badandun Hill, [GM/ES-037](https://summits.sota.org.uk/summit/GM/ES-037). However, I couldn’t find a route that I could walk the lot in one day, certainly not one December day in the light. I did find that I could chain together four individual walks and drive between the starting points. But I wasn’t sure if I could fit it all in, leaving home at 7am and being back by 5pm. So I settled on multiple visits. Plus Gerald, [@G4OIG](https://reflector.sota.org.uk/u/g4oig), was going to be visiting at the end of the week and doing some of the summits in the area and I thought it would be nice to meet in person, as well as a chance for 2m S2Ss, so I’d want to return on the Thursday.
+
+For the Monday, I’d decided on Monamenach, Badandun Hill and then Mealna Letter, and then the Thursday I’d do Ben Gulabin, [GM/CS-077](https://summits.sota.org.uk/summit/GM/CS-077), then Mount Blair. Interestingly the last person on Ben Gulabin was Gerald, almost exactly a year ago! This would let me have a S2S with Gerald and then meet him at the bottom of Mount Blair afterwards.
+
+Routes I took:
+
+As Gerald was visiting, we knew the weather would be bad. It was forecast to snow overnight, and I was concerned about the roads, but looking on the [snow gate cameras](https://www.snowgatecameras.co.uk/) in the morning, it seemed like it was okay. I set off just after 7am, to arrive around 8:40am. First stop was Monamenach, the highest of the group.
+
+It was a nice clear day, although chilly and windy - particularly on the summits - and brisk walk up from parking by the river, soon got me to the top of the hill.
+
+Whilst there are a lot of handy posts at the summit, there was no shelter and it was blowing an icy gale. I followed the fence line down a little, and found a rock to hide behind. I setup on 2m and called my first CQ of the morning. It wasn’t too long and I had 4 contacts across Edinburgh and Glasgow. Fraser and others tried calling and listening back in Aberdeen area, but no luck. It started to sleet and I still had two more to go, so time to return to the car.
+
+A short drive back down the road, and parking on the verge before the roadway entrance across the river, I was off on the next summit. This route isn’t the greatest, and was only picked for it’s short duration and short drive to the starting point. It starts out easy enough following the track and then crossing the field. It briefly follows a path that you could take the whole way up to the top, just a little longer. You have to jump the Fergus Burn, but it’s quite small in places, and then you start the slog straight up the hill to the summit.
+
+After the sleeting on the way down from Monamenach, the sky was even clearer now, and I had good views back and forwards of my hills for the day.
+
+Whilst the walk up was steep enough, it went by quickly and I was soon leaning into the wind on the summit. There wasn’t much shelter by the trig point, and the top hole was covered, but I did find the mast mount which happened to be behind a slight rise, so that offered as little relief. Making full use of the post, I felt very smart when I took this photo.
+
+and then this…
+
+At that moment it was very obvious that I should’ve attached the mast on the leeward side of the support, so the metal post didn’t act like my leg when I break sticks over it. ![:person_facepalming:](https://reflector.sota.org.uk/images/emoji/twitter/person_facepalming.png?v=12 ":person_facepalming:")
+
+I collapsed the mast enough to get past the break and continued on 2m. Three repeat stations from the first summit, and another got it qualified and then I was “happy” to pack up and grump down the hillside back to the car. Luckily, I had packed a spare mast in the car.
+
+A bit further to drive this time to the start of Mealna Letter, but plenty of space to park by the path entrance into the woods.
+
+The track up is straight forward, just follow the track. When you come out of the trees, then the path disappears and you just make your way up the hill. It’s hard to go wrong as you’re aiming for the junction of the walls on the top of the first hill.
+
+You then follow the wall along the top until you get to the summit. If you’re lucky the wall can be a wind break and makes it a pleasant walk. The summit cairn is away from the wall, and is worth visiting as it offers some nice views down to the loch below.
+
+The sky was still clear and offered stunning views all around.
+
+After two summits on VHF, I thought I’d try HF, particularly with the nice wall to shelter behind, and so setup for 40m.
+
+I had a nice run on 40m, and start chasing summits on other bands. By this time it was 1:30pm and I was 1:30 ahead of schedule. I was starting to debate if I had enough time for a fourth! Ideally, I wanted to be leaving the area at 3:30pm to get home by 5, so if I could run back to the car by 2pm, then I’d have time…not for Mount Blair but for it’s neighbour, Meall Mor, [GM/ES-058](https://summits.sota.org.uk/summit/GM/ES-058). Time for one Meall Mor!
+
+Off to the park on the patch of dirt outside the gate into the forest and then up the track. Again, an easy route to follow although the climb up to the summit along the wall, whilst sheltered, is just heather and quite steep in places. Another summit benefitting from a nice wall to shelter behind, I setup again on HF and this time tried 20m.
+
+I had a big pile up on 20m, and whilst I wanted to be packing up at 3pm, I kept saying “QRZ?”! It did eventually die down about 10 past, and I packed up and headed down. The setting sun cast a strange light over the land - my phone camera doesn’t do it justice.
+
+Floundering for the famed feat of four fours, I fell just shy but felt fulfilled reaching a firm four. Factly, it was three sevens, and a fill five for a full 19.6km of fiery forays, and 1,392m of fierce ascent, the finest flourish was a fabulous 444m flight up Monamenach! Okay you can wipe down your monitors now.
+
+Fast-forward to Fursday…
+
+After quite the adventure on [GM/ES-040](https://summits.sota.org.uk/summit/GM/ES-040), and reports from Fraser as he drove down of Glenshee being quite the white, we were wondering what might be in store. Again, a look at the snow gate cameras showed us it had all gone! The Glenshee camera shows you the side of Ben Gulabin. Gerald was heading up Corwharn, [GM/ES-048](https://summits.sota.org.uk/summit/GM/ES-048), and I on Ben Gulabin. Somewhere between Mount Blair and Gulabin the quickest route from west Aberdeen flips from via the A90 to the A93, and so I drove the scenic route. The route up Gulabin is another straight forward one. Park off the road by the start and follow the path up.
+
+There’s a bit of a stream to cross, and then quite a boggy area once you turn left off the track up to the summit. Probably made worse by the just recent snow melt.
+
+What started as another lovely morning, had started to turn a little. The wind was cold and the clouds were creeping in. It was still nice enough on Ben Gulabin but this would be the best of the day.
+
+I came to setup on 2m, and found I’d left my guys at home. This was even more annoying as they were in my bag from yesterday, and I’d gone through everything this morning before leaving and obviously left them on the garage floor. So I held the mast and carried on. It didn’t take too long to get four, and then speak with Gerald on his summit. His phone hadn’t been charging properly and so was dead, which meant he couldn’t spot. However, he shared his info and I could spot for him on 2m SSB, which worked out well. After that I packed up and headed back to the car and drive round to the start of Mount Blair.
+
+In my wisdom to save walking 200m down the road to the start of the track, I decided to just head straight up the hill. Well this turned into a very wet affair, and I gradually made my way across to the path, like I should’ve from the start.
+
+After the drive over the Mount Blair and looking at the summit with clear blue skies backdrop, the cloud started to move in and blue became grey.
+
+Some SSE folks were up doing things on the mast. They’d come up in their 8 wheeled buggy, some kind of Argocat. They were finishing up as I was looking at the trig and other features. They gave me a cheerful wave as they tootled past to go down the hill.
+
+Lots of fences and rocks and all sorts to setup on the top. I decided to the south of the main mast by the fence would be good. As I had no guys, I needed something decent to strap the mast to, and setup on 40m. I had a quick QSO with Gerald again, who was on his way down, and I wanted to make this quick as it had started raining and the cold wind wasn’t enjoyable. Not as busy on the band as Monday but enough.
+
+Packed up and headed back down to the car. I’d hoped Gerald and I could’ve found a nice cafe or bar to say hello, but there aren’t many options in the area. In fact, none as far as I could tell. There is the Glenisla Hotel, although that seems to shut its bar/cafe out of season on non-Friday/weekend days. So I waited by the car for Gerald to come by. We had a little chat and nice to put a face to a voice! Then off back home.
+
+It’s a nice area with lots of good hills in close proximity. It would make for a good group SOTA outing - perhaps doing two hills each and rotating around, then back to the hotel bar for a celebration afterwards.
+
+Now I’ve got to try and get back down there to Crock, [GM/ES-056](https://summits.sota.org.uk/summit/GM/ES-056), Hare Cairn, [GM/ES-063](https://summits.sota.org.uk/summit/GM/ES-063), Corwharn, [GM/ES-048](https://summits.sota.org.uk/summit/GM/ES-048), and maybe even Cat Law, [GM/ES-044](https://summits.sota.org.uk/summit/GM/ES-044), before the winter bonus period ends!

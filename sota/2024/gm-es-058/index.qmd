@@ -2,7 +2,7 @@
 title: Meall Mor
 subtitle: Bonus summit of the day
 image: "meallmor-2.jpg"
-points:
+points: 5
 date: 2024-12-02 15:00
 qsos: 27
 total: 187

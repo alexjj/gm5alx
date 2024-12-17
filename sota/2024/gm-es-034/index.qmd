@@ -1,11 +1,26 @@
 ---
-title:
-subtitle:
-image: "largolaw-5.jpg"
-points:
-date: 2024-09-22
-qsos:
-total:
-summit: "GM/"
-draft: true
+title: Mona Gowan
+subtitle: Can you activate without a mast?
+image: "monagowan-7.jpg"
+points: 4
+date: 2024-11-29
+qsos: 15
+total: 161
+summit: "GM/ES-034"
 ---
+
+A Friday off and time to find a summit. Weather hasn't been great but looked mild today, although could be windy. Mona Gowan is a straight forward 4-pointer which has a few routes up to it. I chose the most direct from the west, off the Old Military road. I'd driven 20 minutes and some flags flapping in the breeze reminded me I'd forgotten to pack my mast!
+
+![Sunny over towards Brown Cow Hill](monagowan-14.jpg)
+
+![Looking south at the start](monagowan-13.jpg)
+
+![Snow filled stream valleys](monagowan-4.jpg)
+
+![Snow patches in the cloud](monagowan-7.jpg)
+
+![Summit in sight](monagowan-1.jpg)
+
+![At the top](monagowan-3.jpg)
+
+![CQ CQ!](monagowan-2.jpg)

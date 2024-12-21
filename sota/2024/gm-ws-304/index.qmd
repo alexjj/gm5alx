@@ -1,5 +1,5 @@
 ---
-title: Carn a'Bhodaich
+title: "Carn a'Bhodaich"
 subtitle: Quick summit from Inverness
 image: "bhodaich-4.jpg"
 points: 5
@@ -7,5 +7,24 @@ date: 2024-12-08
 qsos: 9
 total: 213
 summit: "GM/WS-304"
-draft: true
 ---
+
+We were up in Inverness for a swimming competition and I wondered if there were any summits I could manage. Luckily this one is only about 15 minutes from the pool and a fairly short walk up to the top. I dropped off for warm up and then headed up the hill. I'd read it was a bit of a soggy climb, and after the storm the past few days, there was a lot of water around. The path was more like a stream and in places there was deep standing water. It really only got better when climbing to the final top.
+
+![Summit in the distance](bhodaich-1.jpg)
+
+![Fallen tree on the path](bhodaich-2.jpg)
+
+The final section of the walk doesn't really have a path up to the summit, the track just continues around the hill and away, so it was a case of scrambling up the heather and trying to avoid the streams coming down. It was cold but still on the way up, but as soon as I was on the summit the wind was strong. I found a low spot with a post and some shelter and setup on 20m there. As I wanted to be quick, I was going for the 5.5m vertical with counterpoises.
+
+![At the top](bhodaich-4.jpg)
+
+![Station location](bhodaich-5.jpg)
+
+Not too busy on 20m, but enough in the log with 9 QSOs. I packed up and headed down the way I came and back to Inverness.
+
+Some good views of the hills from the summit and from the parking area. I'll come back next time I'm in the area, particularly if it's during winter bonus!
+
+![](bhodaich-3.jpg)
+
+![](bhodaich-6.jpg)

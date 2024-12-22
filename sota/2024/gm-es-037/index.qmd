@@ -3,7 +3,7 @@ title: Badandun Hill
 subtitle: Hill two and broken mast
 image: "badandun-2.jpg"
 points: 7
-date: 2024-09-22 10:00
+date: 2024-12-02 10:00
 qsos: 4
 total: 175
 summit: "GM/ES-037"

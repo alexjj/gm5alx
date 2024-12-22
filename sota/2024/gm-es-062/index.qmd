@@ -1,0 +1,11 @@
+---
+title: Coiliochbhar Hill
+subtitle: Sheltered station in the trees
+image: ".jpg"
+points: 5
+date: 2024-12-20 11:00
+qsos: 16
+total: 225
+summit: "GM/ES-062"
+draft: true
+---

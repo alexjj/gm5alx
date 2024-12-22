@@ -1,0 +1,13 @@
+---
+title: Lord Arthur's Hill
+subtitle: Watch for pheasant shooting!
+image: ".jpg"
+points: 5
+date: 2024-12-20 13:00
+qsos: 30
+total: 235
+summit: "GM/ES-060"
+draft: true
+---
+
+The second hill of today, which is just across the River Don from the first. I was taking the route up from Littlewood house, parking in a layby on the road by the Don. 

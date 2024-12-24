@@ -3,7 +3,7 @@ title: The Coyles of Muick
 subtitle: Two amateurs; too windy
 image: "transport.jpeg"
 points: 5
-date: 2024-10-11
+date: 2024-12-18
 qsos: 14
 total: 225
 summit: "GM/ES-050"

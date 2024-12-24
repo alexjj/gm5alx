@@ -1,13 +1,12 @@
 ---
 title: Lord Arthur's Hill
 subtitle: Watch for pheasant shooting!
-image: ".jpg"
+image: "lord-arthur-7.jpg"
 points: 5
 date: 2024-12-20 13:00
 qsos: 30
 total: 235
 summit: "GM/ES-060"
-draft: true
 ---
 
 The second hill of today, which is just across the River Don from the first. I was taking the route up from Littlewood house, parking in a layby on the road by the Don. I didn't like walking along the road so I cut through the trees to join the road up to the big house. It was a bit wet and probably only saved 2 minutes, so perhaps not worthwhile!
@@ -16,6 +15,18 @@ The second hill of today, which is just across the River Don from the first. I w
 
 ![Littlewood House](lord-arthur-10.jpg)
 
-You walk past the house and then past various outbuildings until you join a land rover track up the hill. At this point I could hear a lot of shooting going on across the other side of the estate. I was slightly concerned that I would be stopped and told to go back but it seemed I was heading in the opposite direction and should be fine. Once I got past the trees and and heading up the hill I was well away from it all. You never know with shoots going on what to expect, and generally should stay away, but there were no signs or barriers. Often when going to the big hills, the places put up barriers or tell you to stick to the paths. Probably as this was a smaller estate, and most likely don't have very much walker traffic, don't bother with that. By the time I got past the trees the shooting had stopped and there was a lot of car activity as I guess they were heading back for lunch.
+You walk past the house and then past various outbuildings until you join a land rover track up the hill. At this point I could hear a lot of shooting going on across the other side of the estate. I was slightly concerned that I would be stopped and told to go back but it seemed I was heading in the opposite direction and should be fine. Once I got past the trees and and heading up the hill I was well away from it all. You never know with shoots going on what to expect, and generally should stay away, but there were no signs or barriers. Often when going to the big hills, the places put up barriers or tell you to stick to the paths. Probably, as this was a smaller estate, and most likely don't have very much walker traffic, don't bother with that. By the time I got past the trees the shooting had stopped and there was a lot of car activity as I guess they were heading back for lunch.
 
 ![Back down to the done, and GM/ES-062 on the right](lord-arthur-8.jpg)
+
+The path continues up the hill and you can see the trig and summit cairn. The trig is a little exposed, so after having a look at it and trying 2m, I went over to the cairn. This is a substantial one, which you can hide in, although it seems to trap cold air and felt chilly and damp inside, so I setup on the leeward side of the cairn out of the wind. I jammed the mast into the rocks and setup the vertical for 20m. After 10 minutes or so the mast moved and started to fall, so I sat with my back against it to hold it up. 20m was very lively, with strong signals into Wales and England and good into Europe. I even had a east coast US come back as 55.
+
+![](lord-arthur-7.jpg)
+
+![At the trig](lord-arthur-4.jpg)
+
+![Station setup](lord-arthur-6.jpg)
+
+![](lord-arthur-5.jpg)
+
+I packed up and headed back down to the car. I was home an hour ahead of my schedule, which was good to then have a cup of tea before collecting everyone from school for Christmas holidays! 🎅

@@ -2,7 +2,7 @@
 title: "Cairngorms National Park SOTA Summits"
 date: 2025-01-05
 subtitle: "There's a lot"
-categories: ["sota"]
+categories: ["sota", "programming"]
 image: thumb.png
 toc: false
 execute:
@@ -20,15 +20,8 @@ I think a fun project would be to make a Cairngorms activator award, for those w
 ## Map View
 
 ```{ojs}
-L = {
-  const L = await require("leaflet/dist/leaflet.js");
-  if (!L._style) {
-    const href = await require.resolve("leaflet/dist/leaflet.css");
-    document.head.appendChild(L._style = html`<link href=${href} rel=stylesheet>`);
-  }
-
-  return L;
-};
+L = require('leaflet@1.9.4')
+html`<link href='${resolve('leaflet@1.9.4/dist/leaflet.css')}' rel='stylesheet' />`
 
 // Load the GeoJSON file
 geojson = FileAttachment("cairngorms.geojson").json()
@@ -38,37 +31,38 @@ summits = FileAttachment("cairngorms_summits.csv").csv({typed: true})
 
 // Create a map and add a tile layer
 map = {
-  const map = L.map(DOM.element("div", { style: "height: 600px" })).setView([57.12, -3.64], 10);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  let container = DOM.element('div', { style: `width:${width}px;height:${width/1.6}px` });
+  yield container;
+
+  let map = L.map(container).setView([57.07, -3.7], 11.5); // initializes the map, sets zoom & coordinates
+  let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
+}
 
   // Add the GeoJSON layer
   L.geoJSON(geojson).addTo(map);
 
-  // Create a color scale for the points column
+  // Define a color scale for summit points
   const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
-  // Add summits as markers
-  summits.forEach((summit) => {
-    const { latitude, longitude, points } = summit;
+  // Add summit markers to the map
+  summits.forEach(({ latitude, longitude, points, name }) => {
     L.circleMarker([+latitude, +longitude], {
       radius: 6,
       color: colorScale(points),
       fillOpacity: 0.8,
     })
-      .bindPopup(`Summit: ${summit.name}<br>Points: ${points}`)
+      .bindPopup(`Summit: ${name}<br>Points: ${points}`)
       .addTo(map);
   });
-
-  return map;
 }
 ```
 
 ## Summit List
 
 | Reference | Name | Height (m) | OS Grid Reference | Points |
-|--------------|-------------------|--------------|--------------|--------------|
+|---------------|---------------|---------------|---------------|---------------|
 | GM/ES-001 | Ben Macdui | 1309 | NN 988989 | 10 |
 | GM/ES-002 | Braeriach | 1296 | NN 953999 | 10 |
 | GM/ES-003 | Cairn Toul | 1291 | NN 963972 | 10 |

@@ -20,15 +20,21 @@ I think a fun project would be to make a Cairngorms activator award, for those w
 ## Map View
 
 ```{ojs}
-import { FileAttachment } from "@observablehq/stdlib";
-import * as L from "leaflet";
+L = {
+  const L = await require("leaflet/dist/leaflet.js");
+  if (!L._style) {
+    const href = await require.resolve("leaflet/dist/leaflet.css");
+    document.head.appendChild(L._style = html`<link href=${href} rel=stylesheet>`);
+  }
+
+  return L;
+};
 
 // Load the GeoJSON file
 geojson = FileAttachment("cairngorms.geojson").json()
 
 // Load the CSV file
-import { csv } from "d3-fetch";
-summits = csv(FileAttachment("cairngorms_summits.csv"))
+summits = FileAttachment("cairngorms_summits.csv").csv({typed: true})
 
 // Create a map and add a tile layer
 map = {
@@ -62,7 +68,7 @@ map = {
 ## Summit List
 
 | Reference | Name | Height (m) | OS Grid Reference | Points |
-|------------|------------------------|------------|------------|------------|
+|--------------|-------------------|--------------|--------------|--------------|
 | GM/ES-001 | Ben Macdui | 1309 | NN 988989 | 10 |
 | GM/ES-002 | Braeriach | 1296 | NN 953999 | 10 |
 | GM/ES-003 | Cairn Toul | 1291 | NN 963972 | 10 |

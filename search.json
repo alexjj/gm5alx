@@ -357,6 +357,13 @@
     "text": "MM0EFI\n\nInputs.table(data, { sort: \"ActivationDate\", reverse: true })"
   },
   {
+    "objectID": "testing.html#oqrs",
+    "href": "testing.html#oqrs",
+    "title": "SOTA Testing Page",
+    "section": "OQRS",
+    "text": "OQRS"
+  },
+  {
     "objectID": "sota/2024/gm-es-059/index.html",
     "href": "sota/2024/gm-es-059/index.html",
     "title": "Kerloch",

@@ -20,6 +20,9 @@ website:
         href: about.qmd
       - text: "SOTA Activations"
         href: sota.qmd
+      - text: "Logbook"
+        href: https://log.gm5alx.uk/visitor/gm5alx
+        target: _blank
 
     right:
       - icon: rss-fill

@@ -26,3 +26,8 @@ activations = await d3.json(
 ```{ojs}
 Inputs.table(data, { sort: "ActivationDate", reverse: true })
 ```
+
+
+## OQRS
+
+<iframe name="iframe" src="https://log.gm5alx.uk/widgets/oqrs/gm5alx" height="220" width="670" frameborder="0"></iframe>

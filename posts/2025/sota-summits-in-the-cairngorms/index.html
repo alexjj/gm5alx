@@ -210,57 +210,74 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>I think a fun project would be to make a Cairngorms activator award, for those who activate every summit in the Cairngorms.</p>
 <section id="map-view" class="level2">
 <h2 class="anchored" data-anchor-id="map-view">Map View</h2>
-<div class="quarto-ojs-syntax-error">
-<div class="sourceCode" id="cb1" data-startfrom="22" data-syntax-error-position="62" data-source-offset="9"><pre class="sourceCode numberSource numberLines java code-with-copy"><code class="sourceCode java" style="counter-reset: source-line 21;"><span id="cb1-22"><a href="#cb1-22"></a>```<span class="op">{</span>ojs<span class="op">}</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="kw">import</span> <span class="im">{ FileAttachment } from "@observablehq/stdlib"</span><span class="op">;</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="kw">import</span> <span class="op">*</span><span class="im"> as L from "leaflet"</span><span class="op">;</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a></span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="co">// Load the GeoJSON file</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a>geojson <span class="op">=</span> <span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"cairngorms.geojson"</span><span class="op">).</span><span class="fu">json</span><span class="op">()</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a></span>
-<span id="cb1-29"><a href="#cb1-29"></a><span class="co">// Load the CSV file</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="kw">import</span> <span class="im">{ csv } from "d3-fetch"</span><span class="op">;</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a>summits <span class="op">=</span> <span class="fu">csv</span><span class="op">(</span><span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"cairngorms_summits.csv"</span><span class="op">))</span></span>
-<span id="cb1-32"><a href="#cb1-32"></a></span>
-<span id="cb1-33"><a href="#cb1-33"></a><span class="co">// Create a map and add a tile layer</span></span>
-<span id="cb1-34"><a href="#cb1-34"></a>map <span class="op">=</span> <span class="op">{</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a>  <span class="dt">const</span> map <span class="op">=</span> L<span class="op">.</span><span class="fu">map</span><span class="op">(</span>DOM<span class="op">.</span><span class="fu">element</span><span class="op">(</span><span class="st">"div"</span><span class="op">,</span> <span class="op">{</span> style<span class="op">:</span> <span class="st">"height: 600px"</span> <span class="op">})).</span><span class="fu">setView</span><span class="op">([</span><span class="fl">57.12</span><span class="op">,</span> <span class="op">-</span><span class="fl">3.64</span><span class="op">],</span> <span class="dv">10</span><span class="op">);</span></span>
-<span id="cb1-36"><a href="#cb1-36"></a>  L<span class="op">.</span><span class="fu">tileLayer</span><span class="op">(</span><span class="st">"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"</span><span class="op">,</span> <span class="op">{</span></span>
-<span id="cb1-37"><a href="#cb1-37"></a>    attribution<span class="op">:</span> <span class="er">'</span><span class="op">&amp;</span>copy<span class="op">;</span> <span class="op">&lt;</span>a href<span class="op">=</span><span class="st">"https://www.openstreetmap.org/copyright"</span><span class="op">&gt;</span>OpenStreetMap<span class="op">&lt;/</span>a<span class="op">&gt;</span> contributors<span class="er">'</span><span class="op">,</span></span>
-<span id="cb1-38"><a href="#cb1-38"></a>  <span class="op">}).</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-39"><a href="#cb1-39"></a></span>
-<span id="cb1-40"><a href="#cb1-40"></a>  <span class="co">// Add the GeoJSON layer</span></span>
-<span id="cb1-41"><a href="#cb1-41"></a>  L<span class="op">.</span><span class="fu">geoJSON</span><span class="op">(</span>geojson<span class="op">).</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-42"><a href="#cb1-42"></a></span>
-<span id="cb1-43"><a href="#cb1-43"></a>  <span class="co">// Create a color scale for the points column</span></span>
-<span id="cb1-44"><a href="#cb1-44"></a>  <span class="dt">const</span> colorScale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span><span class="op">(</span>d3<span class="op">.</span><span class="fu">schemeCategory10</span><span class="op">);</span></span>
-<span id="cb1-45"><a href="#cb1-45"></a></span>
-<span id="cb1-46"><a href="#cb1-46"></a>  <span class="co">// Add summits as markers</span></span>
-<span id="cb1-47"><a href="#cb1-47"></a>  summits<span class="op">.</span><span class="fu">forEach</span><span class="op">((</span>summit<span class="op">)</span> <span class="op">=&gt;</span> <span class="op">{</span></span>
-<span id="cb1-48"><a href="#cb1-48"></a>    <span class="dt">const</span> <span class="op">{</span> latitude<span class="op">,</span> longitude<span class="op">,</span> points <span class="op">}</span> <span class="op">=</span> summit<span class="op">;</span></span>
-<span id="cb1-49"><a href="#cb1-49"></a>    L<span class="op">.</span><span class="fu">circleMarker</span><span class="op">([+</span>latitude<span class="op">,</span> <span class="op">+</span>longitude<span class="op">],</span> <span class="op">{</span></span>
-<span id="cb1-50"><a href="#cb1-50"></a>      radius<span class="op">:</span> <span class="dv">6</span><span class="op">,</span></span>
-<span id="cb1-51"><a href="#cb1-51"></a>      color<span class="op">:</span> <span class="fu">colorScale</span><span class="op">(</span>points<span class="op">),</span></span>
-<span id="cb1-52"><a href="#cb1-52"></a>      fillOpacity<span class="op">:</span> <span class="fl">0.8</span><span class="op">,</span></span>
-<span id="cb1-53"><a href="#cb1-53"></a>    <span class="op">})</span></span>
-<span id="cb1-54"><a href="#cb1-54"></a>      <span class="op">.</span><span class="fu">bindPopup</span><span class="op">(</span>`Summit<span class="op">:</span> $<span class="op">{</span>summit<span class="op">.</span><span class="fu">name</span><span class="op">}&lt;</span>br<span class="op">&gt;</span>Points<span class="op">:</span> $<span class="op">{</span>points<span class="op">}</span>`<span class="op">)</span></span>
-<span id="cb1-55"><a href="#cb1-55"></a>      <span class="op">.</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-56"><a href="#cb1-56"></a>  <span class="op">});</span></span>
-<span id="cb1-57"><a href="#cb1-57"></a></span>
-<span id="cb1-58"><a href="#cb1-58"></a>  <span class="cf">return</span> map<span class="op">;</span></span>
-<span id="cb1-59"><a href="#cb1-59"></a><span class="op">}</span></span>
-<span id="cb1-60"><a href="#cb1-60"></a>```</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="23" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 22;"><span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> {</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> L <span class="op">=</span> <span class="cf">await</span> <span class="pp">require</span>(<span class="st">"leaflet/dist/leaflet.js"</span>)<span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (<span class="op">!</span>L<span class="op">.</span><span class="at">_style</span>) {</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> href <span class="op">=</span> <span class="cf">await</span> require<span class="op">.</span><span class="fu">resolve</span>(<span class="st">"leaflet/dist/leaflet.css"</span>)<span class="op">;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="bu">document</span><span class="op">.</span><span class="at">head</span><span class="op">.</span><span class="fu">appendChild</span>(L<span class="op">.</span><span class="at">_style</span> <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;link href=</span><span class="sc">${</span>href<span class="sc">}</span><span class="vs"> rel=stylesheet&gt;`</span>)<span class="op">;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> L<span class="op">;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co">// Load the GeoJSON file</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>geojson <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"cairngorms.geojson"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="co">// Load the CSV file</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>summits <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"cairngorms_summits.csv"</span>)<span class="op">.</span><span class="fu">csv</span>({<span class="dt">typed</span><span class="op">:</span> <span class="kw">true</span>})</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co">// Create a map and add a tile layer</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>map <span class="op">=</span> {</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> map <span class="op">=</span> L<span class="op">.</span><span class="fu">map</span>(DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">"div"</span><span class="op">,</span> { <span class="dt">style</span><span class="op">:</span> <span class="st">"height: 600px"</span> }))<span class="op">.</span><span class="fu">setView</span>([<span class="fl">57.12</span><span class="op">,</span> <span class="op">-</span><span class="fl">3.64</span>]<span class="op">,</span> <span class="dv">10</span>)<span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  L<span class="op">.</span><span class="fu">tileLayer</span>(<span class="st">"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"</span><span class="op">,</span> {</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="dt">attribution</span><span class="op">:</span> <span class="st">'&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt; contributors'</span><span class="op">,</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Add the GeoJSON layer</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>  L<span class="op">.</span><span class="fu">geoJSON</span>(geojson)<span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Create a color scale for the points column</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> colorScale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(d3<span class="op">.</span><span class="at">schemeCategory10</span>)<span class="op">;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Add summits as markers</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  summits<span class="op">.</span><span class="fu">forEach</span>((summit) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> { latitude<span class="op">,</span> longitude<span class="op">,</span> points } <span class="op">=</span> summit<span class="op">;</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>    L<span class="op">.</span><span class="fu">circleMarker</span>([<span class="op">+</span>latitude<span class="op">,</span> <span class="op">+</span>longitude]<span class="op">,</span> {</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>      <span class="dt">radius</span><span class="op">:</span> <span class="dv">6</span><span class="op">,</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>      <span class="dt">color</span><span class="op">:</span> <span class="fu">colorScale</span>(points)<span class="op">,</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>      <span class="dt">fillOpacity</span><span class="op">:</span> <span class="fl">0.8</span><span class="op">,</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>    })</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">bindPopup</span>(<span class="vs">`Summit: </span><span class="sc">${</span>summit<span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&lt;br&gt;Points: </span><span class="sc">${</span>points<span class="sc">}</span><span class="vs">`</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> map<span class="op">;</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
 </div>
-<div class="callout-title-container flex-fill">
-OJS Syntax Error (line 24, column 8)Unexpected token
 </div>
 </div>
-<div class="callout-body-container callout-body">
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="declaration">
 
 </div>
 </div>
@@ -271,11 +288,11 @@ OJS Syntax Error (line 24, column 8)Unexpected token
 <h2 class="anchored" data-anchor-id="summit-list">Summit List</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 16%">
-<col style="width: 33%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 25%">
+<col style="width: 18%">
+<col style="width: 18%">
+<col style="width: 18%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -870,7 +887,7 @@ OJS Syntax Error (line 24, column 8)Unexpected token
 </main> <!-- /main -->
 <p>If you have any comments or questions, please send me an <a href="mailto:alex@gm5alx.uk">email</a>.</p>
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W119
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IkwgPSB7XG4gIGNvbnN0IEwgPSBhd2FpdCByZXF1aXJlKFwibGVhZmxldC9kaXN0L2xlYWZsZXQuanNcIik7XG4gIGlmICghTC5fc3R5bGUpIHtcbiAgICBjb25zdCBocmVmID0gYXdhaXQgcmVxdWlyZS5yZXNvbHZlKFwibGVhZmxldC9kaXN0L2xlYWZsZXQuY3NzXCIpO1xuICAgIGRvY3VtZW50LmhlYWQuYXBwZW5kQ2hpbGQoTC5fc3R5bGUgPSBodG1sYDxsaW5rIGhyZWY9JHtocmVmfSByZWw9c3R5bGVzaGVldD5gKTtcbiAgfVxuXG4gIHJldHVybiBMO1xufTtcblxuLy8gTG9hZCB0aGUgR2VvSlNPTiBmaWxlXG5nZW9qc29uID0gRmlsZUF0dGFjaG1lbnQoXCJjYWlybmdvcm1zLmdlb2pzb25cIikuanNvbigpXG5cbi8vIExvYWQgdGhlIENTViBmaWxlXG5zdW1taXRzID0gRmlsZUF0dGFjaG1lbnQoXCJjYWlybmdvcm1zX3N1bW1pdHMuY3N2XCIpLmNzdih7dHlwZWQ6IHRydWV9KVxuXG4vLyBDcmVhdGUgYSBtYXAgYW5kIGFkZCBhIHRpbGUgbGF5ZXJcbm1hcCA9IHtcbiAgY29uc3QgbWFwID0gTC5tYXAoRE9NLmVsZW1lbnQoXCJkaXZcIiwgeyBzdHlsZTogXCJoZWlnaHQ6IDYwMHB4XCIgfSkpLnNldFZpZXcoWzU3LjEyLCAtMy42NF0sIDEwKTtcbiAgTC50aWxlTGF5ZXIoXCJodHRwczovL3tzfS50aWxlLm9wZW5zdHJlZXRtYXAub3JnL3t6fS97eH0ve3l9LnBuZ1wiLCB7XG4gICAgYXR0cmlidXRpb246ICcmY29weTsgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lm9wZW5zdHJlZXRtYXAub3JnL2NvcHlyaWdodFwiPk9wZW5TdHJlZXRNYXA8L2E+IGNvbnRyaWJ1dG9ycycsXG4gIH0pLmFkZFRvKG1hcCk7XG5cbiAgLy8gQWRkIHRoZSBHZW9KU09OIGxheWVyXG4gIEwuZ2VvSlNPTihnZW9qc29uKS5hZGRUbyhtYXApO1xuXG4gIC8vIENyZWF0ZSBhIGNvbG9yIHNjYWxlIGZvciB0aGUgcG9pbnRzIGNvbHVtblxuICBjb25zdCBjb2xvclNjYWxlID0gZDMuc2NhbGVPcmRpbmFsKGQzLnNjaGVtZUNhdGVnb3J5MTApO1xuXG4gIC8vIEFkZCBzdW1taXRzIGFzIG1hcmtlcnNcbiAgc3VtbWl0cy5mb3JFYWNoKChzdW1taXQpID0+IHtcbiAgICBjb25zdCB7IGxhdGl0dWRlLCBsb25naXR1ZGUsIHBvaW50cyB9ID0gc3VtbWl0O1xuICAgIEwuY2lyY2xlTWFya2VyKFsrbGF0aXR1ZGUsICtsb25naXR1ZGVdLCB7XG4gICAgICByYWRpdXM6IDYsXG4gICAgICBjb2xvcjogY29sb3JTY2FsZShwb2ludHMpLFxuICAgICAgZmlsbE9wYWNpdHk6IDAuOCxcbiAgICB9KVxuICAgICAgLmJpbmRQb3B1cChgU3VtbWl0OiAke3N1bW1pdC5uYW1lfTxicj5Qb2ludHM6ICR7cG9pbnRzfWApXG4gICAgICAuYWRkVG8obWFwKTtcbiAgfSk7XG5cbiAgcmV0dXJuIG1hcDtcbn1cbiJ9XX0=
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

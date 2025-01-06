@@ -7,7 +7,6 @@ image: thumb.png
 toc: false
 format:
   html:
-    code-tools: true
     css:
       - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
 execute:

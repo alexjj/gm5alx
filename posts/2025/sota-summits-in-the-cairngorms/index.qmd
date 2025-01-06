@@ -58,13 +58,13 @@ map = {
   L.geoJSON(geojson).addTo(map);
 
   // Add summit markers
-  summits.forEach(({ latitude, longitude, points, name }) => {
+  summits.forEach(({ latitude, longitude, points, name, summitCode }) => {
       L.circleMarker([+latitude, +longitude], {
         radius: 8,
         color: getColor(points), // Use the color function
         fillColor: getColor(points),
         fillOpacity: 0.8
-      }).bindPopup(`Summit: ${name}<br>Points: ${points}`)
+      }).bindPopup(`Summit: ${name}<br>Reference: ${summitCode}<br>Points: ${points}`)
       .addTo(map);
   });
 

@@ -378,6 +378,13 @@
     "text": "OQRS"
   },
   {
+    "objectID": "testing.html#cairngorm-climbers-award",
+    "href": "testing.html#cairngorm-climbers-award",
+    "title": "SOTA Testing Page",
+    "section": "Cairngorm Climbers’ Award",
+    "text": "Cairngorm Climbers’ Award"
+  },
+  {
     "objectID": "sota/2024/gm-ws-304/index.html",
     "href": "sota/2024/gm-ws-304/index.html",
     "title": "Carn a’Bhodaich",
@@ -718,7 +725,7 @@
     "href": "posts/2025/sota-summits-in-the-cairngorms/index.html",
     "title": "Cairngorms National Park SOTA Summits",
     "section": "",
-    "text": "The Cairngorms park is a pretty big place. You tend to think of just the mountains in the middle but it covers around 4,500 km^2 or nearly 1,750 sq miles. It has a dedicated website with lots of information if you’re interested.\nWhilst I’m trying to activate and qualify all 87 GM/ES sota summits, I also wondered about all the summits within the Cairngorms. This extends into CS and WS. Using a Cairngorms GeoJSON file, and the summit lists from the sota database I was able to find those within the park.\nI think there are 82 summits: 44 in ES, 36 in CS, and 2 in WS. Below is a map to explore and also a list. Here’s a CSV of them.\nI think a fun project would be to make a Cairngorms activator award, for those who activate every summit in the Cairngorms."
+    "text": "The Cairngorms park is a pretty big place. You tend to think of just the mountains in the middle but it covers around 4,500 km^2 or nearly 1,750 sq miles. It has a dedicated website with lots of information if you’re interested.\nWhilst I’m trying to activate and qualify all 87 GM/ES sota summits, I also wondered about all the summits within the Cairngorms. This extends into CS and WS. Using a Cairngorms GeoJSON file, and the summit lists from the sota database I was able to find those within the park.\nI think there are 82 summits: 44 in ES, 36 in CS, and 2 in WS. Below is a map to explore and also a list. Here’s a CSV of them.\nI’ve made a Cairngorms Climbers’ award, and you can see the details of it here."
   },
   {
     "objectID": "posts/2025/sota-summits-in-the-cairngorms/index.html#map-view",

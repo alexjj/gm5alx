@@ -19,7 +19,8 @@ Whilst I'm trying to activate and qualify all 87 GM/ES sota summits, I also wond
 
 I think there are 82 summits: 44 in ES, 36 in CS, and 2 in WS. Below is a map to explore and also a list. [Here's a CSV of them](cairngorms_summits.csv).
 
-I think a fun project would be to make a Cairngorms activator award, for those who activate every summit in the Cairngorms.
+I've made a Cairngorms Climbers' award, and you can see the details of it [here](https://cairngorms.streamlit.app/).
+
 
 ## Map View
 

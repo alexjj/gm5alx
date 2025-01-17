@@ -1,0 +1,11 @@
+---
+title: Hill of Wirren
+subtitle: First of 2025
+image: "hill-of-wirran-4.jpg"
+points: 5
+date: 2025-01-10
+qsos: 4
+total: 254
+summit: "GM/ES-045"
+draft: true
+---

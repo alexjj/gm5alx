@@ -1,0 +1,11 @@
+---
+title: Knockan
+subtitle: First of 2025
+image: "hill-of-wirran-4.jpg"
+points: 1
+date: 2025-01-15
+qsos: 10
+total: 272
+summit: "GM/ES-081"
+draft: true
+---

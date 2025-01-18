@@ -10,7 +10,6 @@ format:
 
 Use this tool to figure out when you'll reach Mountain Goat, or how may points per week to achieve it by a certain date.
 
-```{=html}
 <label for="callsign">Enter your callsign:</label>
 <input type="text" id="callsign" placeholder="Your Callsign">
 <br><br>
@@ -21,4 +20,3 @@ Use this tool to figure out when you'll reach Mountain Goat, or how may points p
 <p id="pointsInfo"></p>
 <canvas id="progressChart"></canvas>
 
-```

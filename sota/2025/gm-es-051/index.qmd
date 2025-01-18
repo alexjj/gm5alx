@@ -1,11 +1,28 @@
 ---
-title: Hill of Wirren
-subtitle: First of 2025
-image: "hill-of-wirran-4.jpg"
+title: Meikle Conval
+subtitle: An exposed windy summit
+image: "m-conval-2.jpg"
 points: 5
-date: 2025-01-10
-qsos: 4
-total: 254
-summit: "GM/ES-045"
-draft: true
+date: 2025-01-15
+qsos: 15
+total: 266
+summit: "GM/ES-051"
 ---
+
+After Ben Rinnes, I stopped at the car for some of my super noodles in my new food thermos. They were nice and warm and tasted good! The group I passed on my way down turned out to be the RAF Mountain rescue, presumably out for a walk as well.
+
+![Other walkers out for the day](m-conval-2.jpg)
+
+The path up Meikle Conval starts just opposite the Ben Rinnes gate, it's a small track so not immediately noticeable. The track up is quite steep and you gain elevation quickly.
+
+![Start of Meikle Conval](m-conval-1.jpg)
+
+The route up is straight forward, following the path until you reach the summit. There isn't much of a cairn or shelter at the top and it was windy at the top. I'd forgotten to try 2m on Ben Rinnes, so I started out with it here. After a couple of CQs, Johnny, GM7LSI, in Elgin came back to me. We had a little chat whilst I looked for a good place to setup. Johnny was my only 2m contact, so I just setup on HF.
+
+![Summit](m-conval-4.jpg)
+
+There was a slight depression at the top, which looked good to setup in. This time I used the longer wire for 40m and had a good run of QSOs, including a S2S with G4OOE/P on G/TW-004.
+
+![Station selfie](m-conval-6.jpg)
+
+I packed up and then set off for the next Conval.

@@ -1,11 +1,26 @@
 ---
-title: Hill of Wirren
-subtitle: First of 2025
-image: "hill-of-wirran-4.jpg"
+title: Bennachie
+subtitle: Back to where it first started
+image: "bennachie-2.jpg"
 points: 5
-date: 2025-01-10
-qsos: 4
-total: 254
-summit: "GM/ES-045"
-draft: true
+date: 2025-01-17
+qsos: 33
+total: 277
+summit: "GM/ES-061"
 ---
+
+Back in March last year, I set out on my [first SOTA activation](https://gm5alx.uk/sota/2024/gm-es-061/). As it's a new year, you can activate summits again and get the points, and with the winter bonus a 2-point summit is 5 point. As I was heading out in the afternoon, this was a nice quick one for the morning.
+
+![Looking east on the way up](bennachie-1.jpg)
+
+The weather was nicer this time than my last climb, although still windy on the top. I took the same route up from the Back O'Bennachie car park. There were quite a few other walkers about this morning. Chris, 2M0RVZ, was heading up Ben Aigan, [GM/ES-069](https://sotl.as/summits/GM/ES-069), so hopefully we'd get a 2m summit to summit.
+
+![At the top](bennachie-2.jpg)
+
+It's a quick route up and I was ready about 10:15, just in time for Chris arriving for our 2m QSO. Simon, GM4JXP, was also on 2m but he couldn't hear Chris and was keen to get a complete for Aigan. The wind was strong on the summit, so I was looking for somewhere sheltered and also out the main route with other walkers coming and going. I found a good spot just south of the summit down the side of the summit.
+
+![Station setup](bennachie-3.jpg)
+
+Just like my first visit, I brought the G90, although this time a much small and lighter battery! Another chase by Fraser, 5B/M0EFI, from Cyprus on 15m, we compared his EFHW and the 41' wire. Both were about the same and probably more variation in propagation than anything else, but perhaps the 41' was slightly better. I moved onto 40m, and then 20m before looking for other summits to chase. I had a nice QSO with Esther, EI4KT, who was out in the north of Ireland (not to be confused with Northern Ireland!) By this time I'd been on the air about an hour and whilst I was in a sheltered spot I was getting cold and stiff legs.
+
+![View to Mither Tap](bennachie-5.jpg)

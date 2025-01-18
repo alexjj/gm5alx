@@ -1,11 +1,38 @@
 ---
-title: Hill of Wirren
-subtitle: First of 2025
-image: "hill-of-wirran-4.jpg"
-points: 5
-date: 2025-01-10
-qsos: 4
-total: 254
-summit: "GM/ES-045"
-draft: true
+title: Ben Rinnes
+subtitle: sunrise summit
+image: "ben-rinnes-11.jpg"
+points: 7
+date: 2025-01-15
+qsos: 21
+total: 261
+summit: "GM/ES-021"
 ---
+
+A big trip out planned for today. Ben Rinnes, the two Convals and then, if time, a wee 1-pointer to finish the day. I had to drop my daugther at swimming at 6:30, so I was on the road straight after that. Fraser, MM0EFI, was on holiday in Cyprus as 5B/M0EFI and had been doing SOTA summits all week. Today was no different and he was going to be out and on the summit at 0900 UTC, so no hanging around for me!
+
+![Early morning start](ben-rinnes-1.jpg)
+
+It was still dark when I set off but the slow sunrise started to illuminate the terrain. There were still big patches of snow, and the path seemed to be a natural drift area. I tried to walk across it and sank down in the snow to my waist! There were also places where the snow had melted underneath due to run off water coming down the hill, so you'd stand on the snow, sink through it and end up in a stream. After the first part of the ascent the snow was all gone and it was just the track with small patches.
+
+![Some snow remaining](ben-rinnes-3.jpg)
+
+![Summit in moonlight](ben-rinnes-4.jpg)
+
+![Sun starting to rise](ben-rinnes-6.jpg)
+
+I made good time to the top, it took me just under an hour. The wind was strong on the summit and after a quick selfie and admiring the view I started to look for somewhere sheltered to set up. It was about 8:50 and I wanted to be ready for Fraser.
+
+![At the top](ben-rinnes-9.jpg)
+
+![Tors at the top](ben-rinnes-7.jpg)
+
+I found a nice spot where I could hide behind an outcrop and also some rocks to wedge the mast in. I was using the 5.5m vertical and the KX2. I was all setup when the wind shook the mast so that it collapsed in on itself. I fixed it back, wedging the sections has much as I could, and then messaged Fraser to say for I was ready. Fraser had luck with Simon, GM4JXP, on previous summits on 10m and 15m, so those were the bands we were going to try. After a couple of calls I heard Fraser, as 5B/M0EFI/P, quite clearly and we made our summit to summit QSO!
+
+![Station setup](ben-rinnes-12.jpg)
+
+I moved over to 20m band and worked some more stations. Also had a summit to summit with Mark, GD5MUP, who was on holiday in Tenerife up EA8/TF-010. A few more QSOs and then I packed up and headed down. It was nice to get out of the wind and the sun had come up more so the surroundings were well lit up to admire.
+
+I met a group coming up the hill, who I later realised was the RAF Mountain Rescue group, and one of them had the same waist deep experience in the snow drifts!
+
+![QSOs](ben-rinnes-14.jpg)

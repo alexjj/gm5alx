@@ -1,11 +1,22 @@
 ---
 title: Knockan
-subtitle: First of 2025
-image: "hill-of-wirran-4.jpg"
+subtitle: Bonus 4th summit
+image: "knockan-3.jpg"
 points: 1
 date: 2025-01-15
 qsos: 10
 total: 272
 summit: "GM/ES-081"
-draft: true
 ---
+
+The final summit of the day. As I had time, I thought I'd do this one as I knew it would be a quick walk. There are a few 1 pointers in this area which I'd like to activate eventually, and this helped tick it off my list.
+
+![Looking across to Ben Rinnes](knockan-4.jpg)
+
+It seems a popular spot for dog walkers as the "car park" was nearly full when I arrived. A wind farm has been built on the hill, so it's made up roads nearly to the top. It's also a very gentle gradient of hardly any climb, so pushing the very limits of the definition of summit. It took less than 20 minutes to reach the summit, a few well balanced stones.
+
+![At the top](knockan-2.jpg)
+
+I went back to the road to make use of the snow markers as a support for the mast and setup. Fraser wanted to try and make a contact as he wanted Knockan for a complete (where you activate and chase a summit). Quite the lengths to get a complete whilst on holiday in Cyprus! We tried 15m to start and he was pretty good this time, 43 to me. After that I started looking around for other summits but I was wasting time and just wanted to get it qualified and done, so moved to 20m and soon had a nice run for 5 minutes before calling it quits. Takes longer to setup and take down the station than get to the top! Back to the car in no time and away home.
+
+![Roadside station](knockan-1.jpg)

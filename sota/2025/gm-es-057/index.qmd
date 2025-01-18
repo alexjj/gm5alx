@@ -1,11 +1,26 @@
 ---
-title: Hill of Wirren
-subtitle: First of 2025
-image: "hill-of-wirran-4.jpg"
+title: Little Conval
+subtitle: Second Conval; Third hill
+image: "l-conval-5.jpg"
 points: 5
-date: 2025-01-10
-qsos: 4
-total: 254
-summit: "GM/ES-045"
-draft: true
+date: 2025-01-15
+qsos: 8
+total: 271
+summit: "GM/ES-057"
 ---
+
+After packing up from it's bigger sibling, Meikle Conval, I set off towards Little Conval. Little meaning 18m shorter. The route is straight forward, follow the path down Meikle and then up Little. The activation area is quite large and there are several cairns on the top. Not sure if the cairn I stood at was the summit but close enough!
+
+![Little Conval from Meikle](l-conval-1.jpg)
+
+![At the summit with Ben Rinnes behind](l-conval-3.jpg)
+
+The wind was still strong and there was even less shelter on this summit. I spotted a tree a little down the side of the hill, which looked ideal for a mast support and perhaps a wind break. I setup by it, and enjoyed looking out at the two hills I'd already climbed. The wind did stop at times and it was really quite warm when it did.
+
+Fraser was back at his hotel after his activation and wanted to try and chase. We tried 10m but nothing and then 15m. I only called CQ once and a Polish guy jumped in and had a chat for a bit! It took a few goes with Fraser but eventually just managed a QSO, although somewhat supported by the WhatsApp chat to say if we could hear anything or not. I went back to 10m and tried it, getting a couple of contacts, then back on 15m before chasing a Spanish summit, EA6/MA-005 and deciding that was enough.
+
+![Tree supported station](l-conval-5.jpg)
+
+There are two routes back, one is back up and over Meikle Conval again, and the second is around the side of it and along the road. I think the over the hill route is shorter and maybe quicker but I decided to go around. It did end with about 1-1.5km along the road, which was a bit boring. The RAF mountain rescue group were just returning to the road, after they must've done the big loop over Ben Rinnes and towards Baby's Hill and back to the road.
+
+As I was back in good time, I decided to tick off one of the local 1-pointers.

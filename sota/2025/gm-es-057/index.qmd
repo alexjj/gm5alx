@@ -3,7 +3,7 @@ title: Little Conval
 subtitle: Second Conval; Third hill
 image: "l-conval-5.jpg"
 points: 5
-date: 2025-01-15
+date: 2025-01-15 12:00:00
 qsos: 8
 total: 271
 summit: "GM/ES-057"

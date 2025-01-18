@@ -3,7 +3,7 @@ title: Meikle Conval
 subtitle: An exposed windy summit
 image: "m-conval-2.jpg"
 points: 5
-date: 2025-01-15
+date: 2025-01-15 11:00:00
 qsos: 15
 total: 266
 summit: "GM/ES-051"

@@ -3,7 +3,7 @@ title: Ben Rinnes
 subtitle: sunrise summit
 image: "ben-rinnes-11.jpg"
 points: 7
-date: 2025-01-15
+date: 2025-01-15 09:00:00
 qsos: 21
 total: 261
 summit: "GM/ES-021"

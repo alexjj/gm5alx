@@ -1,0 +1,11 @@
+---
+title: Mount Keen
+subtitle: Calm before the storm
+image: ".jpg"
+points: 9
+date: 2025-01-22 09:00:00
+qsos:
+total: 286
+summit: "GM/ES-014"
+draft: true
+---

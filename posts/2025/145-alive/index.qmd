@@ -1,0 +1,34 @@
+---
+title: "145 Alive Net"
+date: 2025-01-26
+subtitle: "First time net controller"
+categories: ["2m"]
+image: 145a-2.jpg
+toc: false
+---
+
+145 Alive is a scheme to promote 2m activity in the UK. Most of the organisation is done online via a [facebook group](https://www.facebook.com/groups/906901577214402/?locale=en_GB). They co-ordinate dates and frequencies of nets that people volunteer to do. This year Chris, 2M0RVZ, and I were going to run a net and park on the Cairn O'Mount. However, the snow gates were still closed this morning and turned out to have fallen trees on the road. We could approach it from the south but we didn't know the conditions, so changed to Garvock hill near Laurencekirk. At the last 145 Alive event I was on [Waughton Hill](https://gm5alx.uk/sota/2024/gm-es-087/) and called into a couple of nets, this time I was going to be running one!
+
+![Closed snow gates](snowgates.jpeg)
+
+Chris has a newly converted Land Rover which has a pop up roof, and comfy seating in the back. Plus a heater, kettle, running water... the works! So we were going to spend a couple of hours in that and see who we could get.
+
+![Setting up](145a-2.jpg)
+
+We were using a slim G up a 10m mast, and I'd brought my 50W Kenwood V71 FM radio. Chris had an ecoflow power bank, although the radio kept restarting when we keyed up, so we swapped to my golf buggy battery. We were set up quickly and then discussed strategy for handling the net. The net was 12-3pm, and at 12:00pm we were ready to call CQ.
+
+We did hear a station down in East Lothian who was overlapping with another net, and also us, on the same frequency but he couldn't hear us then disappeared.
+
+We were going to use the new GM/ES SOTA Society callsign of GM0ESS for today - as there were two of us, and our first CQ went out and ... nothing 😅
+
+![GM0ESS operation](operating.jpeg)
+
+After a while a few stations did start calling in and we managed about 12 in total, even had a couple who could work each other. Many times we had one station on to our North and one to our South and they couldn't hear each other. We also called into the Dundee net and had a couple more contacts there. It was quite relaxed and we chatted and ate and drank in between times. I was glad we were sat out on a hillside, as we'd have packed up after 4 contacts for the summit!
+
+![QSOs](qsos.jpg){fig-align="center" width="293"}
+
+I had to get back home by 2:30pm, so I left about 1:50pm, Chris kept going for another half an hour but didn't manage to work anyone else. Either his 10W from his IC-705 wasn't enough, or just no-one was listening!
+
+Was a fun afternoon, and quite relaxing as there wasn't really any net to manage 😅 Plus got to check out the fancy Land Rover. The events are usually on Sunday and I can't always get out then, so not sure if I'll run one again, or just climb up a hill and call in.
+
+![Tea time](tea-time.jpeg)

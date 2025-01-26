@@ -1,11 +1,84 @@
 ---
 title: Mount Keen
 subtitle: Calm before the storm
-image: ".jpg"
+image: "m-keen-6.jpg"
 points: 9
-date: 2025-01-22 09:00:00
-qsos:
+date: 2025-01-22
+qsos: 47
 total: 286
 summit: "GM/ES-014"
-draft: true
 ---
+
+After [living it large in Cyprus](https://reflector.sota.org.uk/t/the-lazy-guide-to-cyprus/37279/19) for a week, with lunchtime beers and drive on summits, Fraser MM0EFI, was looking to do some real walking for fear of turning into another passenger on the Axiom. Earlier in the week he’d asked if anyone was interested in an outing on Wednesday. I was planning on going out Friday but then Fraser pointed out the weather forecast and I rearranged things accordingly.
+
+![Storm Éowyn](weather.png)
+
+If you hadn’t guessed, Mount Keen, GM/ES-014, was our destination, and we were climbing from Glen Tanar. This is a longer route than the one from the other side in Glen Esk, however, it’s much nearer both our houses, particularly Fraser’s, and I wanted to try it. It’s a bike and hike route, about an hour of each. You could walk but it’s a long way, about 15 km each way (Glen Esk route is 9 km each way and that feels like a long walk).
+
+![Our route](route.jpeg)
+
+0730 was our rendezvous time, and after debating how many layers to wear - it was about -4°C - we set off along the nice tracks.
+
+![Headlines and hats needed!](m-keen-6.jpg)
+
+It is uphill most of the way, but the gradient is fairly shallow that it’s not a slog. The first part is through a nice forest of Caledonian scots pinewoods and past a frozen loch, although it was still quite dark so not much of it could be admired.
+
+![Frosty landscape](keen-17.jpg)
+
+Out of the forest and you’re greeted with the hills surrounding Mount Keen. All the snow in the area has completely gone, with only very minor patches left, and this morning the white was the frost.
+
+![Lights off; taps off](keen-16.jpg)
+
+Soon enough Mount Keen came into view, although looked like the summit was in the clouds. Hopefully we wouldn’t be too early and suffer those clouds.
+
+![Mount Keen coming into view](keen-15.jpg)
+
+We reached the bridge at the base of the climb and decided to leave our bikes here. You could ride/push your bike up the path someway to have a quicker route down but it seemed unnecessary and Fraser told me of a time where he got a puncture doing just this. Preparing for the hike
+
+![Preparing for the hike - Mount Keen above my head](m-keen-1.jpg)
+
+We’d made good time on the bikes to this point, a few minutes shy of an hour, and set off on foot.
+
+![Looking back down](keen-14.jpg)
+
+Things were going okay for the first 10 minutes but then Fraser seemed to be falling behind and huffing and puffing. Turned out he had bad cramp in his leg and couldn’t shake it off - even a packet of Haribo didn’t cure him. With a few stops we pressed on to the top.
+
+![Admiring the view](keen-12.jpg)
+
+![Summit in sight](keen-11.jpg)
+
+As we neared the top, the cloud had lifted and the views all around were stunning. The air was still cold but it was perfectly still.
+
+![Made it!](keen-9.jpg)
+
+The summit was covered in thick frost and a little slippery underfoot. After admiring the views and remarking that even Lochnagar was lacking in snow we started to set up our stations. Fraser was on 2m with his HT and yagi, and I was on HF with the KX2 and 41’ of wire.
+
+Fraser had a good run on 2m FM, with 10 contacts from around Scotland.
+
+![Yakking on a yagi](keen-4.jpg)
+
+![2m QSOs](m-keen-7.jpg)
+
+I started on 40m, which was noisy and a bit slow. I then switched to 20m and that was absolutely popping. The pile up was crazy, just a wall of noise coming back to me each time. My particular highlight was a HB9 QSO which was 59 both ways. The other guy tells me he’s running 1.5 kW, and I reply with “10W here!”. I probably could’ve continued for another hour non-stop. I managed to work through about 40 of them before I was too cold and needed to pack up. Thankfully there was still no wind on the summit, otherwise I would’ve stopped after 40m! Fraser had Jack, GM4COX, on when I was finishing up they were having a good yaggin (yakking with a yagi?).
+
+![Working the pile up](m-keen-5.jpg)
+
+![HF Station](m-keen-2.jpg)
+
+![HF QSOs](hf-qsos.jpeg)
+
+We hadn’t seen anyone all morning but at the summit a couple of people came by. I was buried on 20m so didn’t look up but Fraser acted as the Mount Keen, Cairngorms and amateur radio tour guide. Particularly to a guy who had just climbed Mount Keen as his first Munro.
+
+We’d been on the summit about an hour and both content with our activations. The joy of radio seemed to have cured Fraser’s ailments and he was hopping and skipping again. Plus it was downhill all the way, and the bike section only took 30 minutes on the way back. This time we could admire the loch and forest before returning to the car park.
+
+Fraser invited me back for lunch, and promptly called Mo to let her know to set the table for more one, and “yes, he is normal”. After admiring the array of Land Rovers in Fraser’s drive, we were ushered into the dining room for a very fine lunch. Think that’s two lunches I owe you now!
+
+Unfortunately, I had to pull myself free of the sofa, fire and tea to head back home to do my half day’s work.
+
+![](keen-1.jpg)
+
+![](keen-2.jpg)
+
+![](keen-6.jpg)
+
+Whilst the route is longer, and more to ascend, I think I like it more than Glen Esk. The view of Mount Keen as you approach, the forest cycle, and the nice track up to the top are the best parts. Plus I suspect it’s slightly quieter than the other way.

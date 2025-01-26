@@ -1,6 +1,6 @@
 ---
 title: Ben Rinnes
-subtitle: sunrise summit
+subtitle: Sunrise summit
 image: "ben-rinnes-11.jpg"
 points: 7
 date: 2025-01-15 09:00:00

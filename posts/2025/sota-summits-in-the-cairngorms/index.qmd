@@ -1,7 +1,7 @@
 ---
 title: "Cairngorms National Park SOTA Summits"
 date: 2025-01-05
-subtitle: "There's a lot"
+subtitle: "There are a lot"
 categories: ["sota", "programming"]
 image: thumb.png
 toc: false

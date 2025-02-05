@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "*.pdf"
 
 website:
   title: "📻 GM5ALX Radio"
@@ -35,6 +37,7 @@ format:
     include-after-body:
       text:  |
         <script src="https://tinylytics.app/embed/SfVSskz468248y-YF1aQ.js" defer></script>
+
 
 language:
   search-box-placeholder: Search

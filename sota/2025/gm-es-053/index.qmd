@@ -1,0 +1,11 @@
+---
+title: Ben Newe
+subtitle: Jets in the valley
+image: ".jpg"
+points: 5
+date: 2025-01-31 12:00:00
+qsos: 12
+total: 301
+summit: "GM/ES-053"
+draft: true
+---

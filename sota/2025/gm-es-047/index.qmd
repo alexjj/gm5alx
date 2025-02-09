@@ -1,0 +1,11 @@
+---
+title: Pressendye
+subtitle: Final summit of the day
+image: ".jpg"
+points: 5
+date: 2025-01-31 14:00:00
+qsos: 4
+total: 301
+summit: "GM/ES-047"
+draft: true
+---

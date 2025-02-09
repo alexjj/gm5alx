@@ -1,0 +1,11 @@
+---
+title: Carn na Drochaide
+subtitle: GM/ES Activation Day!
+image: ".jpg"
+points: 7
+date: 2025-02-07
+qsos: 17
+total: 315
+summit: "GM/ES-025"
+draft: true
+---

@@ -1,0 +1,11 @@
+---
+title: The Buck
+subtitle: The Bog
+image: ".jpg"
+points: 7
+date: 2025-02-06
+qsos: 22
+total: 308
+summit: "GM/ES-039"
+draft: true
+---

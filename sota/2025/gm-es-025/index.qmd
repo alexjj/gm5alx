@@ -1,11 +1,44 @@
 ---
 title: Carn na Drochaide
 subtitle: GM/ES Activation Day!
-image: ".jpg"
+image: "hams.jpg"
 points: 7
 date: 2025-02-07
 qsos: 17
 total: 315
 summit: "GM/ES-025"
-draft: true
 ---
+
+Originally, Gerald, G4OIG, was coming to visit the area and do some summits, so we'd arranged all to go out today. However, Gerald ended up not being able to make it, but after posting on the [forum](https://reflector.sota.org.uk/t/gm-es-winter-activity-day-friday-7-february-2025/37340), we now had quite a list of summits expected to be activated in GM. It could possibly be the most at once in Scotland.
+
+![Alerts the day before](alerts.png)
+
+I set off after dropping the kids and school and headed out to my summit. Carn na Drochaide is right at the "end of the line", so it took a while to get to the start. There are a few routes up and I was taking the shortest, as I was trying to meet the 11:30 time.
+
+![Summit on the right](Drochaide-2.jpg)
+
+The weather was absolutely spectacular! Chilly, around -5°C at the car park, but no wind and lovely blue skies. The path is generally good, although comes and goes in places - or maybe that’s me from the path - and some heather bashing is required. Carn Dearg ascent gives you a bit of a false hope, as you then descend a little before climbing the final summit. As I was heading up 2m was starting up as the others were on their summits and calling CQ. I checked in with the [GM0ESS](https://www.qrz.com/db/GM0ESS) callsign, and said I’d be at the top soon. The views were starting to become very good as I climbed, with all the big peaks becoming visible.
+
+![High Cairngorms - Cairn Toul being most noticeable in the centre](Drochaide-4.jpg)
+
+![Path to the top](Drochaide-11.jpg)
+
+I reached the AZ just after 11:30, and heard G5OLD calling on 2m, and so he was the first S2S in the log. After our brief chat I was at the summit cairn, and started working the other activators. Four in the log on the HT and whip, and I started to setup the slim g on the mast. I’d also brought the Kenwood V71 for a little more power.
+
+![2m Station](Drochaide-9.jpg)
+
+With virtually no wind on the summit, a few rocks held the 7m mast in place and I had the sun warming my back as the air was still cold. I started setting up HF, had the wire up and just about to plug in when I heard \@MM0FMF on 2m, who I’d spoken to before I was at the summit, and was glad to make a contact, as my first complete of the day. I then carried on on 2m working three more summits, including MM7DCD on what sounded like a very wet and windy Ben Lomond, GM/SS-011. My second complete of the day (after only just [activating it](https://gm5alx.uk/sota/2024/gm-ss-011/) in the Christmas holidays). Was also great to get Barry, GM4TOE, on GM/ES-084, the Grandfather of GM/ES...just look at the first activator of pretty much any GM/ES summit.
+
+17 QSOs on 2m of which 12 were summit to summits! So there was at least 13 GM summits today…I wonder if we beat the previous record set in [August 2012](https://reflector.sota.org.uk/t/gm-es-winter-activity-day-friday-7-february-2025/37340/46)? I shall look into that later.
+
+![Braemar](Drochaide-3.jpg)
+
+The views from Carn na Drochaide were spectacular…Ben Avon, Beinn a’Bhuird, Beinn Bhreac (not SOTA), Cairn toul, Beinn Bhrotain, and no end to SW which I don’t know what’s what. Plus lovely views down into the Dee valley and Braemar.
+
+![Looking south](Drochaide-5.jpg)
+
+![Ben Avon and others to the North](Drochaide-8.jpg)
+
+Many of us met in Braemar at The Bothy for tea and medals afterwards, this being the first time I've met all but two activators!
+
+![The GM SOTA Elite](Drochaide-1.jpg)

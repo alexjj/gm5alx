@@ -1,17 +1,28 @@
 ---
-title: Tap o'Noth
+title: "Tap o'Noth"
 subtitle: Kids adventure SOTA
-image: ".jpg"
+image: "tap-onoth-5.jpg"
 points: 5
 date: 2025-02-09
 qsos: 6
 total: 320
 summit: "GM/ES-047"
-draft: true
 ---
 
 Fraser, MM0EFI, and Tim, G5OLD, were going out to [Conachcraig](https://gm5alx.uk/sota/2024/gm-es-019/) today and asked who else was going out. I was keen to go (as always) but lots of family activities were going to limit me. So what better way to solve it, than to bring the kids with me!
 
 ![Up to the top](tap-onoth-9.jpg)
 
-It was a bit cold, around 0-1 °C when we set off. Everyone was excited to go at home, but when we got there everyone was complaining! We made reasonable time to the top
+It was a bit cold, around 0-1 °C when we set off. Everyone was excited to go at home, but when we got there everyone was complaining! We made reasonable time to the top, and I setup the tent for the kids so they could keep out of the wind and have their snack in comfort. I setup on 2m by the edge of the fort remains to try and keep out of the wind.
+
+![Tent and station](tap-onoth-4.jpg)
+
+Fraser and Tim just came on 2m as I was setup and so had two summit to summits with them. Sounded a lot snowier and colder with them. Then had a succession of chasers on 2m. I did hear someone on a HEMA summit work Fraser but I never worked them. My HT was on dual channel monitoring and I kept hearing someone talking on 145.150 but I couldn't remember how to turn that off or change the secondary channel, so that was distracting. I was going to setup on HF but it was a bit cold and the kids probably wouldn't have lasted much longer. Also seems the base of the tent isn't waterproof anymore and several were complaining of wet areas.
+
+![Selfie on the trig](tap-onoth-3.jpg)
+
+I packed up and we had some photos, then set off back to the car park. No convincing people to walk this time, everyone was running down the hill and I was the last one!
+
+![Descent. Ben Rinnes in the distance.](tap-onoth-1.jpg)
+
+Back home for lunch and then a Sunday afternoon at home.

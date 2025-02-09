@@ -1,11 +1,43 @@
 ---
 title: Ladylea Hill
 subtitle: Don't mention the shortcut
-image: ".jpg"
+image: "ladylea-8.jpg"
 points: 5
 date: 2025-01-31 10:00:00
 qsos: 16
 total: 291
 summit: "GM/ES-047"
-draft: true
 ---
+
+Another day off, and some more SOTA summits to activate! Today I wanted to knock off some 2-pointers with winter bonus that I've not climbed before. First on the list was Ladylea Hill. I did have some concerns when driving to Ladylea and droves of tweed men with hounds were scratching around with shotguns looking for turkeys or something. Luckily they were a couple of hills over and I wasn’t going to get shot.
+
+![Parking area](ladylea-1.jpg)
+
+It seems anything west of Morven was covered with snow and Ladylea was one of those. The main concern was parking, and not being able to get the car out once I returned to it. So I just parked on the verge pointing downhill, even though there is a nice off road parking area. The ascent is pretty quick and I was soon on the summit. There was no wind whatsoever and the wire didn’t even flinch on the
+mast. Whilst it was chilly it was very pleasant in the sun. The clouds were over the high peaks and it did gradually moved east during the day.
+
+![Path through the forest](ladylea-2.jpg)
+
+![A new toy in action](ladylea-4.jpg)
+
+![At the top](ladylea-5.jpg)
+
+The top has a convenient post for securing a mast to. I decided just to do 40m and 2m today and both were active at an easy pace.
+
+![Station](ladylea-8.jpg)
+
+On the way down from Ladylea, a path leading straight down was too tempting as a shortcut - especially as I still had two more to go. I looked at the map and whilst the path didn’t return to the road, there was just a short stretch of forest to walk through, so I figured "why not". It started well, making good progress down the hill, until I came to the forest, surrounded by fencing. I did spy a gap under it, which I had to literally crawl through!
+
+![Crawl space](ladylea-10.jpg)
+
+![A very old car!](ladylea-9.jpg)
+
+That was only the start of my problems, as the forest was thick fallen trees, and I had to scramble over and under them to make any progress, but by this time I wasn't going to go back up the hill now. So I pushed on.
+
+![Fallen trees](ladylea-11.jpg)
+
+Eventually I made it through and out onto the road, where I walked back to the car. Looking at my route and satellite imagery, I do wonder if it would've been better to walk further south and avoid the trees. Although at the time I don't remember it looking clear.
+
+![My GPS Tracks](route.png)
+
+Well on to the next one, Ben Newe!

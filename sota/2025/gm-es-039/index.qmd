@@ -1,11 +1,38 @@
 ---
 title: The Buck
 subtitle: The Bog
-image: ".jpg"
+image: "buck-4.jpg"
 points: 7
 date: 2025-02-06
 qsos: 22
 total: 308
 summit: "GM/ES-039"
-draft: true
 ---
+
+Another lovely day and this time a quick outing to The Buck. [Not a new summit](https://gm5alx.uk/sota/2024/gm-es-039/) for me, but a good one on points/hour ratio! The subtitle for this post is *The Bog*, and even on a cold day like today, it's still a bog at the bottom. Probably best to do when the ground is frozen, then you're not hopping from tuft to tuft trying not to get soaked feet.
+
+![Looking up at the summit](buck-7.jpg)
+
+![Looking back down, in the shadow of the mountain](buck-8.jpg)
+
+It's a quick one, about 40 minutes to the top. The SOTA chat group were all about and I had a few 2m QSOs with them before I setup my new AX1 for the KX2, to try and use it like a HF HT!
+
+![At the top](buck-5.jpg)
+
+![Ben Rinnes in the distance, the two Convals on the right](buck-1.jpg)
+
+I was using the AX1 for 20m - it can do 15m and 17m and then 30m/40m with the extension coil. Probably does 10m too. You have a counterpoise wire that trails along the ground - which for 40m is pretty long! I had it attached straight into the BNC connector on the KX2, and I was going to use internal mic. I did wear headphones as it was a bit windy and I wanted to be sure I could hear. The idea was to use it in one hand and then log with the other.
+
+![HF HT](buck-3.jpg)
+
+It was my first time, but it was also quite awkward. I hadn't realised the PTT, XMIT button, was toggled, so I have to press it against to unkey, and the button isn't in the easiest place to press. I ended up putting my phone on the trig point, holding the KX2 in the right hand and then using my left hand to press the XMIT button, I also had to shelter the KX2 in my shadow to minimise wind noise. Probably would've helped if I wasn't standing right on the summit, and found somewhere sheltered but the whole point was to do it from right at the top! I got used to it, and managed 18 QSOs on 20m.
+
+![Pict markings](buck-2.jpg)
+
+I don't think I could've done this with the coil for 40m, it would feel very unstable with all that weight on the BNC. I do want to use it again, as it's quick to setup. I am thinking that perhaps a headset and PTT button might be easiest, one where I could hold it in my hand and use that had to key up. Alternatively, I could get an elbow BNC and set it up on the ground or backpack etc. and just use the regular mic. I'll try one of these again some other time. Was a good activation and with a quick trot down the hill I was back home in no time.
+
+![Summit](buck-6.jpg)
+
+![Close up of Pict markings](buck-4.jpg)
+
+Last time I didn't see the pict markings of the three fish. Not sure how as it was right in front of the summit as you come down! Probably circa 400-900 AD.There is also a small visitor book hidden in one of the walls nearby, that I forgot to look for...so next time!

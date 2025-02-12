@@ -1,11 +1,30 @@
 ---
 title: Ben Newe
 subtitle: Jets in the valley
-image: ".jpg"
+image: "ben-newe-1.jpg"
 points: 5
 date: 2025-01-31 12:00:00
 qsos: 12
-total: 301
+total: 294
 summit: "GM/ES-053"
-draft: true
 ---
+
+![This way](ben-newe-1.jpg)
+
+The middle hill of the day and just a short drive from Ladylea. Again, a fairly short route up, following the signs and path. Someone else and their dog had been up before me, as I was following their footsteps the whole way.
+
+![Jets...I promise](ben-newe-2.jpg)
+
+There were still jet planes flying around and whilst you can't really see them, this picture has them just at the peak of the hill in the far distance. I didn't quite manage to zoom in on my phone before they were gone. It's still a nice view even without them.
+
+![Summit in sight](ben-newe-6.jpg)
+
+Once you round the path to the base of the heather hill, you do find there are several paths up to the top. The sign posts take you the longest way around, but there are several tracks leading straight up. So after following the path for a bit, I decided to head across the heather and join one of these tracks leading up to the summit. There are a few trees at the top, so this would be a good summit on a windy day. As with Ladylea, there was hardly any wind at all, and I setup right on the trig.
+
+![Views to the north](ben-newe-7.jpg)
+
+![Station](ben-newe-9.jpg)
+
+The trig point has a few wooden planks around it, that act like benches, so you can get quite comfy up here, as long as the wind isn't too cold. I'd called on 2m first, and then moved onto 40m. Not masses of activity but perfectly pleasant enough on both bands getting some contacts. As I spoke with Fraser, MM0EFI, he said he was heading to Kerloch to climb that. I was meant to be doing a summit to summit with him on my next peak, so I quickly got packed up and headed down through the trees on a more direct path back to the car.
+
+![At the top](ben-newe-8.jpg)

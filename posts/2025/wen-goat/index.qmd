@@ -5,5 +5,19 @@ subtitle: "Are we there yet?"
 categories: ["sota", "programming"]
 image: thumb.png
 toc: false
-draft: true
 ---
+
+As you can tell from this blog, I've been doing a lot of [SOTA summits](https://gm5alx.uk/sota.html). The big award is at 1,000 points, when you can proudly claim to be a Mountain Goat. Since I started being more serious about this late last year, I've been looking at how long it will take me to achieve MG. My friend Tim, G5OLD, has also been looking at the same thing - although he's much closer than I am! It seemed to me like a wee webapp was needed for this and thus "[wen goat](https://wengoat.streamlit.app/)" was born!
+
+![wen goat?](thumb.png)
+
+It's a python app and hosted on streamlit.io, as that makes everything very easy. Ideally, I'd integrate it into this blog but maybe another time. You enter your callsign and then it looks up your activation data (assuming you're a SOTA activator and have an account and logged your activations) and then it plots these plus a few trends forwards towards the 1,000 point mark.
+
+It's gone through a few iterations, including contributions by [OE5JFE](https://www.qrz.com/db/OE5JFE), which was very kind of Joe. It shows you your historical performance, and gives you the option to enter your own expected future performance. Further down the page it allows you to set a target date when you want to achieve MG by, and then it'll tell you how many points per week you need to get there. [Several people](https://reflector.sota.org.uk/t/introducing-the-wen-goat-app/37331?u=gm5alx) have tried it out and had fun with it. My most recent update included doing the calculation for subsequent Mountain Goat awards, i.e. those that already have 1,000 points or more and are working their way towards the next 1,000 mark.
+
+I had fun making it, and Streamlit makes it so easy to get online. Visit it at this link, and here's an embedded version below - although it's not the greatest experience that way.
+
+<iframe
+  src="https://wengoat.streamlit.app?embed=true"
+  style="height: 900px; width: 100%;"
+></iframe>

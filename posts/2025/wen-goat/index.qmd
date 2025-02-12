@@ -1,0 +1,8 @@
+---
+title: "Introducing wen goat 🐐 app"
+date: 2025-02-12
+subtitle: "Are we there yet?"
+categories: ["sota", "programming"]
+image: thumb.png
+toc: false
+---

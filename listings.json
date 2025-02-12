@@ -1,9 +1,12 @@
 [
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
       "/sota/2025/gm-es-054/index.html",
       "/sota/2025/gm-es-025/index.html",
+      "/sota/2025/gm-es-039/index.html",
+      "/sota/2025/gm-es-047/index.html",
+      "/sota/2025/gm-es-053/index.html",
       "/sota/2025/gm-es-049/index.html",
       "/posts/2025/145-alive/index.html",
       "/sota/2025/gm-es-014/index.html",
@@ -68,8 +71,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",
@@ -96,10 +99,13 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
       "/sota/2025/gm-es-054/index.html",
       "/sota/2025/gm-es-025/index.html",
+      "/sota/2025/gm-es-039/index.html",
+      "/sota/2025/gm-es-047/index.html",
+      "/sota/2025/gm-es-053/index.html",
       "/sota/2025/gm-es-049/index.html",
       "/posts/2025/145-alive/index.html",
       "/sota/2025/gm-es-014/index.html",
@@ -164,8 +170,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",
@@ -196,6 +202,9 @@
     "items": [
       "/sota/2025/gm-es-054/index.html",
       "/sota/2025/gm-es-025/index.html",
+      "/sota/2025/gm-es-039/index.html",
+      "/sota/2025/gm-es-047/index.html",
+      "/sota/2025/gm-es-053/index.html",
       "/sota/2025/gm-es-049/index.html",
       "/sota/2025/gm-es-014/index.html",
       "/sota/2025/gm-es-061/index.html",
@@ -248,8 +257,8 @@
       "/sota/2024/gm-es-085/index.html",
       "/sota/2024/gm-es-012/index.html",
       "/sota/2024/gm-es-068/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/sota/2024/gm-es-080/index.html",

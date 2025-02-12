@@ -10,7 +10,38 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.6.40</generator>
-<lastBuildDate>Sun, 09 Feb 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 12 Feb 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Introducing wen goat 🐐 app</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2025/wen-goat/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>As you can tell from this blog, I’ve been doing a lot of <a href="https://gm5alx.uk/sota.html">SOTA summits</a>. The big award is at 1,000 points, when you can proudly claim to be a Mountain Goat. Since I started being more serious about this late last year, I’ve been looking at how long it will take me to achieve MG. My friend Tim, G5OLD, has also been looking at the same thing - although he’s much closer than I am! It seemed to me like a wee webapp was needed for this and thus “<a href="https://wengoat.streamlit.app/">wen goat</a>” was born!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="thumb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="wen goat?"><img src="https://gm5alx.uk/posts/2025/wen-goat/thumb.png" class="img-fluid figure-img" alt="wen goat?"></a></p>
+<figcaption>wen goat?</figcaption>
+</figure>
+</div>
+<p>It’s a python app and hosted on streamlit.io, as that makes everything very easy. Ideally, I’d integrate it into this blog but maybe another time. You enter your callsign and then it looks up your activation data (assuming you’re a SOTA activator and have an account and logged your activations) and then it plots these plus a few trends forwards towards the 1,000 point mark.</p>
+<p>It’s gone through a few iterations, including contributions by <a href="https://www.qrz.com/db/OE5JFE">OE5JFE</a>, which was very kind of Joe. It shows you your historical performance, and gives you the option to enter your own expected future performance. Further down the page it allows you to set a target date when you want to achieve MG by, and then it’ll tell you how many points per week you need to get there. <a href="https://reflector.sota.org.uk/t/introducing-the-wen-goat-app/37331?u=gm5alx">Several people</a> have tried it out and had fun with it. My most recent update included doing the calculation for subsequent Mountain Goat awards, i.e.&nbsp;those that already have 1,000 points or more and are working their way towards the next 1,000 mark.</p>
+<p>I had fun making it, and Streamlit makes it so easy to get online. Visit it at this link, and here’s an embedded version below - although it’s not the greatest experience that way.</p>
+<iframe src="https://wengoat.streamlit.app?embed=true" style="height: 900px; width: 100%;">
+</iframe>
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <category>programming</category>
+  <guid>https://gm5alx.uk/posts/2025/wen-goat/</guid>
+  <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2025/wen-goat/thumb.png" medium="image" type="image/png" height="136" width="144"/>
+</item>
 <item>
   <title>Tap o’Noth</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -2300,48 +2331,6 @@ font-style: inherit;">;</span></span>
   <guid>https://gm5alx.uk/sota/2024/gm-es-062/</guid>
   <pubDate>Fri, 20 Dec 2024 11:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2024/gm-es-062/coil-7.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Coyles of Muick</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2024/gm-es-050/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://www.youtube.com/@theradiorover">Fraser</a> was off today and asked if I was around for a summit. I managed to rearrange work things so I could go out in the morning and catch up later. The forecast was showing strong winds and potentially rain. Luckily the rain never really happened, but boy, was the wind strong!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="transport.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="1969 Landy"><img src="https://gm5alx.uk/sota/2024/gm-es-050/transport.jpeg" class="img-fluid figure-img" alt="1969 Landy"></a></p>
-<figcaption>1969 Landy</figcaption>
-</figure>
-</div>
-<p>I was meeting Fraser at Dinnet, then we’d drive the rest of the way to the start of the summit.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="route.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Around 5km route to the tops"><img src="https://gm5alx.uk/sota/2024/gm-es-050/route.png" class="img-fluid figure-img" alt="Around 5km route to the tops"></a></p>
-<figcaption>Around 5km route to the tops</figcaption>
-</figure>
-</div>
-<p>It’s a nice route through the forest and then along the top with good views across to Lochnagar. It took us about 1:15 to get to the summit. The final summit has two peaks, one with a cairn and one without. The wind was so strong here that we stuck at the cairn site. I setup down the leeway slope out of the wind a little.</p>
-<p>I’d managed to leave my phone in my car, and so had to get Fraser to spot. This also meant no photos of the trip…Guess I’ll have to go back again! I also had to use paper logging for the first time, but managed okay!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="paperlog.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Paper log"><img src="https://gm5alx.uk/sota/2024/gm-es-050/paperlog.jpg" class="img-fluid figure-img" alt="Paper log"></a></p>
-<figcaption>Paper log</figcaption>
-</figure>
-</div>
-<p>Fraser setup at the cairn and was on 40m. We didn’t stay that long and soon got off the summit. We did check out the other side and the wind was insane over there, I could hardly stand and if I’d taken out my bothy bag I reckon I could’ve taken off. We headed back down and then into Ballater for a second breakfast.</p>
-<p>Fraser has done a nice write up of our trip on the <a href="https://reflector.sota.org.uk/t/the-twin-peaks-and-a-gale/37019">reflector</a>.</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2024/gm-es-050/</guid>
-  <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2024/gm-es-050/transport.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

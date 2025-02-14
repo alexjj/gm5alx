@@ -1,0 +1,40 @@
+---
+title: Meall Alvie
+subtitle: Short and steep
+image: "meall-alvie-3.jpg"
+points: 5
+date: 2025-02-14 10:00:00
+qsos: 13
+total: 325
+summit: "GM/ES-055"
+---
+
+First of two summits of the day. The main summit being [GM/ES-022](https://gm5alx.uk/sota/2025/gm-es-022/), but I decided to do this one first, as Fraser wanted a S2S with me on 022 for a complete for him. He was working until lunchtime, so it made sense for me to do this one first. It's a short route, that starts from the Keiloch car park on the Invercauld estate.
+
+![Estate track](meall-alvie-1.jpg)
+
+You follow the track, then turn off onto a path, however, this path just goes around the summit, and to get to the top you have to just walk up the hill through the trees and heather. Sometimes it's nice to not just follow a path and to make your own.
+
+![Summit in sight](meall-alvie-2.jpg)
+
+![Big military plane that flew over and I just managed to get a photo of](meall-alvie-3.jpg)
+
+B
+
+![Track up](meall-alvie-4.jpg)
+
+eing in the trees, this summit would be ideal on a windy day. However, being in the trees means that there isn't much of a view from the top. Luckily you get some nice views on the way up and down.
+
+![Views to the south over the River Dee](meall-alvie-7.jpg)
+
+Once you leave the track, the route up is pretty steep all the way to the top. The heather doesn't help and there was still some snow lying on it which also didn't help. For a 2-pointer, it's quite the slog.
+
+![Straight up](meall-alvie-5.jpg)
+
+Upon reaching the top, there isn't anything of note, other than the ground levels off. I set to work setting up the mast and wire for 40m. Plenty of trees and branches to secure the mast to, although being careful to not get the wire tangled in the trees. I then just draped the other end over a branch to form a nearly straight inverted L. Doing two summits, and aiming to be home in time for school pick up, means I don't have much time to hang around! I started on 40m and it was quite slow, most contacts reporting heavy QSB. I did manage to make 4 on 40m and considered packing up, but kept going for a fifth and then moved to 20m. 20m was much better, although a loud station popped up just next to me and was drowning me out for many people. As this summit is likely a POTA site or two, I wanted to get at least 10 QSOs for that - not that I spotted on POTA.app. With that done, it was time to pack up and head down and then across to my next summit.
+
+![Station in the trees - mast avoiding the overhead branches](meall-alvie-6.jpg)
+
+![Still a lovely view on the way down](meall-alvie-8.jpg)
+
+With springy heather underfoot, I could bound down the side and be back at the car in about 15 minutes, saving some time on my schedule. A short 15 minute drive through Braemar and down the A93 brought me to my next [summit](https://gm5alx.uk/sota/2025/gm-es-022/).

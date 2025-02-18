@@ -1,0 +1,22 @@
+{
+    "date": "2024-08-31",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87VE",
+    "my_lat": 57.173027,
+    "my_lon": -2.239569,
+    "my_sota": "GM/ES-086",
+    "qsos": [
+        {
+            "time": "084500",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "IO87QH",
+            "lat": 57.291666666666664,
+            "lon": -2.666666666666667,
+            "distance_km": 29,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

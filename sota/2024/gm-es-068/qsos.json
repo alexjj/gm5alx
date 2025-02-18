@@ -1,0 +1,58 @@
+{
+    "date": "2024-07-28",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87od",
+    "my_lat": 57.137375,
+    "my_lon": -2.7731,
+    "my_sota": "GM/ES-068",
+    "qsos": [
+        {
+            "time": "102611",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "102750",
+            "callsign": "MM6BWS",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "102921",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "103647",
+            "callsign": "MM7RVC",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

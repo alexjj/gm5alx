@@ -1,0 +1,58 @@
+{
+    "date": "2024-10-15",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87gc",
+    "my_lat": 57.099346,
+    "my_lon": -3.434438,
+    "my_sota": "GM/ES-006",
+    "qsos": [
+        {
+            "time": "102223",
+            "callsign": "GM4CCN",
+            "band": "2m",
+            "qth": "Grantown-on-Spey",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "102457",
+            "callsign": "GM0GTU",
+            "band": "2m",
+            "qth": "Nairn",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r54"
+        },
+        {
+            "time": "102748",
+            "callsign": "MM0EFI/P",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "IO76cl",
+            "lat": 56.460438,
+            "lon": -5.779508,
+            "distance_km": 160,
+            "sota_ref": "GM/SI-016",
+            "comment": "s33 r33"
+        },
+        {
+            "time": "103833",
+            "callsign": "GM4XQJ",
+            "band": "2m",
+            "qth": "Falkirk.",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

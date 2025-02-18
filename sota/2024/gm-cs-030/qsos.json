@@ -1,0 +1,118 @@
+{
+    "date": "2024-10-04",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86gu",
+    "my_lat": 56.873066,
+    "my_lon": -3.466616,
+    "my_sota": "GM/CS-030",
+    "qsos": [
+        {
+            "time": "110031",
+            "callsign": "MM0KCD",
+            "band": "2m",
+            "qth": "Falkirk,",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "110530",
+            "callsign": "MM7VXJ",
+            "band": "2m",
+            "qth": "Milnathort",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "110754",
+            "callsign": "GM4VGR",
+            "band": "2m",
+            "qth": "Stirling",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "110940",
+            "callsign": "MM6ZZG",
+            "band": "2m",
+            "qth": "Johnshaven",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111612",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111845",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "112202",
+            "callsign": "GM4OAS",
+            "band": "2m",
+            "qth": "W.Highlands",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "112426",
+            "callsign": "GM4COX",
+            "band": "2m",
+            "qth": "South Lanarkshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "113327",
+            "callsign": "GM4CCN",
+            "band": "2m",
+            "qth": "Grantown-on-Spey",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

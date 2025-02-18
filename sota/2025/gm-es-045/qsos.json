@@ -1,0 +1,58 @@
+{
+    "date": "2025-01-10",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86ou",
+    "my_lat": 56.85438,
+    "my_lon": -2.784013,
+    "my_sota": "GM/ES-045",
+    "qsos": [
+        {
+            "time": "124019",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "124126",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r51"
+        },
+        {
+            "time": "124304",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "125140",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r41"
+        }
+    ]
+}

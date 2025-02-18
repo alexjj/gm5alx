@@ -1,0 +1,58 @@
+{
+    "date": "2024-12-02",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86ht",
+    "my_lat": 56.820194,
+    "my_lon": -3.351546,
+    "my_sota": "GM/ES-028",
+    "qsos": [
+        {
+            "time": "092715",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r55"
+        },
+        {
+            "time": "092814",
+            "callsign": "GM4YMM",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "093829",
+            "callsign": "GM0VEK",
+            "band": "2m",
+            "qth": "Kirkintilloch, GLASGOW",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r53"
+        },
+        {
+            "time": "093929",
+            "callsign": "MM0LBF",
+            "band": "2m",
+            "qth": "Pathhead Midlothian",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

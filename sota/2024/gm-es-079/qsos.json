@@ -1,0 +1,58 @@
+{
+    "date": "2024-09-04",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87rj",
+    "my_lat": 57.40237,
+    "my_lon": -2.580152,
+    "my_sota": "GM/ES-079",
+    "qsos": [
+        {
+            "time": "141609",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "141755",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "142000",
+            "callsign": "GM0HLV",
+            "band": "2m",
+            "qth": "Loth, Helmsdale",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "142228",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

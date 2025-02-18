@@ -1,0 +1,70 @@
+{
+    "date": "2024-07-05",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87RC",
+    "my_lat": 57.11613,
+    "my_lon": -2.543536,
+    "my_sota": "GM/ES-070",
+    "qsos": [
+        {
+            "time": "092800",
+            "callsign": "MS0SCZ",
+            "band": "70cm",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "092600",
+            "callsign": "2M0WNA",
+            "band": "70cm",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "092400",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "",
+            "locator": "IO87WE",
+            "lat": 57.166666666666664,
+            "lon": -2.166666666666667,
+            "distance_km": 23,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "091900",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "091700",
+            "callsign": "2M0WNA ",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

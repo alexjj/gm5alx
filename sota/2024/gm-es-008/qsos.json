@@ -1,0 +1,70 @@
+{
+    "date": "2024-10-03",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86jx",
+    "my_lat": 56.960274,
+    "my_lon": -3.245261,
+    "my_sota": "GM/ES-008",
+    "qsos": [
+        {
+            "time": "120820",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "120849",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "121053",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "122356",
+            "callsign": "GM1LKD",
+            "band": "2m",
+            "qth": "Bridge Of Don, ABERDEEN",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "122837",
+            "callsign": "MM7VXJ",
+            "band": "2m",
+            "qth": "Milnathort",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

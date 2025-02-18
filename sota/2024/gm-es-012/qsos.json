@@ -1,0 +1,106 @@
+{
+    "date": "2024-08-08",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86hu",
+    "my_lat": 56.87306,
+    "my_lon": -3.368236,
+    "my_sota": "GM/ES-012",
+    "qsos": [
+        {
+            "time": "113247",
+            "callsign": "MM3XIA",
+            "band": "2m",
+            "qth": "Carnwath",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "113529",
+            "callsign": "MM7JMR",
+            "band": "2m",
+            "qth": "Boness",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "114245",
+            "callsign": "GM0VEK",
+            "band": "2m",
+            "qth": "Kirkintilloch, GLASGOW",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "114300",
+            "callsign": "MM0MGM",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "114513",
+            "callsign": "MM0HRI",
+            "band": "2m",
+            "qth": "Arbroath",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "114923",
+            "callsign": "M7SGX",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "115145",
+            "callsign": "GM4OAS",
+            "band": "2m",
+            "qth": "W.Highlands",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "115301",
+            "callsign": "GM0USI/M",
+            "band": "2m",
+            "qth": "Glasgow",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "date": "2024-06-28",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86RV",
+    "my_lat": 56.89896,
+    "my_lon": -2.50554,
+    "my_sota": "GM/ES-075",
+    "qsos": [
+        {
+            "time": "111300",
+            "callsign": "GM4JXP",
+            "band": "40m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111300",
+            "callsign": "2E0FEH",
+            "band": "40m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111100",
+            "callsign": "EI3GYB",
+            "band": "40m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111000",
+            "callsign": "M1DDD/P",
+            "band": "40m",
+            "qth": "Lakes n",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "110800",
+            "callsign": "EI3HA",
+            "band": "40m",
+            "qth": "",
+            "locator": "IO54QG",
+            "lat": 54.25,
+            "lon": -8.666666666666666,
+            "distance_km": 486,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "105300",
+            "callsign": "DL/SQ9MDF/P",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": 49.3022,
+            "lon": 12.6506,
+            "distance_km": 1313,
+            "sota_ref": "DM/BM-309",
+            "comment": ""
+        },
+        {
+            "time": "103300",
+            "callsign": "DL/F4JYM/P",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": 48.0239,
+            "lon": 8.6711,
+            "distance_km": 1241,
+            "sota_ref": "DM/BW-057",
+            "comment": ""
+        },
+        {
+            "time": "100300",
+            "callsign": "2M0MHK",
+            "band": "2m",
+            "qth": "Brechin",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

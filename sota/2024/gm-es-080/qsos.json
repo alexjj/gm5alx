@@ -1,0 +1,82 @@
+{
+    "date": "2024-06-14",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87TA",
+    "my_lat": 57.01796,
+    "my_lon": -2.359621,
+    "my_sota": "GM/ES-080",
+    "qsos": [
+        {
+            "time": "112000",
+            "callsign": "MM0SAX/M",
+            "band": "2m",
+            "qth": "Glasgow",
+            "locator": "IO75TU",
+            "lat": 55.833333333333336,
+            "lon": -4.416666666666667,
+            "distance_km": 183,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "111500",
+            "callsign": "2M0EFI/M",
+            "band": "2m",
+            "qth": "Blackhills",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "105800",
+            "callsign": "EA1DHB",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100900",
+            "callsign": "OH3GZ",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100800",
+            "callsign": "EA1DHB",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "095700",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Peterhead",
+            "locator": "IO97CL",
+            "lat": 57.458333333333336,
+            "lon": -1.8333333333333333,
+            "distance_km": 58,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

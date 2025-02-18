@@ -1,0 +1,118 @@
+{
+    "date": "2024-12-08",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO77tj",
+    "my_lat": 57.405376,
+    "my_lon": -4.382006,
+    "my_sota": "GM/WS-304",
+    "qsos": [
+        {
+            "time": "091321",
+            "callsign": "SP9JKL",
+            "band": "20m",
+            "qth": "\u00c2\u00b7l\u00c2\u00b7",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "091338",
+            "callsign": "OH3GZ",
+            "band": "20m",
+            "qth": "Fin-41660 Toivakka",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r59"
+        },
+        {
+            "time": "091400",
+            "callsign": "SQ9CWO",
+            "band": "20m",
+            "qth": "Olesno",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r57"
+        },
+        {
+            "time": "091429",
+            "callsign": "EA2WX",
+            "band": "20m",
+            "qth": "48004 Bilbao",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s53 r55"
+        },
+        {
+            "time": "091446",
+            "callsign": "ON7ZN",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "091524",
+            "callsign": "OK1KT",
+            "band": "20m",
+            "qth": "500 12 Hradec Kralove",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s53 r59"
+        },
+        {
+            "time": "091601",
+            "callsign": "IN3NJB",
+            "band": "20m",
+            "qth": "Sarche",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s51 r52"
+        },
+        {
+            "time": "091621",
+            "callsign": "OK2PDT",
+            "band": "20m",
+            "qth": "595 01 Velka Bites",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s52 r55"
+        },
+        {
+            "time": "091653",
+            "callsign": "EA2CKX",
+            "band": "20m",
+            "qth": "O\u00c3\u00b1ati Gipuzko",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r52"
+        }
+    ]
+}

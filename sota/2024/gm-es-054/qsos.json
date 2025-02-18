@@ -1,0 +1,70 @@
+{
+    "date": "2024-10-11",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87ni",
+    "my_lat": 57.35152,
+    "my_lon": -2.859012,
+    "my_sota": "GM/ES-054",
+    "qsos": [
+        {
+            "time": "102406",
+            "callsign": "G4OBK",
+            "band": "40m",
+            "qth": "Pickering North Yorkshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s31 r31"
+        },
+        {
+            "time": "102628",
+            "callsign": "GM0APN",
+            "band": "2m",
+            "qth": "Aberdeenshire.",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r59"
+        },
+        {
+            "time": "102636",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r53"
+        },
+        {
+            "time": "102644",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r53"
+        },
+        {
+            "time": "103001",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r58"
+        }
+    ]
+}

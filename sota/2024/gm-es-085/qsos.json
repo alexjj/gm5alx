@@ -1,0 +1,70 @@
+{
+    "date": "2024-08-18",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86st",
+    "my_lat": 56.813362,
+    "my_lon": -2.449335,
+    "my_sota": "GM/ES-085",
+    "qsos": [
+        {
+            "time": "102238",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "104556",
+            "callsign": "GM3WIJ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "105257",
+            "callsign": "GM3WIJ",
+            "band": "70cm",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "105538",
+            "callsign": "GM4KNU/P",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": 56.45385,
+            "lon": -3.992057,
+            "distance_km": 102,
+            "sota_ref": "GM/SS-015",
+            "comment": ""
+        },
+        {
+            "time": "110113",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

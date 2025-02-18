@@ -1,0 +1,70 @@
+{
+    "date": "2024-12-23",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO76vb",
+    "my_lat": 56.078403,
+    "my_lon": -4.204033,
+    "my_sota": "GM/SS-163",
+    "qsos": [
+        {
+            "time": "134100",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r59"
+        },
+        {
+            "time": "134152",
+            "callsign": "2M0ROT",
+            "band": "2m",
+            "qth": "Port Glasgow",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "134305",
+            "callsign": "MM6NRK",
+            "band": "2m",
+            "qth": "Coatbridge North Lanarkshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s52 r52"
+        },
+        {
+            "time": "134352",
+            "callsign": "GM0VEK",
+            "band": "2m",
+            "qth": "Kirkintilloch, GLASGOW",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r53"
+        },
+        {
+            "time": "134447",
+            "callsign": "MM0GOG",
+            "band": "2m",
+            "qth": "Bathgate",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r52"
+        }
+    ]
+}

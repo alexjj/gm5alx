@@ -1,0 +1,94 @@
+{
+    "date": "2024-10-15",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87gc",
+    "my_lat": 57.08759,
+    "my_lon": -3.499366,
+    "my_sota": "GM/ES-004",
+    "qsos": [
+        {
+            "time": "124431",
+            "callsign": "GM4CCN",
+            "band": "2m",
+            "qth": "Grantown-on-Spey",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "130536",
+            "callsign": "2W0RGA",
+            "band": "20m",
+            "qth": "West Glamorgan UK",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r57"
+        },
+        {
+            "time": "130650",
+            "callsign": "DL2DXA",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "130712",
+            "callsign": "LA5FHA",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "130801",
+            "callsign": "3Z9VI",
+            "band": "20m",
+            "qth": "Wadowice",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "130921",
+            "callsign": "HB9DHA",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "131008",
+            "callsign": "GW0PLP",
+            "band": "20m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r55"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "date": "2024-10-03",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86jx",
+    "my_lat": 56.964275,
+    "my_lon": -3.186547,
+    "my_sota": "GM/ES-019",
+    "qsos": [
+        {
+            "time": "135322",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "135407",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "140050",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "140357",
+            "callsign": "GM1LKD",
+            "band": "2m",
+            "qth": "Bridge Of Don, ABERDEEN",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

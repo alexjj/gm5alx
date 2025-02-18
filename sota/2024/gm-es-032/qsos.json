@@ -1,0 +1,70 @@
+{
+    "date": "2024-10-31",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86pw",
+    "my_lat": 56.949265,
+    "my_lon": -2.741962,
+    "my_sota": "GM/ES-032",
+    "qsos": [
+        {
+            "time": "113244",
+            "callsign": "G6BIA",
+            "band": "2m",
+            "qth": "South Shields",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r53"
+        },
+        {
+            "time": "113803",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "114612",
+            "callsign": "GM4YMM",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r57"
+        },
+        {
+            "time": "120057",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r57"
+        },
+        {
+            "time": "121148",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r57"
+        }
+    ]
+}

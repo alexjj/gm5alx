@@ -1,0 +1,58 @@
+{
+    "date": "2025-01-31",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87ne",
+    "my_lat": 57.168793,
+    "my_lon": -2.844252,
+    "my_sota": "GM/ES-047",
+    "qsos": [
+        {
+            "time": "141839",
+            "callsign": "MM0EFI/P",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "IO86rx",
+            "lat": 56.98117,
+            "lon": -2.500912,
+            "distance_km": 29,
+            "sota_ref": "GM/ES-059",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "142029",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO87we",
+            "lat": 57.166666666666664,
+            "lon": -2.166666666666667,
+            "distance_km": 41,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "142148",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "IO87ob",
+            "lat": 57.041666666666664,
+            "lon": -2.833333333333333,
+            "distance_km": 14,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "143106",
+            "callsign": "2M0RVZ",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO87uf",
+            "lat": 57.208333333333336,
+            "lon": -2.333333333333333,
+            "distance_km": 31,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "date": "2024-11-13",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87ec",
+    "my_lat": 57.095848,
+    "my_lon": -3.611464,
+    "my_sota": "GM/ES-005",
+    "qsos": [
+        {
+            "time": "112047",
+            "callsign": "2W0ILQ",
+            "band": "40m",
+            "qth": "Newport,",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "112321",
+            "callsign": "ON7ZM",
+            "band": "40m",
+            "qth": "5353 Goesnes",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r44"
+        },
+        {
+            "time": "112350",
+            "callsign": "G0MHF",
+            "band": "40m",
+            "qth": "Merseyside",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "112415",
+            "callsign": "MM7VXJ",
+            "band": "40m",
+            "qth": "Milnathort",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "112504",
+            "callsign": "MW7IOL",
+            "band": "40m",
+            "qth": "Gwynedd, Cymru",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "112610",
+            "callsign": "2E0AGB",
+            "band": "40m",
+            "qth": "Dewsbury, West Yorkshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "date": "2024-12-05",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86gt",
+    "my_lat": 56.83265,
+    "my_lon": -3.475886,
+    "my_sota": "GM/CS-077",
+    "qsos": [
+        {
+            "time": "113204",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "113305",
+            "callsign": "GM4YMM",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "114001",
+            "callsign": "MM7TMX",
+            "band": "2m",
+            "qth": "Haddington",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "114245",
+            "callsign": "M0GLM",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r43"
+        },
+        {
+            "time": "114533",
+            "callsign": "GM4OIG/P",
+            "band": "2m",
+            "qth": "",
+            "locator": "IO86ks",
+            "lat": 56.772045,
+            "lon": -3.165519,
+            "distance_km": 20,
+            "sota_ref": "GM/ES-048",
+            "comment": "s59 r59"
+        }
+    ]
+}

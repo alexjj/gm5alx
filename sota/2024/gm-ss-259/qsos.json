@@ -1,0 +1,58 @@
+{
+    "date": "2024-09-22",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86mf",
+    "my_lat": 56.233883,
+    "my_lon": -2.925805,
+    "my_sota": "GM/SS-259",
+    "qsos": [
+        {
+            "time": "095054",
+            "callsign": "GM0VEK",
+            "band": "2m",
+            "qth": "Kirkintilloch, GLASGOW",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "095204",
+            "callsign": "GM4XQJ",
+            "band": "2m",
+            "qth": "Falkirk.",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "095559",
+            "callsign": "GM4PKJ",
+            "band": "2m",
+            "qth": "Near Montrose",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100350",
+            "callsign": "GM1CNH",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

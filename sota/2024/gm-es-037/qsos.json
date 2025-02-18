@@ -1,0 +1,58 @@
+{
+    "date": "2024-12-02",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO86it",
+    "my_lat": 56.795692,
+    "my_lon": -3.29917,
+    "my_sota": "GM/ES-037",
+    "qsos": [
+        {
+            "time": "110716",
+            "callsign": "GM4YMM",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "110855",
+            "callsign": "GM6CMQ",
+            "band": "2m",
+            "qth": "Dunfermline",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "111232",
+            "callsign": "MM0LBF",
+            "band": "2m",
+            "qth": "Pathhead Midlothian",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "111351",
+            "callsign": "GM0AXY",
+            "band": "2m",
+            "qth": "Edinburgh",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

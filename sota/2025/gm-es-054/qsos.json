@@ -1,0 +1,82 @@
+{
+    "date": "2025-02-09",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87ni",
+    "my_lat": 57.35152,
+    "my_lon": -2.859012,
+    "my_sota": "GM/ES-054",
+    "qsos": [
+        {
+            "time": "105717",
+            "callsign": "MM0EFI/P",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "IO86jx",
+            "lat": 56.964275,
+            "lon": -3.186547,
+            "distance_km": 47,
+            "sota_ref": "GM/ES-019",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "105818",
+            "callsign": "GM5OLD/P",
+            "band": "2m",
+            "qth": "Bristol",
+            "locator": "IO86jx",
+            "lat": 56.964275,
+            "lon": -3.186547,
+            "distance_km": 47,
+            "sota_ref": "GM/ES-019",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "110203",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "IO87ob",
+            "lat": 57.041666666666664,
+            "lon": -2.833333333333333,
+            "distance_km": 34,
+            "sota_ref": "",
+            "comment": "s59 r53"
+        },
+        {
+            "time": "110253",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO87we",
+            "lat": 57.166666666666664,
+            "lon": -2.166666666666667,
+            "distance_km": 46,
+            "sota_ref": "",
+            "comment": "s59 r33"
+        },
+        {
+            "time": "110601",
+            "callsign": "GM0APN",
+            "band": "2m",
+            "qth": "Aberdeenshire.",
+            "locator": "IO87uh",
+            "lat": 57.291666666666664,
+            "lon": -2.333333333333333,
+            "distance_km": 32,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "110655",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "IO87qh",
+            "lat": 57.291666666666664,
+            "lon": -2.666666666666667,
+            "distance_km": 13,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        }
+    ]
+}

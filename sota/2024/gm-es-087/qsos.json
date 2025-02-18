@@ -1,0 +1,130 @@
+{
+    "date": "2024-09-29",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87xo",
+    "my_lat": 57.60519,
+    "my_lon": -2.062615,
+    "my_sota": "GM/ES-087",
+    "qsos": [
+        {
+            "time": "121044",
+            "callsign": "GM0RNT",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "121638",
+            "callsign": "2M0PYW/M",
+            "band": "2m",
+            "qth": "Montrose",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "121741",
+            "callsign": "MM0SJT",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "121824",
+            "callsign": "GM1LKD",
+            "band": "2m",
+            "qth": "Bridge Of Don, ABERDEEN",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "122808",
+            "callsign": "GM1AUZ/P",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO87lc",
+            "lat": 57.12264,
+            "lon": -3.03088,
+            "distance_km": 79,
+            "sota_ref": "GM/ES-018",
+            "comment": ""
+        },
+        {
+            "time": "123342",
+            "callsign": "MM0EFI/P",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "IO87db",
+            "lat": 57.07037,
+            "lon": -3.669099,
+            "distance_km": 113,
+            "sota_ref": "GM/ES-001",
+            "comment": ""
+        },
+        {
+            "time": "125438",
+            "callsign": "MM0RFN/P",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO86hu",
+            "lat": 56.87306,
+            "lon": -3.368236,
+            "distance_km": 113,
+            "sota_ref": "GM/ES-012",
+            "comment": ""
+        },
+        {
+            "time": "130702",
+            "callsign": "MM0XET/M",
+            "band": "2m",
+            "qth": "Douglas & Angus, Dundee",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "131834",
+            "callsign": "GM0AUL",
+            "band": "2m",
+            "qth": "Woodside, ABERDEEN",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "132017",
+            "callsign": "2M0RVZ/P",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "IO87db",
+            "lat": 57.07037,
+            "lon": -3.669099,
+            "distance_km": 113,
+            "sota_ref": "GM/ES-001",
+            "comment": ""
+        }
+    ]
+}

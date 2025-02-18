@@ -1,0 +1,106 @@
+{
+    "date": "2024-12-27",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO76qe",
+    "my_lat": 56.190292,
+    "my_lon": -4.633009,
+    "my_sota": "GM/SS-011",
+    "qsos": [
+        {
+            "time": "115059",
+            "callsign": "MM0XPZ",
+            "band": "2m",
+            "qth": "Greenock",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "115308",
+            "callsign": "2M0ROT",
+            "band": "2m",
+            "qth": "Port Glasgow",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "115426",
+            "callsign": "MM0RWJ/M",
+            "band": "2m",
+            "qth": "Motherwell North Lanarkshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r58"
+        },
+        {
+            "time": "115528",
+            "callsign": "MM7MOX/P",
+            "band": "2m",
+            "qth": "",
+            "locator": "IO85gq",
+            "lat": 55.67078,
+            "lon": -3.455612,
+            "distance_km": 93,
+            "sota_ref": "GM/SS-209",
+            "comment": "s59 r58"
+        },
+        {
+            "time": "115656",
+            "callsign": "MM7DCD",
+            "band": "2m",
+            "qth": "Glasgow",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s58 r52"
+        },
+        {
+            "time": "115816",
+            "callsign": "MM0WCT",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "115855",
+            "callsign": "MM7DOX/M",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "120119",
+            "callsign": "GM4KNU/M",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r58"
+        }
+    ]
+}

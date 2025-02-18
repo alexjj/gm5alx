@@ -1,0 +1,118 @@
+{
+    "date": "2024-11-06",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87ea",
+    "my_lat": 57.036873,
+    "my_lon": -3.658384,
+    "my_sota": "GM/ES-013",
+    "qsos": [
+        {
+            "time": "102503",
+            "callsign": "MM0EFI/M",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s53 r51"
+        },
+        {
+            "time": "102638",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r41"
+        },
+        {
+            "time": "102905",
+            "callsign": "MM7DIR",
+            "band": "2m",
+            "qth": "Longridge",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "103257",
+            "callsign": "DL5OAH",
+            "band": "20m",
+            "qth": "Estorf",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "103330",
+            "callsign": "ON7ZM",
+            "band": "20m",
+            "qth": "5353 Goesnes",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r55"
+        },
+        {
+            "time": "103350",
+            "callsign": "PA5KM",
+            "band": "20m",
+            "qth": "4481 DK Kloetinge",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r57"
+        },
+        {
+            "time": "103423",
+            "callsign": "EA1DHB",
+            "band": "20m",
+            "qth": "Villarcayo - Burgos",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "103448",
+            "callsign": "EA7GV",
+            "band": "20m",
+            "qth": "18151 OGIJARES (Granada)",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r54"
+        },
+        {
+            "time": "105730",
+            "callsign": "MM0CBC/P",
+            "band": "2m",
+            "qth": "Chepstow",
+            "locator": "IO77vb",
+            "lat": 57.0785,
+            "lon": -4.206125,
+            "distance_km": 33,
+            "sota_ref": "GM/CS-088",
+            "comment": "s57 r57"
+        }
+    ]
+}

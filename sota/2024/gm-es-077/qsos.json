@@ -1,0 +1,70 @@
+{
+    "date": "2024-08-25",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87rg",
+    "my_lat": 57.2718,
+    "my_lon": -2.537701,
+    "my_sota": "GM/ES-077",
+    "qsos": [
+        {
+            "time": "100657",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "101109",
+            "callsign": "GM0APN",
+            "band": "2m",
+            "qth": "Aberdeenshire.",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "101318",
+            "callsign": "MM0RFN",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "102206",
+            "callsign": "MM0EFI",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "102408",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

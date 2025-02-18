@@ -1,0 +1,106 @@
+{
+    "date": "2024-09-04",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87rf",
+    "my_lat": 57.24076,
+    "my_lon": -2.571282,
+    "my_sota": "GM/ES-072",
+    "qsos": [
+        {
+            "time": "094358",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "094459",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100006",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100223",
+            "callsign": "2M0RVC",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100321",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "100356",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "101647",
+            "callsign": "GM4JXP",
+            "band": "2m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "101908",
+            "callsign": "2M0JFJ/P",
+            "band": "2m",
+            "qth": "",
+            "locator": "",
+            "lat": 56.66693,
+            "lon": -4.100229,
+            "distance_km": 113,
+            "sota_ref": "GM/CS-005",
+            "comment": ""
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "date": "2024-09-04",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87qj",
+    "my_lat": 57.387775,
+    "my_lon": -2.661749,
+    "my_sota": "GM/ES-071",
+    "qsos": [
+        {
+            "time": "124106",
+            "callsign": "GM1LKD",
+            "band": "2m",
+            "qth": "Bridge Of Don, ABERDEEN",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "124116",
+            "callsign": "GM0NRT",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "124221",
+            "callsign": "MM0OQR",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        },
+        {
+            "time": "124924",
+            "callsign": "2M0WNA",
+            "band": "2m",
+            "qth": "Aberdeenshire",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": ""
+        }
+    ]
+}

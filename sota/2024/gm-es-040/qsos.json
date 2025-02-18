@@ -1,0 +1,106 @@
+{
+    "date": "2024-12-04",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87he",
+    "my_lat": 57.172527,
+    "my_lon": -3.414397,
+    "my_sota": "GM/ES-040",
+    "qsos": [
+        {
+            "time": "123053",
+            "callsign": "MM0EFI/P",
+            "band": "2m",
+            "qth": "Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "123142",
+            "callsign": "2M0RVZ/P",
+            "band": "2m",
+            "qth": "Aberdeen",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "124810",
+            "callsign": "ON7ZM",
+            "band": "40m",
+            "qth": "5353 Goesnes",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r44"
+        },
+        {
+            "time": "124830",
+            "callsign": "G0FEX",
+            "band": "40m",
+            "qth": "Leicester",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r58"
+        },
+        {
+            "time": "124909",
+            "callsign": "DK1MI",
+            "band": "40m",
+            "qth": "Bad Friedrichshall",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "124941",
+            "callsign": "G5OLD",
+            "band": "40m",
+            "qth": "Bristol",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r59"
+        },
+        {
+            "time": "125113",
+            "callsign": "M1BUU/P",
+            "band": "40m",
+            "qth": "Lancaster",
+            "locator": "IO84tf",
+            "lat": 54.22895,
+            "lon": -2.40201,
+            "distance_km": 333,
+            "sota_ref": "G/NP-004",
+            "comment": "s44 r57"
+        },
+        {
+            "time": "125151",
+            "callsign": "GM4JXP",
+            "band": "40m",
+            "qth": "48 Barclay Park, Aboyne",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        }
+    ]
+}

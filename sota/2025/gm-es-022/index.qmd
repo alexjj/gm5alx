@@ -46,3 +46,5 @@ With 11 on 40m, I packed up and setup the slim G for 2m. I'd just spotted on 2m,
 I was glad I took the poles, as they were useful for the steep descent, without them I suspect I'd have been rolling down the mountain. Back to the car, shovel down my super noodles, and then headed home. I made it back by 3pm, with enough time to get changed, make a cup of tea (cooled down with cold water!) and then head over to the school in time for pick up. 🚸
 
 I think next time I come here, I'll take the longer, but shallower gradient route...at least I hope it's shallower! There's only a month left of winter bonus, where the objective is to activate as many summits as possible - as long as they're 2 or more pointers. So that means four more Fridays, and possibly a bonus day that I'll take off. The tricky part is choosing which summits to do. I want to complete all the GM/ES summits, but should I also repeat some I've already done during winter bonus period as I can do multiple in one day. Some of it does depend on the weather, so I'll see what's next. 🏔️
+
+{{< include /_qso-map.qmd >}}

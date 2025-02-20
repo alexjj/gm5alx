@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - "*.pdf"
+    - "*.png"
+    - "*.jpg"
 
 website:
   title: "📻 GM5ALX Radio"

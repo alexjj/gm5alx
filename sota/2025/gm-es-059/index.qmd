@@ -48,3 +48,5 @@ I settled in the cairn, which did give some shelter from the wind. I had the car
 I started on 40m, and turned randomly to M7CUW doing a POTA activation. He was coming in 59, and so was I when replying. I spotted and go Chris, 2M0RVZ, a local, but then there was nothing on 40m. The Aberdeenshire SOTA chat group said there was a CME the night before so probably why. I switched to 20m, hoping that would be better and I'd at least get my 4, and that ended up being pretty good with contacts into Greece and Canaries, and most people giving me a 55 report. Content with that, and getting cold hands, I packed away and tried 2m with the HT and RH770 antenna. Fraser and Simon were both ready and we had a quick chat on 2m. Now it was time to get out of the wind, down the hill and off to work!
 
 ![Back down we go](kerloch-9.jpg)
+
+{{< include _qso-map.qmd >}}

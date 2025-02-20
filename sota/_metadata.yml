@@ -21,3 +21,7 @@ categories: ["sota"]
 format:
   html:
     include-after-body: ../footer.html
+    css:
+      - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+execute:
+  echo: false

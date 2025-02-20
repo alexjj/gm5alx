@@ -1,0 +1,81 @@
+### QSOs
+
+```{ojs}
+L = require('leaflet@1.9.4')
+
+// Load the CSV file
+qsosData = FileAttachment("qsos.json").json()
+
+
+
+map = {
+
+  // Extract my station details
+  const myLocation = {
+    lat: qsosData.my_lat,
+    lon: qsosData.my_lon,
+    callsign: qsosData.my_callsign,
+    sota: qsosData.my_sota
+  };
+
+  // Function to assign colors based on the band
+  function getBandColor(band) {
+    const bandColors = {
+      "40m": "DarkBlue",
+      "20m": "Green",
+      "15m": "Orange",
+      "10m": "Red",
+      "2m": "Purple"
+    };
+    return bandColors[band] || "Gray"; // Default color if the band is missing
+  }
+
+  let container = DOM.element('div', { style: `width:${width}px;height:${width/1.6}px` });
+  yield container;
+
+  let map = L.map(container).setView([myLocation.lat, myLocation.lon], 7);
+  let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Custom icons
+  const myIcon = L.icon({
+    iconUrl: "/flag.png",
+    iconSize: [25, 25],
+  });
+
+    const sotaIcon = L.icon({
+    iconUrl: "/summit.png",
+    iconSize: [25, 25],
+  });
+
+    // Add marker for my station
+  L.marker([myLocation.lat, myLocation.lon], { icon: myIcon })
+    .bindPopup(`${myLocation.callsign}<br>SOTA Ref: ${myLocation.sota}`)
+    .addTo(map);
+
+
+  // Add QSO markers
+  qsosData.qsos.forEach(({ lat, lon, callsign, band, distance_km, sota_ref }) => {
+    const isSOTA = sota_ref !== "";
+    const markerIcon = isSOTA ? sotaIcon : null; // Use SOTA icon if reference exists
+    const color = getBandColor(band);
+
+    const marker = isSOTA
+      ? L.marker([lat, lon], { icon: markerIcon }) // SOTA markers get an icon
+      : L.circleMarker([lat, lon], {
+          radius: 6,
+          color: color,
+          fillColor: color,
+          fillOpacity: 0.8
+        });
+
+    marker.bindPopup(
+      `Callsign: ${callsign}<br>Band: ${band}<br>Distance: ${distance_km} km` +
+      (isSOTA ? `<br>SOTA Ref: <a href="https://sotl.as/summits/${sota_ref}" target="_blank">${sota_ref}</a>` : "")
+    ).addTo(map);
+  });
+
+}
+
+```

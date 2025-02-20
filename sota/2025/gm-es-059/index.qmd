@@ -1,0 +1,50 @@
+---
+title: Kerloch
+subtitle: Early start
+image: "kerloch-5.jpg"
+points: 5
+date: 2025-02-19
+qsos: 13
+total: 337
+summit: "GM/ES-059"
+format:
+  html:
+    css:
+      - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+execute:
+  echo: false
+---
+
+![Kerloch in the clouds](kerloch-1.jpg)
+
+Since my daughter has swim training at 6:30am, I thought I'd make use of the early start and do a quick, local summit before work. The weather this week hasn't been and isn't looking that great, and this morning seemed like as good as it was going to get anyway. Kerloch hill climb is quite quick, but it has a long path leading up to it.
+
+![Path](kerloch-2.jpg)
+
+Once I started going uphill, there was some snow on the path, and I followed the track of person and their dog the whole way. It was quite windy but whilst in the woods and behind the hill it was still for me.
+
+![The bad track](kerloch-3.jpg)
+
+Last time I did [Kerloch](https://gm5alx.uk/sota/2024/gm-es-059/), it was a glorious day, and the path was washed away back then. Now the snow had covered it but you could still tell it was terribly washed away still. It also had the added benefit of fallen trees across the track.
+
+![Fallen trees](kerloch-4.jpg)
+
+No doubt when this snow melts, it's not going to help the situation. I made my way up the track at a steady pace, generally keeping to one side where the snow was less and also less like to slide off a boulder. Once I came out of the forest then the wind started to pick up. There were deep drifts across the track and several times I was waist deep in snow having not realised it was so deep.
+
+![Up we go](kerloch-7.jpg)
+
+Continuing on, I suddenly see the trig and cairn appear out of the clouds and realised I've reached the top. The trig had some lovely ice feathers on it but I didn't stand around too long to admire as the wind was pretty strong and cold.
+
+![Summit in sight](kerloch-6.jpg)
+
+![Frozen Trig](kerloch-5.jpg)
+
+![At the top](kerloch-8.jpg)
+
+I settled in the cairn, which did give some shelter from the wind. I had the carbon 6 mast wedged in the rocks and ran my wire up and then across to the fence posts. It did slip off the top of the antenna in the wind, so I used the other hole in my mast fitting to friction fit it on. This hole is larger, and so goes lower down the mast, but I can trap the wire in it up against the mast to wedge it in place. Useful when the wind blows the mast right over. What should be an inverted sloper-L, ends up looking like a twin C arrangement!
+
+![Station setup](kerloch-10.jpg)
+
+I started on 40m, and turned randomly to M7CUW doing a POTA activation. He was coming in 59, and so was I when replying. I spotted and go Chris, 2M0RVZ, a local, but then there was nothing on 40m. The Aberdeenshire SOTA chat group said there was a CME the night before so probably why. I switched to 20m, hoping that would be better and I'd at least get my 4, and that ended up being pretty good with contacts into Greece and Canaries, and most people giving me a 55 report. Content with that, and getting cold hands, I packed away and tried 2m with the HT and RH770 antenna. Fraser and Simon were both ready and we had a quick chat on 2m. Now it was time to get out of the wind, down the hill and off to work!
+
+![Back down we go](kerloch-9.jpg)

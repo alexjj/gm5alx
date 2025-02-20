@@ -49,4 +49,4 @@ I started on 40m, and turned randomly to M7CUW doing a POTA activation. He was c
 
 ![Back down we go](kerloch-9.jpg)
 
-{{< include _qso-map.qmd >}}
+{{< include /_qso-map.qmd >}}

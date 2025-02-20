@@ -1,6 +1,6 @@
 ---
 title: Kerloch
-subtitle: Early start
+subtitle: An early start
 image: "kerloch-5.jpg"
 points: 5
 date: 2025-02-19

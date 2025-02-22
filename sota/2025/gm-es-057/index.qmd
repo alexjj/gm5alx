@@ -24,3 +24,5 @@ Fraser was back at his hotel after his activation and wanted to try and chase. W
 There are two routes back, one is back up and over Meikle Conval again, and the second is around the side of it and along the road. I think the over the hill route is shorter and maybe quicker but I decided to go around. It did end with about 1-1.5km along the road, which was a bit boring. The RAF mountain rescue group were just returning to the road, after they must've done the big loop over Ben Rinnes and towards Baby's Hill and back to the road.
 
 As I was back in good time, I decided to tick off one of the local 1-pointers.
+
+{{< include /_qso-map.qmd >}}

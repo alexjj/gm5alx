@@ -20,3 +20,5 @@ It seems a popular spot for dog walkers as the "car park" was nearly full when I
 I went back to the road to make use of the snow markers as a support for the mast and setup. Fraser wanted to try and make a contact as he wanted Knockan for a complete (where you activate and chase a summit). Quite the lengths to get a complete whilst on holiday in Cyprus! We tried 15m to start and he was pretty good this time, 43 to me. After that I started looking around for other summits but I was wasting time and just wanted to get it qualified and done, so moved to 20m and soon had a nice run for 5 minutes before calling it quits. Takes longer to setup and take down the station than get to the top! Back to the car in no time and away home.
 
 ![Roadside station](knockan-1.jpg)
+
+{{< include /_qso-map.qmd >}}

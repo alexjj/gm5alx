@@ -24,3 +24,5 @@ It's a quick route up and I was ready about 10:15, just in time for Chris arrivi
 Just like my first visit, I brought the G90, although this time a much small and lighter battery! Another chase by Fraser, 5B/M0EFI, from Cyprus on 15m, we compared his EFHW and the 41' wire. Both were about the same and probably more variation in propagation than anything else, but perhaps the 41' was slightly better. I moved onto 40m, and then 20m before looking for other summits to chase. I had a nice QSO with Esther, EI4KT, who was out in the north of Ireland (not to be confused with Northern Ireland!) By this time I'd been on the air about an hour and whilst I was in a sheltered spot I was getting cold and stiff legs.
 
 ![View to Mither Tap](bennachie-5.jpg)
+
+{{< include /_qso-map.qmd >}}

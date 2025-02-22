@@ -72,8 +72,8 @@
             "band": "15m",
             "qth": "Montan",
             "locator": "",
-            "lat": null,
-            "lon": null,
+            "lat": 46.332650,
+            "lon": 11.299218,
             "distance_km": null,
             "sota_ref": "",
             "comment": "s55 r51"

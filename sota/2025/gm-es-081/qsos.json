@@ -1,0 +1,130 @@
+{
+    "date": "2025-01-15",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87km",
+    "my_lat": 57.503845,
+    "my_lon": -3.084662,
+    "my_sota": "GM/ES-081",
+    "qsos": [
+        {
+            "time": "143434",
+            "callsign": "5B/M0EFI",
+            "band": "15m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s43 r31"
+        },
+        {
+            "time": "144442",
+            "callsign": "DL2DXA",
+            "band": "20m",
+            "qth": "01109 Dresden",
+            "locator": "JO61vd",
+            "lat": 51.125,
+            "lon": 13.75,
+            "distance_km": 1297,
+            "sota_ref": "",
+            "comment": "s51 r57"
+        },
+        {
+            "time": "144516",
+            "callsign": "DL8DXL",
+            "band": "20m",
+            "qth": "01936 Laussnitz",
+            "locator": "JO61wf",
+            "lat": 51.208333333333336,
+            "lon": 13.833333333333334,
+            "distance_km": 1295,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "144540",
+            "callsign": "DL1DVE",
+            "band": "20m",
+            "qth": "Grossroehrsdorf",
+            "locator": "JO71ad",
+            "lat": 51.125,
+            "lon": 14.0,
+            "distance_km": 1310,
+            "sota_ref": "",
+            "comment": "s59 r59"
+        },
+        {
+            "time": "144626",
+            "callsign": "M0AWS",
+            "band": "20m",
+            "qth": "East Anglia",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r55"
+        },
+        {
+            "time": "144706",
+            "callsign": "F4VPL",
+            "band": "20m",
+            "qth": "56200 Glenac",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r59"
+        },
+        {
+            "time": "144736",
+            "callsign": "M0RWX",
+            "band": "20m",
+            "qth": "Near Malmesbury",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "144801",
+            "callsign": "SQ9JYK",
+            "band": "20m",
+            "qth": "PL 38300 Gorlice",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "144831",
+            "callsign": "M0BKV",
+            "band": "20m",
+            "qth": "WEEK ST MARY, Cornwall",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s59 r57"
+        },
+        {
+            "time": "145023",
+            "callsign": "EA3EVL",
+            "band": "20m",
+            "qth": "43500 Tortosa, Tarragona 43500",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s31 r51"
+        }
+    ]
+}

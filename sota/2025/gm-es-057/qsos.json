@@ -1,0 +1,106 @@
+{
+    "date": "2025-01-15",
+    "my_callsign": "GM5ALX/P",
+    "my_locator": "IO87jk",
+    "my_lat": 57.438072,
+    "my_lon": -3.177404,
+    "my_sota": "GM/ES-057",
+    "qsos": [
+        {
+            "time": "122212",
+            "callsign": "SP6OK",
+            "band": "15m",
+            "qth": "Wroclaw",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s52 r59"
+        },
+        {
+            "time": "122623",
+            "callsign": "5B/M0EFI",
+            "band": "15m",
+            "qth": "",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s31 r41"
+        },
+        {
+            "time": "123123",
+            "callsign": "3Z9VI",
+            "band": "10m",
+            "qth": "Wadowice",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r55"
+        },
+        {
+            "time": "123154",
+            "callsign": "SP9DZ",
+            "band": "10m",
+            "qth": "Niepolomice",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s57 r55"
+        },
+        {
+            "time": "123342",
+            "callsign": "IU4QQA",
+            "band": "10m",
+            "qth": "Savignano Sul Rubicone",
+            "locator": "",
+            "lat": null,
+            "lon": null,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r55"
+        },
+        {
+            "time": "123643",
+            "callsign": "IN3EHQ",
+            "band": "15m",
+            "qth": "Montan",
+            "locator": "",
+            "lat": 46.332650,
+            "lon": 11.299218,
+            "distance_km": null,
+            "sota_ref": "",
+            "comment": "s55 r51"
+        },
+        {
+            "time": "123710",
+            "callsign": "OK1SDE",
+            "band": "15m",
+            "qth": "Liberec 14",
+            "locator": "JO70MS",
+            "lat": 50.75,
+            "lon": 15.0,
+            "distance_km": 1393,
+            "sota_ref": "",
+            "comment": "s57 r59"
+        },
+        {
+            "time": "124005",
+            "callsign": "EA4HGT",
+            "band": "20m",
+            "qth": "Tres Cantos-Madrid",
+            "locator": "JM19ku",
+            "lat": 39.86074,
+            "lon": 2.86051,
+            "distance_km": 2002,
+            "sota_ref": "EA6/MA-005",
+            "comment": "s55 r55"
+        }
+    ]
+}

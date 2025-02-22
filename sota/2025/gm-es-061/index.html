@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -70,6 +104,8 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="module" src="../../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../../../styles.css">
@@ -194,11 +230,124 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>View to Mither Tap</figcaption>
 </figure>
 </div>
+<section id="qsos" class="level3">
+<h3 class="anchored" data-anchor-id="qsos">QSOs</h3>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="0" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line -1;"><span id="cb1-0"><a href="#cb1-0" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> <span class="pp">require</span>(<span class="st">'leaflet@1.9.4'</span>)</span>
+<span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">// Load the CSV file</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>qsosData <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"qsos.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>map <span class="op">=</span> {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Extract my station details</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> myLocation <span class="op">=</span> {</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">lat</span><span class="op">:</span> qsosData<span class="op">.</span><span class="at">my_lat</span><span class="op">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">lon</span><span class="op">:</span> qsosData<span class="op">.</span><span class="at">my_lon</span><span class="op">,</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="dt">callsign</span><span class="op">:</span> qsosData<span class="op">.</span><span class="at">my_callsign</span><span class="op">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="dt">sota</span><span class="op">:</span> qsosData<span class="op">.</span><span class="at">my_sota</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Function to assign colors based on the band</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="kw">function</span> <span class="fu">getBandColor</span>(band) {</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> bandColors <span class="op">=</span> {</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>      <span class="st">"40m"</span><span class="op">:</span> <span class="st">"DarkBlue"</span><span class="op">,</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>      <span class="st">"20m"</span><span class="op">:</span> <span class="st">"Green"</span><span class="op">,</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>      <span class="st">"15m"</span><span class="op">:</span> <span class="st">"Orange"</span><span class="op">,</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>      <span class="st">"10m"</span><span class="op">:</span> <span class="st">"Red"</span><span class="op">,</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>      <span class="st">"2m"</span><span class="op">:</span> <span class="st">"Purple"</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    }<span class="op">;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> bandColors[band] <span class="op">||</span> <span class="st">"Gray"</span><span class="op">;</span> <span class="co">// Default color if the band is missing</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> container <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span><span class="op">,</span> { <span class="dt">style</span><span class="op">:</span> <span class="vs">`width:</span><span class="sc">${</span>width<span class="sc">}</span><span class="vs">px;height:</span><span class="sc">${</span>width<span class="op">/</span><span class="fl">1.6</span><span class="sc">}</span><span class="vs">px`</span> })<span class="op">;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>  <span class="kw">yield</span> container<span class="op">;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> map <span class="op">=</span> L<span class="op">.</span><span class="fu">map</span>(container)<span class="op">.</span><span class="fu">setView</span>([myLocation<span class="op">.</span><span class="at">lat</span><span class="op">,</span> myLocation<span class="op">.</span><span class="at">lon</span>]<span class="op">,</span> <span class="dv">7</span>)<span class="op">;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> osmLayer <span class="op">=</span> L<span class="op">.</span><span class="fu">tileLayer</span>(<span class="st">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span><span class="op">,</span> {</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>      <span class="dt">attribution</span><span class="op">:</span> <span class="st">'&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt; contributors'</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Custom icons</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> myIcon <span class="op">=</span> L<span class="op">.</span><span class="fu">icon</span>({</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="dt">iconUrl</span><span class="op">:</span> <span class="st">"/flag.png"</span><span class="op">,</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    <span class="dt">iconSize</span><span class="op">:</span> [<span class="dv">25</span><span class="op">,</span> <span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> sotaIcon <span class="op">=</span> L<span class="op">.</span><span class="fu">icon</span>({</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>    <span class="dt">iconUrl</span><span class="op">:</span> <span class="st">"/summit.png"</span><span class="op">,</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>    <span class="dt">iconSize</span><span class="op">:</span> [<span class="dv">25</span><span class="op">,</span> <span class="dv">25</span>]<span class="op">,</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Add marker for my station</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>  L<span class="op">.</span><span class="fu">marker</span>([myLocation<span class="op">.</span><span class="at">lat</span><span class="op">,</span> myLocation<span class="op">.</span><span class="at">lon</span>]<span class="op">,</span> { <span class="dt">icon</span><span class="op">:</span> myIcon })</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">bindPopup</span>(<span class="vs">`</span><span class="sc">${</span>myLocation<span class="op">.</span><span class="at">callsign</span><span class="sc">}</span><span class="vs">&lt;br&gt;SOTA Ref: </span><span class="sc">${</span>myLocation<span class="op">.</span><span class="at">sota</span><span class="sc">}</span><span class="vs">`</span>)</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    <span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Add QSO markers</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>  qsosData<span class="op">.</span><span class="at">qsos</span><span class="op">.</span><span class="fu">forEach</span>(({ lat<span class="op">,</span> lon<span class="op">,</span> callsign<span class="op">,</span> band<span class="op">,</span> distance_km<span class="op">,</span> sota_ref }) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> isSOTA <span class="op">=</span> sota_ref <span class="op">!==</span> <span class="st">""</span><span class="op">;</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> markerIcon <span class="op">=</span> isSOTA <span class="op">?</span> sotaIcon <span class="op">:</span> <span class="kw">null</span><span class="op">;</span> <span class="co">// Use SOTA icon if reference exists</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> color <span class="op">=</span> <span class="fu">getBandColor</span>(band)<span class="op">;</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> marker <span class="op">=</span> isSOTA</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>      <span class="op">?</span> L<span class="op">.</span><span class="fu">marker</span>([lat<span class="op">,</span> lon]<span class="op">,</span> { <span class="dt">icon</span><span class="op">:</span> markerIcon }) <span class="co">// SOTA markers get an icon</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>      <span class="op">:</span> L<span class="op">.</span><span class="fu">circleMarker</span>([lat<span class="op">,</span> lon]<span class="op">,</span> {</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>          <span class="dt">radius</span><span class="op">:</span> <span class="dv">6</span><span class="op">,</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>          <span class="dt">color</span><span class="op">:</span> color<span class="op">,</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>          <span class="dt">fillColor</span><span class="op">:</span> color<span class="op">,</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>          <span class="dt">fillOpacity</span><span class="op">:</span> <span class="fl">0.8</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    marker<span class="op">.</span><span class="fu">bindPopup</span>(</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>      <span class="vs">`Callsign: </span><span class="sc">${</span>callsign<span class="sc">}</span><span class="vs">&lt;br&gt;Band: </span><span class="sc">${</span>band<span class="sc">}</span><span class="vs">&lt;br&gt;Distance: </span><span class="sc">${</span>distance_km<span class="sc">}</span><span class="vs"> km`</span> <span class="op">+</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>      (isSOTA <span class="op">?</span> <span class="vs">`&lt;br&gt;SOTA Ref: &lt;a href="https://sotl.as/summits/</span><span class="sc">${</span>sota_ref<span class="sc">}</span><span class="vs">" target="_blank"&gt;</span><span class="sc">${</span>sota_ref<span class="sc">}</span><span class="vs">&lt;/a&gt;`</span> <span class="op">:</span> <span class="st">""</span>)</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>    )<span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <p>If you have any comments or questions, please send me an <a href="mailto:alex@gm5alx.uk">email</a>.</p>
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IkwgPSByZXF1aXJlKCdsZWFmbGV0QDEuOS40JylcblxuLy8gTG9hZCB0aGUgQ1NWIGZpbGVcbnFzb3NEYXRhID0gRmlsZUF0dGFjaG1lbnQoXCJxc29zLmpzb25cIikuanNvbigpXG5cblxuXG5tYXAgPSB7XG5cbiAgLy8gRXh0cmFjdCBteSBzdGF0aW9uIGRldGFpbHNcbiAgY29uc3QgbXlMb2NhdGlvbiA9IHtcbiAgICBsYXQ6IHFzb3NEYXRhLm15X2xhdCxcbiAgICBsb246IHFzb3NEYXRhLm15X2xvbixcbiAgICBjYWxsc2lnbjogcXNvc0RhdGEubXlfY2FsbHNpZ24sXG4gICAgc290YTogcXNvc0RhdGEubXlfc290YVxuICB9O1xuXG4gIC8vIEZ1bmN0aW9uIHRvIGFzc2lnbiBjb2xvcnMgYmFzZWQgb24gdGhlIGJhbmRcbiAgZnVuY3Rpb24gZ2V0QmFuZENvbG9yKGJhbmQpIHtcbiAgICBjb25zdCBiYW5kQ29sb3JzID0ge1xuICAgICAgXCI0MG1cIjogXCJEYXJrQmx1ZVwiLFxuICAgICAgXCIyMG1cIjogXCJHcmVlblwiLFxuICAgICAgXCIxNW1cIjogXCJPcmFuZ2VcIixcbiAgICAgIFwiMTBtXCI6IFwiUmVkXCIsXG4gICAgICBcIjJtXCI6IFwiUHVycGxlXCJcbiAgICB9O1xuICAgIHJldHVybiBiYW5kQ29sb3JzW2JhbmRdIHx8IFwiR3JheVwiOyAvLyBEZWZhdWx0IGNvbG9yIGlmIHRoZSBiYW5kIGlzIG1pc3NpbmdcbiAgfVxuXG4gIGxldCBjb250YWluZXIgPSBET00uZWxlbWVudCgnZGl2JywgeyBzdHlsZTogYHdpZHRoOiR7d2lkdGh9cHg7aGVpZ2h0OiR7d2lkdGgvMS42fXB4YCB9KTtcbiAgeWllbGQgY29udGFpbmVyO1xuXG4gIGxldCBtYXAgPSBMLm1hcChjb250YWluZXIpLnNldFZpZXcoW215TG9jYXRpb24ubGF0LCBteUxvY2F0aW9uLmxvbl0sIDcpO1xuICBsZXQgb3NtTGF5ZXIgPSBMLnRpbGVMYXllcignaHR0cHM6Ly97c30udGlsZS5vcGVuc3RyZWV0bWFwLm9yZy97en0ve3h9L3t5fS5wbmcnLCB7XG4gICAgICBhdHRyaWJ1dGlvbjogJyZjb3B5OyA8YSBocmVmPVwiaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvY29weXJpZ2h0XCI+T3BlblN0cmVldE1hcDwvYT4gY29udHJpYnV0b3JzJ1xuICB9KS5hZGRUbyhtYXApO1xuXG4gIC8vIEN1c3RvbSBpY29uc1xuICBjb25zdCBteUljb24gPSBMLmljb24oe1xuICAgIGljb25Vcmw6IFwiL2ZsYWcucG5nXCIsXG4gICAgaWNvblNpemU6IFsyNSwgMjVdLFxuICB9KTtcblxuICAgIGNvbnN0IHNvdGFJY29uID0gTC5pY29uKHtcbiAgICBpY29uVXJsOiBcIi9zdW1taXQucG5nXCIsXG4gICAgaWNvblNpemU6IFsyNSwgMjVdLFxuICB9KTtcblxuICAgIC8vIEFkZCBtYXJrZXIgZm9yIG15IHN0YXRpb25cbiAgTC5tYXJrZXIoW215TG9jYXRpb24ubGF0LCBteUxvY2F0aW9uLmxvbl0sIHsgaWNvbjogbXlJY29uIH0pXG4gICAgLmJpbmRQb3B1cChgJHtteUxvY2F0aW9uLmNhbGxzaWdufTxicj5TT1RBIFJlZjogJHtteUxvY2F0aW9uLnNvdGF9YClcbiAgICAuYWRkVG8obWFwKTtcblxuXG4gIC8vIEFkZCBRU08gbWFya2Vyc1xuICBxc29zRGF0YS5xc29zLmZvckVhY2goKHsgbGF0LCBsb24sIGNhbGxzaWduLCBiYW5kLCBkaXN0YW5jZV9rbSwgc290YV9yZWYgfSkgPT4ge1xuICAgIGNvbnN0IGlzU09UQSA9IHNvdGFfcmVmICE9PSBcIlwiO1xuICAgIGNvbnN0IG1hcmtlckljb24gPSBpc1NPVEEgPyBzb3RhSWNvbiA6IG51bGw7IC8vIFVzZSBTT1RBIGljb24gaWYgcmVmZXJlbmNlIGV4aXN0c1xuICAgIGNvbnN0IGNvbG9yID0gZ2V0QmFuZENvbG9yKGJhbmQpO1xuXG4gICAgY29uc3QgbWFya2VyID0gaXNTT1RBXG4gICAgICA/IEwubWFya2VyKFtsYXQsIGxvbl0sIHsgaWNvbjogbWFya2VySWNvbiB9KSAvLyBTT1RBIG1hcmtlcnMgZ2V0IGFuIGljb25cbiAgICAgIDogTC5jaXJjbGVNYXJrZXIoW2xhdCwgbG9uXSwge1xuICAgICAgICAgIHJhZGl1czogNixcbiAgICAgICAgICBjb2xvcjogY29sb3IsXG4gICAgICAgICAgZmlsbENvbG9yOiBjb2xvcixcbiAgICAgICAgICBmaWxsT3BhY2l0eTogMC44XG4gICAgICAgIH0pO1xuXG4gICAgbWFya2VyLmJpbmRQb3B1cChcbiAgICAgIGBDYWxsc2lnbjogJHtjYWxsc2lnbn08YnI+QmFuZDogJHtiYW5kfTxicj5EaXN0YW5jZTogJHtkaXN0YW5jZV9rbX0ga21gICtcbiAgICAgIChpc1NPVEEgPyBgPGJyPlNPVEEgUmVmOiA8YSBocmVmPVwiaHR0cHM6Ly9zb3RsLmFzL3N1bW1pdHMvJHtzb3RhX3JlZn1cIiB0YXJnZXQ9XCJfYmxhbmtcIj4ke3NvdGFfcmVmfTwvYT5gIDogXCJcIilcbiAgICApLmFkZFRvKG1hcCk7XG4gIH0pO1xuXG59XG5cbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../../sota/2025/gm-es-061";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "../../..";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

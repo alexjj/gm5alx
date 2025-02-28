@@ -1,0 +1,32 @@
+---
+title: "Lord Arthur's Hill"
+subtitle: Morning SOTA
+image: "lord-arthur-4.jpg"
+points: 5
+date: 2025-02-26
+qsos: 23
+total: 347
+summit: "GM/ES-062"
+---
+
+Another early morning start, and another opportunity for a pre-work SOTA activation. Last week I did [Coiliochbhar](https://gm5alx.uk/sota/2025/gm-es-060/), but it was too wet and windy to go across the road to do Lord Arthur's Hill, and so I decided to head back today. The weather was lovely, clear blue skies, and only a gentle breeze.
+
+![Early morning](lord-arthur-1.jpg)
+
+![Looking back down the track](lord-arthur-2.jpg)
+
+[Last time around](https://gm5alx.uk/sota/2024/gm-es-062/), I climbed it from the south, through the estate. I thought I'd try another route, and a common one is from the east. The track up is very straight forward and it's a land rover track the whole way up.
+
+![Looking across to the big Cairngorm summits](lord-arthur-3.jpg)
+
+I was trying to time my summit with Fraser, MM0EFI, who was across the other side of the Cairngorm's National Park trying to tick off some of those summits. He ended up being later than me, so I did HF first, and then hung around for a bit to get a S2S with him over 2m.
+
+![Station](lord-arthur-4.jpg)
+
+I'd setup on the trig point, as I didn't think there'd be anyone else coming up this morning. I used the random wire, starting on 40m and then moving to 20m. Both bands were good this morning.
+
+![](lord-arthur-5.jpg)
+
+![](lord-arthur-6.jpg)
+
+![At the top!](lord-arthur-7.jpg)

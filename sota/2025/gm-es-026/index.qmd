@@ -1,0 +1,52 @@
+---
+title: Sgor Mor
+subtitle: Heather bashing
+image: "sgor-mor-8.jpg"
+points: 7
+date: 2025-02-28
+qsos: 28
+total: 354
+summit: "GM/ES-026"
+---
+
+![Linn of Dee path](sgor-mor-10.jpg)
+
+I was up way too late last night trying to decide what summit or summits to do today. Given it's still winter bonus period, I'm incentivise to activate the most number of summits, and so I was trying to see if I could do two summits. Generally, two summits in a day is perfectly reasonable, however, I was constrained by school pick up and drop off, and the fact that I've done just about all the nearby 2-pointers already. I looked around for another summit, and eventually decided up [Sgor Mor](https://sotl.as/summits/GM/ES-026). Tim, G5OLD, recently activated this summit at the start of the month when we did our [GM/ES activation day](https://gm5alx.uk/sota/2025/gm-es-025/). However, prior to Tim, no-one had activated this summit since 2021. There's a good reason for this!
+
+![Heather for miles and miles](sgor-mor-13.jpg)
+
+I looked at different routes for it, to make sure I could make it up and back in time. The most common way, is to go up the side to the ridge and walk along it to the summit. It's rough going, as there's no path for 90% of the route and it's all heather and bog. There's also a very long deer fence which just ends in the middle of nowhere. Although there were piles of new fencing laid out on the ground, so I guess they're coming back to finish it. An alternative route, is to cycle along the Dee, past white bridge and the Chest of Dee, until you're at the base of the summit. This should only take about 30 minutes, and then you have a steep climb up to the summit. It minimises the amount of heather and bog to cross, and overall it looked shorter. The downside of this, is that you don't get to do the ridge walk. If the weather is clear, then the ridge walk offers outstanding views into the high Munros of the central Cairngorms - Devil's Point, Cairn Toul, Ben Macdui, the lot. As well as views to the south to various Munros and high tops. As the weather was looking nice, I decided to go with the ridge walk. I did put the bike in the car, just in case weather was different in Braemar than in Aberdeen, but I didn't use it.
+
+![Looking west along the Dee](sgor-mor-14.jpg)
+
+My route had a short section of the track along the Dee but then turned off and headed straight into the heather, up a steep slope. My route was just a straight line to the ridge, and I tried to follow it as best as possible, whilst avoiding particularly boggy parts. I'd set a pace marker on my watch to do the ascent in 1:20 (vs. the 1:30 predicted) just to give me a bit of extra time to setup and to eat my lunch. It wasn't quite the perfect blue skies of Aberdeen, but it was clear enough. Once I eventually reached the ridge, I did have great views into Luibeg, [Carn a'Mhaim](https://gm5alx.uk/sota/2024/gm-es-013/), and all along to Devil's Point. I kept thinking I was nearly there, and summits I'd seen on the walk up must be my destination, but no, there was still plenty of ridge to walk along!
+
+![Ridge path](sgor-mor-9.jpg)
+
+Higher up, the heather did revert to the alpine, low to ground plants, and so it made it easier to walk. However, now quite a cold wind was blowing, and at times there was snow. The snow on the high tops had much reduced since I was on Carn na Drochaide. I did make it to the summit in 1:20, giving me 10 minutes before my alert time. There's a little cairn at the top, and that was enough to shelter in and keep out of the wind. The stones weren't very big, so it wasn't ideal for supporting the mast but I managed to wedge it in and got the job done anyway.
+
+![Summit in sight](sgor-mor-3.jpg)
+
+![At the top](sgor-mor-7.jpg)
+
+![Station](sgor-mor-4.jpg)
+
+I did quickly try 2m, to see if I could get the local SOTA lads. I hadn't even spotted but a random chap from south of Edinburgh came back to my CQ call straight away. We had a brief chat, and then I could hear Fraser, MM0EFI, calling. I called back but he couldn't hear me. I didn't want to be spending too long on the summit, it was cold and I'd only allocated myself 30 minutes, so got started setting up HF.
+
+![Devil's Point, Cairn Toul behind, in the cloud](sgor-mor-8.jpg)
+
+I started on 40m, and there was a quick pile up, although it seemed to quickly disappear, without me working that many. A S2S from the Lake District called me too, and I ended up working a few on 40m before being able to hear the locals. I moved to 20m and continued to work stations calling in. I had seen a Czech summit and did call to them but they couldn't hear me over the others, again, not wanting to hang around I didn't keep trying. However, one caller told me they were calling me - and I couldn't hear them for the other chasers - and so I eventually managed to work him on OK/MO-074 around 1,600 km away. By now it was 12:30, and I needed to get going. So I packed up, finished my lunch and headed off. Simon asked if I was doing 2m, so I did get the HT out and make another QSO with him. I probably didn't have time for that but nevermind.
+
+![Looking south west](sgor-mor-6.jpg)
+
+I did meet someone else coming up, just as I was leaving the summit, that was surprising given the remoteness of this Corbett. I didn't volunteer to chat as I had to get back to the car. Going back along the ridge was fine, but soon I had to turn back into the heather and bog. It was downhill all the way, but still tricky to move at speed. Eventually, I came to the hill slope down to the Dee path. It's quite steep and going down is as difficult as going up. The heather means you can crash your way down, but just being careful of large boulders, or even small cliff faces. I did make it back onto the path at 13:30 - the time I was hoping to leave the car park - and so tried to walk and jog my way back to the car.
+
+![Steep hill down to the Dee path](sgor-mor-1.jpg)
+
+Back to the car 15 minutes later and then off home. The duration of the drive varies so much depending on if you get stuck behind tourists, or Land Rover drivers doing 45 mph for miles and miles, but I managed to make reasonable time and get back with 5 minutes to spare!
+
+![Ridge views](sgor-mor-2.jpg)
+
+It's quite a remote 4-pointer, and a good amount of work to get there, so it's not surprising I'm the 9th activator of the summit. If you're visiting the area, there are so many other hills to do before you'd do this. One for the completionists I think! However, it does offer some of the best views, and so perhaps shouldn't be overlooked so quickly.
+
+I've now past 350 points, and I'm hoping to get to 400 before my Lake District trip in April, as then this should see me over the half way mark to Mountain Goat! My rate will slow down once winter bonus period ends, although with the weather getting warmer (hopefully) there'll be opportunities to do some of the big hills again, maybe trying different routes if I did them last year. There are a few overnight trips I'd like to do from home - so I can start the walks early in the morning - but finding time with everything else in the family is always the challenge! Still, those hills aren't going anywhere. ⛰️

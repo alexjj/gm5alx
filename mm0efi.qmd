@@ -1,0 +1,66 @@
+---
+title: MM0EFI DX Count
+---
+
+| \# | DXCC | Callsign | Date and Time | Mode | Band / Frequency | CQ Zone | ITU Zone | Operator |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| 1 | Scotland | MM6BWS | 2021-01-23 11:20:00 | FM | 144mhz | 14 | 27 | MM0EFI |
+| 2 | Norway | LA5WNA | 2021-04-07 11:10:00 | SSB | 7mhz | 14 | 18 | MM0EFI/P |
+| 3 | Belgium | ON7ZM | 2021-04-07 11:11:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 4 | England | G0FEX | 2021-04-07 11:11:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 5 | Czech Republic | OK3KW | 2021-04-07 11:12:00 | SSB | 7mhz | 15 | 28 | MM0EFI/P |
+| 6 | Spain | EA2CE | 2021-04-07 11:12:00 | SSB | 7mhz | 14 | 37 | MM0EFI/P |
+| 7 | Ukraine | UW8SM | 2021-04-07 11:13:00 | SSB | 7mhz | 16 | 29 | MM0EFI/P |
+| 8 | Sweden | SM4CJM | 2021-04-07 11:15:00 | SSB | 7mhz | 14 | 18 | MM0EFI/P |
+| 9 | Slovenia | S57S | 2021-04-13 13:41:00 | SSB | 7mhz | 15 | 28 | MM0EFI/P |
+| 10 | Fed. Rep. of Germany | DL1GKC | 2021-04-13 13:44:00 | SSB | 7mhz | 14 | 28 | MM0EFI/P |
+| 11 | Wales | GW4VPX | 2021-04-13 13:49:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 12 | France | F4WBN | 2021-04-20 14:40:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 13 | Finland | OH8D | 2021-05-02 11:58:00 | SSB | 14mhz | 15 | 18 | MM0EFI/P |
+| 14 | Netherlands | PA0B | 2021-05-02 14:30:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 15 | Italy | IW3AGO | 2021-05-11 10:55:00 | SSB | 7mhz | 15 | 28 | MM0EFI/P |
+| 16 | Northern Ireland | MI0XZZ | 2021-05-26 11:05:00 | SSB | 144mhz | 14 | 27 | MM0EFI/P |
+| 17 | Ireland | EI9JF/P | 2021-05-30 09:51:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 18 | Greece | SV2RUJ | 2021-06-01 15:36:00 | SSB | 14mhz | 20 | 28 | MM0EFI/P |
+| 19 | Austria | OE5EEP | 2021-06-11 18:45:00 | SSB | 14mhz | 15 | 28 | MM0EFI/P |
+| 20 | Hungary | HG8LXL | 2021-06-15 14:40:00 | DATA | 14mhz | 15 | 28 | MM0EFI/P |
+| 21 | European Russia | RD4D | 2021-06-15 14:47:00 | DATA | 14mhz | 16 | 29 | MM0EFI/P |
+| 22 | Croatia | 9A4ZM | 2021-06-15 15:02:00 | DATA | 14mhz | 15 | 28 | MM0EFI/P |
+| 23 | United States | K6MKF | 2021-06-15 15:07:00 | DATA | 14mhz | 3 | 6 | MM0EFI/P |
+| 24 | Romania | YO6CFB | 2021-06-15 15:17:00 | DATA | 14mhz | 20 | 28 | MM0EFI/P |
+| 25 | Asiatic Russia | UA9LL | 2021-06-15 15:27:00 | DATA | 14mhz | 19 | 33 | MM0EFI/P |
+| 26 | Switzerland | HB9AGH | 2021-06-29 14:05:00 | SSB | 14mhz | 14 | 28 | MM0EFI/P |
+| 27 | Poland | SQ9MDF | 2021-06-29 14:09:00 | SSB | 14mhz | 15 | 28 | MM0EFI/P |
+| 28 | Portugal | CT2HOV | 2021-07-17 10:28:00 | SSB | 14mhz | 14 | 37 | MM0EFI/P |
+| 29 | Denmark | OZ/DL7CX/P | 2021-08-01 11:39:00 | SSB | 7mhz | 14 | 18 | MM0EFI/P |
+| 30 | Madeira Islands | CT9ILT | 2021-09-07 15:05:00 | SSB | 7mhz | 33 | 36 | MM0EFI/P |
+| 31 | Peru | OB9AGH | 2021-09-16 11:45:00 | SSB | 14mhz | 10 | 12 | MM0EFI/P |
+| 32 | Slovak Republic | OM1AX | 2021-09-28 15:55:00 | SSB | 14mhz | 15 | 28 | MM0EFI/P |
+| 33 | Bulgaria | LZ2OQ | 2022-01-11 15:21:00 | SSB | 14mhz | 20 | 28 | MM0EFI/P |
+| 34 | Monaco | 3A7GV | 2022-01-23 11:30:00 | SSB | 14mhz | 14 | 27 | MM0EFI/P |
+| 35 | Luxembourg | LX2MG | 2022-02-19 12:25:00 | SSB | 14mhz | 14 | 27 | MM0EFI/P |
+| 36 | Australia | VK1AD/P | 2022-04-22 05:36:00 | SSB | 14mhz | 30 | 59 | MM0EFI/P |
+| 37 | French Guiana | FY5KE | 2022-04-24 06:05:00 | SSB | 14mhz | 9 | 12 | MM0EFI/P |
+| 38 | New Zealand | ZL4NVW | 2022-04-27 06:13:00 | SSB | 14mhz | 32 | 60 | MM0EFI/P |
+| 39 | Balearic Islands | EA6/M0DLL | 2022-05-04 09:47:00 | SSB | 18mhz | 14 | 37 | MM0EFI/P |
+| 40 | Canary Islands | EA8DKV | 2022-08-21 11:45:00 | SSB | 14mhz | 33 | 36 | MM0EFI/P |
+| 41 | Cape Verde | D4FJD | 2022-09-13 10:57:00 | SSB | 14mhz | 35 | 46 | CT9/M0EFI/P |
+| 42 | Canada | VE1WT | 2022-11-05 13:04:00 | SSB | 28mhz | 5 | 9 | MM0EFI/P |
+| 43 | Azores | CU3BL | 2022-11-30 11:47:00 | SSB | 14mhz | 14 | 36 | MM0EFI/P |
+| 44 | Estonia | ES1QD | 2022-12-05 12:48:00 | SSB | 14mhz | 15 | 29 | MM0EFI/P |
+| 45 | Israel | 4Z4DX | 2022-12-05 12:49:00 | SSB | 14mhz | 20 | 39 | MM0EFI/P |
+| 46 | Puerto Rico | KP4PR | 2022-12-08 15:04:00 | SSB | 28mhz | 8 | 11 | GM5WS |
+| 47 | Argentina | LW2DO | 2023-01-23 13:04:00 | SSB | 28mhz | 13 | 14 | EA8/M0EFI/P |
+| 48 | Serbia | YU1MI | 2023-01-23 13:23:00 | SSB | 21mhz | 15 | 28 | EA8/M0EFI/P |
+| 49 | Isle of Man | GD3ZZN | 2023-04-17 09:05:00 | SSB | 7mhz | 14 | 27 | MM0EFI/P |
+| 50 | Seychelles | S79MDF | 2024-01-01 13:34:00 | SSB | 18mhz | 39 | 53 | MM0EFI/P |
+| 51 | South Africa | ZS6FY | 2024-01-07 13:06:00 | SSB | 28mhz | 38 | 57 | MM0EFI/P |
+| 52 | Latvia | YL2TQ | 2024-01-07 13:19:00 | SSB | 21mhz | 15 | 29 | MM0EFI/P |
+| 53 | North Macedonia | Z35M | 2024-01-12 10:01:00 | SSB | 28mhz | 15 | 28 | MM0EFI/P |
+| 54 | Kazakhstan | UN8PT | 2024-01-12 10:20:00 | SSB | 28mhz | 17 | 30 | MM0EFI/P |
+| 55 | Belize | V31ZA | 2024-01-16 15:50:00 | SSB | 28mhz | 7 | 11 | MM0EFI/P |
+| 56 | Asiatic Turkey | TA3AIK | 2024-09-11 15:11:00 | SSB | 28mhz | 20 | 39 | 8P9BW |
+| 57 | Colombia | HK3C | 2024-09-11 15:52:00 | SSB | 21mhz | 9 | 12 | 8P9BW |
+| 58 | Cyprus | 5B4AQE | 2025-01-14 09:50:00 | SSB | 21mhz | 20 | 39 | 5B/M0EFI/P |
+| 59 | Crete | SW9MDF | 2025-01-14 09:54:00 | SSB | 21mhz | 20 | 28 | 5B/M0EFI/P |
+| 60 | Lithuania | LY2NZ | 2025-02-26 14:49:00 | SSB | 14mhz | 15 | 29 | MM0EFI/P |

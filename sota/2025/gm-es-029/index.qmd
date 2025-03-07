@@ -1,0 +1,54 @@
+---
+title: Carn Mor
+subtitle: Peat Hags on the Air!
+image: "carn-mor-2.jpg"
+points: 7
+date: 2025-03-07 12:00:00
+qsos: 15
+total: 361
+summit: "GM/ES-029"
+---
+
+In a somewhat reminiscent turn of events as the [GM/ES Winter Activity Day](https://gm5alx.uk/sota/2025/gm-es-025/), a few folks were planning on going out as Gerald, G4OIG, was planning his visit up here. Unfortunately, Gerald was ill in the week and had to cancel 🤒).
+
+However, we had Fraser, MM0EFI, Simon, GM4JXP, Mike, 2M0WNA, myself, and Alan, MM0VPM, was trying hard in England. We weren’t all quite lined up for the same activation time, for various reasons, but we were likely to all overlap at some point.
+
+I decided to do Carn Mor, and was going to climb it starting from the [Lecht Mine car park](https://www.openstreetmap.org/way/119437626), which leads to the Lecht Mine or the Lecht well.
+
+I was one of the latest activators, and on my drive over, I stopped near Corgarff castle to chase Fraser on GM/ES-023 - a complete for me. Then continued further up the road to a layby near the ski centre to chase Mike on GM/ES-068.
+
+![Mine in the distance](carn-mor-10.jpg)
+
+![A hideen history](carn-mor-9.jpg)
+
+The route follows the path by the stream towards to mine but before you reach it, you turn off and climb up Càrn Liath. The stream has to be crossed, and it’s not a wee burn, nor a great river, but enough to make you ponder the best way over. I went with a running jump at what seemed like a narrow part and felt that was a close call right at the start!
+
+![View back towards the car park](carn-mor-8.jpg)
+
+The track kicks up on gradient pretty quick, and you climb the 300m elevation in about 1.6km. You’re now at virtually the summit height but still with 3 km to go, with some ups and downs on the way.
+
+The aerial maps show plenty of peat hags on the way up to the top of the first hill but I seemed to manage to avoid them. It was, however, not going to be the case the whole way, and once beyond the nice path next to the fence does one face them.
+
+![Follow the fence](carn-mor-6.jpg)
+
+![Peat Hags!](carn-mor-5.jpg)
+
+The south side of the hags seemed easier (as I tried on the North on the way back) and once I got past them I wasn’t really paying attention to the map and continued to follow the track up the next hill. Only to realise this was an unnecessary detour. However, in my detour, I’d managed to avoid some more compared to taking the direct route, so I think a middle ground between going up the summit and the straight line route is best (this is what I’ve added to [sotamaps](https://www.sotamaps.org/tracks).)
+
+![Final path ahead](carn-mor-4.jpg)
+
+That was the last false summit, and now the end was in sight.
+
+As you can see, the weather was absolutely lovely - also just like the last time Gerald didn’t visit. A slight breeze but nothing much. After not too much longer the trig appeared in sight.
+
+![Summit](carn-mor-3.jpg)
+
+I managed a 2m summit to summit with Mike, and Simon but Fraser had left, and so he called me from the peat hags on Brown Cow Hill.I setup on HF and had a go on 40m.
+
+![Station](carn-mor-2.jpg)
+
+I seemed to be getting rf on the audio on 40m, with the KX2 on the trig point. I moved it onto the ground that that seemed to cure things. Once 40m had dried up, I considered moving to other bands but then I also considered a second summit - given it was such a nice day and I’d driven all this way. So I packed up and headed back - eating my noodles as I walked.
+
+I did try and take a more direct route on the way back but the peat hags said no, and I was better off just following the route I took out.
+
+![Stream crossing again](carn-mor-1.jpg)

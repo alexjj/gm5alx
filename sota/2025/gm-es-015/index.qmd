@@ -1,0 +1,11 @@
+---
+title: Culardoch
+subtitle: Big winter hike part one
+image: "ealasaid-5.jpg"
+points: 7
+date: 2025-03-13 14:00:00
+qsos: 14
+total: 368
+summit: "GM/ES-030"
+draft: true
+---

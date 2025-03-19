@@ -1,0 +1,11 @@
+---
+title: Creag an Dail Bheag
+subtitle: More peat hags
+image: "ealasaid-5.jpg"
+points: 7
+date: 2025-03-07 14:00:00
+qsos: 14
+total: 368
+summit: "GM/ES-088"
+draft: true
+---

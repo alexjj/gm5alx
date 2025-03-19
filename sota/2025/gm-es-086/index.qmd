@@ -1,0 +1,21 @@
+---
+title: Brimmond Hill
+subtitle: Mid-morning chasing
+image: "thumb.jpg"
+points: 1
+date: 2025-03-18
+qsos: 4
+total: 391
+summit: "GM/ES-086"
+draft: true
+---
+
+Mike, 2M0WNA, was off out to [Waughton Hill](https://gm5alx.uk/sota/2024/gm-es-087/), and I wanted to chase to get a complete. I wasn't quite sure if I'd be able to do so from home on 2m, and so I thought I'd run up Brimmond and also get a summit to summit. It's very close to home, and within 30 minutes I can leave my house and be at the top having a QSO.
+
+I did take my HF rig but I was hoping to qualify on 2m, and get back home again. Luckily, I did manage to as Simon and Fraser were around to help with 2m QSOs.
+
+Brimmond has a lot of masts at the top, and you tend to get interference on 2m. Last time I was there I had a different 2m HT (I forget which, perhaps ft-65?) and I'd get interrupted with buzzing and beeping so I couldn't hear the other side. This time, with my Alinco DJ-VX50, I didn't get any noise but it would just cut out, making it equally difficult to hear.
+
+I've since found an old ft270 on ebay, which supposedly has a very good front end for filtering unwanted transmissions out, so next time I'll have to try that.
+
+I didn't take any photos as I was in a hurry, and I've been here a couple of [times before](https://gm5alx.uk/sota/2024/gm-es-086/). I am thinking that I should use the hill more often when I'm trying to chase and don't think I'll make it from home. I won't always be able to go, probably just during the week if I'm working at home and want a quick walk, but it's worth doing.

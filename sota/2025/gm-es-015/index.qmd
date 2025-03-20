@@ -1,11 +1,103 @@
 ---
 title: Culardoch
 subtitle: Big winter hike part one
-image: "ealasaid-5.jpg"
-points: 7
+image: "culdaroch-4.jpg"
+points: 9
 date: 2025-03-13 14:00:00
-qsos: 14
+qsos: 12
 total: 368
-summit: "GM/ES-030"
+summit: "GM/ES-015"
 draft: true
 ---
+
+After discussing it for a while, and finally finding a time between, work, weather, and mid-morning coffee appointments, Fraser, MM0EFI, and I were going to do Culardoch ([GM/ES-015](https://summits.sota.org.uk/summit/GM/ES-015)) and, the ever popular, Creag an Dail Bheag ([GM/ES-088](https://summits.sota.org.uk/summit/GM/ES-088)). We’d originally planned to go on the Monday, following a weekend of lovely spring weather, but our plans changed as quickly as the weather and we didn’t think 50-60 mph winds and snow was a good idea. Thursday looked to be the calmest of the week, and still within the winter bonus period.
+
+I picked Fraser up on the way, him having cycled 5 miles from his house to the main road to meet me, and we headed to Keiloch car park in the Invercauld estate.
+
+![Our route](route.jpeg)
+
+Our plan was to each activate one summit, then swap over and activate the other. They’re not quite equidistance from the intersection but with activating we could manage this. As always, I was working to a deadline to get back home in time for various kids activities and taxi duties, so no dillydallying. My schedule suggested it was about an hour to cycle, then 2 hours or so walking back and forth, 40 minutes cycle back plus activating time.
+
+![A steep start through the trees](culdaroch-16.jpg)
+
+The route was cycling from the car park up to the intersection of the two summits, I’d do Culardoch first, whilst Fraser headed towards [GM/ES-088](https://summits.sota.org.uk/summit/GM/ES-088). A short cycle along the road, then we turned off up a track in the trees. It was a steep start, and was a taste of what was to come on the rest of the cycle.
+
+![Lookingtowards Braemar](culdaroch-14.jpg)
+
+We continued on, through a couple of gates, and ever upwards. A brief moment of relief on a downhill section, but all the time thinking about coming back up it on the way home! The path is very good the whole way, although with the water from the snow melt, the fine sand/stones was like quicksand - or perhaps slowsand - as it was arduous to cycle through. After around an hour, we gave up on cycling uphill through the slowsand, and pushed the bikes most of the way to the junction.
+
+![Seeing if MM0EFI-3 Lora digipeater could hear](culdaroch-13.jpg)
+
+The air was cold, and the wind was picking up a little as we reached the junction. The snow drifts were decent at this altitude. The route to Creag an Dail Bheag was mostly pathless, and whilst there is a path to Culardoch, much of it was filled with snow.
+
+\[![End of the bikes 🥳](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/9/b/9bc4d3ea442349718a5ddad6024fc25d31d58755_2_690x388.jpeg)
+
+End of the bikes 🥳1370×771 211 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/9/b/9bc4d3ea442349718a5ddad6024fc25d31d58755.jpeg "End of the bikes 🥳")
+
+\[![Departure photo](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/7/e/7e278203f17cc295822f1b89e24dbf271ef42ea3_2_666x500.jpeg)
+
+Departure photo1600×1200 252 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/7/e/7e278203f17cc295822f1b89e24dbf271ef42ea3.jpeg "Departure photo")
+
+The weather was partially cloudy, some blue skies, but some low cloud. Culardoch was in the cloud but Creag an DB looked to be in the sun, although this changed all the time. We checked 2m frequencies, and the plan, and set off on our own ways. We did both get treated to horizontal snow on the way up, and when that stopped, then just a cold wind.
+
+\[![Path up to Culdaroch](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/d/3/d314ccb1631716da4ee25903a6c2a1cb4b9808f7_2_666x500.jpeg)
+
+Path up to Culdaroch1920×1440 288 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/d/3/d314ccb1631716da4ee25903a6c2a1cb4b9808f7.jpeg "Path up to Culdaroch")
+
+As I climbed up the cloud was thinning and I was hopeful of a sunny summit by the time I got there. Looking around the views were very good, and at times being able to see all the high peaks.
+
+\[![Looking back to the bikes. Fraser somewhere in the photo.](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/8/e/8e47631eb416c07e82d23f7500736380b25a6f90_2_666x500.jpeg)
+
+Looking back to the bikes. Fraser somewhere in the photo.1920×1440 482 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/8/e/8e47631eb416c07e82d23f7500736380b25a6f90.jpeg "Looking back to the bikes. Fraser somewhere in the photo.")
+
+\[![Looking NW](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/b/c/bc96fdb2f6a837927cd33afa969a7f5e3b198ed8_2_666x500.jpeg)
+
+Looking NW1920×1440 325 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/b/c/bc96fdb2f6a837927cd33afa969a7f5e3b198ed8.jpeg "Looking NW")
+
+\[![North to loch Builg](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/f/b/fb6b49a1165c5a7cafdb6b7e9983db79674169d8_2_666x500.jpeg)
+
+North to loch Builg1920×1440 334 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/f/b/fb6b49a1165c5a7cafdb6b7e9983db79674169d8.jpeg "North to loch Builg")
+
+I knew it should only be about 30 minutes to the top from the bikes, but the hill seemed to just keep going, until at last the trig point appeared over the crest of the hill.
+
+\[![Trig at the summit](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/1/c/1c2030c3f0b5bc5469ecf87b18fcc155b46540ad_2_666x500.jpeg)
+
+Trig at the summit1920×1440 308 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/1/c/1c2030c3f0b5bc5469ecf87b18fcc155b46540ad.jpeg "Trig at the summit")
+
+\[![Trig close up](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/8/4/840f0b87a4d11e1444c9400a4249ec946fa3b072_2_375x500.jpeg)
+
+Trig close up1920×2560 575 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/8/4/840f0b87a4d11e1444c9400a4249ec946fa3b072.jpeg "Trig close up")
+
+The wind was very cold and continuous, not too strong, but I was very grateful of the trig point to hide behind. My plan was to activate on HF, pack up and then wait for Fraser to reach his summit for a 2m S2S (although we should’ve done 70cm), and then head down and across. The trig point was promising for an easy mast mount, except for some previous visitors who decided to use it as a bin and jammed their rubbish and plastic bottle down the hole. I still managed to use it though.
+
+\[![Station](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/d/1/d1612f86cd114448f60c2cad86ccade1a3867f44_2_666x500.jpeg)
+
+Station1920×1440 299 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/d/1/d1612f86cd114448f60c2cad86ccade1a3867f44.jpeg "Station")
+
+Another part of our plan was that I’d do 40m and Fraser would do 20m on the summits, plus the potential S2S with Andy [\@GM6ZAK](https://reflector.sota.org.uk/u/gm6zak) and Archie, GM4KNU, who were also out. I’d managed 10 on 40m, when I saw Andy’s spot, and so called him. We managed our QSO, and then Fraser popped up on 2m. So with our S2S done, I knew it was time to pack up and head across. The locals did call me on 2m but my bare hands were absolutely frozen at this point and I couldn’t bring myself to continue with it - we’d already had QSOs on 40m, so no-one was left out!
+
+\[![Summit selfie](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/5/0/5009d00807b7669dd9f6a46942d015161caf8ac6_2_666x500.jpeg)
+
+Summit selfie1920×1440 156 KB
+
+\](https://reflector.sota.org.uk/uploads/db9433/original/3X/5/0/5009d00807b7669dd9f6a46942d015161caf8ac6.jpeg "Summit selfie")
+
+One done, one to go! ✅

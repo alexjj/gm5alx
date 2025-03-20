@@ -1,11 +1,11 @@
 ---
-title: Craigendarroch
+title: Creag Bhalg
 subtitle: Steep in Deeside
 image: "craigendarroch-7.jpg"
-points: 1
-date: 2025-03-14 13:00
-qsos: 12
-total: 390
-summit: "GM/ES-078"
+points: 5
+date: 2025-03-14 10:00:00
+qsos: 17
+total: 385
+summit: "GM/ES-046"
 draft: true
 ---

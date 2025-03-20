@@ -3,7 +3,7 @@ title: Craigendarroch
 subtitle: Steep in Deeside
 image: "craigendarroch-7.jpg"
 points: 1
-date: 2025-03-14 13:00
+date: 2025-03-14 13:00:00
 qsos: 12
 total: 390
 summit: "GM/ES-078"

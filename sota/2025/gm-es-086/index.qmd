@@ -7,7 +7,6 @@ date: 2025-03-18
 qsos: 4
 total: 391
 summit: "GM/ES-086"
-draft: true
 ---
 
 Mike, 2M0WNA, was off out to [Waughton Hill](https://gm5alx.uk/sota/2024/gm-es-087/), and I wanted to chase to get a complete. I wasn't quite sure if I'd be able to do so from home on 2m, and so I thought I'd run up Brimmond and also get a summit to summit. It's very close to home, and within 30 minutes I can leave my house and be at the top having a QSO.

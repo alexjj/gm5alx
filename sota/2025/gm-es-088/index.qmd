@@ -1,93 +1,49 @@
 ---
 title: Creag an Dail Bheag
 subtitle: More peat hags
-image: "ealasaid-5.jpg"
+image: "creag-an-db-16.jpg"
 points: 7
 date: 2025-03-07 14:00:00
 qsos: 14
 total: 368
 summit: "GM/ES-088"
-draft: true
 ---
 
-I enjoyed the snow drifts on the way down, bounding along, sinking knee deep into the snow. This was then replaced with climbing the steep side of Carn Liath (the previous summit here: [GM/ES-020](https://summits.sota.org.uk/summit/GM/ES-020)). Once up on the plateau the hike is easier, although the amount of rocks does mean you need to watch your footing.
+After Culardoch, it was time for the next hill! I enjoyed the snow drifts on the way down, bounding along, sinking knee deep into the snow. This was then replaced with climbing the steep side of Carn Liath (the previous summit here: [GM/ES-020](https://summits.sota.org.uk/summit/GM/ES-020)). Once up on the plateau the hike is easier, although the amount of rocks does mean you need to watch your footing.
 
-[![Someone's been here...](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/0/9/0954bab4718c2f8bab6a55452cfc1e3af1747c56_2_375x500.jpeg)
-
-Someone's been here...1920×2560 1.01 MB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/0/9/0954bab4718c2f8bab6a55452cfc1e3af1747c56.jpeg "Someone's been here...")
+![Someone's been here..](creag-an-db-21.jpg)
 
 Here Fraser and I met and compared notes, and took a selfie (most important) and then wished each other well for the next summit.
 
-[![Mid-point chat - antenna in the face.](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/c/e/ce4a7954d00d24ab2a36d9da5de8d636407a46a6_2_666x500.jpeg)
+![Mid-point chat - antenna in the face.](creag-an-db-22.jpg)
 
-Mid-point chat - antenna in the face.1920×1440 214 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/c/e/ce4a7954d00d24ab2a36d9da5de8d636407a46a6.jpeg "Mid-point chat - antenna in the face.")
-
-[![Summit centre left](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/4/b/4b447a3bfc6cbf0217703bb29a978dbccf3ab892_2_666x500.jpeg)
-
-Summit centre left1920×1440 385 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/4/b/4b447a3bfc6cbf0217703bb29a978dbccf3ab892.jpeg "Summit centre left")
+![Summit centre left](creag-an-db-18.jpg)
 
 With the change in summits by 1-2 m, the new summit is further to get to and it’s easy to lose track of the number of summit cairns you count on the way! Only from the map can you tell which is highest. When the cloud opened, you were rewarded with amazing views across to Ben Avon and Beinn a’Bhuird, and looking back I could see Culadorch and somewhere Fraser climbing up to the top. Fraser and I had a little chat whilst walking, just to make sure the other was still there for the complete.
 
-[![Looking back at Culardoch](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/e/9/e939b55205d29791e77b93355e693a48ceb92e8b_2_690x388.jpeg)
-
-Looking back at Culardoch1600×900 286 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/e/9/e939b55205d29791e77b93355e693a48ceb92e8b.jpeg "Looking back at Culardoch")
+![Looking back at Culardoch](creag-an-db-9.jpg)
 
 Eventually I reach the summit, or one of two cairn summit points, and get setup on HF again.
 
-[![Station](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/0/0/00b6b4d7cca2c8e0fc0179f70f96e5918c5ea293_2_666x500.jpeg)
+![Station](creag-an-db-12.jpg)
 
-Station1920×1440 288 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/0/0/00b6b4d7cca2c8e0fc0179f70f96e5918c5ea293.jpeg "Station")
-
-
-
-[![Summit with Ben Avon behind](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/a/7/a788400f32c02d8d89ce3d22ec3c9bea7c0d482c_2_666x500.jpeg)
-
-Summit with Ben Avon behind1920×1440 207 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/a/7/a788400f32c02d8d89ce3d22ec3c9bea7c0d482c.jpeg "Summit with Ben Avon behind")
+![Summit with Ben Avon behind](creag-an-db-16.jpg)
 
 40m was still reasonable for me and I had a steady stream of QSOs. There is a little shelter behind the rocks, but the wind was much calmer so the wind chill had dropped considerably. By this time Fraser appeared on the radio again, this time at the summit, and this QSO marked the moment of both of us completing our pair of completes!
 
-I remembered I’d offered to try 2m to the locals, and Simon [@GM4JXP](https://reflector.sota.org.uk/u/gm4jxp) and Mike [@2M0WNA](https://reflector.sota.org.uk/u/2m0wna) were both nice and clear on my Alinco and RH770.
+I remembered I’d offered to try 2m to the locals, and Simon GM4JXP and Mike 2M0WNA were both nice and clear on my Alinco and RH770.
 
-[![Ben Avon](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/5/0/500eb8bf7b386c66b4b716fbbfcfac51fcb25266_2_690x388.jpeg)
+![](creag-an-db-1.jpg)
 
-Ben Avon1600×900 184 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/5/0/500eb8bf7b386c66b4b716fbbfcfac51fcb25266.jpeg "Ben Avon")
-
-[![Snow](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/0/a/0ae3c7c9fdd9a3a2bcb3783a51b5529b0ab8ddfc_2_690x388.jpeg)
-
-Snow1600×900 199 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/0/a/0ae3c7c9fdd9a3a2bcb3783a51b5529b0ab8ddfc.jpeg "Snow")
+![](creag-an-db-5.jpg)
 
 Fraser had told me his mast had snapped at the top, supposedly from freezing between summits but also maybe from the rage of finding the plastic bottle in the trig point. 20m wasn’t great, but fortunately 2m was, and meant Fraser could qualify.
 
-[![Snow](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/0/7/07c195e1a1c6472a8a4464acb065fce0537d1484_2_690x388.jpeg)
-
-Snow1600×900 292 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/0/7/07c195e1a1c6472a8a4464acb065fce0537d1484.jpeg "Snow")
-
+![Snow](creag-an-db-3.jpg)
 
 I packed up and started back towards the bikes. The wind had definitely dropped, and it was warm work walking back. Our timings worked out well, as we saw each other walking down towards to the bikes, and I arrived just a few minutes before Fraser did.
 
-[![The Radio Rover](https://reflector.sota.org.uk/uploads/db9433/optimized/3X/2/d/2d53bf8b52080e463e1d8d603ec471ece2b98335_2_375x500.jpeg)
-
-The Radio Rover1920×2560 551 KB
-
-](https://reflector.sota.org.uk/uploads/db9433/original/3X/2/d/2d53bf8b52080e463e1d8d603ec471ece2b98335.jpeg "The Radio Rover")
+![The Radio Rover](creag-an-db-10.jpg)
 
 Winter woollies off; downhill racing gear on, and we headed back. It is only after hurtling down the track at 40-50 kph do you realise just how much of a climb you did on the way out. The memory was quickly returned when we hit the uphill section, complete with slowsand. We did pass a couple of older walkers, who still got a fright as we went by even though there was much bell ringing. Back through the gates and down the track towards the forest.
 

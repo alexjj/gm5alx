@@ -1,9 +1,9 @@
 ---
 title: Creag an Dail Bheag
-subtitle: More peat hags
+subtitle: Winter hill #2
 image: "creag-an-db-16.jpg"
 points: 7
-date: 2025-03-07 14:00:00
+date: 2025-03-13 14:00:00
 qsos: 14
 total: 368
 summit: "GM/ES-088"

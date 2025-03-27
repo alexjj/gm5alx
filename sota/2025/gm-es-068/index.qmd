@@ -1,0 +1,11 @@
+---
+title: Craiglich
+subtitle: Family activation
+image: "craigendarroch-7.jpg"
+points: 1
+date: 2025-03-21
+qsos: 29
+total: 392
+summit: "GM/ES-068"
+draft: true
+---

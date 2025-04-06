@@ -31,6 +31,8 @@ website:
         menu:
           - text: "Cairngorms SOTA Summit"
             href: lists/cairngorms/index.qmd
+          - text: "SOTA Munros"
+            href: lists/sota-munros/index.qmd
 
     right:
       - icon: rss-fill

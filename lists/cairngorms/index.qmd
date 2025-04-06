@@ -1,0 +1,154 @@
+---
+title: SOTA Munros
+format:
+  html:
+    css:
+      - https://unpkg.com/leaflet@1.9.4/dist/leaflet.css
+execute:
+  echo: false
+---
+
+## Map View
+
+```{ojs}
+L = require('leaflet@1.9.4')
+
+// Load the GeoJSON file
+geojson = FileAttachment("cairngorms.geojson").json()
+
+// Load the CSV file
+summits = FileAttachment("cairngorms_summits.csv").csv({typed: true})
+
+// Function to get a colored marker icon based on value
+function getColor(value) {
+  switch (value) {
+    case 1: return "DarkGreen";
+    case 2: return "LimeGreen";
+    case 4: return "Olive";
+    case 6: return "Orange";
+    case 8: return "OrangeRed";
+    case 10: return "Red";
+    default: return "Gray"; // Default color for undefined values
+  }
+}
+
+map = {
+  let container = DOM.element('div', { style: `width:${width}px;height:${width/1.6}px` });
+  yield container;
+
+  let map = L.map(container).setView([57.07, -3.7], 8.5);
+  let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Add the GeoJSON layer
+  L.geoJSON(geojson).addTo(map);
+
+  // Add summit markers
+  summits.forEach(({ latitude, longitude, points, name, summitCode }) => {
+      L.circleMarker([+latitude, +longitude], {
+        radius: 8,
+        color: getColor(points), // Use the color function
+        fillColor: getColor(points),
+        fillOpacity: 0.8
+      }).bindPopup(`Summit: ${name}<br>Reference: <a href="https://sotl.as/summits/${summitCode}" target="_blank">${summitCode}</a><br>Points: ${points}`)
+      .addTo(map);
+  });
+
+}
+
+```
+
+## Summit List
+
+| Reference | Name                                 | Height (m) | OS Grid Reference | Points |
+|-----------|--------------------------------------|------------|-------------------|--------|
+| GM/CS-003 | Beinn a'Ghlo - Carn nan Gabhar       | 1122       | NN 971733         | 10     |
+| GM/CS-009 | Braigh Coire Chruinn-bhalgain        | 1070       | NN 945724         | 8      |
+| GM/CS-011 | Glas Tulaichean                      | 1051       | NO 051760         | 8      |
+| GM/CS-014 | Beinn Iutharn Mhor                   | 1045       | NO 045792         | 8      |
+| GM/CS-020 | Carn an Righ                         | 1029       | NO 028772         | 8      |
+| GM/CS-022 | Beinn Udlamain                       | 1010       | NN 579739         | 8      |
+| GM/CS-023 | Beinn Dearg                          | 1009       | NN 852778         | 8      |
+| GM/CS-024 | An Sgarsoch                          | 1007       | NN 933836         | 8      |
+| GM/CS-027 | Carn an   Fhidhleir (Carn Ealar)     | 994        | NN 904841         | 6      |
+| GM/CS-028 | Sgairneach Mhor                      | 991        | NN 598731         | 6      |
+| GM/CS-029 | Carn Liath                           | 976        | NN 936698         | 6      |
+| GM/CS-030 | Carn a'Gheoidh                       | 975        | NO 107767         | 6      |
+| GM/CS-031 | Carn a'Chlamain                      | 964        | NN 915758         | 6      |
+| GM/CS-035 | Meall Chuaich                        | 951        | NN 716878         | 6      |
+| GM/CS-036 | Carn Bhac                            | 945        | NO 051832         | 6      |
+| GM/CS-037 | Carn Dearg                           | 946        | NH 635023         | 6      |
+| GM/CS-038 | An Socach                            | 944        | NO 079800         | 6      |
+| GM/CS-039 | Carn na Caim                         | 941        | NN 677821         | 6      |
+| GM/CS-043 | Geal-charn                           | 917        | NN 596782         | 6      |
+| GM/CS-045 | Beinn Bhreac                         | 912        | NN 868820         | 6      |
+| GM/CS-046 | Leathad an   Taobhain                | 912        | NN 821858         | 6      |
+| GM/CS-049 | Ben Vuirich                          | 903        | NN 997700         | 6      |
+| GM/CS-051 | Beinn   Mheadhonach                  | 901        | NN 880759         | 6      |
+| GM/CS-056 | Carn an Fhreiceadain                 | 878        | NH 725071         | 4      |
+| GM/CS-057 | A'Chaoirnich                         | 875        | NN 735807         | 4      |
+| GM/CS-060 | Morrone                              | 860        | NO 132886         | 4      |
+| GM/CS-061 | Carn Dearg Mor                       | 857        | NN 823911         | 4      |
+| GM/CS-069 | An Dun                               | 827        | NN 716801         | 4      |
+| GM/CS-070 | Geal-charn Mor                       | 824        | NH 836123         | 4      |
+| GM/CS-077 | Ben Gulabin                          | 806        | NO 100722         | 4      |
+| GM/CS-078 | The Sow of   Atholl                  | 799        | NN 625741         | 4      |
+| GM/CS-084 | Meallach Mhor                        | 769        | NN 776908         | 4      |
+| GM/CS-086 | Creag Dhubh                          | 756        | NN 677972         | 4      |
+| GM/CS-088 | Creag Liath                          | 743        | NH 663007         | 4      |
+| GM/CS-091 | Carn   Glas-choire                   | 659        | NH 891291         | 2      |
+| GM/CS-092 | Creag Ruadh                          | 658        | NN 685882         | 2      |
+| GM/CS-095 | Creag Ruadh                          | 622        | NN 558913         | 2      |
+| GM/CS-105 | Carn na Loine                        | 549        | NJ 070360         | 2      |
+| GM/CS-111 | Creag Bheag                          | 487        | NH 745017         | 1      |
+| GM/CS-112 | Beinn Mhor                           | 471        | NH 993281         | 1      |
+| GM/ES-001 | Ben Macdui                           | 1309       | NN 988989         | 10     |
+| GM/ES-002 | Braeriach                            | 1296       | NN 953999         | 10     |
+| GM/ES-003 | Cairn Toul                           | 1291       | NN 963972         | 10     |
+| GM/ES-004 | Beinn a'Bhuird - North Top           | 1197       | NJ 092006         | 10     |
+| GM/ES-005 | Beinn Mheadhoin                      | 1183       | NJ 024016         | 10     |
+| GM/ES-006 | Ben Avon - Leabaidh an Daimh Bhuidhe | 1172       | NJ 131018         | 10     |
+| GM/ES-007 | Beinn Bhrotain                       | 1157       | NN 954922         | 10     |
+| GM/ES-008 | Lochnagar - Cac Carn Beag            | 1156       | NO 243861         | 10     |
+| GM/ES-009 | Sgor Gaoith                          | 1118       | NN 903989         | 10     |
+| GM/ES-010 | Bynack More                          | 1090       | NJ 041063         | 8      |
+| GM/ES-011 | Beinn   a'Chaorainn                  | 1083       | NJ 045013         | 8      |
+| GM/ES-012 | Glas Maol                            | 1068       | NO 166765         | 8      |
+| GM/ES-013 | Carn a'Mhaim                         | 1037       | NN 994951         | 8      |
+| GM/ES-014 | Mount Keen                           | 939        | NO 409869         | 6      |
+| GM/ES-015 | Culardoch                            | 900        | NO 193988         | 6      |
+| GM/ES-016 | Ben Tirran                           | 896        | NO 373746         | 4      |
+| GM/ES-017 | Creag Mhor                           | 895        | NJ 057047         | 4      |
+| GM/ES-018 | Morven                               | 872        | NJ 376039         | 4      |
+| GM/ES-019 | Conachcraig                          | 865        | NO 279865         | 4      |
+| GM/ES-022 | Creag nan Gabhar                     | 834        | NO 154841         | 4      |
+| GM/ES-023 | Brown Cow Hill                       | 829        | NJ 221044         | 4      |
+| GM/ES-024 | Geal Charn                           | 821        | NJ 090126         | 4      |
+| GM/ES-025 | Carn na   Drochaide                  | 818        | NO 127938         | 4      |
+| GM/ES-026 | Sgor Mor                             | 813        | NO 007914         | 4      |
+| GM/ES-027 | Meall   a'Bhuachaille                | 810        | NH 990115         | 4      |
+| GM/ES-028 | Monamenach                           | 807        | NO 176706         | 4      |
+| GM/ES-029 | Carn Mor                             | 804        | NJ 265183         | 4      |
+| GM/ES-030 | Carn Ealasaid                        | 792        | NJ 227117         | 4      |
+| GM/ES-034 | Mona Gowan                           | 749        | NJ 335058         | 4      |
+| GM/ES-036 | Geallaig Hill                        | 743        | NO 297981         | 4      |
+| GM/ES-038 | Creagan   a'Chaise                   | 722        | NJ 104241         | 4      |
+| GM/ES-040 | Cnap Chaochan Aitinn                 | 715        | NJ 145099         | 4      |
+| GM/ES-041 | Carn a'Ghille   Chearr               | 710        | NJ 139298         | 4      |
+| GM/ES-042 | Hunt Hill                            | 705        | NO 380805         | 4      |
+| GM/ES-043 | Mealna Letter   (Duchray Hill)       | 702        | NO 161672         | 4      |
+| GM/ES-046 | Creag Bhalg                          | 668        | NO 091912         | 2      |
+| GM/ES-049 | Ladylea Hill                         | 609        | NJ 343168         | 2      |
+| GM/ES-050 | The Coyles of Muick                  | 601        | NO 328910         | 2      |
+| GM/ES-052 | Carn Daimh                           | 570        | NJ 181249         | 2      |
+| GM/ES-053 | Ben Newe                             | 565        | NJ 381143         | 2      |
+| GM/ES-055 | Meall Alvie                          | 560        | NO 203919         | 2      |
+| GM/ES-066 | The Bochel                           | 491        | NJ 232232         | 1      |
+| GM/ES-067 | Creag Ghiubhais                      | 486        | NO 312954         | 1      |
+| GM/ES-074 | Ord Ban                              | 428        | NH 891085         | 1      |
+| GM/ES-078 | Craigendarroch                       | 402        | NO 365965         | 1      |
+| GM/ES-088 | Creag an Dail Bheag                  | 863        | NO 157981         | 4      |
+| GM/WS-247 | Meall nan Eagan                      | 658        | NN 596874         | 2      |
+| GM/WS-271 | Cruban Beag                          | 590        | NN 668924         | 2      |
+| GM/WS-277 | Creag na Doire   Duibhe              | 571        | NN 615905         | 2      |

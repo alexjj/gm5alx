@@ -64,6 +64,6 @@ Inputs.table(summits, { columns: [
     Elevation: "Height (m)",
     reference: "SOTA Reference",
     points: "Points"
-  }
+  },
   sort: "Elevation", reverse: true })
 ```

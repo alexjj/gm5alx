@@ -29,10 +29,10 @@ function getColor(value) {
 }
 
 map = {
-  let container = DOM.element('div', { style: `width:${width}px;height:${width/1.6}px` });
+  let container = DOM.element('div', { style: `width:${width}px;height:${width}px` });
   yield container;
 
-  let map = L.map(container).setView([57.07, -3.7], 8.5);
+  let map = L.map(container).setView([56.5625, -4.867], 7);
   let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);

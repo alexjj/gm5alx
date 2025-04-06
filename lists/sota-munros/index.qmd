@@ -39,9 +39,9 @@ map = {
 
   // Add summit markers
   summits.forEach(({ lat, lon, points, name, reference }) => {
-      L.circleMarker([+latitude, +longitude], {
+      L.circleMarker([+lat, +lon], {
         radius: 8,
-        color: getColor(points), 
+        color: getColor(points),
         fillColor: getColor(points),
         fillOpacity: 0.8
       }).bindPopup(`Summit: ${name}<br>Reference: <a href="https://sotl.as/summits/${reference}" target="_blank">${reference}</a><br>Points: ${points}`)

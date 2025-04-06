@@ -29,7 +29,7 @@ website:
         target: _blank
       - text: "References"
         menu:
-          - text: "Cairngorms SOTA Summit"
+          - text: "Cairngorms SOTA summits"
             href: lists/cairngorms/index.qmd
           - text: "SOTA Munros"
             href: lists/sota-munros/index.qmd

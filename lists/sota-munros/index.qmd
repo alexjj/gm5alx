@@ -8,7 +8,7 @@ execute:
   echo: false
 ---
 
-Here is a map and list of all the munros which are SOTA summits. There are 202, out of 282 munros. This is because munros have no prominence requirements, compared to SOTA's 150m.
+Here is a map and list of all the munros which are SOTA summits. There are 202, out of 282 munros. This is because munros have no prominence requirements, compared to SOTA's 150m. Perhaps this is a list of Marilyn Munros...not to be confused with Marilyn Monroe. 😅
 
 ```{ojs}
 L = require('leaflet@1.9.4')

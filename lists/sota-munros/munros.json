@@ -5,7 +5,7 @@
         "lat": 56.7968582,
         "lon": -5.003526,
         "reference": "GM/WS-001",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Càrn Mòr Dearg",
@@ -13,7 +13,7 @@
         "lat": 56.8052539,
         "lon": -4.9866573,
         "reference": "GM/WS-003",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Ben More",
@@ -21,7 +21,7 @@
         "lat": 56.3860093,
         "lon": -4.5400634,
         "reference": "GM/SS-001",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Stob Dearg",
@@ -29,7 +29,7 @@
         "lat": 56.6468537,
         "lon": -4.8987627,
         "reference": "GM/WS-044",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ben Lomond",
@@ -37,7 +37,7 @@
         "lat": 56.1903623,
         "lon": -4.6332874,
         "reference": "GM/SS-011",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgor nam Fiannaidh",
@@ -45,7 +45,7 @@
         "lat": 56.6793935,
         "lon": -5.0371437,
         "reference": "GM/WS-074",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Lui",
@@ -53,7 +53,7 @@
         "lat": 56.3969764,
         "lon": -4.810569,
         "reference": "GM/SS-003",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Ben Chonzie",
@@ -61,7 +61,7 @@
         "lat": 56.4538846,
         "lon": -3.9920844,
         "reference": "GM/SS-015",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Braeriach",
@@ -69,7 +69,7 @@
         "lat": 57.0781682,
         "lon": -3.7288293,
         "reference": "GM/ES-002",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Ben Macdui",
@@ -77,7 +77,7 @@
         "lat": 57.0703889,
         "lon": -3.6691251,
         "reference": "GM/ES-001",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Cairn Toul",
@@ -85,7 +85,7 @@
         "lat": 57.054388,
         "lon": -3.7107019,
         "reference": "GM/ES-003",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Aonach Beag",
@@ -93,7 +93,7 @@
         "lat": 56.7999773,
         "lon": -4.9541724,
         "reference": "GM/WS-002",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Ben Lawers",
@@ -101,7 +101,7 @@
         "lat": 56.5449045,
         "lon": -4.2208744,
         "reference": "GM/CS-001",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn Eunaich",
@@ -109,7 +109,7 @@
         "lat": 56.4501173,
         "lon": -5.0264833,
         "reference": "GM/WS-065",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Dorain",
@@ -117,7 +117,7 @@
         "lat": 56.5028441,
         "lon": -4.7221593,
         "reference": "GM/CS-008",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn an Dothaidh",
@@ -125,7 +125,7 @@
         "lat": 56.5301376,
         "lon": -4.7139896,
         "reference": "GM/CS-025",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Stùc a' Chroin",
@@ -133,7 +133,7 @@
         "lat": 56.3292563,
         "lon": -4.2375474,
         "reference": "GM/SS-010",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stob Bàn",
@@ -141,7 +141,7 @@
         "lat": 56.7440062,
         "lon": -5.0305154,
         "reference": "GM/WS-058",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Am Bodach",
@@ -149,7 +149,7 @@
         "lat": 56.7417441,
         "lon": -4.9833493,
         "reference": "GM/WS-037",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "An Gearanach",
@@ -157,7 +157,7 @@
         "lat": 56.7592172,
         "lon": -4.9662721,
         "reference": "GM/WS-069",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Binnein Mor",
@@ -165,7 +165,7 @@
         "lat": 56.7544245,
         "lon": -4.9258171,
         "reference": "GM/WS-011",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Sgùrr Eilde Mòr",
@@ -173,7 +173,7 @@
         "lat": 56.7499706,
         "lon": -4.8954275,
         "reference": "GM/WS-049",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Gulvain",
@@ -181,7 +181,7 @@
         "lat": 56.9362239,
         "lon": -5.2845447,
         "reference": "GM/WS-066",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Thuilm",
@@ -189,7 +189,7 @@
         "lat": 56.9370302,
         "lon": -5.3891781,
         "reference": "GM/WS-075",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr nan Coireachan",
@@ -197,7 +197,7 @@
         "lat": 56.9357219,
         "lon": -5.4485532,
         "reference": "GM/WS-080",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stob Coire Easain",
@@ -205,7 +205,7 @@
         "lat": 56.8181909,
         "lon": -4.773727,
         "reference": "GM/WS-015",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Stob Choire Claurigh",
@@ -213,7 +213,7 @@
         "lat": 56.8237914,
         "lon": -4.8498558,
         "reference": "GM/WS-005",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Stob Bàn",
@@ -221,7 +221,7 @@
         "lat": 56.8106697,
         "lon": -4.8409103,
         "reference": "GM/WS-072",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Choinnich Mòr",
@@ -229,7 +229,7 @@
         "lat": 56.8004299,
         "lon": -4.9040088,
         "reference": "GM/WS-021",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Stob Dubh",
@@ -237,7 +237,7 @@
         "lat": 56.638341,
         "lon": -4.9706851,
         "reference": "GM/WS-079",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stob Coire Raineach",
@@ -245,7 +245,7 @@
         "lat": 56.6499286,
         "lon": -4.951608,
         "reference": "GM/WS-096",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgorr Dhonuill",
@@ -253,7 +253,7 @@
         "lat": 56.650488,
         "lon": -5.197998,
         "reference": "GM/WS-057",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgorr Dhearg",
@@ -261,7 +261,7 @@
         "lat": 56.6539309,
         "lon": -5.1715514,
         "reference": "GM/WS-042",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Fhionnlaidh",
@@ -269,7 +269,7 @@
         "lat": 56.6010358,
         "lon": -5.1048871,
         "reference": "GM/WS-078",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr na h-Ulaidh",
@@ -277,7 +277,7 @@
         "lat": 56.6197971,
         "lon": -5.080066,
         "reference": "GM/WS-061",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Sgulaird",
@@ -285,7 +285,7 @@
         "lat": 56.566369,
         "lon": -5.1707061,
         "reference": "GM/WS-090",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Chno Dearg",
@@ -293,7 +293,7 @@
         "lat": 56.830081,
         "lon": -4.6608752,
         "reference": "GM/WS-032",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Geal-Chàrn",
@@ -301,7 +301,7 @@
         "lat": 56.8378511,
         "lon": -4.5097197,
         "reference": "GM/WS-010",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Carn Dearg",
@@ -309,7 +309,7 @@
         "lat": 56.8552108,
         "lon": -4.4547533,
         "reference": "GM/WS-038",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn a' Chlachair",
@@ -317,7 +317,7 @@
         "lat": 56.8695346,
         "lon": -4.5096351,
         "reference": "GM/WS-023",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Geal Chàrn",
@@ -325,7 +325,7 @@
         "lat": 56.8977787,
         "lon": -4.4571979,
         "reference": "GM/WS-031",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ben Alder",
@@ -333,7 +333,7 @@
         "lat": 56.8138162,
         "lon": -4.4650482,
         "reference": "GM/WS-009",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn Bheoil",
@@ -341,7 +341,7 @@
         "lat": 56.8132828,
         "lon": -4.4306878,
         "reference": "GM/WS-047",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Teallach",
@@ -349,7 +349,7 @@
         "lat": 56.935966,
         "lon": -4.6947333,
         "reference": "GM/CS-044",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn a' Chaorainn",
@@ -357,7 +357,7 @@
         "lat": 56.9286189,
         "lon": -4.6536391,
         "reference": "GM/CS-012",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ladhar Bheinn",
@@ -365,7 +365,7 @@
         "lat": 57.0752795,
         "lon": -5.591693,
         "reference": "GM/WS-046",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall Buidhe",
@@ -373,7 +373,7 @@
         "lat": 57.0315778,
         "lon": -5.5463111,
         "reference": "GM/WS-084",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Luinne Bheinn",
@@ -381,7 +381,7 @@
         "lat": 57.0490584,
         "lon": -5.5158336,
         "reference": "GM/WS-089",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr na Cìche",
@@ -389,7 +389,7 @@
         "lat": 57.0134604,
         "lon": -5.4569144,
         "reference": "GM/WS-034",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Garbh Chìoch Mhòr",
@@ -397,7 +397,7 @@
         "lat": 57.0086057,
         "lon": -5.4452584,
         "reference": "GM/WS-048",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr nan Coireachan",
@@ -405,7 +405,7 @@
         "lat": 57.0071498,
         "lon": -5.4047002,
         "reference": "GM/WS-082",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sròn a' Choire Ghairbh",
@@ -413,7 +413,7 @@
         "lat": 57.0078532,
         "lon": -4.9287093,
         "reference": "GM/WS-092",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Meall na Teanga",
@@ -421,7 +421,7 @@
         "lat": 56.9885015,
         "lon": -4.9309213,
         "reference": "GM/WS-102",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Aonach air Chrith",
@@ -429,7 +429,7 @@
         "lat": 57.124582,
         "lon": -5.221207,
         "reference": "GM/WS-045",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Creag nan Damh",
@@ -437,7 +437,7 @@
         "lat": 57.1472943,
         "lon": -5.3350112,
         "reference": "GM/WS-100",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr na Sgine",
@@ -445,7 +445,7 @@
         "lat": 57.1471139,
         "lon": -5.3966556,
         "reference": "GM/WS-085",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "The Saddle",
@@ -453,7 +453,7 @@
         "lat": 57.1618833,
         "lon": -5.4168361,
         "reference": "GM/WS-051",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr na Ciste Duibhe",
@@ -461,7 +461,7 @@
         "lat": 57.1808993,
         "lon": -5.3369692,
         "reference": "GM/WS-041",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr Fhuaran",
@@ -469,7 +469,7 @@
         "lat": 57.1961624,
         "lon": -5.3477879,
         "reference": "GM/WS-027",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr a' Bhealaich Dheirg",
@@ -477,7 +477,7 @@
         "lat": 57.1777734,
         "lon": -5.2521731,
         "reference": "GM/WS-035",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Aonach Meadhoin",
@@ -485,7 +485,7 @@
         "lat": 57.1730626,
         "lon": -5.2291914,
         "reference": "GM/WS-056",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ciste Dhubh",
@@ -493,7 +493,7 @@
         "lat": 57.1993049,
         "lon": -5.2089319,
         "reference": "GM/WS-070",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "A' Chràileag",
@@ -501,7 +501,7 @@
         "lat": 57.1842451,
         "lon": -5.1548481,
         "reference": "GM/WS-014",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Mullach Fraoch-choire",
@@ -509,7 +509,7 @@
         "lat": 57.205415,
         "lon": -5.1556206,
         "reference": "GM/WS-018",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Sgurr nan Conbhairean",
@@ -517,7 +517,7 @@
         "lat": 57.1776545,
         "lon": -5.0955332,
         "reference": "GM/WS-016",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Spidean Mialach",
@@ -525,7 +525,7 @@
         "lat": 57.0889535,
         "lon": -5.1935807,
         "reference": "GM/WS-060",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Gleouraich",
@@ -533,7 +533,7 @@
         "lat": 57.0971453,
         "lon": -5.2380576,
         "reference": "GM/WS-036",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Narnain",
@@ -541,7 +541,7 @@
         "lat": 56.2214527,
         "lon": -4.7893997,
         "reference": "GM/SS-016",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Vane",
@@ -549,7 +549,7 @@
         "lat": 56.249598,
         "lon": -4.7817629,
         "reference": "GM/SS-017",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Vorlich",
@@ -557,7 +557,7 @@
         "lat": 56.2740128,
         "lon": -4.7550724,
         "reference": "GM/SS-013",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Chabhair",
@@ -565,7 +565,7 @@
         "lat": 56.3257917,
         "lon": -4.6414315,
         "reference": "GM/SS-014",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "An Caisteal",
@@ -573,7 +573,7 @@
         "lat": 56.338553,
         "lon": -4.624489,
         "reference": "GM/SS-007",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Cruach Ardrain",
@@ -581,7 +581,7 @@
         "lat": 56.356454,
         "lon": -4.5761975,
         "reference": "GM/SS-004",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall nan Tarmachan",
@@ -589,7 +589,7 @@
         "lat": 56.5216505,
         "lon": -4.3014118,
         "reference": "GM/CS-015",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall a' Choire Leith",
@@ -597,7 +597,7 @@
         "lat": 56.5665404,
         "lon": -4.2598302,
         "reference": "GM/CS-041",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Meall Corranaich",
@@ -605,7 +605,7 @@
         "lat": 56.540809,
         "lon": -4.2534382,
         "reference": "GM/CS-010",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall Garbh",
@@ -613,7 +613,7 @@
         "lat": 56.5662633,
         "lon": -4.20755,
         "reference": "GM/CS-004",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Meall Greigh",
@@ -621,7 +621,7 @@
         "lat": 56.5674169,
         "lon": -4.1600857,
         "reference": "GM/CS-026",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgiath Chùil",
@@ -629,7 +629,7 @@
         "lat": 56.4529169,
         "lon": -4.4952835,
         "reference": "GM/CS-042",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Meall Glas",
@@ -637,7 +637,7 @@
         "lat": 56.4558528,
         "lon": -4.5466103,
         "reference": "GM/CS-033",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Creag Mhòr",
@@ -645,7 +645,7 @@
         "lat": 56.4893747,
         "lon": -4.6146576,
         "reference": "GM/CS-013",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Chaluim",
@@ -653,7 +653,7 @@
         "lat": 56.4546681,
         "lon": -4.6192551,
         "reference": "GM/CS-021",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Heasgarnich",
@@ -661,7 +661,7 @@
         "lat": 56.5102745,
         "lon": -4.57928,
         "reference": "GM/CS-007",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn a' Chreachain",
@@ -669,7 +669,7 @@
         "lat": 56.5603771,
         "lon": -4.6476241,
         "reference": "GM/CS-006",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Mhanach",
@@ -677,7 +677,7 @@
         "lat": 56.5340284,
         "lon": -4.6460457,
         "reference": "GM/CS-034",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Achaladair",
@@ -685,7 +685,7 @@
         "lat": 56.5516591,
         "lon": -4.6951314,
         "reference": "GM/CS-018",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ben Cruachan",
@@ -693,7 +693,7 @@
         "lat": 56.4267792,
         "lon": -5.1318182,
         "reference": "GM/WS-013",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Stob Binnein",
@@ -701,7 +701,7 @@
         "lat": 56.3707765,
         "lon": -4.5356275,
         "reference": "GM/SS-002",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Meall a' Bhùiridh",
@@ -709,7 +709,7 @@
         "lat": 56.6122677,
         "lon": -4.8521185,
         "reference": "GM/WS-017",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Creise",
@@ -717,7 +717,7 @@
         "lat": 56.6145149,
         "lon": -4.8719012,
         "reference": "GM/WS-019",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Stob a' Choire Odhair",
@@ -725,7 +725,7 @@
         "lat": 56.5732856,
         "lon": -4.8382091,
         "reference": "GM/WS-083",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stob Ghabhar",
@@ -733,7 +733,7 @@
         "lat": 56.5681385,
         "lon": -4.8821085,
         "reference": "GM/WS-022",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall nan Eun",
@@ -741,7 +741,7 @@
         "lat": 56.5611515,
         "lon": -4.942957,
         "reference": "GM/WS-094",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stob Coir'an Albannaich",
@@ -749,7 +749,7 @@
         "lat": 56.5548754,
         "lon": -4.9798427,
         "reference": "GM/WS-033",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Glas Bheinn Mhòr",
@@ -757,7 +757,7 @@
         "lat": 56.542419,
         "lon": -5.0053123,
         "reference": "GM/WS-059",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn nan Aighenan",
@@ -765,7 +765,7 @@
         "lat": 56.520166,
         "lon": -5.0111417,
         "reference": "GM/WS-076",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr a' Mhaoraich",
@@ -773,7 +773,7 @@
         "lat": 57.10558,
         "lon": -5.3303647,
         "reference": "GM/WS-040",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Gairich",
@@ -781,7 +781,7 @@
         "lat": 57.0448657,
         "lon": -5.2558304,
         "reference": "GM/WS-099",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Bidein a' Ghlas Thuill",
@@ -789,7 +789,7 @@
         "lat": 57.8071584,
         "lon": -5.2517207,
         "reference": "GM/NS-004",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr Bàn",
@@ -797,7 +797,7 @@
         "lat": 57.7185382,
         "lon": -5.2659286,
         "reference": "GM/NS-010",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Tarsuinn",
@@ -805,7 +805,7 @@
         "lat": 57.7019723,
         "lon": -5.2916583,
         "reference": "GM/NS-016",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ruadh-stac Mòr",
@@ -813,7 +813,7 @@
         "lat": 57.726839,
         "lon": -5.3293051,
         "reference": "GM/NS-021",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "A' Mhaighdean",
@@ -821,7 +821,7 @@
         "lat": 57.7196694,
         "lon": -5.346769,
         "reference": "GM/NS-013",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Hope",
@@ -829,7 +829,7 @@
         "lat": 58.4131317,
         "lon": -4.6079325,
         "reference": "GM/NS-020",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Klibreck",
@@ -837,7 +837,7 @@
         "lat": 58.2351515,
         "lon": -4.4112041,
         "reference": "GM/NS-014",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben More Assynt",
@@ -845,7 +845,7 @@
         "lat": 58.1381075,
         "lon": -4.8582516,
         "reference": "GM/NS-009",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Eididh nan Clach Geala",
@@ -853,7 +853,7 @@
         "lat": 57.81452,
         "lon": -4.9354762,
         "reference": "GM/NS-018",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Dearg",
@@ -861,7 +861,7 @@
         "lat": 57.786389,
         "lon": -4.9297686,
         "reference": "GM/NS-003",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Seana Bhràigh",
@@ -869,7 +869,7 @@
         "lat": 57.8473966,
         "lon": -4.8967898,
         "reference": "GM/NS-019",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Cona' Mheall",
@@ -877,7 +877,7 @@
         "lat": 57.7911105,
         "lon": -4.903421,
         "reference": "GM/NS-012",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Am Faochagach",
@@ -885,7 +885,7 @@
         "lat": 57.7717981,
         "lon": -4.8538839,
         "reference": "GM/NS-015",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Mullach Coire Mhic Fhearchair",
@@ -893,7 +893,7 @@
         "lat": 57.7090252,
         "lon": -5.271305,
         "reference": "GM/NS-006",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Slioch",
@@ -901,7 +901,7 @@
         "lat": 57.6670397,
         "lon": -5.3472667,
         "reference": "GM/NS-011",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ruadh-stac Mòr",
@@ -909,7 +909,7 @@
         "lat": 57.5937429,
         "lon": -5.4294363,
         "reference": "GM/WS-052",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Spidean Coire nan Clach",
@@ -917,7 +917,7 @@
         "lat": 57.58216,
         "lon": -5.4036409,
         "reference": "GM/WS-063",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Fionn Bheinn",
@@ -925,7 +925,7 @@
         "lat": 57.611135,
         "lon": -5.1027016,
         "reference": "GM/NS-017",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Mòr",
@@ -933,7 +933,7 @@
         "lat": 57.5908139,
         "lon": -5.5728028,
         "reference": "GM/WS-068",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Tom na Gruagaich",
@@ -941,7 +941,7 @@
         "lat": 57.580525,
         "lon": -5.5819472,
         "reference": "GM/WS-098",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgorr Ruadh",
@@ -949,7 +949,7 @@
         "lat": 57.4986653,
         "lon": -5.4078179,
         "reference": "GM/WS-077",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Liath Mhòr",
@@ -957,7 +957,7 @@
         "lat": 57.5120656,
         "lon": -5.4006515,
         "reference": "GM/WS-097",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Maol Chean-dearg",
@@ -965,7 +965,7 @@
         "lat": 57.4918824,
         "lon": -5.4655696,
         "reference": "GM/WS-093",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Mòr",
@@ -973,7 +973,7 @@
         "lat": 57.7001002,
         "lon": -5.0168076,
         "reference": "GM/NS-001",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Sgùrr nan Clach Geala",
@@ -981,7 +981,7 @@
         "lat": 57.6963241,
         "lon": -5.0482628,
         "reference": "GM/NS-002",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr Breac",
@@ -989,7 +989,7 @@
         "lat": 57.692119,
         "lon": -5.091612,
         "reference": "GM/NS-007",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "A' Chailleach",
@@ -997,7 +997,7 @@
         "lat": 57.6938037,
         "lon": -5.1286657,
         "reference": "GM/NS-008",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Wyvis - Glas Leathad Mòr",
@@ -1005,7 +1005,7 @@
         "lat": 57.678984,
         "lon": -4.5792334,
         "reference": "GM/NS-005",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Mòruisg",
@@ -1013,7 +1013,7 @@
         "lat": 57.499707,
         "lon": -5.1706291,
         "reference": "GM/WS-095",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgurr a' Chaorachain",
@@ -1021,7 +1021,7 @@
         "lat": 57.4525536,
         "lon": -5.189321,
         "reference": "GM/WS-030",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Lurg Mhor",
@@ -1029,7 +1029,7 @@
         "lat": 57.4130905,
         "lon": -5.2236546,
         "reference": "GM/WS-067",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Bidein a' Choire Sheasgaich",
@@ -1037,7 +1037,7 @@
         "lat": 57.4198091,
         "lon": -5.2503147,
         "reference": "GM/WS-086",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr a' Choire Ghlais",
@@ -1045,7 +1045,7 @@
         "lat": 57.4435136,
         "lon": -4.9026573,
         "reference": "GM/WS-024",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn nan Gobhar",
@@ -1053,7 +1053,7 @@
         "lat": 57.363321,
         "lon": -5.0244447,
         "reference": "GM/WS-064",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "An Riabhachan",
@@ -1061,7 +1061,7 @@
         "lat": 57.362434,
         "lon": -5.1047124,
         "reference": "GM/WS-012",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "An Socach",
@@ -1069,7 +1069,7 @@
         "lat": 57.3502275,
         "lon": -5.1586027,
         "reference": "GM/WS-026",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Toll Creagach",
@@ -1077,7 +1077,7 @@
         "lat": 57.3091597,
         "lon": -4.9996048,
         "reference": "GM/WS-029",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Fhionnlaidh",
@@ -1085,7 +1085,7 @@
         "lat": 57.3060187,
         "lon": -5.1299537,
         "reference": "GM/WS-054",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn Eige",
@@ -1093,7 +1093,7 @@
         "lat": 57.2877134,
         "lon": -5.1151552,
         "reference": "GM/WS-004",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Sgùrr nan Ceathreamhnan",
@@ -1101,7 +1101,7 @@
         "lat": 57.2549265,
         "lon": -5.2227914,
         "reference": "GM/WS-006",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn Sgritheall",
@@ -1109,7 +1109,7 @@
         "lat": 57.1537644,
         "lon": -5.5796405,
         "reference": "GM/WS-073",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Fhada",
@@ -1117,7 +1117,7 @@
         "lat": 57.2200335,
         "lon": -5.2858298,
         "reference": "GM/WS-039",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "A' Ghlas-bheinn",
@@ -1125,7 +1125,7 @@
         "lat": 57.2551949,
         "lon": -5.3039473,
         "reference": "GM/WS-101",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Mòr",
@@ -1133,7 +1133,7 @@
         "lat": 57.0283321,
         "lon": -5.3548089,
         "reference": "GM/WS-055",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Creag Mèagaidh",
@@ -1141,7 +1141,7 @@
         "lat": 56.9520202,
         "lon": -4.6020609,
         "reference": "GM/CS-002",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Càrn Dearg",
@@ -1149,7 +1149,7 @@
         "lat": 57.0922774,
         "lon": -4.2532734,
         "reference": "GM/CS-037",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Carn na Caim",
@@ -1157,7 +1157,7 @@
         "lat": 56.9117275,
         "lon": -4.1744938,
         "reference": "GM/CS-039",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Geal-charn",
@@ -1165,7 +1165,7 @@
         "lat": 56.8744778,
         "lon": -4.3045125,
         "reference": "GM/CS-043",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgairneach Mhòr",
@@ -1173,7 +1173,7 @@
         "lat": 56.8285485,
         "lon": -4.2976799,
         "reference": "GM/CS-028",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Udlamain",
@@ -1181,7 +1181,7 @@
         "lat": 56.8355106,
         "lon": -4.3298994,
         "reference": "GM/CS-022",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall Chuaich",
@@ -1189,7 +1189,7 @@
         "lat": 56.9638804,
         "lon": -4.1125561,
         "reference": "GM/CS-035",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Schiehallion",
@@ -1197,7 +1197,7 @@
         "lat": 56.6669296,
         "lon": -4.1003003,
         "reference": "GM/CS-005",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn Mairg",
@@ -1205,7 +1205,7 @@
         "lat": 56.6346219,
         "lon": -4.1457221,
         "reference": "GM/CS-016",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn Gorm",
@@ -1213,7 +1213,7 @@
         "lat": 56.6225105,
         "lon": -4.2260469,
         "reference": "GM/CS-019",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Meall Buidhe",
@@ -1221,7 +1221,7 @@
         "lat": 56.6172527,
         "lon": -4.4485826,
         "reference": "GM/CS-040",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Stuchd an Lochain",
@@ -1229,7 +1229,7 @@
         "lat": 56.5709447,
         "lon": -4.4706313,
         "reference": "GM/CS-032",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Meall Ghaordaidh",
@@ -1237,7 +1237,7 @@
         "lat": 56.5258317,
         "lon": -4.4166752,
         "reference": "GM/CS-017",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Bidean nam Bian",
@@ -1245,7 +1245,7 @@
         "lat": 56.6427446,
         "lon": -5.0293346,
         "reference": "GM/WS-007",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn a' Chaorainn",
@@ -1253,7 +1253,7 @@
         "lat": 57.0933285,
         "lon": -3.5775874,
         "reference": "GM/ES-011",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn a' Mhàim",
@@ -1261,7 +1261,7 @@
         "lat": 57.0368749,
         "lon": -3.658387,
         "reference": "GM/ES-013",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Mheadhoin",
@@ -1269,7 +1269,7 @@
         "lat": 57.0959339,
         "lon": -3.611476,
         "reference": "GM/ES-005",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn Dearg",
@@ -1277,7 +1277,7 @@
         "lat": 56.877167,
         "lon": -3.883492,
         "reference": "GM/CS-023",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Carn Liath",
@@ -1285,7 +1285,7 @@
         "lat": 56.8077815,
         "lon": -3.7441007,
         "reference": "GM/CS-029",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Braigh Coire Chruinn-bhalgain",
@@ -1293,7 +1293,7 @@
         "lat": 56.831175,
         "lon": -3.7297152,
         "reference": "GM/CS-009",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn nan Gabhar",
@@ -1301,7 +1301,7 @@
         "lat": 56.8398164,
         "lon": -3.6880561,
         "reference": "GM/CS-003",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Càrn a' Chlamain",
@@ -1309,7 +1309,7 @@
         "lat": 56.8609677,
         "lon": -3.7795988,
         "reference": "GM/CS-031",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "An Sgarsoch",
@@ -1317,7 +1317,7 @@
         "lat": 56.9319217,
         "lon": -3.7544005,
         "reference": "GM/CS-024",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn an Rìgh",
@@ -1325,7 +1325,7 @@
         "lat": 56.8766246,
         "lon": -3.595265,
         "reference": "GM/CS-020",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Iutharn Mhòr",
@@ -1333,7 +1333,7 @@
         "lat": 56.8949697,
         "lon": -3.5682547,
         "reference": "GM/CS-014",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Glas Tulaichean",
@@ -1341,7 +1341,7 @@
         "lat": 56.865824,
         "lon": -3.5582405,
         "reference": "GM/CS-011",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Càrn Bhac",
@@ -1349,7 +1349,7 @@
         "lat": 56.9304958,
         "lon": -3.5608388,
         "reference": "GM/CS-036",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "An Socach",
@@ -1357,7 +1357,7 @@
         "lat": 56.9020207,
         "lon": -3.5125139,
         "reference": "GM/CS-038",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Càrn a' Gheòidh",
@@ -1365,7 +1365,7 @@
         "lat": 56.8731034,
         "lon": -3.4666941,
         "reference": "GM/CS-030",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Cac Càrn Beag",
@@ -1373,7 +1373,7 @@
         "lat": 56.9602412,
         "lon": -3.245265,
         "reference": "GM/ES-008",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Glas Maol",
@@ -1381,7 +1381,7 @@
         "lat": 56.8730662,
         "lon": -3.3684917,
         "reference": "GM/ES-012",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Mount Keen",
@@ -1389,7 +1389,7 @@
         "lat": 56.9698428,
         "lon": -2.9736153,
         "reference": "GM/ES-014",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Bhrotain",
@@ -1397,7 +1397,7 @@
         "lat": 57.0098569,
         "lon": -3.7237921,
         "reference": "GM/ES-007",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Carn Dearg",
@@ -1405,7 +1405,7 @@
         "lat": 56.7599346,
         "lon": -4.5899198,
         "reference": "GM/WS-088",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn na Lap",
@@ -1413,7 +1413,7 @@
         "lat": 56.7893938,
         "lon": -4.6599843,
         "reference": "GM/WS-091",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Starav",
@@ -1421,7 +1421,7 @@
         "lat": 56.5389171,
         "lon": -5.0498001,
         "reference": "GM/WS-025",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Blà Bheinn",
@@ -1429,7 +1429,7 @@
         "lat": 57.2195711,
         "lon": -6.0931604,
         "reference": "GM/SI-005",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Ben Oss",
@@ -1437,7 +1437,7 @@
         "lat": 56.3893211,
         "lon": -4.7754019,
         "reference": "GM/SS-005",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Dubhchraig",
@@ -1445,7 +1445,7 @@
         "lat": 56.3913389,
         "lon": -4.7432864,
         "reference": "GM/SS-009",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgor Gaoith",
@@ -1453,7 +1453,7 @@
         "lat": 57.0685891,
         "lon": -3.8109296,
         "reference": "GM/ES-009",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Bynack More",
@@ -1461,7 +1461,7 @@
         "lat": 57.1378224,
         "lon": -3.5847763,
         "reference": "GM/ES-010",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr nan Gillean",
@@ -1469,7 +1469,7 @@
         "lat": 57.2482537,
         "lon": -6.1930475,
         "reference": "GM/SI-004",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "The Inaccessible Pinnacle",
@@ -1477,7 +1477,7 @@
         "lat": 57.213275,
         "lon": -6.2347013,
         "reference": "GM/SI-002",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr Alasdair",
@@ -1485,7 +1485,7 @@
         "lat": 57.2067026,
         "lon": -6.2237372,
         "reference": "GM/SI-001",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgòr Gaibhre",
@@ -1493,7 +1493,7 @@
         "lat": 56.7725874,
         "lon": -4.5464845,
         "reference": "GM/WS-081",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Spidean a' Choire Leith",
@@ -1501,7 +1501,7 @@
         "lat": 57.5642151,
         "lon": -5.4636172,
         "reference": "GM/WS-028",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Mullach an Rathain",
@@ -1509,7 +1509,7 @@
         "lat": 57.5609005,
         "lon": -5.4924941,
         "reference": "GM/WS-043",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Sgùrr a' Mhàim",
@@ -1517,7 +1517,7 @@
         "lat": 56.7559529,
         "lon": -5.0035929,
         "reference": "GM/WS-020",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Beinn Bhuidhe",
@@ -1525,7 +1525,7 @@
         "lat": 56.3266908,
         "lon": -4.9067779,
         "reference": "GM/SS-012",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Càrn an Fhidhleir",
@@ -1533,7 +1533,7 @@
         "lat": 56.9358843,
         "lon": -3.8017043,
         "reference": "GM/CS-027",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr an Doire Leathain",
@@ -1541,7 +1541,7 @@
         "lat": 57.1368867,
         "lon": -5.2815316,
         "reference": "GM/WS-050",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Ben More",
@@ -1549,7 +1549,7 @@
         "lat": 56.4248294,
         "lon": -6.01404,
         "reference": "GM/SI-003",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Leabaidh an Daimh Bhuidhe",
@@ -1557,7 +1557,7 @@
         "lat": 57.0993391,
         "lon": -3.4344285,
         "reference": "GM/ES-006",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Sgurr na Ruaidhe",
@@ -1565,7 +1565,7 @@
         "lat": 57.4415491,
         "lon": -4.8524614,
         "reference": "GM/WS-062",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Sgùrr na Lapaich",
@@ -1573,7 +1573,7 @@
         "lat": 57.3692815,
         "lon": -5.0600239,
         "reference": "GM/WS-008",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Ben Vorlich",
@@ -1581,7 +1581,7 @@
         "lat": 56.3426698,
         "lon": -4.2194664,
         "reference": "GM/SS-008",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn Ìme",
@@ -1589,7 +1589,7 @@
         "lat": 56.2368829,
         "lon": -4.8167629,
         "reference": "GM/SS-006",
-        "points": "8"
+        "points": 8
     },
     {
         "name": "Binnein Beag",
@@ -1597,7 +1597,7 @@
         "lat": 56.7669772,
         "lon": -4.9110831,
         "reference": "GM/WS-087",
-        "points": "6"
+        "points": 6
     },
     {
         "name": "Beinn a' Bhùird North Top",
@@ -1605,7 +1605,7 @@
         "lat": 57.0876067,
         "lon": -3.4994129,
         "reference": "GM/ES-004",
-        "points": "10"
+        "points": 10
     },
     {
         "name": "Beinn a' Chochuill",
@@ -1613,6 +1613,6 @@
         "lat": 56.4498628,
         "lon": -5.0694072,
         "reference": "GM/WS-071",
-        "points": "6"
+        "points": 6
     }
 ]

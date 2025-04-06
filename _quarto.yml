@@ -27,6 +27,10 @@ website:
       - text: "Logbook"
         href: https://log.gm5alx.uk/visitor/gm5alx
         target: _blank
+      - text: "References"
+        menu:
+          - text: "Cairngorms SOTA Summit"
+            href: lists/cairngorms/index.qmd
 
     right:
       - icon: rss-fill

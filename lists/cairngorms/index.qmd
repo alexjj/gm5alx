@@ -1,5 +1,5 @@
 ---
-title: SOTA Munros
+title: Cairngorms National Park SOTA Summits
 format:
   html:
     css:
@@ -8,7 +8,6 @@ execute:
   echo: false
 ---
 
-## Map View
 
 ```{ojs}
 L = require('leaflet@1.9.4')
@@ -59,7 +58,7 @@ map = {
 
 ```
 
-## Summit List
+
 
 | Reference | Name                                 | Height (m) | OS Grid Reference | Points |
 |-----------|--------------------------------------|------------|-------------------|--------|

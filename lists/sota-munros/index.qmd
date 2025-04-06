@@ -53,5 +53,17 @@ map = {
 ```
 
 ```{ojs}
-Inputs.table(summits, { sort: "Elevation", reverse: true })
+Inputs.table(summits, { columns: [
+  "name",
+  "Elevation",
+  "reference",
+  "points"
+],
+  header: {
+    name: "Name",
+    Elevation: "Height (m)",
+    reference: "SOTA Reference",
+    points: "Points"
+  }
+  sort: "Elevation", reverse: true })
 ```

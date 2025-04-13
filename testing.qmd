@@ -24,9 +24,23 @@ activations = await d3.json(
 ## GM5ALX
 
 ```{ojs}
-Inputs.table(data, { sort: "ActivationDate", reverse: true })
+d3 = require('d3')
+
+data = await d3.json("https://api-db2.sota.org.uk/logs/activator/94131/99999/0")
+
+  tableData = data.map(d => ({
+    Date: new Date(d.ActivationDate),
+    Summit: d.Summit,
+    Points: d.Points + d.BonusPoints,
+    QSOs: d.QSOs,
+    Total: d.Total
+  }));
+```
+
+```{ojs}
+Inputs.table(tableData, { sort: "Date", reverse: true })
 ```
 
 ## SOTA Activations
 
-<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="600" width="100%"></iframe>
+<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="900" width="100%"></iframe>

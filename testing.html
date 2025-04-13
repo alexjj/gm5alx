@@ -231,9 +231,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="gm5alx" class="level2">
 <h2 class="anchored" data-anchor-id="gm5alx">GM5ALX</h2>
 <div class="cell">
-<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="26" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 25;"><span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(data<span class="op">,</span> { <span class="dt">sort</span><span class="op">:</span> <span class="st">"ActivationDate"</span><span class="op">,</span> <span class="dt">reverse</span><span class="op">:</span> <span class="kw">true</span> })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code hidden" id="cb2" data-startfrom="27" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">'d3'</span>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="cf">await</span> d3<span class="op">.</span><span class="fu">json</span>(<span class="st">"https://api-db2.sota.org.uk/logs/activator/94131/99999/0"</span>)</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>  tableData <span class="op">=</span> data<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Date</span><span class="op">:</span> <span class="kw">new</span> <span class="bu">Date</span>(d<span class="op">.</span><span class="at">ActivationDate</span>)<span class="op">,</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Summit</span><span class="op">:</span> d<span class="op">.</span><span class="at">Summit</span><span class="op">,</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Points</span><span class="op">:</span> d<span class="op">.</span><span class="at">Points</span> <span class="op">+</span> d<span class="op">.</span><span class="at">BonusPoints</span><span class="op">,</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    <span class="dt">QSOs</span><span class="op">:</span> d<span class="op">.</span><span class="at">QSOs</span><span class="op">,</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    <span class="dt">Total</span><span class="op">:</span> d<span class="op">.</span><span class="at">Total</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>  }))<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="expression">
+<div>
+<div id="ojs-cell-2-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-2-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code hidden" id="cb3" data-startfrom="40" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 39;"><span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(tableData<span class="op">,</span> { <span class="dt">sort</span><span class="op">:</span> <span class="st">"Date"</span><span class="op">,</span> <span class="dt">reverse</span><span class="op">:</span> <span class="kw">true</span> })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div id="ojs-cell-3" data-nodetype="expression">
 
 </div>
 </div>
@@ -241,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="sota-activations" class="level2">
 <h2 class="anchored" data-anchor-id="sota-activations">SOTA Activations</h2>
-<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="600" width="100%">
+<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="900" width="100%">
 </iframe>
 
 
@@ -249,7 +283,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIyLnNvdGEub3JnLnVrL2xvZ3MvYWN0aXZhdG9yLzk0MTMxLzk5OTk5LzBcIlxuKVxuXG4gIGRhdGEgPSBhY3RpdmF0aW9ucy5tYXAoZCA9PiAoe1xuICAgIEFjdGl2YXRpb25EYXRlOiBuZXcgRGF0ZShkLkFjdGl2YXRpb25EYXRlKSxcbiAgICBUb3RhbDogK2QuVG90YWxcbiAgfSkpO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLnRhYmxlKGRhdGEsIHsgc29ydDogXCJBY3RpdmF0aW9uRGF0ZVwiLCByZXZlcnNlOiB0cnVlIH0pXG4ifV19
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIyLnNvdGEub3JnLnVrL2xvZ3MvYWN0aXZhdG9yLzk0MTMxLzk5OTk5LzBcIlxuKVxuXG4gIGRhdGEgPSBhY3RpdmF0aW9ucy5tYXAoZCA9PiAoe1xuICAgIEFjdGl2YXRpb25EYXRlOiBuZXcgRGF0ZShkLkFjdGl2YXRpb25EYXRlKSxcbiAgICBUb3RhbDogK2QuVG90YWxcbiAgfSkpO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiZDMgPSByZXF1aXJlKCdkMycpXG5cbmRhdGEgPSBhd2FpdCBkMy5qc29uKFwiaHR0cHM6Ly9hcGktZGIyLnNvdGEub3JnLnVrL2xvZ3MvYWN0aXZhdG9yLzk0MTMxLzk5OTk5LzBcIilcblxuICB0YWJsZURhdGEgPSBkYXRhLm1hcChkID0+ICh7XG4gICAgRGF0ZTogbmV3IERhdGUoZC5BY3RpdmF0aW9uRGF0ZSksXG4gICAgU3VtbWl0OiBkLlN1bW1pdCxcbiAgICBQb2ludHM6IGQuUG9pbnRzICsgZC5Cb251c1BvaW50cyxcbiAgICBRU09zOiBkLlFTT3MsXG4gICAgVG90YWw6IGQuVG90YWxcbiAgfSkpO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0zIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLnRhYmxlKHRhYmxlRGF0YSwgeyBzb3J0OiBcIkRhdGVcIiwgcmV2ZXJzZTogdHJ1ZSB9KVxuIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

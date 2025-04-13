@@ -11,7 +11,7 @@
     "href": "testing.html#gm5alx",
     "title": "SOTA Testing Page",
     "section": "GM5ALX",
-    "text": "GM5ALX\n\nInputs.table(data, { sort: \"ActivationDate\", reverse: true })"
+    "text": "GM5ALX\n\nd3 = require('d3')\n\ndata = await d3.json(\"https://api-db2.sota.org.uk/logs/activator/94131/99999/0\")\n\n  tableData = data.map(d =&gt; ({\n    Date: new Date(d.ActivationDate),\n    Summit: d.Summit,\n    Points: d.Points + d.BonusPoints,\n    QSOs: d.QSOs,\n    Total: d.Total\n  }));\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInputs.table(tableData, { sort: \"Date\", reverse: true })"
   },
   {
     "objectID": "testing.html#sota-activations",

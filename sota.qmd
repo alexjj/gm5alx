@@ -6,7 +6,7 @@ listing:
   type: table
   categories: false
   page-size: 100
-  sort-ui: true
+  sort-ui: false
   filter-ui: true
   feed: false
   fields: [date, title, summit, qsos, points, total]
@@ -21,7 +21,7 @@ listing:
 page-layout: article
 title-block-banner: false
 search: false
-date-format: "Do MMM 'YY"
+date-format: "Do MMM YYYY"
 ---
 
 Here is a list of all my SOTA activations with links to information about them.

@@ -55,7 +55,7 @@ map = {
 ### List
 
 ```{ojs}
-Inputs.table(summits, { columns: [
+Inputs.table(summits, {height: 600}, { columns: [
   "name",
   "Elevation",
   "reference",

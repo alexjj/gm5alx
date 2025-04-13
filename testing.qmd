@@ -12,7 +12,7 @@ Testing out pulling SOTA data...
 d3 = require('d3')
 
 activations = await d3.json(
-  "https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&id=46844"
+  "https://api-db2.sota.org.uk/logs/activator/94131/99999/0"
 )
 
   data = activations.map(d => ({
@@ -21,28 +21,12 @@ activations = await d3.json(
   }));
 ```
 
-## MM0EFI
+## GM5ALX
 
 ```{ojs}
 Inputs.table(data, { sort: "ActivationDate", reverse: true })
 ```
 
+## SOTA Activations
 
-## OQRS
-
-<iframe name="iframe" src="https://log.gm5alx.uk/widgets/oqrs/gm5alx" height="220" width="670" frameborder="0"></iframe>
-
-
-## Cairngorm Climbers' Award
-
-<iframe
-  src="https://cairngorms.streamlit.app?embed=true"
-  style="height: 450px; width: 100%;"
-></iframe>
-
-## wen goat? 🐐
-
-<iframe
-  src="https://wengoat.streamlit.app?embed=true"
-  style="height: 900px; width: 100%;"
-></iframe>
+<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="300" width="100%"></iframe>

@@ -4,35 +4,21 @@
     "href": "testing.html",
     "title": "SOTA Testing Page",
     "section": "",
-    "text": "Testing out pulling SOTA data…\nd3 = require('d3')\n\nactivations = await d3.json(\n  \"https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&id=46844\"\n)\n\n  data = activations.map(d =&gt; ({\n    ActivationDate: new Date(d.ActivationDate),\n    Total: +d.Total\n  }));"
+    "text": "Testing out pulling SOTA data…\nd3 = require('d3')\n\nactivations = await d3.json(\n  \"https://api-db2.sota.org.uk/logs/activator/94131/99999/0\"\n)\n\n  data = activations.map(d =&gt; ({\n    ActivationDate: new Date(d.ActivationDate),\n    Total: +d.Total\n  }));"
   },
   {
-    "objectID": "testing.html#mm0efi",
-    "href": "testing.html#mm0efi",
+    "objectID": "testing.html#gm5alx",
+    "href": "testing.html#gm5alx",
     "title": "SOTA Testing Page",
-    "section": "MM0EFI",
-    "text": "MM0EFI\n\nInputs.table(data, { sort: \"ActivationDate\", reverse: true })"
+    "section": "GM5ALX",
+    "text": "GM5ALX\n\nInputs.table(data, { sort: \"ActivationDate\", reverse: true })"
   },
   {
-    "objectID": "testing.html#oqrs",
-    "href": "testing.html#oqrs",
+    "objectID": "testing.html#sota-activations",
+    "href": "testing.html#sota-activations",
     "title": "SOTA Testing Page",
-    "section": "OQRS",
-    "text": "OQRS"
-  },
-  {
-    "objectID": "testing.html#cairngorm-climbers-award",
-    "href": "testing.html#cairngorm-climbers-award",
-    "title": "SOTA Testing Page",
-    "section": "Cairngorm Climbers’ Award",
-    "text": "Cairngorm Climbers’ Award"
-  },
-  {
-    "objectID": "testing.html#wen-goat",
-    "href": "testing.html#wen-goat",
-    "title": "SOTA Testing Page",
-    "section": "wen goat? 🐐",
-    "text": "wen goat? 🐐"
+    "section": "SOTA Activations",
+    "text": "SOTA Activations"
   },
   {
     "objectID": "posts/2023/first-attempts-at-leo/index.html",

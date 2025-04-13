@@ -199,7 +199,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code hidden" id="cb1" data-startfrom="12" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 11;"><span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">'d3'</span>)</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>activations <span class="op">=</span> <span class="cf">await</span> d3<span class="op">.</span><span class="fu">json</span>(</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://api-db.sota.org.uk/admin/activator_log_by_id?year=all&amp;id=46844"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="st">"https://api-db2.sota.org.uk/logs/activator/94131/99999/0"</span></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>)</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  data <span class="op">=</span> activations<span class="op">.</span><span class="fu">map</span>(d <span class="kw">=&gt;</span> ({</span>
@@ -228,8 +228,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<section id="mm0efi" class="level2">
-<h2 class="anchored" data-anchor-id="mm0efi">MM0EFI</h2>
+<section id="gm5alx" class="level2">
+<h2 class="anchored" data-anchor-id="gm5alx">GM5ALX</h2>
 <div class="cell">
 <div class="sourceCode cell-code hidden" id="cb2" data-startfrom="26" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 25;"><span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>Inputs<span class="op">.</span><span class="fu">table</span>(data<span class="op">,</span> { <span class="dt">sort</span><span class="op">:</span> <span class="st">"ActivationDate"</span><span class="op">,</span> <span class="dt">reverse</span><span class="op">:</span> <span class="kw">true</span> })</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
@@ -239,19 +239,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </section>
-<section id="oqrs" class="level2">
-<h2 class="anchored" data-anchor-id="oqrs">OQRS</h2>
-<iframe name="iframe" src="https://log.gm5alx.uk/widgets/oqrs/gm5alx" height="220" width="670" frameborder="0">
-</iframe>
-</section>
-<section id="cairngorm-climbers-award" class="level2">
-<h2 class="anchored" data-anchor-id="cairngorm-climbers-award">Cairngorm Climbers’ Award</h2>
-<iframe src="https://cairngorms.streamlit.app?embed=true" style="height: 450px; width: 100%;">
-</iframe>
-</section>
-<section id="wen-goat" class="level2">
-<h2 class="anchored" data-anchor-id="wen-goat">wen goat? 🐐</h2>
-<iframe src="https://wengoat.streamlit.app?embed=true" style="height: 900px; width: 100%;">
+<section id="sota-activations" class="level2">
+<h2 class="anchored" data-anchor-id="sota-activations">SOTA Activations</h2>
+<iframe frameborder="0" scrolling="yes" src="https://neon1.net/sota/myact/?c=GM5ALX&amp;l=0&amp;w=1&amp;h=1&amp;m=1&amp;p=1&amp;t=1" height="300" width="100%">
 </iframe>
 
 
@@ -259,7 +249,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIuc290YS5vcmcudWsvYWRtaW4vYWN0aXZhdG9yX2xvZ19ieV9pZD95ZWFyPWFsbCZpZD00Njg0NFwiXG4pXG5cbiAgZGF0YSA9IGFjdGl2YXRpb25zLm1hcChkID0+ICh7XG4gICAgQWN0aXZhdGlvbkRhdGU6IG5ldyBEYXRlKGQuQWN0aXZhdGlvbkRhdGUpLFxuICAgIFRvdGFsOiArZC5Ub3RhbFxuICB9KSk7XG4ifSx7Im1ldGhvZE5hbWUiOiJpbnRlcnByZXQiLCJjZWxsTmFtZSI6Im9qcy1jZWxsLTIiLCJpbmxpbmUiOmZhbHNlLCJzb3VyY2UiOiJJbnB1dHMudGFibGUoZGF0YSwgeyBzb3J0OiBcIkFjdGl2YXRpb25EYXRlXCIsIHJldmVyc2U6IHRydWUgfSlcbiJ9XX0=
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6ImQzID0gcmVxdWlyZSgnZDMnKVxuXG5hY3RpdmF0aW9ucyA9IGF3YWl0IGQzLmpzb24oXG4gIFwiaHR0cHM6Ly9hcGktZGIyLnNvdGEub3JnLnVrL2xvZ3MvYWN0aXZhdG9yLzk0MTMxLzk5OTk5LzBcIlxuKVxuXG4gIGRhdGEgPSBhY3RpdmF0aW9ucy5tYXAoZCA9PiAoe1xuICAgIEFjdGl2YXRpb25EYXRlOiBuZXcgRGF0ZShkLkFjdGl2YXRpb25EYXRlKSxcbiAgICBUb3RhbDogK2QuVG90YWxcbiAgfSkpO1xuIn0seyJtZXRob2ROYW1lIjoiaW50ZXJwcmV0IiwiY2VsbE5hbWUiOiJvanMtY2VsbC0yIiwiaW5saW5lIjpmYWxzZSwic291cmNlIjoiSW5wdXRzLnRhYmxlKGRhdGEsIHsgc29ydDogXCJBY3RpdmF0aW9uRGF0ZVwiLCByZXZlcnNlOiB0cnVlIH0pXG4ifV19
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

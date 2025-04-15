@@ -25,7 +25,7 @@ website:
       - text: "SOTA Activations"
         href: sota.qmd
       - text: "Logbook"
-        href: https://log.gm5alx.uk/visitor/gm5alx
+        href: https://log.gm5alx.uk/visitor/sota
         target: _blank
       - text: "References"
         menu:

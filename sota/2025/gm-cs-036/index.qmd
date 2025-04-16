@@ -7,7 +7,6 @@ date: 2025-04-02 08:00:00
 qsos: 7
 total: 401
 summit: "GM/CS-036"
-draft: true
 ---
 
 I wrote a funny piece on the [reflector](https://reflector.sota.org.uk/t/unencrypted-transmissions-from-the-five-eys/37816) about this trip. You should read that too.

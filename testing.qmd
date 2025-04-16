@@ -7,20 +7,6 @@ execute:
 
 Testing out pulling SOTA data...
 
-
-```{ojs}
-d3 = require('d3')
-
-activations = await d3.json(
-  "https://api-db2.sota.org.uk/logs/activator/94131/99999/0"
-)
-
-  data = activations.map(d => ({
-    ActivationDate: new Date(d.ActivationDate),
-    Total: +d.Total
-  }));
-```
-
 ## GM5ALX
 
 ```{ojs}

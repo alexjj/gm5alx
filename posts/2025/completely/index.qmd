@@ -1,0 +1,11 @@
+---
+title: "Completely SOTA Summits 💯"
+date: 2025-02-25
+subtitle: "More Apps"
+categories: ["sota", "programming"]
+image: thumb.png
+toc: false
+draft: true
+---
+
+After an interesting thread on the SOTA forums, I had an idea for another app!

@@ -1,0 +1,53 @@
+---
+title: Carn Bhac
+subtitle: Early start for the big day
+image: "summit-pic.jpg"
+points: 6
+date: 2025-04-02 08:00:00
+qsos: 7
+total: 401
+summit: "GM/CS-036"
+draft: true
+---
+
+I wrote a funny piece on the [reflector](https://reflector.sota.org.uk/t/unencrypted-transmissions-from-the-five-eys/37816) about this trip. You should read that too.
+
+![An early start](glen-ey-53.jpg)
+
+The weather ended up being spectacular for all of the school holidays, and I didn't want to miss out on using it - both the weather and the holidays, so I took the Wednesday off and asked Fraser if he wanted to go out. I wasn't quite sure where I wanted to go, I've got Cairn Toul and Braeriach still to do, and that's a big day out, but I also wanted to maximise points and ended up picking an even bigger day out! The Glen Ey 5 munros.
+
+![The route - 40km](route.jpg)
+
+I left home about 4:30am to meet Fraser on the way, and travel with him to the start at Inverey. First part of the route was a 9km cycle ride, and then climb up to the first summit. Probably this and the next four summit reports will be mostly pictures and minimal text!
+
+![Looking back at Derry Cairngorm](glen-ey-52.jpg)
+
+![Summit #2 in front, Beinn Iutharn Mhor](glen-ey-51.jpg)
+
+![](glen-ey-49.jpg)
+
+![](glen-ey-50.jpg)
+
+![](glen-ey-48.jpg)
+
+![](glen-ey-47.jpg)
+
+![](glen-ey-46.jpg)
+
+![](glen-ey-45.jpg)
+
+![](glen-ey-44.jpg)
+
+![Ben Macdui, Cairn Toul, Sgor Mor and others](glen-ey-43.jpg)
+
+![](glen-ey-42.jpg)
+
+![](glen-ey-41.jpg)
+
+![](glen-ey-40.jpg)
+
+![Beinn a'Ghlo](glen-ey-39.jpg)
+
+![Station](glen-ey-38.jpg)
+
+On to the next summit - [Beinn Iutharn Mhor!](https://gm5alx.uk/sota/2025/gm-cs-014/)

@@ -1,5 +1,5 @@
 ---
-title: Meall a'Bhuachaille
+title: "Meall a'Bhuachaille"
 subtitle: Plus a long cycle from Aviemore
 image: "meall-a-bh-2.jpg"
 points: 4

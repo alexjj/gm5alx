@@ -1,7 +1,7 @@
 ---
 title: Meall a'Bhuachaille
 subtitle: Plus a long cycle from Aviemore
-image: "thumb.jpg"
+image: "meall-a-bh-2.jpg"
 points: 4
 date: 2025-04-08 15:00:00
 qsos: 14

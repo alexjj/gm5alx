@@ -1,0 +1,11 @@
+---
+title: Meall a'Bhuachaille
+subtitle: Plus a long cycle from Aviemore
+image: "thumb.jpg"
+points: 4
+date: 2025-04-08 15:00:00
+qsos: 14
+total: 436
+summit: "GM/ES-027"
+draft: true
+---

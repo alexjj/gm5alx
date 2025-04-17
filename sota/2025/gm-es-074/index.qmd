@@ -1,0 +1,11 @@
+---
+title: Ord Ban
+subtitle: Mor
+image: "thumb.jpg"
+points: 1
+date: 2025-04-08 12:00:00
+qsos: 6
+total: 432
+summit: "GM/ES-074"
+draft: true
+---

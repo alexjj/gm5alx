@@ -1,0 +1,26 @@
+---
+title: "Creag Ghiubhais"
+subtitle: Difficult conditions
+image: "creag-ghiubhais-5.jpg"
+points: 1
+date: 2025-04-16
+qsos: 7
+total: 447
+summit: "GM/ES-067"
+---
+
+![Through the trees](creag-ghiubhais-1.jpg)
+
+This was another early morning summit before work. A little one pointer that has a reputation of being a painful hill to climb given the terrain. It rarely activated, probably for that reason, and is on my list of GM/ES summits to activate. Fraser had just been up it the week before, after being the last person to activate it back in 2022! He said he found a better route up, and shared the path with me.
+
+![Up the hill](creag-ghiubhais-2.jpg)
+
+I followed his gps tracks and the route was generally fine. There's rarely a path and it's a bit more of an adventure through trees and heather. I thought it was quite fun. Sometimes following a path can be a little boring. I was soon at the top and got setup on HF. Fraser wanted to chase on 2m, for his complete, but was finding a better location.
+
+![Station at the summit](creag-ghiubhais-3.jpg)
+
+The HF bands were absolutely terrible. A big storm, G4 (out of 5) had occurred the night before and conditions were rough. I called on HF for about 15 minutes getting nothing until Fraser said he was ready on 2m. He gave me three callsigns, just in case things were that bad. I returned to HF and was determined to get the required four contacts but with different people. On 40m a couple of European stations came back, with reasonable signal reports. I tried chasing another SOTA activator in Germany. We almost made a contact on 40m but it was just too difficult with heavy fading. I heard him call me but only part of my callsign and then nothing. I tried him again on 20m but it was no use. Eventually I got another on 40m after trying all the bands and with 7 QSOs with 5 people I decided that was enough and I had to get off to work anyway.
+
+![LoRa in trees trying to get a ping (unsuccessfully)](creag-ghiubhais-4.jpg)
+
+![Deeside views on the descent](creag-ghiubhais-6.jpg)

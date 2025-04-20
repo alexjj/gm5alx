@@ -14,7 +14,7 @@ Last weekend when playing with the [new antenna](/posts/2024/something-for-the-w
 
 I'm using the CAT cable that comes with the radio (with the blue USB), this plugs into the side of the head unit, with the person image (under the headphones). For audio I use a USB soundcard dongle (random off Amazon), and a headphones/mic splitter, and then a 8 pin mini DIN to TRRS audio cable. Think I bought this off ebay, like this [one](https://www.ebay.co.uk/itm/176417679066). The alternative is buying the CE-19 expansion port...but that's more expensive. This cable plugs into the DIN port on the back and then the USB into the computer.
 
-On the G90 (I have firmware 1.78 so no U-D data mode), put the audio to line in with Fn+Power button, turn off compressor, turn off Preamo, and push the volume knob so it switches to headphones (unless you like listening to data modes!). There are some other recommended settings [from the internet](https://www.digitalshack.org/xiegu-g90-ft8/) in the menu. Not sure how important they really are but I set them anyway:
+On the G90 (I have firmware 1.78 so no U-D data mode), put the audio to line in with Fn+Power button, turn off compressor, turn off Pre-amp, and push the volume knob so it switches to headphones (unless you like listening to data modes!). There are some other recommended settings [from the internet](https://www.digitalshack.org/xiegu-g90-ft8/) in the menu. Not sure how important they really are but I set them anyway:
 
 -   RF gain 50%
 

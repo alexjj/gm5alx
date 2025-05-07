@@ -1,0 +1,130 @@
+---
+title: "Really finding unactivated POTA sites"
+date: 2025-05-07
+subtitle: "Not is all as it seems"
+categories: ["pota", "programming"]
+image: images/paste-2.png
+toc: false
+---
+
+Finding unactivated POTA sites is a problem that has previous been solved, I know of [one example](https://github.com/ianrenton/newparks/) by Ian, M0TRT, which generates a kml file for all the unactivated sites. This is nice but a single kml covering the whole world is a bit unwieldy. He does have a script to show nearby parks and how recently they were activated, with black being never. This, plus my [recent mapping efforts of summits](https://gm5alx.uk/posts/2025/sota-summits-in-the-cairngorms/), made me think a streamlit app doing the same thing would be nice. Enter [UnPOTA'd](https://unpotad.streamlit.app/).
+
+![Parks near me coloured by recenty of activation](images/paste-1.png)
+
+It's not a very polished app, and I used Ian's code, but it allows you to pick a country and then it'll plot a map of those unactivated parks.
+
+![Quite a few in the UK](images/paste-2.png)
+
+End of story. Right? Well not quite...
+
+I showed this map to a [German ham friend](https://rz01.org/), and he found a [park nearby]( https://pota.app/#/park/DE-0378) which was supposedly unactivated but when he looked at it, it showed one person had activated it on the leaderboard, even though the stats reported zero.
+
+![Inconsistent data](images/paste-3.png)
+
+This got me wondering, what other parks are like this, where the stats from the API report zero activations and QOSs but there are activations appearing on the leaderboard...time for some more API queries! Each park has a leaderboard API endpoint which shows the activations and hunters, and so by checking each park that was originally reported to have zero activations I could make a list of parks which have incorrect stats.
+
+This did take a while as some countries have a lot unactivated parks and each one has to be checked. I left it running overnight and in the morning I had a list of 99 parks across the world.
+
+I emailed the POTA helpdesk and submitted a ticket, and so maybe they can fix them. In the meantime, if you're looking for unactivated summits, be sure to check the POTA site and the leaderboard as well as the stats, or you can use this table here, which is correct at the time of publishing. Feel free to use the [streamlit app](https://unpotad.streamlit.app/) too. The code can be found [here](https://github.com/alexjj/unPOTAd), including the script to find erroneous parks.
+
+| ID | Name | Country |
+|--------------|--------------------------------------|--------------------|
+| AU-2408 | Tucki Tucki Nature Park | Australia |
+| AU-3227 | Narrabeen Head Aquatic Reserve | Australia |
+| BY-0082 | Белая Русь Landscape Reserve | Belarus |
+| BE-0135 | Koeheide Nature Reserve | Belgium |
+| BR-0039 | Marinho de Fernando de Noronha National Conservation Area | Brazil |
+| BR-0312 | Itapuã State Park | Brazil |
+| CA-4585 | Northwest Passage Trail Territorial Park | Canada |
+| KY-0005 | Christopher Columbus Park National Heritage Site | Cayman Islands |
+| CN-0116 | 河南郑州植物园 Botanical Gardens | China |
+| CN-0166 | 河南郑州西流湖生态公园 Wetland Reserve | China |
+| CN-0180 | 海南海口万绿园 Coastal & Marine Park | China |
+| CN-0233 | 河南信阳金牛文化公园 Mountain Park | China |
+| CN-0515 | 河南信阳羊山森林植物园 Botanical Gardens | China |
+| FR-2749 | HAUT GUIL - MONT VISO - VAL PREVEYRE FR9301504 Natura 2000 | France |
+| FR-2784 | SECTEUR MARIN DE L ILE D YEU JUSQU AU CONTINENT FR5212015 Natura 2000 | France |
+| FR-3361 | GORGES DE LA MEOUGE FR9301518 Natura 2000 | France |
+| FR-6059 | PRAIRIES ET PLAN DEAU DU PARC DE VILLENEUVE-L'ETANG ET ETANG DE VILLENEUVE Biological Reserve | France |
+| FR-6251 | L'Orb entre Beziers et Valras Biological Reserve | France |
+| FR-6314 | Graviere et zones humides Im Holder a Hegenheim Biological Reserve | France |
+| FR-6468 | Milieux agricoles de la Hardt de Reguisheim a Oberhergheim Biological Reserve | France |
+| FR-6469 | Foret seche de la Hardt a Oberhergheim Biological Reserve | France |
+| FR-6895 | Mares Moussues Biological Reserve | France |
+| FR-6896 | MARES MOUSSUES 2 Biological Reserve | France |
+| FR-7039 | COLLINES DE CUERS ET GROTTE DE TRUEBIS Biological Reserve | France |
+| FR-7048 | PLANS DE LA GARDE ET DU PRADET Biological Reserve | France |
+| FR-7049 | MONT COMBE - COUDON - LES BAUS ROUGES - VALLAURIS Biological Reserve | France |
+| FR-7051 | VALLON DE LA FOUX Biological Reserve | France |
+| FR-7055 | TOMBOLO OCCIDENTAL DE GIENS Biological Reserve | France |
+| FR-7056 | MARAIS DES ESTAGNETS Biological Reserve | France |
+| FR-7060 | VIEUX SALINS D'HYERES Biological Reserve | France |
+| FR-7086 | ETANG DE FONTMERLE Biological Reserve | France |
+| DE-0360 | Gildeshauser Venn Nature Reserve | Germany |
+| DE-0378 | Brenzpark Recreation Park | Germany |
+| DE-1007 | Porphyrland Geopark | Germany |
+| GL-0001 | Northeast Greenland National Park | Greenland |
+| HU-0023 | Erzsébet Liget Park | Hungary |
+| IT-0628 | Costa rocciosa tra Sperlonga e Gaeta Natura 2000 | Italy |
+| IT-1461 | Torbiera di Cavagnano Natura 2000 | Italy |
+| MT-0017 | Kemmuna u l-Gżejjer ta' Madwarha Natura 2000 | Malta |
+| MD-0004 | Lower Prut Scientific Reserve | Moldova |
+| NO-0180 | Bøensmosen og Berbymosen Nature Reserve | Norway |
+| NO-0254 | Burumtjern Nature Reserve | Norway |
+| NO-0411 | Fjella Nature Reserve | Norway |
+| NO-0942 | Karlshaugen Nature Reserve | Norway |
+| NO-1793 | Sandvikheia Nature Reserve | Norway |
+| PL-0476 | Torfowisko Serafin Nature Reserve | Poland |
+| PL-0717 | Krosnicko-Kosmowski Protected Landscape Area | Poland |
+| PL-0859 | Milechowy Nature Reserve | Poland |
+| PL-1199 | Torfowisko Rąbień Nature Reserve | Poland |
+| PL-1303 | Jamno Nature Reserve | Poland |
+| PL-2305 | Wojsławice Nature Reserve | Poland |
+| PL-2310 | Jodły Oleśnickie Nature Reserve | Poland |
+| PL-2330 | Mianów Nature Reserve | Poland |
+| PR-0004 | Isla De Mona E Islote Monito State Natural Reserve | Puerto Rico |
+| RO-0775 | Mondohegy Natural Area | Romania |
+| RO-0796 | Căscioarele State Forest | Romania |
+| RO-0830 | Măgura Vânătă Protected Area | Romania |
+| RO-1032 | Pădurea Plopeni Protected Area | Romania |
+| SI-0181 | SPOMENIK BOJNIM AKCIJAM OSVOBODITVE 91 - Rožna dolina National Historic Site | Slovenia |
+| SI-0248 | Spomenik 43.polka poveljniku VII. korpusa nadvojvodi Jožefu National Historic Site | Slovenia |
+| SI-0336 | Vilenica jama National Park | Slovenia |
+| SI-0540 | Pot kurirjev in vezistov - odsek 142 / Predmeja-Col Recreation Site | Slovenia |
+| SI-0561 | Banjška planota - Banjščice Natura 2000 | Slovenia |
+| KR-0459 | 기지제수변공원 Gijije Waterside Provincial Ecological Park | South Korea |
+| ES-1467 | Bosque de Riofrio National Historic Site | Spain |
+| ES-2046 | Riberas de los Ríos Huebra y Yeltes Natura 2000 | Spain |
+| ES-2314 | Franja Litoral Sumergida de la Región de Murcia Natura 2000 | Spain |
+| VC-0025 | La Soufrière National Park | St. Vincent and the Grenadines |
+| TT-0005 | Samaan Park Nature Park | Trinidad and Tobago |
+| GB-2591 | Lister Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-3416 | Roch Valley Greenway National Scenic Trail | United Kingdom of Great Britain and Northern Ireland |
+| GB-3464 | Goshen Recreation Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-3849 | Heswall Dales and Cleaver Heath Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-3979 | Bidston Moss Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4021 | Bowling Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-4160 | Purwell Meadows Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4162 | Radwell Meadows Country Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-4190 | Rodwell National Scenic Trail | United Kingdom of Great Britain and Northern Ireland |
+| GB-4681 | Edlington Pit Wood Park & Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4760 | Goshen Wood Countryside Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4847 | Pin Brook (Minerva) Country Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-4854 | Beeston Castle & Woodland Park Historic Site | United Kingdom of Great Britain and Northern Ireland |
+| GB-4857 | Two Saints Way National Scenic Trail | United Kingdom of Great Britain and Northern Ireland |
+| GB-4858 | Baker Way National Scenic Trail | United Kingdom of Great Britain and Northern Ireland |
+| GB-4878 | The Burnley Way National Scenic Trail | United Kingdom of Great Britain and Northern Ireland |
+| GB-4897 | Mendip National Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4898 | Folly Farm Local Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4899 | Chew Valley Lake Site of Significant Scientific Interest | United Kingdom of Great Britain and Northern Ireland |
+| GB-4900 | Blagdon Lake Site of Significant Scientific Interest | United Kingdom of Great Britain and Northern Ireland |
+| GB-4904 | Hurstone & Waterrow Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4905 | Ash Priors Common Nature Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4906 | Dunham Massey Country Park | United Kingdom of Great Britain and Northern Ireland |
+| GB-4909 | Pick Triangle Wood Forest Reserve | United Kingdom of Great Britain and Northern Ireland |
+| GB-4915 | Rombalds & Ilkley Moor Scenic Reserve | United Kingdom of Great Britain and Northern Ireland |
+| US-12355 | Jumbo Reservoir State Wildlife Area | United States of America |
+| UY-0043 | Represa de Cuñapirú Historic Site | Uruguay |
+| UY-0044 | Parque Gran Bretaña National Historical Park | Uruguay |
+| UY-0074 | Congreso de Abril - Piedra Pintada Flora and Fauna Reserve | Uruguay |
+| UY-0082 | Bioma Pampa – Quebradas del Norte Protected Landscape Area | Uruguay |

@@ -9,7 +9,7 @@ toc: false
 
 Finding unactivated POTA sites is a problem that has previous been solved, I know of [one example](https://github.com/ianrenton/newparks/) by Ian, M0TRT, which generates a kml file for all the unactivated sites. This is nice but a single kml covering the whole world is a bit unwieldy. He does have a script to show nearby parks and how recently they were activated, with black being never. This, plus my [recent mapping efforts of summits](https://gm5alx.uk/posts/2025/sota-summits-in-the-cairngorms/), made me think a streamlit app doing the same thing would be nice. Enter [UnPOTA'd](https://unpotad.streamlit.app/).
 
-![Parks near me coloured by recenty of activation](images/paste-1.png)
+![Parks near me coloured by recently of activation](images/paste-1.png)
 
 It's not a very polished app, and I used Ian's code, but it allows you to pick a country and then it'll plot a map of those unactivated parks.
 

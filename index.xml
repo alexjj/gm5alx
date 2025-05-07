@@ -9,8 +9,563 @@
 <link>https://gm5alx.uk/</link>
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
-<generator>quarto-1.6.43</generator>
-<lastBuildDate>Wed, 16 Apr 2025 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.7.30</generator>
+<lastBuildDate>Wed, 07 May 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Really finding unactivated POTA sites</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Finding unactivated POTA sites is a problem that has previous been solved, I know of <a href="https://github.com/ianrenton/newparks/">one example</a> by Ian, M0TRT, which generates a kml file for all the unactivated sites. This is nice but a single kml covering the whole world is a bit unwieldy. He does have a script to show nearby parks and how recently they were activated, with black being never. This, plus my <a href="https://gm5alx.uk/posts/2025/sota-summits-in-the-cairngorms/">recent mapping efforts of summits</a>, made me think a streamlit app doing the same thing would be nice. Enter <a href="https://unpotad.streamlit.app/">UnPOTA’d</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/paste-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Parks near me coloured by recently of activation"><img src="https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/images/paste-1.png" class="img-fluid figure-img" alt="Parks near me coloured by recently of activation"></a></p>
+<figcaption>Parks near me coloured by recently of activation</figcaption>
+</figure>
+</div>
+<p>It’s not a very polished app, and I used Ian’s code, but it allows you to pick a country and then it’ll plot a map of those unactivated parks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/paste-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Quite a few in the UK"><img src="https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/images/paste-2.png" class="img-fluid figure-img" alt="Quite a few in the UK"></a></p>
+<figcaption>Quite a few in the UK</figcaption>
+</figure>
+</div>
+<p>End of story. Right? Well not quite…</p>
+<p>I showed this map to a <a href="https://rz01.org/">German ham friend</a>, and he found a <a href="https://pota.app/#/park/DE-0378">park nearby</a> which was supposedly unactivated but when he looked at it, it showed one person had activated it on the leaderboard, even though the stats reported zero.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/paste-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Inconsistent data"><img src="https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/images/paste-3.png" class="img-fluid figure-img" alt="Inconsistent data"></a></p>
+<figcaption>Inconsistent data</figcaption>
+</figure>
+</div>
+<p>This got me wondering, what other parks are like this, where the stats from the API report zero activations and QOSs but there are activations appearing on the leaderboard…time for some more API queries! Each park has a leaderboard API endpoint which shows the activations and hunters, and so by checking each park that was originally reported to have zero activations I could make a list of parks which have incorrect stats.</p>
+<p>This did take a while as some countries have a lot unactivated parks and each one has to be checked. I left it running overnight and in the morning I had a list of 99 parks across the world.</p>
+<p>I emailed the POTA helpdesk and submitted a ticket, and so maybe they can fix them. In the meantime, if you’re looking for unactivated summits, be sure to check the POTA site and the leaderboard as well as the stats, or you can use this table here, which is correct at the time of publishing. Feel free to use the <a href="https://unpotad.streamlit.app/">streamlit app</a> too. The code can be found <a href="https://github.com/alexjj/unPOTAd">here</a>, including the script to find erroneous parks.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 52%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>ID</th>
+<th>Name</th>
+<th>Country</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AU-2408</td>
+<td>Tucki Tucki Nature Park</td>
+<td>Australia</td>
+</tr>
+<tr class="even">
+<td>AU-3227</td>
+<td>Narrabeen Head Aquatic Reserve</td>
+<td>Australia</td>
+</tr>
+<tr class="odd">
+<td>BY-0082</td>
+<td>Белая Русь Landscape Reserve</td>
+<td>Belarus</td>
+</tr>
+<tr class="even">
+<td>BE-0135</td>
+<td>Koeheide Nature Reserve</td>
+<td>Belgium</td>
+</tr>
+<tr class="odd">
+<td>BR-0039</td>
+<td>Marinho de Fernando de Noronha National Conservation Area</td>
+<td>Brazil</td>
+</tr>
+<tr class="even">
+<td>BR-0312</td>
+<td>Itapuã State Park</td>
+<td>Brazil</td>
+</tr>
+<tr class="odd">
+<td>CA-4585</td>
+<td>Northwest Passage Trail Territorial Park</td>
+<td>Canada</td>
+</tr>
+<tr class="even">
+<td>KY-0005</td>
+<td>Christopher Columbus Park National Heritage Site</td>
+<td>Cayman Islands</td>
+</tr>
+<tr class="odd">
+<td>CN-0116</td>
+<td>河南郑州植物园 Botanical Gardens</td>
+<td>China</td>
+</tr>
+<tr class="even">
+<td>CN-0166</td>
+<td>河南郑州西流湖生态公园 Wetland Reserve</td>
+<td>China</td>
+</tr>
+<tr class="odd">
+<td>CN-0180</td>
+<td>海南海口万绿园 Coastal &amp; Marine Park</td>
+<td>China</td>
+</tr>
+<tr class="even">
+<td>CN-0233</td>
+<td>河南信阳金牛文化公园 Mountain Park</td>
+<td>China</td>
+</tr>
+<tr class="odd">
+<td>CN-0515</td>
+<td>河南信阳羊山森林植物园 Botanical Gardens</td>
+<td>China</td>
+</tr>
+<tr class="even">
+<td>FR-2749</td>
+<td>HAUT GUIL - MONT VISO - VAL PREVEYRE FR9301504 Natura 2000</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-2784</td>
+<td>SECTEUR MARIN DE L ILE D YEU JUSQU AU CONTINENT FR5212015 Natura 2000</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-3361</td>
+<td>GORGES DE LA MEOUGE FR9301518 Natura 2000</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-6059</td>
+<td>PRAIRIES ET PLAN DEAU DU PARC DE VILLENEUVE-L’ETANG ET ETANG DE VILLENEUVE Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-6251</td>
+<td>L’Orb entre Beziers et Valras Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-6314</td>
+<td>Graviere et zones humides Im Holder a Hegenheim Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-6468</td>
+<td>Milieux agricoles de la Hardt de Reguisheim a Oberhergheim Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-6469</td>
+<td>Foret seche de la Hardt a Oberhergheim Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-6895</td>
+<td>Mares Moussues Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-6896</td>
+<td>MARES MOUSSUES 2 Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-7039</td>
+<td>COLLINES DE CUERS ET GROTTE DE TRUEBIS Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-7048</td>
+<td>PLANS DE LA GARDE ET DU PRADET Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-7049</td>
+<td>MONT COMBE - COUDON - LES BAUS ROUGES - VALLAURIS Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-7051</td>
+<td>VALLON DE LA FOUX Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-7055</td>
+<td>TOMBOLO OCCIDENTAL DE GIENS Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-7056</td>
+<td>MARAIS DES ESTAGNETS Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>FR-7060</td>
+<td>VIEUX SALINS D’HYERES Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="odd">
+<td>FR-7086</td>
+<td>ETANG DE FONTMERLE Biological Reserve</td>
+<td>France</td>
+</tr>
+<tr class="even">
+<td>DE-0360</td>
+<td>Gildeshauser Venn Nature Reserve</td>
+<td>Germany</td>
+</tr>
+<tr class="odd">
+<td>DE-0378</td>
+<td>Brenzpark Recreation Park</td>
+<td>Germany</td>
+</tr>
+<tr class="even">
+<td>DE-1007</td>
+<td>Porphyrland Geopark</td>
+<td>Germany</td>
+</tr>
+<tr class="odd">
+<td>GL-0001</td>
+<td>Northeast Greenland National Park</td>
+<td>Greenland</td>
+</tr>
+<tr class="even">
+<td>HU-0023</td>
+<td>Erzsébet Liget Park</td>
+<td>Hungary</td>
+</tr>
+<tr class="odd">
+<td>IT-0628</td>
+<td>Costa rocciosa tra Sperlonga e Gaeta Natura 2000</td>
+<td>Italy</td>
+</tr>
+<tr class="even">
+<td>IT-1461</td>
+<td>Torbiera di Cavagnano Natura 2000</td>
+<td>Italy</td>
+</tr>
+<tr class="odd">
+<td>MT-0017</td>
+<td>Kemmuna u l-Gżejjer ta’ Madwarha Natura 2000</td>
+<td>Malta</td>
+</tr>
+<tr class="even">
+<td>MD-0004</td>
+<td>Lower Prut Scientific Reserve</td>
+<td>Moldova</td>
+</tr>
+<tr class="odd">
+<td>NO-0180</td>
+<td>Bøensmosen og Berbymosen Nature Reserve</td>
+<td>Norway</td>
+</tr>
+<tr class="even">
+<td>NO-0254</td>
+<td>Burumtjern Nature Reserve</td>
+<td>Norway</td>
+</tr>
+<tr class="odd">
+<td>NO-0411</td>
+<td>Fjella Nature Reserve</td>
+<td>Norway</td>
+</tr>
+<tr class="even">
+<td>NO-0942</td>
+<td>Karlshaugen Nature Reserve</td>
+<td>Norway</td>
+</tr>
+<tr class="odd">
+<td>NO-1793</td>
+<td>Sandvikheia Nature Reserve</td>
+<td>Norway</td>
+</tr>
+<tr class="even">
+<td>PL-0476</td>
+<td>Torfowisko Serafin Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="odd">
+<td>PL-0717</td>
+<td>Krosnicko-Kosmowski Protected Landscape Area</td>
+<td>Poland</td>
+</tr>
+<tr class="even">
+<td>PL-0859</td>
+<td>Milechowy Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="odd">
+<td>PL-1199</td>
+<td>Torfowisko Rąbień Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="even">
+<td>PL-1303</td>
+<td>Jamno Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="odd">
+<td>PL-2305</td>
+<td>Wojsławice Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="even">
+<td>PL-2310</td>
+<td>Jodły Oleśnickie Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="odd">
+<td>PL-2330</td>
+<td>Mianów Nature Reserve</td>
+<td>Poland</td>
+</tr>
+<tr class="even">
+<td>PR-0004</td>
+<td>Isla De Mona E Islote Monito State Natural Reserve</td>
+<td>Puerto Rico</td>
+</tr>
+<tr class="odd">
+<td>RO-0775</td>
+<td>Mondohegy Natural Area</td>
+<td>Romania</td>
+</tr>
+<tr class="even">
+<td>RO-0796</td>
+<td>Căscioarele State Forest</td>
+<td>Romania</td>
+</tr>
+<tr class="odd">
+<td>RO-0830</td>
+<td>Măgura Vânătă Protected Area</td>
+<td>Romania</td>
+</tr>
+<tr class="even">
+<td>RO-1032</td>
+<td>Pădurea Plopeni Protected Area</td>
+<td>Romania</td>
+</tr>
+<tr class="odd">
+<td>SI-0181</td>
+<td>SPOMENIK BOJNIM AKCIJAM OSVOBODITVE 91 - Rožna dolina National Historic Site</td>
+<td>Slovenia</td>
+</tr>
+<tr class="even">
+<td>SI-0248</td>
+<td>Spomenik 43.polka poveljniku VII. korpusa nadvojvodi Jožefu National Historic Site</td>
+<td>Slovenia</td>
+</tr>
+<tr class="odd">
+<td>SI-0336</td>
+<td>Vilenica jama National Park</td>
+<td>Slovenia</td>
+</tr>
+<tr class="even">
+<td>SI-0540</td>
+<td>Pot kurirjev in vezistov - odsek 142 / Predmeja-Col Recreation Site</td>
+<td>Slovenia</td>
+</tr>
+<tr class="odd">
+<td>SI-0561</td>
+<td>Banjška planota - Banjščice Natura 2000</td>
+<td>Slovenia</td>
+</tr>
+<tr class="even">
+<td>KR-0459</td>
+<td>기지제수변공원 Gijije Waterside Provincial Ecological Park</td>
+<td>South Korea</td>
+</tr>
+<tr class="odd">
+<td>ES-1467</td>
+<td>Bosque de Riofrio National Historic Site</td>
+<td>Spain</td>
+</tr>
+<tr class="even">
+<td>ES-2046</td>
+<td>Riberas de los Ríos Huebra y Yeltes Natura 2000</td>
+<td>Spain</td>
+</tr>
+<tr class="odd">
+<td>ES-2314</td>
+<td>Franja Litoral Sumergida de la Región de Murcia Natura 2000</td>
+<td>Spain</td>
+</tr>
+<tr class="even">
+<td>VC-0025</td>
+<td>La Soufrière National Park</td>
+<td>St.&nbsp;Vincent and the Grenadines</td>
+</tr>
+<tr class="odd">
+<td>TT-0005</td>
+<td>Samaan Park Nature Park</td>
+<td>Trinidad and Tobago</td>
+</tr>
+<tr class="even">
+<td>GB-2591</td>
+<td>Lister Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-3416</td>
+<td>Roch Valley Greenway National Scenic Trail</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-3464</td>
+<td>Goshen Recreation Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-3849</td>
+<td>Heswall Dales and Cleaver Heath Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-3979</td>
+<td>Bidston Moss Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4021</td>
+<td>Bowling Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4160</td>
+<td>Purwell Meadows Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4162</td>
+<td>Radwell Meadows Country Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4190</td>
+<td>Rodwell National Scenic Trail</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4681</td>
+<td>Edlington Pit Wood Park &amp; Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4760</td>
+<td>Goshen Wood Countryside Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4847</td>
+<td>Pin Brook (Minerva) Country Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4854</td>
+<td>Beeston Castle &amp; Woodland Park Historic Site</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4857</td>
+<td>Two Saints Way National Scenic Trail</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4858</td>
+<td>Baker Way National Scenic Trail</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4878</td>
+<td>The Burnley Way National Scenic Trail</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4897</td>
+<td>Mendip National Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4898</td>
+<td>Folly Farm Local Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4899</td>
+<td>Chew Valley Lake Site of Significant Scientific Interest</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4900</td>
+<td>Blagdon Lake Site of Significant Scientific Interest</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4904</td>
+<td>Hurstone &amp; Waterrow Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4905</td>
+<td>Ash Priors Common Nature Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4906</td>
+<td>Dunham Massey Country Park</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>GB-4909</td>
+<td>Pick Triangle Wood Forest Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="even">
+<td>GB-4915</td>
+<td>Rombalds &amp; Ilkley Moor Scenic Reserve</td>
+<td>United Kingdom of Great Britain and Northern Ireland</td>
+</tr>
+<tr class="odd">
+<td>US-12355</td>
+<td>Jumbo Reservoir State Wildlife Area</td>
+<td>United States of America</td>
+</tr>
+<tr class="even">
+<td>UY-0043</td>
+<td>Represa de Cuñapirú Historic Site</td>
+<td>Uruguay</td>
+</tr>
+<tr class="odd">
+<td>UY-0044</td>
+<td>Parque Gran Bretaña National Historical Park</td>
+<td>Uruguay</td>
+</tr>
+<tr class="even">
+<td>UY-0074</td>
+<td>Congreso de Abril - Piedra Pintada Flora and Fauna Reserve</td>
+<td>Uruguay</td>
+</tr>
+<tr class="odd">
+<td>UY-0082</td>
+<td>Bioma Pampa – Quebradas del Norte Protected Landscape Area</td>
+<td>Uruguay</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ ]]></description>
+  <category>pota</category>
+  <category>programming</category>
+  <guid>https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/</guid>
+  <pubDate>Wed, 07 May 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2025/really-unactivated-pota-sites/images/paste-2.png" medium="image" type="image/png" height="178" width="144"/>
+</item>
 <item>
   <title>Creag Ghiubhais</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -941,86 +1496,6 @@
   <media:content url="https://gm5alx.uk/sota/2025/gm-es-046/creag-bhalg-1.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Creag an Dail Bheag</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-es-088/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>After Culardoch, it was time for the next hill! I enjoyed the snow drifts on the way down, bounding along, sinking knee deep into the snow. This was then replaced with climbing the steep side of Carn Liath (the previous summit here: <a href="https://summits.sota.org.uk/summit/GM/ES-020">GM/ES-020</a>). Once up on the plateau the hike is easier, although the amount of rocks does mean you need to watch your footing.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-21.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Someone’s been here.."><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-21.jpg" class="img-fluid figure-img" alt="Someone’s been here.."></a></p>
-<figcaption>Someone’s been here..</figcaption>
-</figure>
-</div>
-<p>Here Fraser and I met and compared notes, and took a selfie (most important) and then wished each other well for the next summit.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-22.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Mid-point chat - antenna in the face."><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-22.jpg" class="img-fluid figure-img" alt="Mid-point chat - antenna in the face."></a></p>
-<figcaption>Mid-point chat - antenna in the face.</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-18.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Summit centre left"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-18.jpg" class="img-fluid figure-img" alt="Summit centre left"></a></p>
-<figcaption>Summit centre left</figcaption>
-</figure>
-</div>
-<p>With the change in summits by 1-2 m, the new summit is further to get to and it’s easy to lose track of the number of summit cairns you count on the way! Only from the map can you tell which is highest. When the cloud opened, you were rewarded with amazing views across to Ben Avon and Beinn a’Bhuird, and looking back I could see Culadorch and somewhere Fraser climbing up to the top. Fraser and I had a little chat whilst walking, just to make sure the other was still there for the complete.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Looking back at Culardoch"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-9.jpg" class="img-fluid figure-img" alt="Looking back at Culardoch"></a></p>
-<figcaption>Looking back at Culardoch</figcaption>
-</figure>
-</div>
-<p>Eventually I reach the summit, or one of two cairn summit points, and get setup on HF again.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Station"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-12.jpg" class="img-fluid figure-img" alt="Station"></a></p>
-<figcaption>Station</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-16.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Summit with Ben Avon behind"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-16.jpg" class="img-fluid figure-img" alt="Summit with Ben Avon behind"></a></p>
-<figcaption>Summit with Ben Avon behind</figcaption>
-</figure>
-</div>
-<p>40m was still reasonable for me and I had a steady stream of QSOs. There is a little shelter behind the rocks, but the wind was much calmer so the wind chill had dropped considerably. By this time Fraser appeared on the radio again, this time at the summit, and this QSO marked the moment of both of us completing our pair of completes!</p>
-<p>I remembered I’d offered to try 2m to the locals, and Simon GM4JXP and Mike 2M0WNA were both nice and clear on my Alinco and RH770.</p>
-<p><a href="creag-an-db-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-1.jpg" class="img-fluid"></a></p>
-<p><a href="creag-an-db-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-5.jpg" class="img-fluid"></a></p>
-<p>Fraser had told me his mast had snapped at the top, supposedly from freezing between summits but also maybe from the rage of finding the plastic bottle in the trig point. 20m wasn’t great, but fortunately 2m was, and meant Fraser could qualify.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Snow"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-3.jpg" class="img-fluid figure-img" alt="Snow"></a></p>
-<figcaption>Snow</figcaption>
-</figure>
-</div>
-<p>I packed up and started back towards the bikes. The wind had definitely dropped, and it was warm work walking back. Our timings worked out well, as we saw each other walking down towards to the bikes, and I arrived just a few minutes before Fraser did.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="creag-an-db-10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="The Radio Rover"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-10.jpg" class="img-fluid figure-img" alt="The Radio Rover"></a></p>
-<figcaption>The Radio Rover</figcaption>
-</figure>
-</div>
-<p>Winter woollies off; downhill racing gear on, and we headed back. It is only after hurtling down the track at 40-50 kph do you realise just how much of a climb you did on the way out. The memory was quickly returned when we hit the uphill section, complete with slowsand. We did pass a couple of older walkers, who still got a fright as we went by even though there was much bell ringing. Back through the gates and down the track towards the forest.</p>
-<p>Whilst going down at, according to my watch, 28 kph, I tried to avoid a rock, but then my front wheel hit some smooth rock side on, and I went sideways and downways. Whilst I avoided the rock, I’d hit several others, and everything else on the ground. Remarkably limited injuries, except my nice walking trousers, and an apple in my side pocket 🍎💥, I got back on the bike. Fraser looked concerned but did comment he wish he had his GoPro on, as those videos get a lot more views. At a slightly more cautious speed, we continued down through the trees and back to the estate road. Again, greeted with some uphill sections, just to finish you off - this section is particularly painful after doing <a href="https://gm5alx.uk/sota/2024/gm-es-006/">Ben Avon and Beinn a’Bhuird</a>.</p>
-<p>Back to the car, loaded the bikes and after 25 km, and 5 hours round trip, Fraser wasn’t looking for some extra at the other end and I dropped him at his house. Home for a nice cup of tea before back in the car again.</p>
-<p>A good proper winter outing, and two more GM/ES off my list, thanks Fraser! 💯</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-es-088/</guid>
-  <pubDate>Thu, 13 Mar 2025 14:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-16.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>Culardoch</title>
   <dc:creator>Alex Johnstone</dc:creator>
   <link>https://gm5alx.uk/sota/2025/gm-es-015/</link>
@@ -1133,6 +1608,86 @@
   <guid>https://gm5alx.uk/sota/2025/gm-es-015/</guid>
   <pubDate>Thu, 13 Mar 2025 14:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-es-015/culdaroch-4.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Creag an Dail Bheag</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/sota/2025/gm-es-088/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After Culardoch, it was time for the next hill! I enjoyed the snow drifts on the way down, bounding along, sinking knee deep into the snow. This was then replaced with climbing the steep side of Carn Liath (the previous summit here: <a href="https://summits.sota.org.uk/summit/GM/ES-020">GM/ES-020</a>). Once up on the plateau the hike is easier, although the amount of rocks does mean you need to watch your footing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-21.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Someone’s been here.."><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-21.jpg" class="img-fluid figure-img" alt="Someone’s been here.."></a></p>
+<figcaption>Someone’s been here..</figcaption>
+</figure>
+</div>
+<p>Here Fraser and I met and compared notes, and took a selfie (most important) and then wished each other well for the next summit.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-22.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Mid-point chat - antenna in the face."><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-22.jpg" class="img-fluid figure-img" alt="Mid-point chat - antenna in the face."></a></p>
+<figcaption>Mid-point chat - antenna in the face.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-18.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Summit centre left"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-18.jpg" class="img-fluid figure-img" alt="Summit centre left"></a></p>
+<figcaption>Summit centre left</figcaption>
+</figure>
+</div>
+<p>With the change in summits by 1-2 m, the new summit is further to get to and it’s easy to lose track of the number of summit cairns you count on the way! Only from the map can you tell which is highest. When the cloud opened, you were rewarded with amazing views across to Ben Avon and Beinn a’Bhuird, and looking back I could see Culadorch and somewhere Fraser climbing up to the top. Fraser and I had a little chat whilst walking, just to make sure the other was still there for the complete.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Looking back at Culardoch"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-9.jpg" class="img-fluid figure-img" alt="Looking back at Culardoch"></a></p>
+<figcaption>Looking back at Culardoch</figcaption>
+</figure>
+</div>
+<p>Eventually I reach the summit, or one of two cairn summit points, and get setup on HF again.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-12.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Station"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-12.jpg" class="img-fluid figure-img" alt="Station"></a></p>
+<figcaption>Station</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-16.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Summit with Ben Avon behind"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-16.jpg" class="img-fluid figure-img" alt="Summit with Ben Avon behind"></a></p>
+<figcaption>Summit with Ben Avon behind</figcaption>
+</figure>
+</div>
+<p>40m was still reasonable for me and I had a steady stream of QSOs. There is a little shelter behind the rocks, but the wind was much calmer so the wind chill had dropped considerably. By this time Fraser appeared on the radio again, this time at the summit, and this QSO marked the moment of both of us completing our pair of completes!</p>
+<p>I remembered I’d offered to try 2m to the locals, and Simon GM4JXP and Mike 2M0WNA were both nice and clear on my Alinco and RH770.</p>
+<p><a href="creag-an-db-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-1.jpg" class="img-fluid"></a></p>
+<p><a href="creag-an-db-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-5.jpg" class="img-fluid"></a></p>
+<p>Fraser had told me his mast had snapped at the top, supposedly from freezing between summits but also maybe from the rage of finding the plastic bottle in the trig point. 20m wasn’t great, but fortunately 2m was, and meant Fraser could qualify.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Snow"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-3.jpg" class="img-fluid figure-img" alt="Snow"></a></p>
+<figcaption>Snow</figcaption>
+</figure>
+</div>
+<p>I packed up and started back towards the bikes. The wind had definitely dropped, and it was warm work walking back. Our timings worked out well, as we saw each other walking down towards to the bikes, and I arrived just a few minutes before Fraser did.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="creag-an-db-10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="The Radio Rover"><img src="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-10.jpg" class="img-fluid figure-img" alt="The Radio Rover"></a></p>
+<figcaption>The Radio Rover</figcaption>
+</figure>
+</div>
+<p>Winter woollies off; downhill racing gear on, and we headed back. It is only after hurtling down the track at 40-50 kph do you realise just how much of a climb you did on the way out. The memory was quickly returned when we hit the uphill section, complete with slowsand. We did pass a couple of older walkers, who still got a fright as we went by even though there was much bell ringing. Back through the gates and down the track towards the forest.</p>
+<p>Whilst going down at, according to my watch, 28 kph, I tried to avoid a rock, but then my front wheel hit some smooth rock side on, and I went sideways and downways. Whilst I avoided the rock, I’d hit several others, and everything else on the ground. Remarkably limited injuries, except my nice walking trousers, and an apple in my side pocket 🍎💥, I got back on the bike. Fraser looked concerned but did comment he wish he had his GoPro on, as those videos get a lot more views. At a slightly more cautious speed, we continued down through the trees and back to the estate road. Again, greeted with some uphill sections, just to finish you off - this section is particularly painful after doing <a href="https://gm5alx.uk/sota/2024/gm-es-006/">Ben Avon and Beinn a’Bhuird</a>.</p>
+<p>Back to the car, loaded the bikes and after 25 km, and 5 hours round trip, Fraser wasn’t looking for some extra at the other end and I dropped him at his house. Home for a nice cup of tea before back in the car again.</p>
+<p>A good proper winter outing, and two more GM/ES off my list, thanks Fraser! 💯</p>
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <guid>https://gm5alx.uk/sota/2025/gm-es-088/</guid>
+  <pubDate>Thu, 13 Mar 2025 14:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2025/gm-es-088/creag-an-db-16.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Carn Ealasaid</title>
@@ -1284,100 +1839,6 @@
   <guid>https://gm5alx.uk/sota/2025/gm-es-029/</guid>
   <pubDate>Fri, 07 Mar 2025 12:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-es-029/carn-mor-2.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Sgor Mor</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-es-026/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Linn of Dee path"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-10.jpg" class="img-fluid figure-img" alt="Linn of Dee path"></a></p>
-<figcaption>Linn of Dee path</figcaption>
-</figure>
-</div>
-<p>I was up way too late last night trying to decide what summit or summits to do today. Given it’s still winter bonus period, I’m incentivise to activate the most number of summits, and so I was trying to see if I could do two summits. Generally, two summits in a day is perfectly reasonable, however, I was constrained by school pick up and drop off, and the fact that I’ve done just about all the nearby 2-pointers already. I looked around for another summit, and eventually decided up <a href="https://sotl.as/summits/GM/ES-026">Sgor Mor</a>. Tim, G5OLD, recently activated this summit at the start of the month when we did our <a href="https://gm5alx.uk/sota/2025/gm-es-025/">GM/ES activation day</a>. However, prior to Tim, no-one had activated this summit since 2021. There’s a good reason for this!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-13.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Heather for miles and miles"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-13.jpg" class="img-fluid figure-img" alt="Heather for miles and miles"></a></p>
-<figcaption>Heather for miles and miles</figcaption>
-</figure>
-</div>
-<p>I looked at different routes for it, to make sure I could make it up and back in time. The most common way, is to go up the side to the ridge and walk along it to the summit. It’s rough going, as there’s no path for 90% of the route and it’s all heather and bog. There’s also a very long deer fence which just ends in the middle of nowhere. Although there were piles of new fencing laid out on the ground, so I guess they’re coming back to finish it. An alternative route, is to cycle along the Dee, past white bridge and the Chest of Dee, until you’re at the base of the summit. This should only take about 30 minutes, and then you have a steep climb up to the summit. It minimises the amount of heather and bog to cross, and overall it looked shorter. The downside of this, is that you don’t get to do the ridge walk. If the weather is clear, then the ridge walk offers outstanding views into the high Munros of the central Cairngorms - Devil’s Point, Cairn Toul, Ben Macdui, the lot. As well as views to the south to various Munros and high tops. As the weather was looking nice, I decided to go with the ridge walk. I did put the bike in the car, just in case weather was different in Braemar than in Aberdeen, but I didn’t use it.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-14.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Looking west along the Dee"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-14.jpg" class="img-fluid figure-img" alt="Looking west along the Dee"></a></p>
-<figcaption>Looking west along the Dee</figcaption>
-</figure>
-</div>
-<p>My route had a short section of the track along the Dee but then turned off and headed straight into the heather, up a steep slope. My route was just a straight line to the ridge, and I tried to follow it as best as possible, whilst avoiding particularly boggy parts. I’d set a pace marker on my watch to do the ascent in 1:20 (vs.&nbsp;the 1:30 predicted) just to give me a bit of extra time to setup and to eat my lunch. It wasn’t quite the perfect blue skies of Aberdeen, but it was clear enough. Once I eventually reached the ridge, I did have great views into Luibeg, <a href="https://gm5alx.uk/sota/2024/gm-es-013/">Carn a’Mhaim</a>, and all along to Devil’s Point. I kept thinking I was nearly there, and summits I’d seen on the walk up must be my destination, but no, there was still plenty of ridge to walk along!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Ridge path"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-9.jpg" class="img-fluid figure-img" alt="Ridge path"></a></p>
-<figcaption>Ridge path</figcaption>
-</figure>
-</div>
-<p>Higher up, the heather did revert to the alpine, low to ground plants, and so it made it easier to walk. However, now quite a cold wind was blowing, and at times there was snow. The snow on the high tops had much reduced since I was on Carn na Drochaide. I did make it to the summit in 1:20, giving me 10 minutes before my alert time. There’s a little cairn at the top, and that was enough to shelter in and keep out of the wind. The stones weren’t very big, so it wasn’t ideal for supporting the mast but I managed to wedge it in and got the job done anyway.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Summit in sight"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-3.jpg" class="img-fluid figure-img" alt="Summit in sight"></a></p>
-<figcaption>Summit in sight</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="At the top"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-7.jpg" class="img-fluid figure-img" alt="At the top"></a></p>
-<figcaption>At the top</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Station"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-4.jpg" class="img-fluid figure-img" alt="Station"></a></p>
-<figcaption>Station</figcaption>
-</figure>
-</div>
-<p>I did quickly try 2m, to see if I could get the local SOTA lads. I hadn’t even spotted but a random chap from south of Edinburgh came back to my CQ call straight away. We had a brief chat, and then I could hear Fraser, MM0EFI, calling. I called back but he couldn’t hear me. I didn’t want to be spending too long on the summit, it was cold and I’d only allocated myself 30 minutes, so got started setting up HF.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Devil’s Point, Cairn Toul behind, in the cloud"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-8.jpg" class="img-fluid figure-img" alt="Devil’s Point, Cairn Toul behind, in the cloud"></a></p>
-<figcaption>Devil’s Point, Cairn Toul behind, in the cloud</figcaption>
-</figure>
-</div>
-<p>I started on 40m, and there was a quick pile up, although it seemed to quickly disappear, without me working that many. A S2S from the Lake District called me too, and I ended up working a few on 40m before being able to hear the locals. I moved to 20m and continued to work stations calling in. I had seen a Czech summit and did call to them but they couldn’t hear me over the others, again, not wanting to hang around I didn’t keep trying. However, one caller told me they were calling me - and I couldn’t hear them for the other chasers - and so I eventually managed to work him on OK/MO-074 around 1,600 km away. By now it was 12:30, and I needed to get going. So I packed up, finished my lunch and headed off. Simon asked if I was doing 2m, so I did get the HT out and make another QSO with him. I probably didn’t have time for that but nevermind.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Looking south west"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-6.jpg" class="img-fluid figure-img" alt="Looking south west"></a></p>
-<figcaption>Looking south west</figcaption>
-</figure>
-</div>
-<p>I did meet someone else coming up, just as I was leaving the summit, that was surprising given the remoteness of this Corbett. I didn’t volunteer to chat as I had to get back to the car. Going back along the ridge was fine, but soon I had to turn back into the heather and bog. It was downhill all the way, but still tricky to move at speed. Eventually, I came to the hill slope down to the Dee path. It’s quite steep and going down is as difficult as going up. The heather means you can crash your way down, but just being careful of large boulders, or even small cliff faces. I did make it back onto the path at 13:30 - the time I was hoping to leave the car park - and so tried to walk and jog my way back to the car.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Steep hill down to the Dee path"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-1.jpg" class="img-fluid figure-img" alt="Steep hill down to the Dee path"></a></p>
-<figcaption>Steep hill down to the Dee path</figcaption>
-</figure>
-</div>
-<p>Back to the car 15 minutes later and then off home. The duration of the drive varies so much depending on if you get stuck behind tourists, or Land Rover drivers doing 45 mph for miles and miles, but I managed to make reasonable time and get back with 5 minutes to spare!</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="sgor-mor-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Ridge views"><img src="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-2.jpg" class="img-fluid figure-img" alt="Ridge views"></a></p>
-<figcaption>Ridge views</figcaption>
-</figure>
-</div>
-<p>It’s quite a remote 4-pointer, and a good amount of work to get there, so it’s not surprising I’m the 9th activator of the summit. If you’re visiting the area, there are so many other hills to do before you’d do this. One for the completionists I think! However, it does offer some of the best views, and so perhaps shouldn’t be overlooked so quickly.</p>
-<p>I’ve now past 350 points, and I’m hoping to get to 400 before my Lake District trip in April, as then this should see me over the half way mark to Mountain Goat! My rate will slow down once winter bonus period ends, although with the weather getting warmer (hopefully) there’ll be opportunities to do some of the big hills again, maybe trying different routes if I did them last year. There are a few overnight trips I’d like to do from home - so I can start the walks early in the morning - but finding time with everything else in the family is always the challenge! Still, those hills aren’t going anywhere. ⛰️</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-es-026/</guid>
-  <pubDate>Fri, 28 Feb 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-es-026/sgor-mor-8.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

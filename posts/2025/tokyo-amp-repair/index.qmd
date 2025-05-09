@@ -1,0 +1,52 @@
+---
+title: "Tokyo Hy-Power HL-110V Repairs"
+date: 2025-05-09
+subtitle: "Switch replacement and testing"
+categories: ["2m", "construction"]
+image: 2m-amp-7.jpg
+toc: false
+---
+
+![Tokyo Hy-Power HL-110V](2m-amp-11.jpg)
+
+Quite a while ago I bought this 2m amp to use with my ICOM IC-705. It's a 110W amp that can be driven by either 10W or 2W, and lots of details and references can be found on [RigPix database](https://www.rigpix.com/poweramps/tokyohypower_hl110v.htm). I thought that I could use it at home as my 2m base station, or even take it with me to do some SSB with a bit more than the 10W of the 705 (with external battery). The portable part was quickly dismissed when I realised how heavy it actually is - circa 2.5 kg. However, I had ideas of having the 705 in the office, and then a 2m and a HF amp in the garage and I could do everything from the 705. In the end I just put the ftdx10 in the office and realised it wasn't that big and did everything I need without having to buy a HF amp and figure out how to manage that semi-remotely. Anyway, the first time I came to use the amp the power level switch broke when I moved it. The rod seemed to come loose internal to the switch and did nothing. Having not tested it yet I didn't want to try until I replaced it in case the switch had failed in a strange way. I opened it up to have a look inside and thought I should replace the switch. This was all quite a while ago and for various reasons (laziness) I did nothing about it. After a shack tidy and sort out recently, I decided I would finally fix it and looked to order a replacement switch online.
+
+![Make your own jokes](2m-amp-1.jpg)
+
+Unfortunately, I couldn't find any DPDT switches of the 6A rating with a long lever - cue someone immediately emailing me with a link to 1,000s for 20p each - and so ended up with just a regular length one. Amp repairs is maybe slightly aspirational for what is really just unsoldering and resoldering a switch. It was a bit fiddly to get in and out as I didn't want to dismantle the amp more than necessary.
+
+![The old switch at the top](2m-amp-14.jpg)
+
+Unsoldering did seem to release 1970s smells but nothing was amiss, I did catch the side of the resistors with the soldering iron but no harm done. I could've done with a tiny spanner to loosen the nuts on either side of the panel but managed with a pair of pliers.
+
+![Connections on the switch](2m-amp-13.jpg)
+
+There's also a circle of black felt that goes between the front panel and the supporting panel, which blacks out the holes at the front, so it looks good. A nice touch, but also fiddly to get back into place. I soldered some wire across the top two pins first and then mounted it back into the case. I used some tweezers to hold the wires and resistors in place whilst I soldered them back to the switch.
+
+![](2m-amp-2.jpg)
+
+![New switch in place](2m-amp-3.jpg)
+
+I used a multimeter to check continuity just to make sure I hadn't soldered extra parts together as it was a little tricky to see, and all seemed good, so time to power it on!
+
+![ft-857 driver and power meter](2m-amp-7.jpg)
+
+This would be the first time actually testing it, and I fitted some Power Pole adapters to it as well. First I was going to try with 10W and see what I got out, and it was just over 110W. The power meter on the amp and my Avair one matched up well too.
+
+![10W in; 110W out](2m-amp-8.jpg)
+
+![100/110W out on its own meter](2m-amp-9.jpg)
+
+Next was to try with 2W. There's a little switch on the back of the amp that you have to set. It also has a screwed on plate, so if you only wanted to use it with 2W or 10W you can screw that on and stop the switch from being changed.
+
+![Back of amp, input power switch on the left](2m-amp-10.jpg)
+
+Unfortunately, the ft-857 only goes down to 5W, and so I was probably slightly over driving it. However, 2W would be ideal for the 705 or even a HT. At 2W the amp uses two stages of amplification but still yields 110W, or in my case with 5W driver, 130W out.
+
+![5W in; 130W out](2m-amp-5.jpg)
+
+![Higher than before, although doesn't show 130W. I only tested it at 5W for a few seconds to take a couple of photos.](2m-amp-6.jpg)
+
+So a success! Which is good, as the ebay auction was a long time ago now 😅. The question is, what do I do with it now? I've sold my 705 as I never used it and bought the ft857 for higher power 2m SSB and HF for SOTA. The 857 "only" does 50W of VHF, but that's plenty on a summit with a yagi, I just wanted a little more than 10W, and probably 20-30W is sufficient. At home I have a FM only rig for 2m for the occasional SOTA chase or brief chat with the locals, and that does 50W. I have dreams of doing something fancy like 2m EME, but then I'd probably want 300+W. I'm thinking it doesn't really have a use, and so should I sell it. At least the buyer can see it works. These Tokyo amps are lovely quality, but is it just going to sit in a cupboard for ever more?
+
+It was fun to fix it, even if the fix was tiny.

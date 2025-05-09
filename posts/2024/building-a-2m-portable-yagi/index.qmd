@@ -2,7 +2,7 @@
 title: "Building a portable 2m yagi"
 date: 2024-09-06
 subtitle: "Weight saving for portable ops"
-categories: ["Construction", "sota", "2m"]
+categories: ["construction", "sota", "2m"]
 image: cairn-william.jpg
 ---
 

@@ -27,6 +27,16 @@ website:
       - text: "Logbook"
         href: https://log.gm5alx.uk/visitor/sota
         target: _blank
+      - text: "My Web Apps"
+        menu:
+          - text: "🐐 wen goat"
+            href: https://wengoat.streamlit.app/
+          - text: "💯 Completely"
+            href: https://completely.streamlit.app/
+          - text: "🏝️ Islands Awards"
+            href: https://sotaislands.streamlit.app/
+          - text: "🏔️ Cairngorm Climbers Award"
+            href: https://cairngorms.streamlit.app/
       - text: "References"
         menu:
           - text: "Cairngorms SOTA summits"

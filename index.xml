@@ -9,7 +9,7 @@
 <link>https://gm5alx.uk/</link>
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
-<generator>quarto-1.8.24</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Mon, 29 Sep 2025 12:00:00 GMT</lastBuildDate>
 <item>
   <title>SOTA Activations April-Sept</title>
@@ -191,7 +191,7 @@
 <figcaption>Summit selfie</figcaption>
 </figure>
 </div>
-<p>Write up and chat on the <a href="https://reflector.sota.org.uk/t/munro-282-tims-big-day-out/38729/24">reflector</a>. At some point a video should come out.</p>
+<p>Write up and chat on the <a href="https://reflector.sota.org.uk/t/munro-282-tims-big-day-out/38729/24">reflector</a>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="beinnnalap-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-27" title="GM5ALX Station"><img src="https://gm5alx.uk/sota/2025/apr-sep/beinnnalap-5.jpg" class="img-fluid figure-img" alt="GM5ALX Station"></a></p>
@@ -204,6 +204,8 @@
 <figcaption>Tim and Fraser working 40m</figcaption>
 </figure>
 </div>
+<p>Video by Fraser:</p>
+<p>{{ video https://youtu.be/q3yIxBbk5Dk }}</p>
 </section>
 <section id="september-wrap-up" class="level2">
 <h2 class="anchored" data-anchor-id="september-wrap-up">September wrap up</h2>

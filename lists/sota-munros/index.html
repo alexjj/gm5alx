@@ -224,71 +224,90 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Here is a map and list of all the munros which are SOTA summits. There are 202, out of 282 munros. This is because munros have no prominence requirements, compared to SOTA’s 150m. I’ve also included non-SOTA munros in grey for reference.</p>
-<div class="quarto-ojs-syntax-error">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-startfrom="13" data-syntax-error-position="1672" data-source-offset="9"><pre class="sourceCode numberSource numberLines java code-with-copy"><code class="sourceCode java" style="counter-reset: source-line 12;"><span id="cb1-13"><a href="#cb1-13"></a>```<span class="op">{</span>ojs<span class="op">}</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a>L <span class="op">=</span> <span class="fu">require</span><span class="op">(</span><span class="er">'</span>leaflet<span class="at">@</span><span class="fl">1.9.4</span><span class="er">'</span><span class="op">)</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a></span>
-<span id="cb1-16"><a href="#cb1-16"></a>summits <span class="op">=</span> <span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"munros.json"</span><span class="op">).</span><span class="fu">json</span><span class="op">()</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a>munros <span class="op">=</span> <span class="fu">FileAttachment</span><span class="op">(</span><span class="st">"non-sota-munros.json"</span><span class="op">).</span><span class="fu">json</span><span class="op">()</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co">// Function to get a colored marker icon based on value</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a>function <span class="fu">getColor</span><span class="op">(</span>value<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a>  <span class="cf">switch</span> <span class="op">(</span>value<span class="op">)</span> <span class="op">{</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"DarkGreen"</span><span class="op">;</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"LimeGreen"</span><span class="op">;</span></span>
-<span id="cb1-24"><a href="#cb1-24"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Olive"</span><span class="op">;</span></span>
-<span id="cb1-25"><a href="#cb1-25"></a>    <span class="cf">case</span> <span class="dv">6</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Orange"</span><span class="op">;</span></span>
-<span id="cb1-26"><a href="#cb1-26"></a>    <span class="cf">case</span> <span class="dv">8</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"OrangeRed"</span><span class="op">;</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a>    <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Red"</span><span class="op">;</span></span>
-<span id="cb1-28"><a href="#cb1-28"></a>    <span class="kw">default</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Grey"</span><span class="op">;</span> <span class="co">// Default color for undefined values</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a>  <span class="op">}</span></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="op">}</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a></span>
-<span id="cb1-32"><a href="#cb1-32"></a>map <span class="op">=</span> <span class="op">{</span></span>
-<span id="cb1-33"><a href="#cb1-33"></a>  let container <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span><span class="op">(</span><span class="er">'</span>div<span class="er">'</span><span class="op">,</span> <span class="op">{</span> style<span class="op">:</span> `width<span class="op">:</span>$<span class="op">{</span>width<span class="op">}</span>px<span class="op">;</span>height<span class="op">:</span>$<span class="op">{</span>width<span class="op">}</span>px` <span class="op">});</span></span>
-<span id="cb1-34"><a href="#cb1-34"></a>  <span class="cf">yield</span> container<span class="op">;</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a></span>
-<span id="cb1-36"><a href="#cb1-36"></a>  let map <span class="op">=</span> L<span class="op">.</span><span class="fu">map</span><span class="op">(</span>container<span class="op">).</span><span class="fu">setView</span><span class="op">([</span><span class="fl">56.5625</span><span class="op">,</span> <span class="op">-</span><span class="fl">4.867</span><span class="op">],</span> <span class="dv">7</span><span class="op">);</span></span>
-<span id="cb1-37"><a href="#cb1-37"></a>  let osmLayer <span class="op">=</span> L<span class="op">.</span><span class="fu">tileLayer</span><span class="op">(</span><span class="er">'</span>https<span class="op">:</span><span class="co">//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {</span></span>
-<span id="cb1-38"><a href="#cb1-38"></a>      attribution<span class="op">:</span> <span class="er">'</span><span class="op">&amp;</span>copy<span class="op">;</span> <span class="op">&lt;</span>a href<span class="op">=</span><span class="st">"https://www.openstreetmap.org/copyright"</span><span class="op">&gt;</span>OpenStreetMap<span class="op">&lt;/</span>a<span class="op">&gt;</span> contributors<span class="er">'</span></span>
-<span id="cb1-39"><a href="#cb1-39"></a>  <span class="op">}).</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-40"><a href="#cb1-40"></a></span>
-<span id="cb1-41"><a href="#cb1-41"></a>  <span class="co">// Add SOTA summit markers</span></span>
-<span id="cb1-42"><a href="#cb1-42"></a>  summits<span class="op">.</span><span class="fu">forEach</span><span class="op">(({</span> lat<span class="op">,</span> lon<span class="op">,</span> points<span class="op">,</span> name<span class="op">,</span> reference<span class="op">,</span> Elevation <span class="op">})</span> <span class="op">=&gt;</span> <span class="op">{</span></span>
-<span id="cb1-43"><a href="#cb1-43"></a>      L<span class="op">.</span><span class="fu">circleMarker</span><span class="op">([+</span>lat<span class="op">,</span> <span class="op">+</span>lon<span class="op">],</span> <span class="op">{</span></span>
-<span id="cb1-44"><a href="#cb1-44"></a>        radius<span class="op">:</span> <span class="dv">8</span><span class="op">,</span></span>
-<span id="cb1-45"><a href="#cb1-45"></a>        color<span class="op">:</span> <span class="fu">getColor</span><span class="op">(</span>points<span class="op">),</span></span>
-<span id="cb1-46"><a href="#cb1-46"></a>        fillColor<span class="op">:</span> <span class="fu">getColor</span><span class="op">(</span>points<span class="op">),</span></span>
-<span id="cb1-47"><a href="#cb1-47"></a>        fillOpacity<span class="op">:</span> <span class="fl">0.8</span></span>
-<span id="cb1-48"><a href="#cb1-48"></a>      <span class="op">}).</span><span class="fu">bindPopup</span><span class="op">(</span>`Summit<span class="op">:</span> $<span class="op">{</span>name<span class="op">}&lt;</span>br<span class="op">&gt;</span><span class="bu">Reference</span><span class="op">:</span> <span class="op">&lt;</span>a href<span class="op">=</span><span class="st">"https://sotl.as/summits/${reference}"</span> target<span class="op">=</span><span class="st">"_blank"</span><span class="op">&gt;</span>$<span class="op">{</span>reference<span class="op">}&lt;/</span>a<span class="op">&gt;&lt;</span>br<span class="op">&gt;</span>Height<span class="op">:</span> $<span class="op">{</span>Elevation<span class="op">}</span> m<span class="op">&lt;</span>br<span class="op">&gt;</span>Points<span class="op">:</span> $<span class="op">{</span>points<span class="op">}</span>`<span class="op">)</span></span>
-<span id="cb1-49"><a href="#cb1-49"></a>      <span class="op">.</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-50"><a href="#cb1-50"></a></span>
-<span id="cb1-51"><a href="#cb1-51"></a>  <span class="co">// Add non-SOTA summit markers</span></span>
-<span id="cb1-52"><a href="#cb1-52"></a>  munros<span class="op">.</span><span class="fu">forEach</span><span class="op">(({</span> lat<span class="op">,</span> lon<span class="op">,</span> points<span class="op">,</span> name<span class="op">,</span> Elevation <span class="op">})</span> <span class="op">=&gt;</span> <span class="op">{</span></span>
-<span id="cb1-53"><a href="#cb1-53"></a>      L<span class="op">.</span><span class="fu">circleMarker</span><span class="op">([+</span>lat<span class="op">,</span> <span class="op">+</span>lon<span class="op">],</span> <span class="op">{</span></span>
-<span id="cb1-54"><a href="#cb1-54"></a>        radius<span class="op">:</span> <span class="dv">8</span><span class="op">,</span></span>
-<span id="cb1-55"><a href="#cb1-55"></a>        color<span class="op">:</span> <span class="fu">getColor</span><span class="op">(</span>points<span class="op">),</span></span>
-<span id="cb1-56"><a href="#cb1-56"></a>        fillColor<span class="op">:</span> <span class="fu">getColor</span><span class="op">(</span>points<span class="op">),</span></span>
-<span id="cb1-57"><a href="#cb1-57"></a>        fillOpacity<span class="op">:</span> <span class="fl">0.8</span></span>
-<span id="cb1-58"><a href="#cb1-58"></a>      <span class="op">}).</span><span class="fu">bindPopup</span><span class="op">(</span>`Summit<span class="op">:</span> $<span class="op">{</span>name<span class="op">}&lt;</span>br<span class="op">&gt;</span>Height<span class="op">:</span> $<span class="op">{</span>Elevation<span class="op">}</span> m<span class="op">&lt;</span>br<span class="op">&gt;</span>`<span class="op">)</span></span>
-<span id="cb1-59"><a href="#cb1-59"></a>      <span class="op">.</span><span class="fu">addTo</span><span class="op">(</span>map<span class="op">);</span></span>
-<span id="cb1-60"><a href="#cb1-60"></a></span>
-<span id="cb1-61"><a href="#cb1-61"></a>  <span class="op">});</span></span>
-<span id="cb1-62"><a href="#cb1-62"></a></span>
-<span id="cb1-63"><a href="#cb1-63"></a><span class="op">}</span></span>
-<span id="cb1-64"><a href="#cb1-64"></a></span>
-<span id="cb1-65"><a href="#cb1-65"></a>```</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-error">
-<div class="callout callout-style-default callout-important callout-empty-content callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Important</span>OJS Syntax Error (line 65, column 1)Unexpected end of input
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="14" data-source-offset="-0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 13;"><span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>L <span class="op">=</span> <span class="pp">require</span>(<span class="st">'leaflet@1.9.4'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>summits <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"munros.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>munros <span class="op">=</span> <span class="fu">FileAttachment</span>(<span class="st">"non-sota-munros.json"</span>)<span class="op">.</span><span class="fu">json</span>()</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">// Function to get a colored marker icon based on value</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="kw">function</span> <span class="fu">getColor</span>(value) {</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="cf">switch</span> (value) {</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">1</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"DarkGreen"</span><span class="op">;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">2</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"LimeGreen"</span><span class="op">;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">4</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Olive"</span><span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">6</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Orange"</span><span class="op">;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">8</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"OrangeRed"</span><span class="op">;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">case</span> <span class="dv">10</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Red"</span><span class="op">;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">default</span><span class="op">:</span> <span class="cf">return</span> <span class="st">"Grey"</span><span class="op">;</span> <span class="co">// Default color for undefined values</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>map <span class="op">=</span> {</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> container <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span><span class="op">,</span> { <span class="dt">style</span><span class="op">:</span> <span class="vs">`width:</span><span class="sc">${</span>width<span class="sc">}</span><span class="vs">px;height:</span><span class="sc">${</span>width<span class="sc">}</span><span class="vs">px`</span> })<span class="op">;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>  <span class="kw">yield</span> container<span class="op">;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> map <span class="op">=</span> L<span class="op">.</span><span class="fu">map</span>(container)<span class="op">.</span><span class="fu">setView</span>([<span class="fl">56.5625</span><span class="op">,</span> <span class="op">-</span><span class="fl">4.867</span>]<span class="op">,</span> <span class="dv">7</span>)<span class="op">;</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> osmLayer <span class="op">=</span> L<span class="op">.</span><span class="fu">tileLayer</span>(<span class="st">'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'</span><span class="op">,</span> {</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>      <span class="dt">attribution</span><span class="op">:</span> <span class="st">'&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt; contributors'</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>  })<span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Add SOTA summit markers</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>  summits<span class="op">.</span><span class="fu">forEach</span>(({ lat<span class="op">,</span> lon<span class="op">,</span> points<span class="op">,</span> name<span class="op">,</span> reference<span class="op">,</span> Elevation }) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>      L<span class="op">.</span><span class="fu">circleMarker</span>([<span class="op">+</span>lat<span class="op">,</span> <span class="op">+</span>lon]<span class="op">,</span> {</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        <span class="dt">radius</span><span class="op">:</span> <span class="dv">8</span><span class="op">,</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        <span class="dt">color</span><span class="op">:</span> <span class="fu">getColor</span>(points)<span class="op">,</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fillColor</span><span class="op">:</span> <span class="fu">getColor</span>(points)<span class="op">,</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fillOpacity</span><span class="op">:</span> <span class="fl">0.8</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>      })<span class="op">.</span><span class="fu">bindPopup</span>(<span class="vs">`Summit: </span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;br&gt;Reference: &lt;a href="https://sotl.as/summits/</span><span class="sc">${</span>reference<span class="sc">}</span><span class="vs">" target="_blank"&gt;</span><span class="sc">${</span>reference<span class="sc">}</span><span class="vs">&lt;/a&gt;&lt;br&gt;Height: </span><span class="sc">${</span>Elevation<span class="sc">}</span><span class="vs"> m&lt;br&gt;Points: </span><span class="sc">${</span>points<span class="sc">}</span><span class="vs">`</span>)</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>      })<span class="op">;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Add non-SOTA summit markers</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>  munros<span class="op">.</span><span class="fu">forEach</span>(({ lat<span class="op">,</span> lon<span class="op">,</span> points<span class="op">,</span> name<span class="op">,</span> Elevation }) <span class="kw">=&gt;</span> {</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>      L<span class="op">.</span><span class="fu">circleMarker</span>([<span class="op">+</span>lat<span class="op">,</span> <span class="op">+</span>lon]<span class="op">,</span> {</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>        <span class="dt">radius</span><span class="op">:</span> <span class="dv">8</span><span class="op">,</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>        <span class="dt">color</span><span class="op">:</span> <span class="fu">getColor</span>(points)<span class="op">,</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fillColor</span><span class="op">:</span> <span class="fu">getColor</span>(points)<span class="op">,</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>        <span class="dt">fillOpacity</span><span class="op">:</span> <span class="fl">0.8</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>      })<span class="op">.</span><span class="fu">bindPopup</span>(<span class="vs">`Summit: </span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">&lt;br&gt;Height: </span><span class="sc">${</span>Elevation<span class="sc">}</span><span class="vs"> m&lt;br&gt;`</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">addTo</span>(map)<span class="op">;</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>  })<span class="op">;</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
 </div>
 </div>
-<div class="callout-body-container callout-body">
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-5" data-nodetype="declaration">
 
 </div>
 </div>
@@ -299,7 +318,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-eyJjb250ZW50cyI6W119
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IkwgPSByZXF1aXJlKCdsZWFmbGV0QDEuOS40Jylcblxuc3VtbWl0cyA9IEZpbGVBdHRhY2htZW50KFwibXVucm9zLmpzb25cIikuanNvbigpXG5tdW5yb3MgPSBGaWxlQXR0YWNobWVudChcIm5vbi1zb3RhLW11bnJvcy5qc29uXCIpLmpzb24oKVxuXG4vLyBGdW5jdGlvbiB0byBnZXQgYSBjb2xvcmVkIG1hcmtlciBpY29uIGJhc2VkIG9uIHZhbHVlXG5mdW5jdGlvbiBnZXRDb2xvcih2YWx1ZSkge1xuICBzd2l0Y2ggKHZhbHVlKSB7XG4gICAgY2FzZSAxOiByZXR1cm4gXCJEYXJrR3JlZW5cIjtcbiAgICBjYXNlIDI6IHJldHVybiBcIkxpbWVHcmVlblwiO1xuICAgIGNhc2UgNDogcmV0dXJuIFwiT2xpdmVcIjtcbiAgICBjYXNlIDY6IHJldHVybiBcIk9yYW5nZVwiO1xuICAgIGNhc2UgODogcmV0dXJuIFwiT3JhbmdlUmVkXCI7XG4gICAgY2FzZSAxMDogcmV0dXJuIFwiUmVkXCI7XG4gICAgZGVmYXVsdDogcmV0dXJuIFwiR3JleVwiOyAvLyBEZWZhdWx0IGNvbG9yIGZvciB1bmRlZmluZWQgdmFsdWVzXG4gIH1cbn1cblxubWFwID0ge1xuICBsZXQgY29udGFpbmVyID0gRE9NLmVsZW1lbnQoJ2RpdicsIHsgc3R5bGU6IGB3aWR0aDoke3dpZHRofXB4O2hlaWdodDoke3dpZHRofXB4YCB9KTtcbiAgeWllbGQgY29udGFpbmVyO1xuXG4gIGxldCBtYXAgPSBMLm1hcChjb250YWluZXIpLnNldFZpZXcoWzU2LjU2MjUsIC00Ljg2N10sIDcpO1xuICBsZXQgb3NtTGF5ZXIgPSBMLnRpbGVMYXllcignaHR0cHM6Ly97c30udGlsZS5vcGVuc3RyZWV0bWFwLm9yZy97en0ve3h9L3t5fS5wbmcnLCB7XG4gICAgICBhdHRyaWJ1dGlvbjogJyZjb3B5OyA8YSBocmVmPVwiaHR0cHM6Ly93d3cub3BlbnN0cmVldG1hcC5vcmcvY29weXJpZ2h0XCI+T3BlblN0cmVldE1hcDwvYT4gY29udHJpYnV0b3JzJ1xuICB9KS5hZGRUbyhtYXApO1xuXG4gIC8vIEFkZCBTT1RBIHN1bW1pdCBtYXJrZXJzXG4gIHN1bW1pdHMuZm9yRWFjaCgoeyBsYXQsIGxvbiwgcG9pbnRzLCBuYW1lLCByZWZlcmVuY2UsIEVsZXZhdGlvbiB9KSA9PiB7XG4gICAgICBMLmNpcmNsZU1hcmtlcihbK2xhdCwgK2xvbl0sIHtcbiAgICAgICAgcmFkaXVzOiA4LFxuICAgICAgICBjb2xvcjogZ2V0Q29sb3IocG9pbnRzKSxcbiAgICAgICAgZmlsbENvbG9yOiBnZXRDb2xvcihwb2ludHMpLFxuICAgICAgICBmaWxsT3BhY2l0eTogMC44XG4gICAgICB9KS5iaW5kUG9wdXAoYFN1bW1pdDogJHtuYW1lfTxicj5SZWZlcmVuY2U6IDxhIGhyZWY9XCJodHRwczovL3NvdGwuYXMvc3VtbWl0cy8ke3JlZmVyZW5jZX1cIiB0YXJnZXQ9XCJfYmxhbmtcIj4ke3JlZmVyZW5jZX08L2E+PGJyPkhlaWdodDogJHtFbGV2YXRpb259IG08YnI+UG9pbnRzOiAke3BvaW50c31gKVxuICAgICAgLmFkZFRvKG1hcCk7XG5cbiAgICAgIH0pO1xuXG4gIC8vIEFkZCBub24tU09UQSBzdW1taXQgbWFya2Vyc1xuICBtdW5yb3MuZm9yRWFjaCgoeyBsYXQsIGxvbiwgcG9pbnRzLCBuYW1lLCBFbGV2YXRpb24gfSkgPT4ge1xuICAgICAgTC5jaXJjbGVNYXJrZXIoWytsYXQsICtsb25dLCB7XG4gICAgICAgIHJhZGl1czogOCxcbiAgICAgICAgY29sb3I6IGdldENvbG9yKHBvaW50cyksXG4gICAgICAgIGZpbGxDb2xvcjogZ2V0Q29sb3IocG9pbnRzKSxcbiAgICAgICAgZmlsbE9wYWNpdHk6IDAuOFxuICAgICAgfSkuYmluZFBvcHVwKGBTdW1taXQ6ICR7bmFtZX08YnI+SGVpZ2h0OiAke0VsZXZhdGlvbn0gbTxicj5gKVxuICAgICAgLmFkZFRvKG1hcCk7XG5cbiAgfSk7XG5cbn1cblxuIn1dfQ==
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }

@@ -56,7 +56,7 @@ map = {
         radius: 6,
         color: getColor(points),
         fillColor: getColor(points),
-        fillOpacity: 0.8
+        fillOpacity: 0.65
       }).bindPopup(`Summit: ${name}<br>Height: ${Elevation} m<br>`)
       .addTo(map);
 

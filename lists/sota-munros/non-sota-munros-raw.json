@@ -1,0 +1,1386 @@
+//*
+
+Query
+
+[out:json][timeout:25];
+nwr["munro"="yes"]["communication:amateur_radio:sota"!~"."]({{bbox}});
+
+out geom;
+//*
+
+[{
+  "type": "node",
+  "id": 25713486,
+  "lat": 56.3902442,
+  "lon": -4.8356421,
+  "tags": {
+    "description": "Hill of the creel or chest",
+    "ele": "916",
+    "man_made": "cairn",
+    "munro": "yes",
+    "munro_number": "M280",
+    "name": "Beinn a' Chleibh",
+    "name:gd": "Beinn a' Chlèibh",
+    "natural": "peak",
+    "prominence": "141",
+    "wikidata": "Q3402891",
+    "wikipedia": "en:Beinn a' Chleibh"
+  }
+},
+{
+  "type": "node",
+  "id": 35925143,
+  "lat": 57.1167690,
+  "lon": -3.6444857,
+  "tags": {
+    "alt_name": "Cairngorm",
+    "description": "Its Gaelic name means Blue Hill",
+    "ele": "1244",
+    "munro": "yes",
+    "munro_number": "M006",
+    "name": "Cairn Gorm",
+    "name:gd": "An Càrn Gorm",
+    "natural": "peak",
+    "source:ele": "GPS survey",
+    "wikidata": "Q1025927",
+    "wikipedia": "en:Cairn Gorm"
+  }
+},
+{
+  "type": "node",
+  "id": 54668525,
+  "lat": 57.0583426,
+  "lon": -3.7257268,
+  "tags": {
+    "alt_name": "The Angel's Peak",
+    "description": "Its Gaelic name means Peak of the Little Green Loch",
+    "ele": "1258",
+    "munro": "yes",
+    "munro_number": "M005",
+    "name": "Sgor an Lochain Uaine",
+    "name:gd": "Sgòr an Lochain Uaine",
+    "natural": "peak",
+    "wikidata": "Q767214",
+    "wikipedia": "en:Sgòr an Lochain Uaine"
+  }
+},
+{
+  "type": "node",
+  "id": 55291620,
+  "lat": 56.8129504,
+  "lon": -4.9617416,
+  "tags": {
+    "description": "Big hill",
+    "ele": "1221",
+    "munro": "yes",
+    "munro_number": "M008",
+    "name": "Aonach Mòr",
+    "name:gd": "An t-Aonach Mòr",
+    "natural": "peak",
+    "wikidata": "Q2395787",
+    "wikipedia": "en:Aonach Mòr"
+  }
+},
+{
+  "type": "node",
+  "id": 56114463,
+  "lat": 56.5360003,
+  "lon": -4.2370429,
+  "tags": {
+    "description": "Greenish-grey hill",
+    "ele": "1103",
+    "munro": "yes",
+    "munro_number": "M047",
+    "name": "Beinn Ghlas",
+    "natural": "peak",
+    "wikidata": "Q3399686",
+    "wikipedia": "en:Beinn Ghlas"
+  }
+},
+{
+  "type": "node",
+  "id": 255378147,
+  "lat": 56.7436810,
+  "lon": -4.9399281,
+  "tags": {
+    "description": "The maidens",
+    "ele": "1056",
+    "munro": "yes",
+    "munro_number": "M074",
+    "name": "Na Gruagaichean",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3399676",
+    "wikipedia": "en:Na Gruagaichean"
+  }
+},
+{
+  "type": "node",
+  "id": 255386890,
+  "lat": 56.8233896,
+  "lon": -4.7609130,
+  "tags": {
+    "description": "Peak of the middle corrie",
+    "ele": "1105",
+    "munro": "yes",
+    "munro_number": "M046",
+    "name": "Stob a' Choire Mheadhoin",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3397176",
+    "wikipedia": "en:Stob a' Choire Mheadhoin"
+  }
+},
+{
+  "type": "node",
+  "id": 255392114,
+  "lat": 56.8109037,
+  "lon": -4.8848781,
+  "tags": {
+    "description": "Peak of the corrie of the calf",
+    "ele": "1117",
+    "munro": "yes",
+    "munro_number": "M038",
+    "name": "Stob Coire an Laoigh",
+    "natural": "peak",
+    "source": "NPE",
+    "source:ele": "GPS survey",
+    "wikidata": "Q3397894",
+    "wikipedia": "en:Stob Coire an Laoigh"
+  }
+},
+{
+  "type": "node",
+  "id": 255393052,
+  "lat": 56.6808731,
+  "lon": -5.0028832,
+  "tags": {
+    "description": "Red hill",
+    "ele": "953",
+    "munro": "yes",
+    "munro_number": "M212",
+    "name": "Meall Dearg",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13130017",
+    "wikipedia": "en:Aonach Eagach"
+  }
+},
+{
+  "type": "node",
+  "id": 255397860,
+  "lat": 56.8313019,
+  "lon": -4.6950358,
+  "tags": {
+    "cairn": "yes",
+    "description": "Peak of the corrie of the scree",
+    "ele": "979",
+    "munro": "yes",
+    "munro_number": "M174",
+    "name": "Stob Coire Sgriodain",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13131652"
+  }
+},
+{
+  "type": "node",
+  "id": 255419412,
+  "lat": 56.8259432,
+  "lon": -4.5445368,
+  "tags": {
+    "description": "Delightful hill",
+    "ele": "1102",
+    "munro": "yes",
+    "munro_number": "M048",
+    "name": "Beinn Eibhinn",
+    "natural": "peak",
+    "source": "GPS survey",
+    "wikidata": "Q20581498"
+  }
+},
+{
+  "type": "node",
+  "id": 255419413,
+  "lat": 56.8334981,
+  "lon": -4.5292080,
+  "tags": {
+    "description": "Little ridge",
+    "ele": "1116",
+    "marilyn": "yes",
+    "munro": "yes",
+    "munro_number": "M037",
+    "name": "Aonach Beag",
+    "natural": "peak",
+    "prominence": "404",
+    "source": "GPS survey",
+    "wikidata": "Q20578271",
+    "wikipedia": "en:Aonach Beag"
+  }
+},
+{
+  "type": "node",
+  "id": 255420453,
+  "lat": 56.8997277,
+  "lon": -4.4849470,
+  "tags": {
+    "description": "Meaning uncertain, maybe from surname Petrie?",
+    "ele": "924",
+    "munro": "yes",
+    "munro_number": "M264",
+    "name": "Creag Pitridh",
+    "natural": "peak",
+    "source": "GPS Survey",
+    "wikidata": "Q20595431"
+  }
+},
+{
+  "type": "node",
+  "id": 255698201,
+  "lat": 57.1209805,
+  "lon": -5.1600980,
+  "tags": {
+    "description": "Rock of the large rounded hill",
+    "ele": "947",
+    "munro": "yes",
+    "munro_number": "M218",
+    "name": "Creag a' Mhaim",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13127355"
+  }
+},
+{
+  "type": "node",
+  "id": 255698926,
+  "lat": 57.1268047,
+  "lon": -5.1828430,
+  "tags": {
+    "description": "Ridge of the fox",
+    "ele": "987",
+    "munro": "yes",
+    "munro_number": "M160",
+    "name": "Druim Shionnach",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20591945"
+  }
+},
+{
+  "type": "node",
+  "id": 255699183,
+  "lat": 57.1275298,
+  "lon": -5.2527381,
+  "tags": {
+    "description": "Bald red head",
+    "ele": "981",
+    "munro": "yes",
+    "munro_number": "M168",
+    "name": "Maol Chinn-dearg",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13129919"
+  }
+},
+{
+  "type": "node",
+  "id": 255699584,
+  "lat": 57.1412342,
+  "lon": -5.2975211,
+  "tags": {
+    "description": "Peak of the little loch",
+    "ele": "1004",
+    "munro": "yes",
+    "munro_number": "M131",
+    "name": "Sgurr an Lochain",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20596828"
+  }
+},
+{
+  "type": "node",
+  "id": 255701913,
+  "lat": 57.1891053,
+  "lon": -5.3492041,
+  "tags": {
+    "description": "Stony peak",
+    "ele": "1002",
+    "marilyn": "no",
+    "munro": "yes",
+    "munro_number": "M134",
+    "name": "Sgùrr na Càrnach",
+    "natural": "peak",
+    "prominence": "134",
+    "source": "NPE",
+    "wikidata": "Q7459815",
+    "wikipedia": "en:Sgùrr na Càrnach"
+  }
+},
+{
+  "type": "node",
+  "id": 255702573,
+  "lat": 57.1811067,
+  "lon": -5.2810334,
+  "tags": {
+    "description": "The little heel",
+    "ele": "956",
+    "munro": "yes",
+    "munro_number": "M205",
+    "name": "Sàileag",
+    "natural": "peak",
+    "prominence": "91",
+    "source": "NPE",
+    "wikidata": "Q7665193",
+    "wikipedia": "en:Sàileag"
+  }
+},
+{
+  "type": "node",
+  "id": 255704394,
+  "lat": 57.1917863,
+  "lon": -5.0910662,
+  "tags": {
+    "description": "Hill of the rowan",
+    "ele": "1002",
+    "munro": "yes",
+    "munro_number": "M133",
+    "name": "Sail Chaorainn",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20596004"
+  }
+},
+{
+  "type": "node",
+  "id": 255704398,
+  "lat": 57.1659773,
+  "lon": -5.0681091,
+  "tags": {
+    "description": "Hill of movement",
+    "ele": "957",
+    "ele:ft": "3140",
+    "munro": "yes",
+    "munro_number": "M203",
+    "name": "Carn Ghluasaid",
+    "natural": "peak",
+    "source": "NPE;OS7",
+    "wikidata": "Q24677957"
+  }
+},
+{
+  "type": "node",
+  "id": 258821202,
+  "lat": 56.3323177,
+  "lon": -4.6084964,
+  "tags": {
+    "description": "Hill of harm or danger",
+    "ele": "942",
+    "munro": "yes",
+    "munro_number": "M231",
+    "name": "Beinn a' Chroin",
+    "natural": "peak",
+    "note": "gps shows this as the true top.",
+    "prominence": "137",
+    "source": "NPE",
+    "wikidata": "Q4881350",
+    "wikipedia": "en:Beinn a' Chroin"
+  }
+},
+{
+  "type": "node",
+  "id": 258821907,
+  "lat": 56.3422195,
+  "lon": -4.5632896,
+  "tags": {
+    "description": "Hill of the hillocks",
+    "ele": "946",
+    "munro": "yes",
+    "munro_number": "M220",
+    "name": "Beinn Tulaichean",
+    "natural": "peak",
+    "prominence": "121",
+    "source": "NPE",
+    "wikidata": "Q4881340",
+    "wikipedia": "en:Beinn Tulaichean"
+  }
+},
+{
+  "type": "node",
+  "id": 258827822,
+  "lat": 56.5602696,
+  "lon": -4.2159207,
+  "tags": {
+    "description": "The peak",
+    "ele": "1118",
+    "munro": "yes",
+    "munro_number": "M034",
+    "name": "An Stùc",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q4750226",
+    "wikipedia": "en:An Stùc"
+  }
+},
+{
+  "type": "node",
+  "id": 259034088,
+  "lat": 56.4313393,
+  "lon": -5.0914398,
+  "tags": {
+    "description": "Peak of the stag",
+    "ele": "998",
+    "munro": "yes",
+    "munro_number": "M143",
+    "name": "Stob Diamh",
+    "natural": "peak",
+    "wikidata": "Q20598746"
+  }
+},
+{
+  "type": "node",
+  "id": 260179363,
+  "lat": 57.8007718,
+  "lon": -5.2594507,
+  "tags": {
+    "description": "Light coloured peak, or perhaps peak of wine",
+    "ele": "1060",
+    "munro": "yes",
+    "munro_number": "M073",
+    "name": "Sgurr Fiona",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3396261",
+    "wikipedia": "en:An Teallach"
+  }
+},
+{
+  "type": "node",
+  "id": 260271696,
+  "lat": 58.1357480,
+  "lon": -4.8833140,
+  "tags": {
+    "description": "Hill of the dog, or hill of the meeting",
+    "ele": "987",
+    "ele:ft": "3234",
+    "marilyn": "no",
+    "munro": "yes",
+    "munro_number": "M158",
+    "name": "Conival",
+    "name:gd": "Cona Mheall",
+    "natural": "peak",
+    "prominence": "101",
+    "source": "NPE",
+    "wikidata": "Q3396273",
+    "wikipedia": "en:Conival"
+  }
+},
+{
+  "type": "node",
+  "id": 266818064,
+  "lat": 57.7985391,
+  "lon": -4.9340758,
+  "tags": {
+    "description": "Ceap, meaning a back or hilltop",
+    "ele": "977",
+    "munro": "yes",
+    "munro_number": "M177",
+    "name": "Meall nan Ceapraichean",
+    "natural": "peak",
+    "source": "survey & NPE",
+    "wikidata": "Q19998074",
+    "wikipedia": "cy:Meall nan Ceapraichean"
+  }
+},
+{
+  "type": "node",
+  "id": 268245567,
+  "lat": 57.6675373,
+  "lon": -4.9493718,
+  "tags": {
+    "description": "The little cock",
+    "ele": "923",
+    "munro": "yes",
+    "munro_number": "M266",
+    "name": "An Coileachan",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13125497"
+  }
+},
+{
+  "type": "node",
+  "id": 268245568,
+  "lat": 57.6808510,
+  "lon": -4.9837740,
+  "tags": {
+    "description": "Blue hill",
+    "ele": "949",
+    "munro": "yes",
+    "munro_number": "M215",
+    "name": "Meall Gorm",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13130031"
+  }
+},
+{
+  "type": "node",
+  "id": 268246022,
+  "lat": 57.7060370,
+  "lon": -4.9897250,
+  "tags": {
+    "description": "Big grey hill of Fannich",
+    "ele": "954",
+    "munro": "yes",
+    "munro_number": "M209",
+    "name": "Beinn Liath Mhor Fannaich",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q19993569"
+  }
+},
+{
+  "type": "node",
+  "id": 268247094,
+  "lat": 57.6810145,
+  "lon": -5.0463399,
+  "tags": {
+    "description": "Peak of the horses",
+    "ele": "923",
+    "marilyn": "no",
+    "munro": "yes",
+    "munro_number": "M267",
+    "name": "Sgùrr nan Each",
+    "natural": "peak",
+    "prominence": "108",
+    "source": "NPE",
+    "wikidata": "Q7459828",
+    "wikipedia": "en:Sgùrr nan Each"
+  }
+},
+{
+  "type": "node",
+  "id": 268247096,
+  "lat": 57.7128170,
+  "lon": -5.0486740,
+  "tags": {
+    "description": "Hill of the crossing",
+    "ele": "934",
+    "munro": "yes",
+    "munro_number": "M243",
+    "name": "Meall a' Chrasgaidh",
+    "natural": "peak",
+    "prominence": "115",
+    "source": "NPE",
+    "wikidata": "Q6803536",
+    "wikipedia": "en:Meall a' Chrasgaidh"
+  }
+},
+{
+  "type": "node",
+  "id": 269514338,
+  "lat": 57.4646057,
+  "lon": -5.1108081,
+  "tags": {
+    "description": "Bare hill of the wet place",
+    "ele": "1007",
+    "man_made": "cairn",
+    "marilyn": "yes",
+    "munro": "yes",
+    "munro_number": "M125",
+    "name": "Maoile Lunndaidh",
+    "name:gd": "Maoil Lunndaidh",
+    "natural": "peak",
+    "prominence": "400",
+    "source": "NPE",
+    "wikidata": "Q3401417",
+    "wikipedia": "en:Maoile Lunndaidh"
+  }
+},
+{
+  "type": "node",
+  "id": 269514446,
+  "lat": 57.4510444,
+  "lon": -5.2078843,
+  "tags": {
+    "description": "Moss peak",
+    "ele": "999",
+    "munro": "yes",
+    "munro_number": "M139",
+    "name": "Sgùrr Choinnich",
+    "natural": "peak",
+    "source": "survey",
+    "wikidata": "Q7459801",
+    "wikipedia": "en:Sgùrr Choinnich"
+  }
+},
+{
+  "type": "node",
+  "id": 269515430,
+  "lat": 57.4496714,
+  "lon": -4.9418278,
+  "tags": {
+    "description": "Peak of the cold hollow",
+    "ele": "1048",
+    "ele:ft": "3439",
+    "munro": "yes",
+    "munro_number": "M082",
+    "name": "Sgurr Fuar-thuill",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13131327"
+  }
+},
+{
+  "type": "node",
+  "id": 269515575,
+  "lat": 57.4523118,
+  "lon": -4.8799515,
+  "tags": {
+    "description": "Hill of the goat",
+    "ele": "992",
+    "marilyn": "yes",
+    "munro": "yes",
+    "munro_number": "M153",
+    "name": "Càrn nan Gobhar",
+    "natural": "peak",
+    "prominence": "137",
+    "source": "NPE",
+    "wikidata": "Q5202309",
+    "wikipedia": "en:Càrn nan Gobhar (Strathfarrar)"
+  }
+},
+{
+  "type": "node",
+  "id": 270089091,
+  "lat": 57.2995398,
+  "lon": -5.0489592,
+  "tags": {
+    "description": "Hill of the moss",
+    "ele": "1112",
+    "ele:ft": "3646",
+    "munro": "yes",
+    "munro_number": "M041",
+    "name": "Tom a' Choinich",
+    "natural": "peak",
+    "source": "NPE;OS7",
+    "wikidata": "Q13131942"
+  }
+},
+{
+  "type": "node",
+  "id": 270089441,
+  "lat": 57.2799654,
+  "lon": -5.1210092,
+  "tags": {
+    "description": "Hill of the barns",
+    "ele": "1181",
+    "munro": "yes",
+    "munro_number": "M014",
+    "name": "Mam Sodhail",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3441768",
+    "wikipedia": "en:Mam Sodhail"
+  }
+},
+{
+  "type": "node",
+  "id": 270090385,
+  "lat": 57.2575322,
+  "lon": -5.1712947,
+  "tags": {
+    "description": "The snout",
+    "ele": "921",
+    "munro": "yes",
+    "munro_number": "M269",
+    "name": "An Socach",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20577872",
+    "wikipedia": "cy:An Socach",
+    "wikipedia:de": "An Socach (Glen Affric)"
+  }
+},
+{
+  "type": "node",
+  "id": 270090386,
+  "lat": 57.2834020,
+  "lon": -5.1863382,
+  "tags": {
+    "description": "Summit of the hawk (perhaps)",
+    "ele": "982",
+    "munro": "yes",
+    "munro_number": "M167",
+    "name": "Mullach na Dheiragain",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q19462250"
+  }
+},
+{
+  "type": "node",
+  "id": 273877166,
+  "lat": 56.9646817,
+  "lon": -4.5836764,
+  "tags": {
+    "description": "Peak of the pot of the high corrie",
+    "ele": "1054",
+    "ele:ft": "3460",
+    "munro": "yes",
+    "munro_number": "M076",
+    "name": "Stob Poite Coire Ardair",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q24677999"
+  }
+},
+{
+  "type": "node",
+  "id": 273878300,
+  "lat": 56.9787879,
+  "lon": -4.5153153,
+  "tags": {
+    "cairn": "yes",
+    "description": "Grey hill",
+    "ele": "1006",
+    "ele:ft": "3298",
+    "munro": "yes",
+    "munro_number": "M127",
+    "name": "Càrn Liath",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13126622"
+  }
+},
+{
+  "type": "node",
+  "id": 273879956,
+  "lat": 57.0575181,
+  "lon": -4.3735446,
+  "tags": {
+    "description": "White hill",
+    "ele": "926",
+    "munro": "yes",
+    "munro_number": "M260",
+    "name": "Geal Chàrn",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q24680053"
+  }
+},
+{
+  "type": "node",
+  "id": 273884133,
+  "lat": 57.1243293,
+  "lon": -4.1770213,
+  "tags": {
+    "description": "Hill of the basket, or of the old man",
+    "ele": "918",
+    "munro": "yes",
+    "munro_number": "M271",
+    "name": "Carn Sgulain",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q24677932"
+  }
+},
+{
+  "type": "node",
+  "id": 273884437,
+  "lat": 57.1096034,
+  "lon": -4.1794102,
+  "tags": {
+    "description": "The old woman",
+    "ele": "930",
+    "munro": "yes",
+    "munro_number": "M251",
+    "name": "A' Chailleach",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13125301"
+  }
+},
+{
+  "type": "node",
+  "id": 273887333,
+  "lat": 56.8704686,
+  "lon": -4.1988872,
+  "tags": {
+    "cairn": "yes",
+    "description": "The little yellow place",
+    "ele": "936",
+    "munro": "yes",
+    "munro_number": "M240",
+    "name": "A' Bhuidheanach Bheag",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3356582",
+    "wikipedia": "en:A' Bhuidheanach Bheag"
+  }
+},
+{
+  "type": "node",
+  "id": 273888425,
+  "lat": 56.8576719,
+  "lon": -4.2898715,
+  "tags": {
+    "description": "The horse place",
+    "ele": "975",
+    "munro": "yes",
+    "munro_number": "M179",
+    "name": "A' Mharconaich",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3395421",
+    "wikipedia": "en:A' Mharconaich"
+  }
+},
+{
+  "type": "node",
+  "id": 273927361,
+  "lat": 56.6205643,
+  "lon": -4.1287060,
+  "tags": {
+    "description": "Big rock",
+    "ele": "981",
+    "munro": "yes",
+    "munro_number": "M169",
+    "name": "Meall na Aighean",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20598397"
+  }
+},
+{
+  "type": "node",
+  "id": 273928542,
+  "lat": 56.6374778,
+  "lon": -4.2076273,
+  "tags": {
+    "description": "Rough hill",
+    "ele": "968",
+    "munro": "yes",
+    "munro_number": "M186",
+    "name": "Meall Garbh",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3403834",
+    "wikipedia": "en:Meall Garbh (Càrn Mairg Group)"
+  }
+},
+{
+  "type": "node",
+  "id": 293527551,
+  "lat": 56.6383651,
+  "lon": -5.0102594,
+  "tags": {
+    "description": "Peak of the dreadful corrie",
+    "ele": "1072",
+    "munro": "yes",
+    "munro_number": "M065",
+    "name": "Stob Coire Sgreamhach",
+    "natural": "peak",
+    "source": "NPE",
+    "source:ele": "gps",
+    "wikidata": "Q7617759",
+    "wikipedia": "en:Stob Coire Sgreamhach"
+  }
+},
+{
+  "type": "node",
+  "id": 304585474,
+  "lat": 57.0546982,
+  "lon": -3.5543720,
+  "tags": {
+    "description": "Speckled hill",
+    "ele": "931",
+    "munro": "yes",
+    "munro_number": "M249",
+    "name": "Beinn Bhreac",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q4881325",
+    "wikipedia": "en:Beinn Bhreac (Glen Derry)"
+  }
+},
+{
+  "type": "node",
+  "id": 304585801,
+  "lat": 57.0627179,
+  "lon": -3.6229171,
+  "tags": {
+    "description": "Blue hill of Derry",
+    "ele": "1155",
+    "munro": "yes",
+    "munro_number": "M020",
+    "name": "Derry Cairngorm",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q5263178",
+    "wikipedia": "en:Derry Cairngorm"
+  }
+},
+{
+  "type": "node",
+  "id": 304808496,
+  "lat": 56.8795410,
+  "lon": -3.4211586,
+  "tags": {
+    "description": "From Gaelic Carn Bhalg, hill of bags",
+    "ele": "933",
+    "munro": "yes",
+    "munro_number": "M245",
+    "name": "The Cairnwell",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q6981143",
+    "wikipedia": "en:The Cairnwell"
+  }
+},
+{
+  "type": "node",
+  "id": 304808603,
+  "lat": 56.8957638,
+  "lon": -3.4232155,
+  "tags": {
+    "cairn": "yes",
+    "description": "Hill of age",
+    "ele": "917",
+    "munro": "yes",
+    "munro_number": "M278",
+    "name": "Càrn Aosda",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3397885",
+    "wikipedia": "en:Càrn Aosda"
+  }
+},
+{
+  "type": "node",
+  "id": 304813802,
+  "lat": 56.8546292,
+  "lon": -3.3878001,
+  "tags": {
+    "description": "Slabby rock",
+    "ele": "987",
+    "munro": "yes",
+    "munro_number": "M159",
+    "name": "Creag Leacach",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20595273"
+  }
+},
+{
+  "type": "node",
+  "id": 304814674,
+  "lat": 56.9193161,
+  "lon": -3.2486401,
+  "tags": {
+    "description": "Broad Cairn",
+    "ele": "998",
+    "munro": "yes",
+    "munro_number": "M142",
+    "name": "Broad Cairn",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20584166",
+    "wikipedia": "en:Broad Cairn"
+  }
+},
+{
+  "type": "node",
+  "id": 304814834,
+  "lat": 56.9275308,
+  "lon": -3.2782165,
+  "tags": {
+    "description": "Hill of the point",
+    "ele": "1010",
+    "munro": "yes",
+    "munro_number": "M117",
+    "name": "Cairn Bannoch",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13126494",
+    "wikipedia": "en:Cairn Bannoch"
+  }
+},
+{
+  "type": "node",
+  "id": 304815323,
+  "lat": 56.9457433,
+  "lon": -3.2727110,
+  "tags": {
+    "description": "Hill of the beautiful corrie",
+    "ele": "1110",
+    "munro": "yes",
+    "munro_number": "M042",
+    "name": "Càrn a' Choire Bhòidheach",
+    "natural": "peak",
+    "wikidata": "Q20587777"
+  }
+},
+{
+  "type": "node",
+  "id": 304815885,
+  "lat": 56.8480288,
+  "lon": -3.1964929,
+  "tags": {
+    "description": "Gaelic dris, a thorn bush or bramble",
+    "ele": "946",
+    "munro": "yes",
+    "munro_number": "M219",
+    "name": "Driesh",
+    "name:gd": "Dris",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3397180",
+    "wikipedia": "en:Driesh"
+  }
+},
+{
+  "type": "node",
+  "id": 304816048,
+  "lat": 56.8489888,
+  "lon": -3.2462829,
+  "tags": {
+    "description": "Meaning obscure",
+    "ele": "928",
+    "munro": "yes",
+    "munro_number": "M253",
+    "name": "Mayar",
+    "natural": "peak",
+    "wikidata": "Q13129980"
+  }
+},
+{
+  "type": "node",
+  "id": 316786565,
+  "lat": 57.0357260,
+  "lon": -3.6887134,
+  "tags": {
+    "description": "Penis of the demon",
+    "ele": "1004",
+    "munro": "yes",
+    "munro_number": "M130",
+    "name": "The Devil's Point",
+    "name:gd": "Bod an Deamhain",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q1164285",
+    "wikipedia": "en:The Devil's Point"
+  }
+},
+{
+  "type": "node",
+  "id": 316786566,
+  "lat": 57.0268931,
+  "lon": -3.7502575,
+  "tags": {
+    "description": "Big hill",
+    "ele": "1113",
+    "munro": "yes",
+    "munro_number": "M040",
+    "name": "Monadh Mor",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13130213",
+    "wikipedia": "en:Monadh Mòr"
+  }
+},
+{
+  "type": "node",
+  "id": 382983155,
+  "lat": 57.0119137,
+  "lon": -3.8412449,
+  "tags": {
+    "description": "Summit of the stone of the plain",
+    "ele": "1019",
+    "munro": "yes",
+    "munro_number": "M114",
+    "name": "Mullach Clach a'Bhlair",
+    "natural": "peak",
+    "source": "GPS survey",
+    "source:name": "NPE",
+    "wikidata": "Q19460443",
+    "wikipedia": "en:Mullach Clach a' Bhlàir"
+  }
+},
+{
+  "type": "node",
+  "id": 388371675,
+  "lat": 57.2468705,
+  "lon": -6.2107059,
+  "tags": {
+    "description": "Slope of the deer forest",
+    "ele": "958",
+    "munro": "yes",
+    "munro_number": "M200",
+    "name": "Bruach na Frithe",
+    "name:gd": "Bruach na Frithe",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3775723",
+    "wikipedia": "en:Bruach na Frìthe"
+  }
+},
+{
+  "type": "node",
+  "id": 388371676,
+  "lat": 57.2478270,
+  "lon": -6.2024849,
+  "tags": {
+    "description": "Obscure, but probably NOT the executioner",
+    "ele": "934",
+    "munro": "yes",
+    "munro_number": "M242",
+    "name": "Am Basteir",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3775691",
+    "wikipedia": "en:Am Basteir"
+  }
+},
+{
+  "type": "node",
+  "id": 388371677,
+  "lat": 57.2308710,
+  "lon": -6.2318520,
+  "tags": {
+    "description": "Peak of the fox",
+    "ele": "918",
+    "munro": "yes",
+    "munro_number": "M277",
+    "name": "Sgurr a' Mhadaidh",
+    "name:gd": "Sgurr a' Mhadaidh",
+    "natural": "peak",
+    "source": "NLS",
+    "wikidata": "Q3776664",
+    "wikipedia": "en:Sgùrr a' Mhadaidh"
+  }
+},
+{
+  "type": "node",
+  "id": 388371678,
+  "lat": 57.2272943,
+  "lon": -6.2344318,
+  "tags": {
+    "description": "Peak of torment, anxiety",
+    "ele": "973",
+    "munro": "yes",
+    "munro_number": "M185",
+    "name": "Sgurr a' Ghreadaidh",
+    "name:gd": "Sgùrr a' Ghreadaidh",
+    "natural": "peak",
+    "source": "survey",
+    "wikidata": "Q3776566",
+    "wikipedia": "en:Sgùrr a' Ghreadaidh"
+  }
+},
+{
+  "type": "node",
+  "id": 388371679,
+  "lat": 57.2209757,
+  "lon": -6.2417132,
+  "tags": {
+    "description": "Perhaps from banachdag, a milkmaid",
+    "ele": "965",
+    "munro": "yes",
+    "munro_number": "M190",
+    "name": "Sgùrr na Banachdich",
+    "natural": "peak",
+    "source": "survey",
+    "source:ele": "GPS survey",
+    "wikidata": "Q3775711",
+    "wikipedia": "en:Sgùrr na Banachdaich"
+  }
+},
+{
+  "type": "node",
+  "id": 388371682,
+  "lat": 57.2090689,
+  "lon": -6.2238877,
+  "tags": {
+    "ele": "948",
+    "munro": "yes",
+    "munro_number": "M217",
+    "name": "Sgùrr Mhic Choinnich",
+    "name:etymology": "Gaelic from of MacKenzie's peak (after John MacKenzie, Cuillin guide)",
+    "name:etymology:wikidata": "Q28077900",
+    "name:etymology:wikipedia": "en:John MacKenzie (mountain guide)",
+    "natural": "peak",
+    "source": "survey",
+    "wikidata": "Q2883967",
+    "wikipedia": "en:Sgùrr MhicChoinnich"
+  }
+},
+{
+  "type": "node",
+  "id": 388371684,
+  "lat": 57.1957965,
+  "lon": -6.2110262,
+  "tags": {
+    "description": "Peak of the notches",
+    "ele": "924",
+    "munro": "yes",
+    "munro_number": "M265",
+    "name": "Sgùrr nan Eag",
+    "natural": "peak",
+    "source": "survey",
+    "wikidata": "Q24677937"
+  }
+},
+{
+  "type": "node",
+  "id": 487767398,
+  "lat": 56.9081726,
+  "lon": -3.3576721,
+  "tags": {
+    "description": "Hill of the boar",
+    "ele": "1019",
+    "munro": "yes",
+    "munro_number": "M113",
+    "name": "Càrn an Tuirc",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q17293933",
+    "wikipedia": "en:Carn an Tuirc"
+  }
+},
+{
+  "type": "node",
+  "id": 487767484,
+  "lat": 56.8941816,
+  "lon": -3.3386269,
+  "tags": {
+    "description": "Hill of the green grassy place",
+    "ele": "1064",
+    "munro": "yes",
+    "munro_number": "M071",
+    "name": "Cairn of Claise",
+    "name:gd": "Càrn na Claise",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q17293983",
+    "wikipedia": "en:Cairn of Claise"
+  }
+},
+{
+  "type": "node",
+  "id": 726737308,
+  "lat": 56.8936148,
+  "lon": -3.2924093,
+  "tags": {
+    "description": "Yellow hill",
+    "ele": "957",
+    "munro": "yes",
+    "munro_number": "M204",
+    "name": "Tom Buidhe",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q20600734"
+  }
+},
+{
+  "type": "node",
+  "id": 919055861,
+  "lat": 56.6298267,
+  "lon": -4.9512020,
+  "tags": {
+    "cairn": "yes",
+    "description": "Peak of the shoe",
+    "ele": "956",
+    "munro": "yes",
+    "munro_number": "M207",
+    "name": "Stob na Broige",
+    "natural": "peak",
+    "source": "GPS",
+    "wikidata": "Q20585357"
+  }
+},
+{
+  "type": "node",
+  "id": 1873146531,
+  "lat": 56.7507449,
+  "lon": -4.9690336,
+  "tags": {
+    "description": "Peak of the corrie of the cairn",
+    "ele": "981",
+    "munro": "yes",
+    "munro_number": "M171",
+    "name": "Stob Coire a' Chairn",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q6979999",
+    "wikipedia": "en:Stob Coire a' Chàirn"
+  }
+},
+{
+  "type": "node",
+  "id": 2436964136,
+  "lat": 56.9441315,
+  "lon": -3.3042184,
+  "tags": {
+    "description": "Big hill of the priest",
+    "ele": "1047",
+    "munro": "yes",
+    "munro_number": "M083",
+    "name": "Càrn an t-Sagairt Mòr",
+    "natural": "peak",
+    "wikidata": "Q20587823"
+  }
+},
+{
+  "type": "node",
+  "id": 2640191774,
+  "lat": 56.7498534,
+  "lon": -5.0724176,
+  "tags": {
+    "description": "Summit of the corries",
+    "ele": "939",
+    "munro": "yes",
+    "munro_number": "M236",
+    "name": "Mullach nan Coirean",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q3397100",
+    "wikipedia": "en:Mullach nan Coirean"
+  }
+},
+{
+  "type": "node",
+  "id": 3067875510,
+  "lat": 57.2048966,
+  "lon": -6.2118777,
+  "tags": {
+    "description": "Big black peak",
+    "ele": "944",
+    "munro": "yes",
+    "munro_number": "M228",
+    "name": "Sgùrr Dubh Mòr",
+    "natural": "peak",
+    "source:name": "OS_OpenData_StreetView",
+    "wikidata": "Q13194813",
+    "wikipedia": "en:Sgùrr Dubh Mòr"
+  }
+},
+{
+  "type": "node",
+  "id": 6184360126,
+  "lat": 56.9044857,
+  "lon": -3.2981435,
+  "tags": {
+    "description": "Doll mouth or hill",
+    "ele": "958",
+    "munro": "yes",
+    "munro_number": "M202",
+    "name": "Tolmount",
+    "natural": "peak",
+    "source": "NPE",
+    "wikidata": "Q13131933"
+  }
+}
+
+]

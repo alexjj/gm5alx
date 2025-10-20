@@ -48,6 +48,8 @@ map = {
       }).bindPopup(`Summit: ${name}<br>Reference: <a href="https://sotl.as/summits/${reference}" target="_blank">${reference}</a><br>Height: ${Elevation} m<br>Points: ${points}`)
       .addTo(map);
 
+      });
+
   // Add non-SOTA summit markers
   munros.forEach(({ lat, lon, points, name, Elevation }) => {
       L.circleMarker([+lat, +lon], {
@@ -63,5 +65,3 @@ map = {
 }
 
 ```
-
-

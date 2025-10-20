@@ -53,7 +53,7 @@ map = {
   // Add non-SOTA summit markers
   munros.forEach(({ lat, lon, points, name, Elevation }) => {
       L.circleMarker([+lat, +lon], {
-        radius: 8,
+        radius: 6,
         color: getColor(points),
         fillColor: getColor(points),
         fillOpacity: 0.8

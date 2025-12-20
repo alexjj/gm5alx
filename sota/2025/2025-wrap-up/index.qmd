@@ -1,0 +1,83 @@
+---
+title: 2025 Wrap Up
+subtitle: What a lot of summits!
+image: "hope-57.jpg"
+points: 231
+date: 2025-12-20 12:00:00
+qsos: 5
+total: 901
+summit: "GM/ES-048"
+---
+
+It's been a very busy year on the hills for me. 113 summits, 85 of which were new, for a total of 652 points, ending the year on 901. I've activated all the summits in GM/ES. I made a few fun little python web apps, like [wen goat](https://wengoat.streamlit.app/) and [Cairngorms climber](https://cairngorms.streamlit.app/) - others linked in my menu bar ☝️. But most fun of all, has been the time spent with other activators in the hills, for S2S days or hikes together. I'm pretty obsessive about going out now, and in between outings, I'm researching routes, pouring over mountain books, or yakking in the Aberdeenshire SOTA WhatsApp group. Here are some of the highlights since my last update.
+
+## Finishing GM/ES
+
+It was mostly the southern Angus hills that remained and a few trips down there knocked off the last 1 and 2 point summits.
+
+![Cat Law](2025-6.jpg)
+
+![Corwharn](2025-4.jpg)
+
+![Crock](2025-10.jpg)
+
+![Cycling to the top of Hare Cairn](2025-9.jpg)
+
+I wrote more on my [write up](https://reflector.sota.org.uk/t/the-life-changing-magic-of-tidying-up-gm-es-edition/39721) on the SOTA forums.
+
+## SOTA in NS with my sister
+
+My sister lives in Thurso and when she told me she was moving I thought I better go up and see her before she does...also doing a few summits along the way! In true Scottish weather style I had everything from perfect blue skies, to pouring rain to snow and gales, all over 3 days. We did manage to do some of the most northerly munros though.
+
+![At the top of Ben Hope](hope-7.jpg)
+![Hope station](hope-4.jpg)
+![Admiring the view](hope-8.jpg)
+
+![Fuel for the day](hope-22.jpg)
+![A cosy cafe in Bettyhill](hope-23.jpg)
+
+![A very wet Ben Kilbreck](hope-25.jpg)
+![Also very windy and wet](hope-27.jpg)
+
+On my way up, I went via Ullapool area to An Teallach, the weather was absolutely stunning.
+
+![Summits in sight](hope-57.jpg)
+
+![On top of the world on Bidein a'Ghlas Thuill](hope-51.jpg)
+
+![Great SOTA!](hope-46.jpg)
+![](hope-40.jpg)
+![](hope-37.jpg)
+
+On the way back I called into an eccentric party being thrown for Denis, MW0CBC, who was celebrating his Mountain Goat (1,000 activator points).
+
+![Denis, MW0CBC](cbc.jpg)
+![The Aberdeenshire SOTA gang](mg.jpg)
+
+## Fraser's completion of Cairngorms National Park
+
+Fraser, MM0EFI, has been keen to finish the CNP summits this year, and our last trip of 2025 was to his two remaining ones. We had [good fun](https://reflector.sota.org.uk/t/the-life-changing-magic-of-tidying-up-gm-es-edition/39721).
+
+![At the top of Curban Beag](2025-2.jpg)
+
+![Celebrations in style](2025-1.jpg)
+
+## A snowy summit
+
+During November we had a good amount of snow, and once the roads were clear, we (being Fraser, MM0EFI, and I) hoped to do some winter hiking. Whilst we didn't quite get to the summit we hoped - due to unexpected snow going over the Lecht (a high mountain pass) - we still had a good time on [The Fara](https://reflector.sota.org.uk/t/faraboots-are-we-gaan-a-noo/39657).
+
+![The Fara summit in sight](fara-12.jpg)
+![](fara-13.jpg)
+![Summit selfie](fara-21.jpg)
+![Fraser on my radio](fara-28.jpg)
+![](fara-44.jpg)
+
+## Lookahead to 2026
+
+The next milestone for me will be my Mountain Goat when I reach 1,000 points. Hopefully about March time, and I'll pick somewhere nice to go and bring a few friends along. After that? Well I just want to do all the hills. I like seeing all the new places and climbing hills I've never been up before - although that does mean driving further and further away from home. Of course, revising my local hills is still just as fun, either finding a new route, experiencing it on a different day with different weather and different band conditions. Plus it's always nice to get out in the countryside and take in the views. I do want to do the Munros and Corbetts and complete GM/CS and and and..!
+
+### What about other radio things?
+
+I have thought about a U/V satellite station, much like [DK1MI has built](https://rz01.org/leo-sat-ground-station-v3/), however, I'd need to find somewhere good for it to live. Plus our solar panels seem to have noisy optimisers on 2m, so that might be disappointing.
+
+I enjoy portable activations a lot and have thought about trying out POTA, as there are plenty of those nearby when I tire of 5 hours of driving to the next newest SOTA summit. Although if I want to stick to climbing hills there is the [HEMA](http://hema.org.uk) scheme and pretty much none of my local ones have ever been activated!

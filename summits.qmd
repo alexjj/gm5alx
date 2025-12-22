@@ -1,0 +1,69 @@
+---
+title: "Summits Tracker"
+format: dashboard
+---
+
+This is going to be my attempt at making a summit dashboard, where it's a map of all the summits I've climbed with links to my posts about them. Might be hard work...
+
+## Row {height=70%}
+
+```{ojs}
+L = require('leaflet@1.9.4')
+
+summits = FileAttachment("./lists/sota-munros/munros.json").json()
+munros = FileAttachment("./lists/sota-munros/non-sota-munros.json").json()
+
+// Function to get a colored marker icon based on value
+function getColor(value) {
+  switch (value) {
+    case 1: return "DarkGreen";
+    case 2: return "LimeGreen";
+    case 4: return "Olive";
+    case 6: return "Orange";
+    case 8: return "OrangeRed";
+    case 10: return "Red";
+    default: return "Grey"; // Default color for undefined values
+  }
+}
+
+map = {
+  let container = DOM.element('div', { style: `width:${width}px;height:${width}px` });
+  yield container;
+
+  let map = L.map(container).setView([56.5625, -4.867], 7);
+  let osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Add SOTA summit markers
+  summits.forEach(({ lat, lon, points, name, reference, Elevation }) => {
+      L.circleMarker([+lat, +lon], {
+        radius: 8,
+        color: getColor(points),
+        fillColor: getColor(points),
+        fillOpacity: 0.8
+      }).bindPopup(`Summit: ${name}<br>Reference: <a href="https://sotl.as/summits/${reference}" target="_blank">${reference}</a><br>Height: ${Elevation} m<br>Points: ${points}`)
+      .addTo(map);
+
+      });
+
+  // Add non-SOTA summit markers
+  munros.forEach(({ lat, lon, points, name, Elevation }) => {
+      L.circleMarker([+lat, +lon], {
+        radius: 6,
+        color: getColor(points),
+        fillColor: getColor(points),
+        fillOpacity: 0.65
+      }).bindPopup(`Summit: ${name}<br>Height: ${Elevation} m<br>`)
+      .addTo(map);
+
+  });
+
+}
+
+```
+
+
+## Row {height="30%"}
+
+Stats...

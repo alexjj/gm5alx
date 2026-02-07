@@ -1,0 +1,53 @@
+---
+title: A cancelled GM/ES day out
+subtitle: But we still went
+image: "IMG_3137.jpeg"
+points: 5
+date: 2026-02-06
+qsos: 20
+total: 971
+summit: "GM/ES-046"
+---
+
+Back at the start of January, Fraser put out a post for a GM/ES day out. [Last year's one](https://gm5alx.uk/sota/2025/gm-es-025/) turned out very well, due to the lovely weather, and so we were hopeful of a repeat. However, this never ending rain / snow / sleet / hail / whatever it is has been pretty relentless, and so the forecast was pretty grim. Officially, the event was cancelled, but a few folks were still coming as they'd booked in already. Originally, I was going to do Morrone, GM/CS-040, which is just outside Braemar but given the snow I changed to a lower hill, Creag Bhalg, GM/ES-046, which is just along the Invercauld Road from Braemar.
+
+
+![Creag Bhalg from roadside](IMG_3138.jpeg)
+
+School run at 9am and then I was off to Braemar. It was rain until it turned to snow at Ballater, although had stopped by the time I parked up opposite Victoria Bridge. My later start meant the others were on or nearly on their summits and I chased Fraser whilst walking up to Mar Lodge estate.
+
+![River Dee from Victoria Bridge](IMG_3128.jpeg)
+
+![Path up](IMG_3131.jpeg)
+
+Sheltered by the hill and trees, it was a pleasant walk up the Land Rover track, some new snow on the ground but straightforward. Once off this and heading up the hill to the summit was harder work. Could’ve done with some snow shoes as the snow wasn’t frozen enough to walk on with spikes.
+
+![View down the Dee valley](IMG_3130.jpeg)
+
+I heard Andy, GM6PJZ, calling, so replied with the ES club call, although the rf path wasn’t ideal with me walking further around the hill but we eventually made contact.
+
+![Summit "in sight"](IMG_3133.jpeg)
+
+![Maybe a cairn](IMG_3134.jpeg)
+
+Once out of the shelter of the hill the wind was strong and the snow was on and off. Visibility was poor. By this time Fraser had been on his summit an hour, so once I was in the AZ I called him on 2m for our S2S. Andy was still calling, so he was another S2S.
+
+![2m](IMG_3135.jpeg)
+
+I seem to remember the summit having a few cairns and I thought one at the true summit. I past one and continued on but didn’t find another. I thought about turning back but then found a big boulder with snow drifts around it. Looked ideal to setup.
+
+![Hiding behind the boulder](IMG_3136.jpeg)
+
+Peter, GM7STP, came back on 2m from Craigendarroch, and he was my fourth call in the log. I debated about leaving or setting up HF, and decided to give 40m a shot. Mast jammed in the snow and me tucked behind the boulder, it wasn’t so bad. After a few QSOs I started getting rf on my mic, so that made it a struggle for others to hear me. I’ve had it before and usually rearranging myself, the mic cable or antenna wire sorts it out, but I was jammed in my nook so couldn’t move. A few more contacts and it was definitely time to go. My fingers were frozen! 🥶
+
+![HF station](IMG_3137.jpeg)
+
+Was packing up to head down, when Yaesu service called me to ask for my ft857 serial number. I’d ordered two replacement encoders after a failed sale shipment had damaged them. With a wet phone and poor reception the call didn’t go well, and I called back once in the car.
+
+Then all that was left was a short drive back into Braemar for handshakes, “well dones”, tea, soup, bacon toastie and sharing of stories.
+
+![Bothy Gang](IMG_3140.jpeg)
+
+Not bad for a cancelled event! We'll try again on the 6th March!
+
+Also on the [reflector](https://reflector.sota.org.uk/t/re-scheduled-gm-es-winter-activity-day-friday-6th-march-2026/40012).

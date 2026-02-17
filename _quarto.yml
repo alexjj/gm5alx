@@ -37,6 +37,8 @@ website:
             href: https://sotaislands.streamlit.app/
           - text: "🏔️ Cairngorm Climbers Award"
             href: https://cairngorms.streamlit.app/
+          - text: "📊 GM SOTA Stats"
+            href: https://scotland.streamlit.app/
       - text: "References"
         menu:
           - text: "Cairngorms SOTA summits"

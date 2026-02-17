@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
+      "/posts/2026/gm-sota-stats/index.html",
       "/sota/2026/cancelled-gm-es-day/index.html",
       "/sota/2026/avoiding-the-rain/index.html",
       "/sota/2026/rinnes-and-convals/index.html",
@@ -106,8 +107,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-065/index.html",
+      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",
@@ -225,8 +226,8 @@
       "/sota/2024/gm-es-085/index.html",
       "/sota/2024/gm-es-012/index.html",
       "/sota/2024/gm-es-068/index.html",
-      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-065/index.html",
+      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/sota/2024/gm-es-080/index.html",
@@ -236,8 +237,9 @@
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/2026/gm-sota-stats/index.html",
       "/sota/2026/cancelled-gm-es-day/index.html",
       "/sota/2026/avoiding-the-rain/index.html",
       "/sota/2026/rinnes-and-convals/index.html",
@@ -342,8 +344,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-065/index.html",
+      "/sota/2024/gm-es-070/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",

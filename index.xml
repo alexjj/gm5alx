@@ -10,7 +10,385 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Tue, 17 Feb 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 25 Feb 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Garmin InReach tracking to APRS</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2026/inreach-to-aprs/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is about software that takes your position as reported via Iridium from your Garmin GPS device and then relays it to APRS so you show up there.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="map.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Like this"><img src="https://gm5alx.uk/posts/2026/inreach-to-aprs/map.png" class="img-fluid figure-img" alt="Like this"></a></p>
+<figcaption>Like this</figcaption>
+</figure>
+</div>
+<p>It’s quite simple but has a couple of extra steps. This is for linux but it’s python based so will work on any OS.</p>
+<p>There are a few results online but I went with this one: <a href="https://github.com/kemenril/iR-APRSISD">iR-APRSISD</a>. It has a readme with instructions which you should have a look at too.</p>
+<section id="download-and-install" class="level2">
+<h2 class="anchored" data-anchor-id="download-and-install">Download and install</h2>
+<p>Get a few packages - e.g.&nbsp;Debian, raspberry pi os…</p>
+<p><code>sudo apt install git python3</code></p>
+<p>Find a nice parent folder you want to keep it in and get the code.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> clone https://github.com/kemenril/iR-APRSISD.git</span>
+<span id="cb1-2"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">cd</span> iR-APRSISD</span></code></pre></div></div>
+<p>Install <code>aprslib</code> python package in a virtual environment so as to not mess up anything else:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">python3</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> venv .venv</span>
+<span id="cb2-2"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">source</span> .venv/bin/activate</span>
+<span id="cb2-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">pip</span> install aprslib</span></code></pre></div></div>
+</section>
+<section id="the-config" class="level2">
+<h2 class="anchored" data-anchor-id="the-config">The config</h2>
+<section id="get-your-passwords" class="level3">
+<h3 class="anchored" data-anchor-id="get-your-passwords">Get your passwords</h3>
+<p>InReach is going to be your share username from https://explore.garmin.com/Social, plus the password if you’ve set one to view the MapShare.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="mapshare.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="MapShare"><img src="https://gm5alx.uk/posts/2026/inreach-to-aprs/mapshare.png" class="img-fluid figure-img" alt="MapShare"></a></p>
+<figcaption>MapShare</figcaption>
+</figure>
+</div>
+<p>To post to APRS you need a password which is based upon your callsign. Just go here to find it: https://apps.magicbug.co.uk/passcode/</p>
+</section>
+<section id="edit-config-file" class="level3">
+<h3 class="anchored" data-anchor-id="edit-config-file">Edit config file</h3>
+<p><code>nano ir-aprsisd.cfg</code></p>
+<p>All you need to edit is User and Password under [inReach]; SSID and Password under [APRS] and then pick a symbol. You don’t need to change the URL but feel free to edit the comment.</p>
+<p>Pick a nice symbol:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="symbols.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="APRS symbols"><img src="https://gm5alx.uk/posts/2026/inreach-to-aprs/symbols.png" class="img-fluid figure-img" alt="APRS symbols"></a></p>
+<figcaption>APRS symbols</figcaption>
+</figure>
+</div>
+<p>I found this nice image <a href="https://blog.thelifeofkenneth.com/2017/01/aprs-symbol-look-up-table.html">here</a>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode ini code-with-copy"><code class="sourceCode ini"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[inReach]</span></span>
+<span id="cb3-2"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">User        </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> Your inReach feed user</span></span>
+<span id="cb3-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#If this is defined, we will authenticate to the inReach service.</span></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># If it is not, we will assume public access is ok.</span></span>
+<span id="cb3-5"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Password    </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> Your inReach feed password, if required</span></span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># This should be the location of your KML feed.</span></span>
+<span id="cb3-8"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">URL     </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> https://share.garmin.com/Feed/Share/%(User)s</span></span>
+<span id="cb3-9"></span>
+<span id="cb3-10"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[APRS]</span></span>
+<span id="cb3-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#This SSID is used for logging into APRS-IS, and also as a base ID for</span></span>
+<span id="cb3-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># generating callsigns for devices.  The first device found will be this</span></span>
+<span id="cb3-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># SSID, the next will be this ID + 1, and so on.  If you define a [Devices]</span></span>
+<span id="cb3-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># section, it is _only_ used for the login, and the device mapping must be</span></span>
+<span id="cb3-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># given in full in the [Devices] section.</span></span>
+<span id="cb3-16"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">SSID        </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> GM5ALX-3</span></span>
+<span id="cb3-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># If you don't have a password, you can use the --genpass command-line</span></span>
+<span id="cb3-18"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># option to calculate it.</span></span>
+<span id="cb3-19"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Password    </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> </span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1234</span></span>
+<span id="cb3-20"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Port        </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> </span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14580</span></span>
+<span id="cb3-21"></span>
+<span id="cb3-22"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#If the separator is /, your icon will come from the primary symbol table.</span></span>
+<span id="cb3-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># if it is \, it will draw from the secondary table.</span></span>
+<span id="cb3-24"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Separator   </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> /</span></span>
+<span id="cb3-25"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#This character represents an APRS icon from the table tied to Separator.</span></span>
+<span id="cb3-26"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Symbol      </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> (</span></span>
+<span id="cb3-27"></span>
+<span id="cb3-28"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#This information is included at the end of each packet, along with some</span></span>
+<span id="cb3-29"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># other data.</span></span>
+<span id="cb3-30"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Comment     </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> APRS-IS KML forwarder, by K0SIN</span></span>
+<span id="cb3-31"></span>
+<span id="cb3-32"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#Define this section if you'd like to enforce an SSID to IMEI mapping.</span></span>
+<span id="cb3-33"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># It must contain all devices you want to publish.  Anything without a</span></span>
+<span id="cb3-34"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># mapping defined will be ignored if this section exists.</span></span>
+<span id="cb3-35"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#[Devices]</span></span>
+<span id="cb3-36"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#N0CALL-12  = 987654321987654</span></span>
+<span id="cb3-37"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#N0CALL-15  = 987654321987656</span></span>
+<span id="cb3-38"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#N0CALL-8   = 092847784398753</span></span>
+<span id="cb3-39"></span>
+<span id="cb3-40"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[General]</span></span>
+<span id="cb3-41"></span>
+<span id="cb3-42"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Frequency in seconds with which to log packet forwarding stats to STDOUT</span></span>
+<span id="cb3-43"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># If this is less than Period, stats will only be logged every Period seconds.</span></span>
+<span id="cb3-44"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Comment it out to skip printing packet stats entirely.</span></span>
+<span id="cb3-45"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Logstats        </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> </span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span></span>
+<span id="cb3-46"></span>
+<span id="cb3-47"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># KML polling interval in seconds.</span></span>
+<span id="cb3-48"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Period          </span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> </span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span></span></code></pre></div></div>
+<p>Save with <kbd>Ctrl+o</kbd> and exit with <kbd>Ctrl+x</kbd> Run it</p>
+<p>Best to run on a server that’s always on, or on when you want it working. There are many ways to do this with supervisor programs, systemd services etc., I like <code>tmux</code> (terminal multiplexer) as I can resume my session whenever and see the output and my past commands plus have a terminal per activity.</p>
+<p>If you want <code>tmux</code> then install it, run <code>tmux</code> and activate the virtual environment <code>source .venv/bin/activate</code> and run <code>python ir-aprsisd</code> to have it load. Disconnect from tmux via <kbd>Ctrl+b Ctrl+d</kbd> and rejoin tmux again via <code>tmux attach</code>.</p>
+<p>For a set and forget, a <code>systemd</code> service is probably best. It’ll run each time you turn the computer on automatically.</p>
+<p>Make a new one:</p>
+<p><code>sudo nano /etc/systemd/system/ir-aprsisd.service</code></p>
+<p>Add this text, adjusting user, group and folders as necessary:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode ini code-with-copy"><code class="sourceCode ini"><span id="cb4-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[Unit]</span></span>
+<span id="cb4-2"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Description</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">ir-aprsisd Service</span></span>
+<span id="cb4-3"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">After</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">network.target</span></span>
+<span id="cb4-4"></span>
+<span id="cb4-5"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[Service]</span></span>
+<span id="cb4-6"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Type</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">simple</span></span>
+<span id="cb4-7"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">User</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">alex</span></span>
+<span id="cb4-8"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Group</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">alex</span></span>
+<span id="cb4-9"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">WorkingDirectory</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/home/alex/dev/iR-APRSISD</span></span>
+<span id="cb4-10"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ExecStart</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">/home/alex/dev/iR-APRSISD/.venv/bin/python /home/alex/dev/iR-APRSISD/ir-aprsisd</span></span>
+<span id="cb4-11"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Restart</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">on-failure</span></span>
+<span id="cb4-12"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">RestartSec</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span></span>
+<span id="cb4-13"></span>
+<span id="cb4-14"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">Environment</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"PATH=/home/alex/dev/iR-APRSISD/.venv/bin:/usr/bin:/bin"</span></span>
+<span id="cb4-15"></span>
+<span id="cb4-16"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[Install]</span></span>
+<span id="cb4-17"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">WantedBy</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">multi-user.target</span></span></code></pre></div></div>
+<p>Get it running:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> systemctl daemon-reload</span>
+<span id="cb5-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> systemctl enable ir-aprsisd.service</span>
+<span id="cb5-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> systemctl start ir-aprsisd.service</span></code></pre></div></div>
+<p>Check for errors, and past them into ChatGPT 😅</p>
+<p><code>sudo systemctl status ir-aprsisd.service</code></p>
+</section>
+</section>
+<section id="finally" class="level2">
+<h2 class="anchored" data-anchor-id="finally">Finally</h2>
+<p>By default it polls the Garmin share every 5 mins but you also set your Garmin reporting frequency on your device. A 2m/70cm LoRa tracker will give you much more detail but sometimes you don’t always have igate coverage. Plus if you’re running the Garmin tracking anyway, why not report to APRS.</p>
+<p>It throws a syntax warning about <code>\w+</code> that line is used for multiple inReach devices so can be ignored. Maybe someone will do a pull request to fix it 👀.</p>
+<p>No doubt better ways to do things!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>programming</category>
+  <guid>https://gm5alx.uk/posts/2026/inreach-to-aprs/</guid>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2026/inreach-to-aprs/symbols.png" medium="image" type="image/png" height="151" width="144"/>
+</item>
 <item>
   <title>Introducing GM SOTA stats</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -2286,66 +2664,6 @@
   <guid>https://gm5alx.uk/sota/2025/gm-cs-036/</guid>
   <pubDate>Wed, 02 Apr 2025 08:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-cs-036/summit-pic.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Knock Hill</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-es-073/</link>
-  <description><![CDATA[ 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Start of the walk"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-7.jpg" class="img-fluid figure-img" alt="Start of the walk"></a></p>
-<figcaption>Start of the walk</figcaption>
-</figure>
-</div>
-<p>I was running a little behind schedule, but this next summit wasn’t too far away and I thought I could get up it quickly enough. So a short drive later and I’m at the bottom of Knock Hill. It’s about a 230m vertical ascent over a short distance and it’s quite a slog when you’re trying to fit in time for tea, cake and banter in Huntly before school pick up back in Aberdeen.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Steep part about to begin"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-6.jpg" class="img-fluid figure-img" alt="Steep part about to begin"></a></p>
-<figcaption>Steep part about to begin</figcaption>
-</figure>
-</div>
-<p>Not long until the summit but this one seemed to be even windier than the last. I admired all the summit features and then headed back to the new fence and tiny tree for setting up.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Trig"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-4.jpg" class="img-fluid figure-img" alt="Trig"></a></p>
-<figcaption>Trig</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Cairn"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-3.jpg" class="img-fluid figure-img" alt="Cairn"></a></p>
-<figcaption>Cairn</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="At the top"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-5.jpg" class="img-fluid figure-img" alt="At the top"></a></p>
-<figcaption>At the top</figcaption>
-</figure>
-</div>
-<p>There are some peat hags on the top which look like a golf course bunker, and would provide some nice shelter, but there was nothing to mount the mast to.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="knockhill-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Station"><img src="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-2.jpg" class="img-fluid figure-img" alt="Station"></a></p>
-<figcaption>Station</figcaption>
-</figure>
-</div>
-<p>A quick round of everyone on 2m again, then it was time to chase Simon still on his summit. This time on 10m. Not quite as strong but still a clear 51 both ways. With enough in the log, and the tiny tree providing equally tiny shelter, it was time to head down and off to Dean’s for an enormous slab of malteser slice and tea.</p>
-<p>We were so busy explaining igates, digipeaters and LoRa to Chris that we didn’t take photographic evidence of the cakes…at least not before I had to leave back to Aberdeen. To then run into a huge procession of bikers on the A90 doing 40 mph.</p>
-<p>Lots of S2Ss, and four completes for me today! 🏔️ Only two points today but lots of fun! Just Ben Aigan left up this part of the region, and I’ve chased Chris on it, so another complete awaits!</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-es-073/</guid>
-  <pubDate>Fri, 28 Mar 2025 13:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-es-073/knockhill-5.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

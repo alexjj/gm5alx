@@ -1,0 +1,113 @@
+---
+title: Digging for the Trig - and Finding Two Goats
+subtitle: 1,000 points here we come!
+image: "IMG_3137.jpeg"
+points: 11
+date: 2026-02-23
+qsos: 32
+total: 1000
+summit: "GM/CS-011"
+---
+
+## Preamble 🥱
+
+![A nice morning on The Buck](buck.jpg)
+
+Several ambles have been made this year which took me to within 12 points. With the poor weather, my original thought of making MG by the first [GM/ES winter outing](https://gm5alx.uk/sota/2026/cancelled-gm-es-day/) was scrapped, like the event. Believe it or not, Fraser (MM0EFI), and I didn’t co-ordinate that much on points, we were both doing whatever summits - as our coffee mornings schedules allowed.
+
+![View from the ES drive on](garvock.jpg)
+
+Last weekend was spent looking at endless hill combinations, trying to decide what, and where and if Fraser was coming or not (and if he was < or > than 2000). At the time, the avalance warnings were concerning, and at some stage Fraser suggested Glas Tulaichean ([GM/CS-011](https://summits.sota.org.uk/summit/GM/CS-011)). The only problem was, it’s 11 and I needed 12. As I lay in bed on Saturday night with the sotlas map burned into my retinas, a sudden eureka moment hits me…GARVOCK! 🐮 Sunday was going to be busy with a 13th birthday party, and swimming competition but I knew the AZ is only ~350m from the viewpoint car park, and that 1 point would make all the difference.
+
+## The Climb 🥾
+
+![The planned route](route.jpg)
+
+We started at the Dalmunzie Hotel, and headed along the old railway line to the start of the climb.
+
+![Malt loaf at the hotel, with Ben Gulabin, GM/CS-077, behind](IMG_3357.jpeg)
+
+![Looking down Glen Lochsie back towards the hotel](IMG_3332.jpeg)
+
+We caught up with a group who were looking for a place to cross the stream by Glenlochsie lodge ruins. Whilst they searched 100m of bank for a suitable crossing, we pressed on and went straight over.
+
+![MM0EFI showing us how it's done](mg-3.jpeg)
+
+It had started raining when we set off but that had moved on, so whilst not blue skies, it was reasonable weather, with some breeze. However, the higher we climbed the stronger the wind got. Somewhere before 600m, it was time to don the snow shoes, and float our way up over the snow.
+
+![Heading up](mg-34.jpeg)
+
+![A break in the clouds](mg-33.jpeg)
+
+![Good on the ice too](IMG_3354.jpeg)
+
+![A lone runner catching us up](mg-30.jpeg)
+
+![Final climb to the top](mg-31.jpeg)
+
+A lone runner - in trainers and microspikes - caught us up. He rejects the Haribo and departs with a snide remark about snow shoes. The group we passed at the river crossing were nowhere to be seen, perhaps still looking for a suitable place to cross.
+
+## The Activation 🐐
+
+![Summit selfies](IMG_3352.jpeg)
+
+In the cloud at the top, it’s white ground and white skies, and we walk towards the summit looking for the trig. Then we see the edge of the cliff…hmm… _checks map_…yep we are standing on top of the trig and it’s buried in at least 4 ft of snow!
+
+![On the trig!](IMG_3351.jpeg)
+
+Now time to get on the air! With no trig to hide behind, we spot an inch of post sticking out the ground, and figured it’d make a good mast support. I also saw Archie’s, GM4KNU, spot on 2m from Mount Blair, [GM/ES-035](https://summits.sota.org.uk/summit/GM/ES-035). On to 2m and Archie’d QSYed somewhere but plenty of replies to my CQs. I’m soon at #4 with Jack, GM4COX, telling me tales of his Mountain Goat adventures.
+
+![🐐4th QSO with Jack🐐](IMG_3347.jpeg)
+
+
+Whilst I was on 2m, Fraser was hard at work setting up our HF station. ⛏️👷
+
+![Digging a 1m cube shelter](IMG_3308.jpeg)
+
+![The HF bunker](IMG_3346.jpeg)
+
+![Fraser on the air](IMG_3311.jpeg)
+
+![Hunkering down](IMG_3309.jpeg)
+
+We had a great run on 40m, hearing so many familiar voices come back to us with signal reports and congratulations. We passed the mic back and forth, managing to listen together for the callsigns in the howling wind. Here’s a video Fraser took:
+
+{{< video https://www.youtube.com/watch?v=kC8O8mhFwVI title="Mountain Goat activation on Glas Tulaichean" >}}
+
+The shelter worked very well, as we were in there half an hour on 40m, and only shivering slightly. Clearly in need of something to celebrate and warm us up.
+
+![Keeping us warm](IMG_3343.jpeg)
+
+The group finally caught us up, and came over and very politely asked “_WTF are we doing?_” Rightly so, I’d say.😅 Mentioning amateur radio and showing the QSO map on my phone and they were suitably impressed. They didn’t hang about and headed off down the hill. After inhaling some frozen sandwiches, that was where we were heading too.
+
+## The Scenery ⛰️
+
+And now for some photos from the day.
+
+![Starting the descent](IMG_3312.jpeg)
+
+![A Munro top](IMG_3333.jpeg)
+
+![Alex looking towards Carn a'Gheoidh](IMG_3338.jpeg)
+
+![Trying to capture the scene](IMG_3326.jpeg)
+
+![The Scene](IMG_3328.jpeg)
+
+![The Cairnwell in the distance](IMG_3324.jpeg)
+
+![Glas Choire Mhor](IMG_3323.jpeg)
+
+![Happy to be out the cloud](IMG_3319.jpeg)
+
+![Looking ahead to a lovely snow field walk back](IMG_3316.jpeg)
+
+We told the hotel we survived, although not sure about the other group as we never saw them again, and back in the landy to Deeside. A quick cup of much needed tea at Fraser’s, and then back into the car home to Aberdeen, before I risked falling asleep on his comfy sofa by the fire.
+
+Driving back in Aberdeenshire sunshine made our bunker on the summit of Glas Tulaichean seem like a million miles away. 💭
+
+## ✨What an amazing day! ✨
+
+![A pair of Goats](IMG_3337.jpeg)
+
+Also on the [SOTA reflector](https://reflector.sota.org.uk/t/digging-for-the-trig-and-finding-two-goats/40334).

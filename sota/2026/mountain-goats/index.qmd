@@ -1,7 +1,7 @@
 ---
 title: Digging for the Trig - and Finding Two Goats
 subtitle: 1,000 points here we come!
-image: "IMG_3137.jpeg"
+image: "IMG_3346.jpeg"
 points: 11
 date: 2026-02-23
 qsos: 32

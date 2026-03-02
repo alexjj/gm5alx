@@ -10,7 +10,41 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 25 Feb 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Some awards</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2026/some-awards/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After my <a href="https://gm5alx.uk/sota/2026/mountain-goats/">mountain goat activation</a>, I wanted to get the glass trophy. This is probably the only award I’ve actively chased, and certainly the only one I’ve paid for, but I’ve seen Fraser’s and it looked quite neat.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="goat.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Mountain Goat Trophy"><img src="https://gm5alx.uk/posts/2026/some-awards/goat.jpg" class="img-fluid figure-img" alt="Mountain Goat Trophy"></a></p>
+<figcaption>Mountain Goat Trophy</figcaption>
+</figure>
+</div>
+<p>It arrived very quickly and now it sits on my window ledge next to the computer.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="certs.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="G-QRP Certificates"><img src="https://gm5alx.uk/posts/2026/some-awards/certs.jpg" class="img-fluid figure-img" alt="G-QRP Certificates"></a></p>
+<figcaption>G-QRP Certificates</figcaption>
+</figure>
+</div>
+<p>Then the next day a rigid envelope arrives and it’s full of certificates from G-QRP! I’m not really chasing awards but I try to submit my logs when they do events, one of which was the summer sizzler, and the other a 2025 award - the Chelmsley Trophy.</p>
+<p>The summer sizzler happened to be over the week when I did 8 big GM/ES summits, including the trip of Cairn Toul and Braeriach (the second and third highest summits in GM/ES and the third and fourth highest mountains in the UK). I did them back to back with another long trip out to Bynack More from Braemar. A total of 85 km across two days! Probably why I won the iron knee award!</p>
+
+
+
+ ]]></description>
+  <category>contest</category>
+  <guid>https://gm5alx.uk/posts/2026/some-awards/</guid>
+  <pubDate>Mon, 02 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2026/some-awards/certs.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Garmin InReach tracking to APRS</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -2765,56 +2799,6 @@ font-style: inherit;">sudo</span> systemctl start ir-aprsisd.service</span></cod
   <guid>https://gm5alx.uk/sota/2025/gm-cs-020/</guid>
   <pubDate>Wed, 02 Apr 2025 11:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-24.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Beinn Iutharn Mhor</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-cs-014/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>After a few contacts on Carn Bhac, it was time to move on.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-37.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Summit ridge"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-37.jpg" class="img-fluid figure-img" alt="Summit ridge"></a></p>
-<figcaption>Summit ridge</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-36.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Looking back at summit #1"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-36.jpg" class="img-fluid figure-img" alt="Looking back at summit #1"></a></p>
-<figcaption>Looking back at summit #1</figcaption>
-</figure>
-</div>
-<p><a href="glen-ey-35.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-35.jpg" class="img-fluid"></a></p>
-<p><a href="glen-ey-33.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-33.jpg" class="img-fluid"></a></p>
-<p><a href="glen-ey-32.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-32.jpg" class="img-fluid"></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-32.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="White hare"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-32.jpg" class="img-fluid figure-img" alt="White hare"></a></p>
-<figcaption>White hare</figcaption>
-</figure>
-</div>
-<p><a href="glen-ey-30.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-30.jpg" class="img-fluid"></a></p>
-<p><a href="glen-ey-29.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-29.jpg" class="img-fluid"></a></p>
-<p><a href="glen-ey-28.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-28.jpg" class="img-fluid"></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-27.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Summit selfie"><img src="https://gm5alx.uk/sota/2025/gm-cs-014/glen-ey-27.jpg" class="img-fluid figure-img" alt="Summit selfie"></a></p>
-<figcaption>Summit selfie</figcaption>
-</figure>
-</div>
-<p>Another quick setup and 10 contacts before off to number three - <a href="https://gm5alx.uk/sota/2025/gm-cs-020/">Carn an Righ</a></p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-cs-014/</guid>
-  <pubDate>Wed, 02 Apr 2025 10:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-cs-014/walking.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

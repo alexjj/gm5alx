@@ -13,11 +13,11 @@ After the first one this year, which we called off due to the weather (although 
 
 ![Spittal of Glenshee snow gates](snowgates.jpeg)
 
-I was back on my previously alerted (non-ES) summit of Morrone, GM/CS-060, which is just outside Braemar and has a nice path up to the summit. I have to do the school drop off first, and so I wanted something quick to get to the top to and join in with everyone else.
+I was back on my previously alerted (non-ES) summit of Morrone, GM/CS-060, which is just outside Braemar and has a nice path up to the summit. I had to do the school drop off first, and so I wanted something quick to get to the top to and join in with everyone else.
 
 ![Summit selfie](IMG_3432.jpeg)
 
-As I walked up to the top, I heard others starting to call on 2m. I worked a few with our SOTA club call, GM0ESS, and whilst Fraser, MM0EFI, was working Paul, G4IPB, I managed to get into the AZ to then start using my call for S2Ss. In no time at all, I had four 2m S2Ss, although I missed Gavin and Andy who were in the angus hills, as they'd already left to start the journey up to meet us for lunch. Shame, as Gavin was on Monamenach (GM/ES-028), and no-one goes there! Given all the planned activity, I'd brought the IC-705, together with a little 2m amp I picked up on ebay a while ago, and thought I'd try some 2m SSB.
+As I walked up to the top, I heard others starting to call on 2m. I worked a few with our SOTA club call, GM0ESS, and whilst Fraser, MM0EFI, was working Paul, G4IPB, I managed to get into the AZ to then start using my call for S2Ss. In no time at all, I had four 2m S2Ss, although I missed Gavin and Andy who were in the Angus hills, as they'd already left to start the journey up to meet us for lunch. Shame, as Gavin was on Monamenach (GM/ES-028), and no-one goes there! Given all the planned activity, I'd brought the IC-705, together with a little 2m amp I picked up on ebay a while ago, and thought I'd try some 2m SSB.
 
 ![Mine's on the left](IMG_3425.jpeg)
 
@@ -35,7 +35,7 @@ I know with my SG-3000 remote ATU, the 705 can't trigger it as the SWR protectio
 
 ![Towers and summit buildings](IMG_3423.jpeg)
 
-I also brought the remote ATU for the 705 (not the icom one) that came with the radio when I bought it used. This tunes up a long wire. I set this up with my usual 41' wire and it tuned up on 40m just fine. It was getting on for 12:30 and we were meeting at 1pm, but as it was such a nice day, I thought I'd try 20m as well. The ATU didn't like my length of wire for 20m and it wouldn't tune. I have the wrong counterpoise length since my last one broke and I just used a random bit I had lying around with a connector on it. I can get away with it on the KX2, SWR of about 2.8:1, but this tuner wasn't having any of it. I'd already spotted (this was also a 3 park POTA and so PoLo had spotted me on POTA as well as SOTA), and I heard several stations give me a call, and then some Spanish ops talking to each other about how they'd not heard me - or something like that in Spanish!
+I also brought the remote ATU for the 705 (not the icom one) that came with the radio when I bought it used. This tunes up a long wire. I set this up with my usual 41' wire and it tuned up on 40m just fine. It was getting on for 12:30 and we were meeting at 1pm, but as it was such a nice day, I thought I'd try 20m as well. The ATU didn't like my length of wire for 20m and it wouldn't tune. I have the wrong counterpoise length since my last one broke and I just used a random bit I had lying around with a connector on it. I can get away with it on the KX2, SWR of about 2.8:1, but this tuner wasn't having any of it. I'd already spotted (this was also a three park POTA and so PoLo had spotted me on POTA as well as SOTA), and I heard several stations give me a call, and then some Spanish ops talking to each other about how they'd not heard me - or something like that, they were talking in Spanish!
 
 ![View towards Braemar](IMG_3422.jpeg)
 

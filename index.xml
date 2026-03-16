@@ -10,7 +10,102 @@
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Mon, 02 Mar 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 06 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>GM/ES day out take 2</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/sota/2026/gm-es-day-part-2/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>After the first one this year, which we called off due to the weather (although a few of us still went out), we had a second attempt at a GM/ES day out. The weather was much better, and by much better I mean, absolutely outstanding! It had actually snowed the night before, and the snow gates were shut in the morning, so a couple of folks changed their plans as they were coming up from the south.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="snowgates.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Spittal of Glenshee snow gates"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/snowgates.jpeg" class="img-fluid figure-img" alt="Spittal of Glenshee snow gates"></a></p>
+<figcaption>Spittal of Glenshee snow gates</figcaption>
+</figure>
+</div>
+<p>I was back on my previously alerted (non-ES) summit of Morrone, GM/CS-060, which is just outside Braemar and has a nice path up to the summit. I have to do the school drop off first, and so I wanted something quick to get to the top to and join in with everyone else.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3432.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Summit selfie"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3432.jpeg" class="img-fluid figure-img" alt="Summit selfie"></a></p>
+<figcaption>Summit selfie</figcaption>
+</figure>
+</div>
+<p>As I walked up to the top, I heard others starting to call on 2m. I worked a few with our SOTA club call, GM0ESS, and whilst Fraser, MM0EFI, was working Paul, G4IPB, I managed to get into the AZ to then start using my call for S2Ss. In no time at all, I had four 2m S2Ss, although I missed Gavin and Andy who were in the angus hills, as they’d already left to start the journey up to meet us for lunch. Shame, as Gavin was on Monamenach (GM/ES-028), and no-one goes there! Given all the planned activity, I’d brought the IC-705, together with a little 2m amp I picked up on ebay a while ago, and thought I’d try some 2m SSB.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3425.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Mine’s on the left"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3425.jpeg" class="img-fluid figure-img" alt="Mine’s on the left"></a></p>
+<figcaption>Mine’s on the left</figcaption>
+</figure>
+</div>
+<p>I was using the slim G for the antenna, so vertically polarised. After 15 minutes or so, I had 3 QSOs on 2m SSB, and decided that would do. Flicking back to FM and a few more S2Ss, this time with a few folks down in SS land. My amp, Tokyo Hy-Power 25W (or 35W?), helped to get my signal back into Aberdeen for a couple of locals.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3428.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="View from the station"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3428.jpeg" class="img-fluid figure-img" alt="View from the station"></a></p>
+<figcaption>View from the station</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3429.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="All carefully balanced"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3429.jpeg" class="img-fluid figure-img" alt="All carefully balanced"></a></p>
+<figcaption>All carefully balanced</figcaption>
+</figure>
+</div>
+<p>I’d tested the amp at home when I first bought it. I’d stuck it on FM and then measured the power and all was good. When I tried SSB, I noticed the SWR was really high and that surprised me, but I didn’t really know what the issue was. I checked the connectors and they were fine, I did wonder if I wasn’t understanding the 705 properly as it’s been a while since I used it (although it’s so nice to use compared to the ft-857’s menu!). I did make a few contacts so it was working. When I switched to FM, and set the amp to FM, I then heard the relays clicking and the SWR was just fine on the radio. So I don’t think it was working properly on SSB, and I was probably only putting out 1W via the RX route on the amp! Would’ve been better just bare 705 with external battery for 10W! I’ve not tested the amp back home yet to see if the issue is still there. I partially think that the rf sensing isn’t quite working, or the 705 reacts to the high SWR of the RX circuit and cuts the power to 1W faster than the amp can trigger.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3426.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Looking west"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3426.jpeg" class="img-fluid figure-img" alt="Looking west"></a></p>
+<figcaption>Looking west</figcaption>
+</figure>
+</div>
+<p>I know with my SG-3000 remote ATU, the 705 can’t trigger it as the SWR protection limits the 705 to 1W and that’s not enough for the ATU, vs.&nbsp;using my ftdx10 which will still put out 10W on high SWR that then triggers the ATU to tune. Be interesting to test if setting it on FM mode works better than SSB mode, or maybe I need to venture into some mod to add PTT trigger…I did a quick internet search but the solution wasn’t obvious.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3423.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Towers and summit buildings"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3423.jpeg" class="img-fluid figure-img" alt="Towers and summit buildings"></a></p>
+<figcaption>Towers and summit buildings</figcaption>
+</figure>
+</div>
+<p>I also brought the remote ATU for the 705 (not the icom one) that came with the radio when I bought it used. This tunes up a long wire. I set this up with my usual 41’ wire and it tuned up on 40m just fine. It was getting on for 12:30 and we were meeting at 1pm, but as it was such a nice day, I thought I’d try 20m as well. The ATU didn’t like my length of wire for 20m and it wouldn’t tune. I have the wrong counterpoise length since my last one broke and I just used a random bit I had lying around with a connector on it. I can get away with it on the KX2, SWR of about 2.8:1, but this tuner wasn’t having any of it. I’d already spotted (this was also a 3 park POTA and so PoLo had spotted me on POTA as well as SOTA), and I heard several stations give me a call, and then some Spanish ops talking to each other about how they’d not heard me - or something like that in Spanish!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3422.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="View towards Braemar"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3422.jpeg" class="img-fluid figure-img" alt="View towards Braemar"></a></p>
+<figcaption>View towards Braemar</figcaption>
+</figure>
+</div>
+<p>Probably it was for the best, as I needed to pack up and meet everyone, as I also had to do school pick up today. The whole time, I didn’t need a jacket, it was so warm in the sun and my jog down the hill resulted in a very hot arrival at the Bothy for lunch. Paul was with his dogs, so they were sat outside, and I joined them in my T-shirt!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3438.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Cairn Toul from path down"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3438.jpeg" class="img-fluid figure-img" alt="Cairn Toul from path down"></a></p>
+<figcaption>Cairn Toul from path down</figcaption>
+</figure>
+</div>
+<p>We had a good chat, and everyone slowly joined us from their summits. Met a couple of new faces, which is always nice. Tim and I had made some stash for the event. I had some badges made, and Tim had printed some limited edition coasters!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="stash.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Stash"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/stash.jpeg" class="img-fluid figure-img" alt="Stash"></a></p>
+<figcaption>Stash</figcaption>
+</figure>
+</div>
+<p>I had to shoot off to do the school pick up, but the others continued on for a while longer. Several folks were staying locally for the weekend to do some other hills. The weather was very nice the rest of the weekend, but Friday was the peak. Seems we did well again, given <a href="https://gm5alx.uk/sota/2025/gm-es-025/">last year’s</a> one also had ridiculously good weather.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="gang.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Everyone, except me!"><img src="https://gm5alx.uk/sota/2026/gm-es-day-part-2/gang.jpg" class="img-fluid figure-img" alt="Everyone, except me!"></a></p>
+<figcaption>Everyone, except me!</figcaption>
+</figure>
+</div>
+<p>Also on the <a href="https://reflector.sota.org.uk/t/spring-gm-es-activity-day-6-march-2026/40227">reflector</a>.</p>
+
+
+
+ ]]></description>
+  <category>sota</category>
+  <guid>https://gm5alx.uk/sota/2026/gm-es-day-part-2/</guid>
+  <pubDate>Fri, 06 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/sota/2026/gm-es-day-part-2/IMG_3426.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Some awards</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -2725,80 +2820,6 @@ font-style: inherit;">sudo</span> systemctl start ir-aprsisd.service</span></cod
   <guid>https://gm5alx.uk/sota/2025/gm-cs-011/</guid>
   <pubDate>Wed, 02 Apr 2025 13:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-cs-011/glen-ey-15.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Carn an Righ</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-cs-020/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A bit of a shorter walk between number 2 and 3, compared to 1 and 2. Once you reach the base of the hill you can also see number 4, Glas Tulaichean’s steep sides that we’ll have to tackle afterwards.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-26.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Summit ahead"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-26.jpg" class="img-fluid figure-img" alt="Summit ahead"></a></p>
-<figcaption>Summit ahead</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-25.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Admiring Glas Tulaichean"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-25.jpg" class="img-fluid figure-img" alt="Admiring Glas Tulaichean"></a></p>
-<figcaption>Admiring Glas Tulaichean</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-24.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Pooped!"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-24.jpg" class="img-fluid figure-img" alt="Pooped!"></a></p>
-<figcaption>Pooped!</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-23.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="At the summit"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-23.jpg" class="img-fluid figure-img" alt="At the summit"></a></p>
-<figcaption>At the summit</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-22.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Beinn a’Ghlo, again"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-22.jpg" class="img-fluid figure-img" alt="Beinn a’Ghlo, again"></a></p>
-<figcaption>Beinn a’Ghlo, again</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-21.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Station"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-21.jpg" class="img-fluid figure-img" alt="Station"></a></p>
-<figcaption>Station</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-20.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Fraser’s station"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-20.jpg" class="img-fluid figure-img" alt="Fraser’s station"></a></p>
-<figcaption>Fraser’s station</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-19.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="A broken mast from overly tight guying"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-19.jpg" class="img-fluid figure-img" alt="A broken mast from overly tight guying"></a></p>
-<figcaption>A broken mast from overly tight guying</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="station setup.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Packing up"><img src="https://gm5alx.uk/sota/2025/gm-cs-020/station setup.jpg" class="img-fluid figure-img" alt="Packing up"></a></p>
-<figcaption>Packing up</figcaption>
-</figure>
-</div>
-<p>Back down the hill…with a broken mast…and then up to number four - <a href="https://gm5alx.uk/sota/2025/gm-cs-011/">Glas Tulaichean</a></p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-cs-020/</guid>
-  <pubDate>Wed, 02 Apr 2025 11:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-cs-020/glen-ey-24.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

@@ -6,6 +6,10 @@ categories: ["meta"]
 image: licence-featured.jpg
 ---
 
+::: {.callout-important}
+This process is now a lot simpler and you can just go to the ofcom website and see all the prefixes and find the callsign you want, without extra searches or using the "paper" form.
+:::
+
 If you pass your full licence today, you can apply online to get a M0 callsign but you can also apply and get any previously issued prefix. Well, nearly every one. However, it’s not entirely obvious how to do this. In fact, when I spoke to ofcom about reserving a call or putting a hold on it, the guy said “oh don’t worry about it, hardly anyone knows how to apply for a G callsign anyway”. 😅
 
 You can get all the G# except G2, and they also no longer give out 2 letter callsigns, e.g. G3DX[^1]. You can only get a two letter callsign if one is given to you. This is typically if a relative of the original holder (who is now sk) writes a letter or does something that convinces ofcom to give it to you. The original holder doesn’t necessarily need to be a relative of yours, but perhaps the story has to be somewhat more convincing.

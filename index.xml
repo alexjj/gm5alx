@@ -9,8 +9,40 @@
 <link>https://gm5alx.uk/</link>
 <atom:link href="https://gm5alx.uk/index.xml" rel="self" type="application/rss+xml"/>
 <description>So many rabbit holes, you’ll struggle to find ground</description>
-<generator>quarto-1.9.37</generator>
-<lastBuildDate>Tue, 14 Apr 2026 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Mon, 04 May 2026 16:14:00 GMT</lastBuildDate>
+<item>
+  <title>Adding USB-C charging to the KX2</title>
+  <dc:creator>Alex Johnstone</dc:creator>
+  <link>https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>To charge my Elecraft KX2’s battery, I have open the back and unplug the battery and plug it into the charger. Not a big deal but a faff, and as the speaker is attached to the back panel, I risk breaking its wires every time I do so. Elecraft sell a board (KXIBC2) that allows you to charge the battery from the DC input pin, but it’s slow charging and quite an expensive board (what isn’t expensive from Elecraft), so I didn’t think it was worthwhile. Then I saw a post on the <a href="https://reflector.sota.org.uk/t/kxusbc2-internal-usb-c-charger-for-the-kx2-part-1/39683">SOTA forums</a> about a board Manuel (HB9DQM) was developing, and wow! what an add-on.</p>
+<p><img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/image_136955.png" class="img-fluid" alt="PCB top"> <img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/image_136956.png" class="img-fluid" alt="PCB bottom"></p>
+<p>Neil (G7UFO) put <a href="https://shop.g7ufo.radio/products/kxusbc2">together a kit</a>, where he’s done all the hard work for you, soldering the components and sourcing the new end plate. I didn’t buy one at first, as I wasn’t sure it was really needed, but then my friend Fraser, <a href="https://www.youtube.com/@theradiorover">MM0EFI</a>, bought one and made a video on it. I was sold, and contacted Neil to buy one. Watching Fraser’s video made installation look very easy, and it soon arrived and I had it installed.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/nxgS8UzJCF8?rel=1" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/IMG_3397_136637.jpeg" class="img-fluid" alt="Solder the pins in"> <img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/IMG_3398_136638.jpeg" class="img-fluid" alt="PCB ready for side plate"> <img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/IMG_3399_136636.jpeg" class="img-fluid" alt="All back in"></p>
+<p>It’s always a tight fit inside the KX2, but everything goes back in. Maybe I should’ve trimmed some of the plastic sheaf around the pins, as they stand a little tall, but it’s fine. Now I can charge the battery with USB-C at decent rates, and if I really wanted to, I can even charge my phone from my radio’s battery now.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="IMG_3400_136639.jpeg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Powered from a battery bank"><img src="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/IMG_3400_136639.jpeg" class="img-fluid figure-img" alt="Powered from a battery bank"></a></p>
+<figcaption>Powered from a battery bank</figcaption>
+</figure>
+</div>
+<p>This is an exceptionally well designed piece of hardware from <a href="https://neon1.net/">Manuel</a> and a great kit put together by <a href="https://shop.g7ufo.radio/">Neil</a> (G7UFO). If you own a KX2, you need to <a href="https://shop.g7ufo.radio/products/kxusbc2">buy one immediately</a>! Plus Neil’s store has a nice collection of other items you might like.</p>
+
+
+
+ ]]></description>
+  <category>hardware</category>
+  <category>KX2</category>
+  <guid>https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/</guid>
+  <pubDate>Mon, 04 May 2026 16:14:00 GMT</pubDate>
+  <media:content url="https://gm5alx.uk/posts/2026/adding-usb-c-charging-to-the-kx2/IMG_3400_136639.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Meall Chuaich to the North Pole</title>
   <dc:creator>Alex Johnstone</dc:creator>
@@ -2796,82 +2828,6 @@ font-style: inherit;">sudo</span> systemctl start ir-aprsisd.service</span></cod
   <guid>https://gm5alx.uk/sota/2025/gm-es-074/</guid>
   <pubDate>Tue, 08 Apr 2025 12:00:00 GMT</pubDate>
   <media:content url="https://gm5alx.uk/sota/2025/gm-es-074/ordban-6.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>An Socach</title>
-  <dc:creator>Alex Johnstone</dc:creator>
-  <link>https://gm5alx.uk/sota/2025/gm-cs-038/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>It’s quite a long walk to An Socach, although enjoyable, particularly around Loch nan Eun. The side up An Socach is steep, and several reports mention this, particularly when done as the loop of 5 munros. Although skipping it doesn’t make the route much shorter.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-10.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="The journey ahead"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-10.jpg" class="img-fluid figure-img" alt="The journey ahead"></a></p>
-<figcaption>The journey ahead</figcaption>
-</figure>
-</div>
-<p><a href="glen-ey-9.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-9.jpg" class="img-fluid"></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-8.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="A blue loch nan Eun"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-8.jpg" class="img-fluid figure-img" alt="A blue loch nan Eun"></a></p>
-<figcaption>A blue loch nan Eun</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-7.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="An Socach in the centre"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-7.jpg" class="img-fluid figure-img" alt="An Socach in the centre"></a></p>
-<figcaption>An Socach in the centre</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-6.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Water stop before the climb"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-6.jpg" class="img-fluid figure-img" alt="Water stop before the climb"></a></p>
-<figcaption>Water stop before the climb</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-5.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Looking back at Glas Tulaichean"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-5.jpg" class="img-fluid figure-img" alt="Looking back at Glas Tulaichean"></a></p>
-<figcaption>Looking back at Glas Tulaichean</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Summit selfie"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-4.jpg" class="img-fluid figure-img" alt="Summit selfie"></a></p>
-<figcaption>Summit selfie</figcaption>
-</figure>
-</div>
-<p><a href="glen-ey-3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-3.jpg" class="img-fluid"></a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="The way home"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-2.jpg" class="img-fluid figure-img" alt="The way home"></a></p>
-<figcaption>The way home</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="glen-ey-1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Fraser setting up"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/glen-ey-1.jpg" class="img-fluid figure-img" alt="Fraser setting up"></a></p>
-<figcaption>Fraser setting up</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="selfie.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Final summit selfie"><img src="https://gm5alx.uk/sota/2025/gm-cs-038/selfie.jpg" class="img-fluid figure-img" alt="Final summit selfie"></a></p>
-<figcaption>Final summit selfie</figcaption>
-</figure>
-</div>
-<p>Once we were done, we headed down the ridge and back to our bikes. The cycle ride was mostly downhill and an easy end to the long day. Back home by 18:30, meant I was out of the house for 14 1/2 hours! What a great day!</p>
-
-
-
- ]]></description>
-  <category>sota</category>
-  <guid>https://gm5alx.uk/sota/2025/gm-cs-038/</guid>
-  <pubDate>Wed, 02 Apr 2025 15:00:00 GMT</pubDate>
-  <media:content url="https://gm5alx.uk/sota/2025/gm-cs-038/enroute.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

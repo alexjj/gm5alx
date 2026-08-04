@@ -1,0 +1,143 @@
+---
+title: "Recent SOTA Outings"
+date: 2026-05-25T19:25:57Z
+subtitle: "Lots of hills in lots of places"
+image: IMG_3724_142747.jpg
+---
+
+I try to get out once a week, but if I want to do write ups then things start to pile up if I’m not on it! If it’s something different or a new route/combo of hills then I’ll make an effort to write it up on the [SOTA forums](https://reflector.sota.org.uk/t/no-one-does-the-middle-hill-again/40866). This is where others will look if they want to do hills - particularly in the UK, whilst the forums are for everyone it seems to have a U.K. bias. I’m sure other countries have their own preferred urls to hang out - but you usually get a bit of a chat going. Mostly about unrelated items but that’s part of the fun. However, I like to keep my own version on my website. Perhaps doing a “monthly” (or a since last time) summary might be an option.
+
+## Cairngorms National Park
+
+Since completing [Mountain Goat](https://alexjj.com/posts/digging-for-the-trig-and-finding-two-goats) and all of GM/ES region, my next target is to complete all the [CNP summits](https://alexjj.com/posts/cairngorms-national-park-sota-summits). I still have have quite a few to go, 13 right now, although out of 89 I suppose that’s not too bad.
+
+### Easter Monday Snow
+
+Way back on the 6th April, I headed over the west side of the A9 just north of the Drumochter pass for Carn na Caim. The usual route is this munro plus another, the non-SOTA A'Bhuidheanach Bheag. Of course it would be a shame to go all this way and not do both. To add to the excitement, it was a storm the night before and whilst it was a non-event at home, many high places in central Scotland had a good dump of snow. I’d checked the road webcams in the morning, and with snowat the roadside, I thought I’d better pack my snow shoes.
+
+ ![Starting off - looking under the pylons](IMG_3705_142746.jpg)
+![A steep start](IMG_3709_142744.jpg)
+![Drifts in the path](IMG_3708_142736.jpg)
+![Some blue skies](IMG_3715_142739.jpg)
+![Follow the fence line](IMG_3716_142737.jpg)
+![At the summit!](IMG_3718_142738.jpg)
+![Lots of this](IMG_3725_142741.jpg)
+![Snow shoes!](IMG_3728_142745.jpg)
+ ![HF Station setup](IMG_3720_142743.jpg)
+![A'Bhuidheanach Bheag summit](IMG_3724_142747.jpg)
+
+Being two munros off the A9, and holiday, there were quite a few other walkers about. The snow shoes made for a good conversational piece, especially when I’d go sailing off whilst they were pot-holing and struggling in the snow.
+
+The following week I did the neighbouring munro, [Meall Chuaich](https://alexjj.com/posts/meall-chuaich-sota-activation), and the weather couldn’t have been more different. Also had a lovely day out with Fraser, on my local munro, [Mount Keen](https://alexjj.com/posts/i-took-a-tlr-camera-up-a-mountain).
+
+### Glen Tilt Summits
+
+I resume my CNP summits, this time a pair to the south up the lovely Glen Tilt. The rarely activated Beinn Mheadhonach, and the munro to its east, Carn a'Chlamain. This was quite a long way, with about 40 minutes of cycling and then starting the big walk around.
+
+ ![3D OS Maps route](image_143112.png)
+
+The typical way to the munro is to keep cycling on the east of the Tilt but as I was doing both, I swapped to the west. It’s mostly cyclable but not as easy as the road. A convenient marker showed me it was time to leave the bike and head up. It was quite cloud but no wind, and that made for a humid and warm climb up the hill. The summit is a big plateau and so I’m in the activation zone abour 1 km before the true summit. I get out the handheld and see who I can get as I walk towards the summit. A few locals, plus Fraser and Mo (now with licence!) who were driving down towards Arran.
+
+ ![Fraser and Mo in the command vehicle](image_143113.png)
+
+I wrote up the [trip here](https://reflector.sota.org.uk/t/no-one-does-the-middle-hill/40769), and below are a nice selection of photos. The sun came out when I reached the summit, and it was pretty warm.
+
+ ![This way](IMG_3862_143105.jpg)
+![Walking up into the cloud](IMG_3865_143103.jpg)
+![Deer](IMG_3867_143098.jpg)
+![In the cloud](IMG_3871_143106.jpg)
+![HF station](IMG_3875_143101.jpg)
+![A busy 40m onBeinn Mheadhonach](IMG_3876_143107.jpg)
+![Down then up again](IMG_3882_143110.jpg)
+![Cross the burn](IMG_3884_143104.jpg)
+![Carn a'Chlamain ahead](IMG_3886_143111.jpg)
+![Trying VHF](IMG_3893_143100.jpg)
+![Looking back down towards Glen Tilt](IMG_3890_143102.jpg)
+![HF station](IMG_3896_143109.jpg)
+ ![Carn a'Chlamain](IMG_3900_143108.jpg)
+
+A long walk back to the bike and then cycle back to the car. I’ll soon be back to the Glen Tilt car park to do the other pair of munro/corbett…
+
+### A few local hills first
+
+Before I go back to Glen Tilt, I end up doing [Millstone Hill](https://alexjj.com/posts/millstone-hill-every-hill-is-a-good-trip) and Turin hill. Mostly as I didn’t have much time, and I’d not done Turin hill before.
+
+ ![Summit of Turin hill](IMG_3906_143114.jpg)
+
+Turin is just a wee hill down in Angus. Has a bit of a reputation for an angry farmer to the south, so best climbed from the north. Although this then means parking is tricky. Some people park on the verge by the turn off but I didn’t think that was big enough, so I parked further up the road and brought my bike. It was only a 15 minute cycle and then a 15 minute walk to the top but it was a lovely day. I’d brought the 2m yagi with me and did hear some people in London and a Lake District SOTA activator. The London guy heard me at one point but I never made contact with either of them. I kept jumping back and forth between them and probably should’ve stuck longer in one place to try and get a contact. I’d had a nice run on HF with quite a few summit-to-summit contacts, so still a good day out.
+
+### A long bike climb from Glen Tilt
+
+Now it’s May and time to head back to Glen Tilt. This time for Beinn Dearg (munro) and Beinn Bhreac (a very remote corbett). This was an even longer route, at 38 km, with a somewhat miserable bike climb to start.
+
+ ![My route](image_143115.png)
+
+Again, I wrote it up on the [forums](https://reflector.sota.org.uk/t/no-one-does-the-middle-hill-again/40866). Only three people had activated the remote Beinn Bhreac in the whole 20+ years of SOTA. You have to be _committed_ to do it!
+
+The uphill cycle was a bit grueling and I was pleased to be off the bike and starting the climb to Beinn Dearg. There is another route up from the car park but I think that was longer, so I didn’t do it. Maybe it’s preferred as whilst it is further, the gradient is less! The forecast was dry, with sunny spells, and good visibility but a cold northerly wind and so wind chill on the summits being predicted to be -11°C. 🥶 It had also snowed a little the night before. Oh well, time for third winter I guess!
+
+ ![A nice morning in Glen Tilt](IMG_3963_143128.jpg)
+![A long track travelled](IMG_3965_143127.jpg)
+![Bike resting place](IMG_3967_143132.jpg)
+![Sprinkling of snow on the final ascent to Dearg.](IMG_3971_143133.jpg)
+![At the top!](IMG_3972_143122.jpg)
+![Where I just walked in from](IMG_3975_143129.jpg)
+![Beinn Mheadhonach - the previous middle hill](IMG_3974_143126.jpg)
+![Beinn Dearg HF Station](IMG_3976_143131.jpg)
+![Beinn Bhreac getting closer. Tarf water at the bottom](IMG_3983_143134.jpg)
+![Rock solid neve](IMG_3984_143124.jpg)
+![A lovely stream heading up Bhreac](IMG_3985_143120.jpg)
+![Beinn Bhreac summit](IMG_3986_143116.jpg)
+![A snowy Braeriach](IMG_3990_143119.jpg)
+![A cold activation](IMG_3991_143121.jpg)
+![HF station](IMG_3992_143117.jpg)
+![Carn Liath on left; Beinn Mheadhonach left-centre and Beinn Dearg right](IMG_3993_143125.jpg)
+
+It was a long walk back from Beinn Bhreac to my bike, but then a very speedy return to the car. Although the path is quite rocky and so it’s a bit of a bone shaker!
+
+ ![Looking down Bruar water towards Schiehallion](IMG_3994_143123.jpg)
+
+Another big day out, but good to get those summits!
+
+### Down in SS Land
+
+We had a family trip away one weekend and it meant I had a free afternoon. I’d originally looked at doing Ben Chonzie, the Munro near Crieff, but the weather forecast didn’t look great and I wasn’t sure if I had that much time. So I settled for the closer Ben Cleuch. Being a weekend activation, in an easy access hill, much closer to a bigger population, meant there were a lot of people also out on the hill! I’m not used to that. If I see three people when I’m out then it’s a busy day!
+
+ ![Ben Cleuch summit…before everyone arrived](IMG_4019_143146.jpg)
+ ![A steep gulley](IMG_4016_143141.jpg)
+![After a steep climb!](IMG_4017_143143.jpg)
+![2m antenna](IMG_4021_143145.jpg)
+![Looking back at Ben Cleuch](IMG_4024_143147.jpg)
+![Views across the Forth and towards Edinburgh](IMG_4027_143148.jpg)
+![A missing bridge](IMG_4028_143144.jpg)
+
+I ended up just doing 2m, as there are enough people around listening, and several people told me the HF bands weren’t great due to the aurora last night (or the impact of a flare that caused the aurora). The weather turned out quite well, a little breezy, but perfectly nice to sit at the top and have a chat with the locals. I did a big loop round and came back to Tillicoultry where I’d parked. I then headed back to pick up my wife and get ready for dinner. We did have a walk around Gleneagles Hotel, saw a Golden Eagle and many Land Rovers.
+
+ ![Gleneagles collection of Land Rovers](IMG_4032_143142.jpg)
+
+### CNP summits in the North
+
+After many trips down to the A9 and around, this time it was north towards Grantown-on-Spey and to do a couple of smaller summits: Beinn Mhor and Carn na Loine. These two have hardly been activated, probably as no-one would ever travel to do them as there are plenty of other more interesting hills around. They’re also a bit of a heather / bog scramble, and so not exactly desirable.
+
+ ![A wet start](IMG_4049_143174.jpg)
+
+The forecast was rain until mid-morning, and on the drive over to Carn na Loine, it was pouring down. I started to wonder if this was a good idea or not. It was still raining when I set off but soon stopped. Which left me boiling in my waterproofs. The path lasts for a while but then heads in the wrong direction. At this point you just have to make your way over to the summit - across tussocks, bog, heather and general messy terrain. It’s slow going, but the summit is nice. It’s a similar walk back to the path - just in the other direction for the loop, and I did manage to go knee deep in some bog and my boot filled with lovely bog water.
+
+ ![Summit ahead](IMG_4050_143178.jpg)
+![At the top](IMG_4053_143176.jpg)
+![HF Station in the trig](IMG_4052_143179.jpg)
+![Big hills in the distance](IMG_4051_143177.jpg)
+
+Then a short drive through Grantown-on-Spey, to Glenbeg for Beinn Mhor. A little bit of off pathing - although I did find a path on the way back, but a short 40 minute walk to the top.
+
+ ![New deer gates](IMG_4057_143185.jpg)
+![Looking down into Glenbeg](IMG_4056_143186.jpg)
+ ![HF Station at the top](IMG_4055_143187.jpg)
+
+HF was busy on my first summit but seemed quiet for this second one. I did manage a couple of summit to summits on 2m to a few friends heading North for a weekend of NS activations. It was back to the car, and drive home. I did call in on Fraser on the way for a cup of tea and a chat. Perhaps stayed a little too long as was almost late for picking up the kids before their tennis classes!
+
+## Cairngorms National Park
+
+End as I mean to go on…I still have plenty more to do - 13 in fact. All on the furthest western side. A big selection from little to large to short walks to long bike/hike days out. I’m hopeful to complete them all by the end of the year, but equally I don’t want to “waste” a good summer’s day to do a couple of small CNP hills when there are still so many big days out elsewhere I want to do. We shall see how the schedule goes.
+
+ ![My remaining hills](image_143195.png)

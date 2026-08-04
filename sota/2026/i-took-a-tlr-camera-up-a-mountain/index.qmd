@@ -1,0 +1,34 @@
+---
+title: "I took a TLR camera up a Mountain"
+date: 2026-05-02T12:16:00Z
+subtitle: "and we got Europe on 2m FM!"
+image: IMG_3942_139494.jpg
+qsos: 31
+points: 6
+summit: "GM/ES-014"
+---
+
+Inspired by a thread on the [SOTA forums](https://reflector.sota.org.uk/t/the-twist-i-didn-t-expect/39622), I decided to take my Ricohflex TLR with my on a SOTA activation. It helped it was a lovely day, and I certainly wouldn’t have taken it if it was raining!
+
+ ![TLR on Mount Keen](image_136444.png)
+
+I found a roll of Kodak Gold 200 that I had in my film box in the garage. It was my only roll of 120 and was left over from when I bought some when Gold 120 came out in 2022 ish. It had expired, 2024, but not by that much and whilst not kept in a fridge, it has been in the garage, so not exactly warm.
+
+As a bright day I was going to use sunny 16, but I also couldn’t resist using the lightmeter camera on my phone to see what to do. Ended up being about 1/250s and f/8 or 1/100s and f/11. The shutter seemed a little slow sounding, and I was concerned it didn’t have the correct timing. I had tested it at home before I left and it had seemed just fine. Anyway, I took my 12 shots and posted it off to [Film Dev](https://filmdev.co.uk/) to get developed. They were the cheapest and most sensible place last time I developed some film, so just used them again, maybe there’s somewhere else but prices are fine. The scans just came back:
+
+ ![Fraser working Europe on 2m](000058420004_136446.jpg)
+![Mount Keen ahead](000058420002_136447.jpg)
+![A busy summit](000058420009_136448.jpg)
+![Looking across to Lochnagar](000058420003_136449.jpg)
+ ![Fraser on the radio](000058420006_136445.jpg)
+
+I’m very pleased with how they came out, and now it’s got me thinking about film again.
+
+Even though it was nice and sunny, there was still some snow about.
+
+ ![Me descending the snow field](image_136450.png)
+
+I was doing HF, and did work Canada and into Michigan - which I was pleased with. Fraser did well on 2m, and got into Denmark and Belgium on 2m FM, which is unusual.
+
+ ![My HF station](image_136451.png)
+![My HF QSOs](image_136452.png)

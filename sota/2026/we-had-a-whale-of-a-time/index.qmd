@@ -2,7 +2,7 @@
 title: "We had a Whale of a time"
 date: 2026-07-03T20:00:00Z
 subtitle: "With famous YouTubers!"
-image: IMG_4301_159047.
+image: IMG_4301_159047.JPG
 summit: "GM/SS-280"
 points: 1
 qsos: 10
@@ -76,3 +76,7 @@ Everyone was thoroughly satisfied with their activation and whilst the weather a
 A great day out, and great to meet Neil and Thomas in person. Hopefully not too far off until the next activation together, wherever that ends up being. Enjoy the rest of your holiday Thomas, and I’m looking out for Neil’s next spot from a SOTA summit! 😅
 
 Also on the [reflector](https://reflector.sota.org.uk/t/we-had-a-whale-of-a-time/41212).
+
+Thomas wrote up the day as well on his [blog](https://qrper.com/2026/08/meeting-friends-on-the-summit-a-special-sota-activation-at-north-berwick-law/). Plus accompanying video:
+
+{{ video https://www.youtube.com/watch?v=K9FcDzMqx00 }}

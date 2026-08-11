@@ -79,4 +79,4 @@ Also on the [reflector](https://reflector.sota.org.uk/t/we-had-a-whale-of-a-time
 
 Thomas wrote up the day as well on his [blog](https://qrper.com/2026/08/meeting-friends-on-the-summit-a-special-sota-activation-at-north-berwick-law/). Plus accompanying video:
 
-{{ video https://www.youtube.com/watch?v=K9FcDzMqx00 }}
+{{< video https://www.youtube.com/watch?v=K9FcDzMqx00 >}}

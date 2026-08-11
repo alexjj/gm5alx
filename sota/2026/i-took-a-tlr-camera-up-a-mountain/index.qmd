@@ -2,7 +2,7 @@
 title: "I took a TLR camera up a Mountain"
 date: 2026-05-02T12:16:00Z
 subtitle: "and we got Europe on 2m FM!"
-image: IMG_3942_139494.jpg
+image: image_136444.png
 qsos: 31
 points: 6
 summit: "GM/ES-014"

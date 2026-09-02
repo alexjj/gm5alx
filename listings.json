@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
+      "/sota/2026/first-microwave-activation/index.html",
       "/posts/2026/adventures-in-arran/index.html",
       "/sota/2026/we-had-a-whale-of-a-time/index.html",
       "/posts/2026/two-mountains-that-arent-sota/index.html",
@@ -121,8 +122,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",
@@ -151,6 +152,7 @@
   {
     "listing": "/sota.html",
     "items": [
+      "/sota/2026/first-microwave-activation/index.html",
       "/sota/2026/we-had-a-whale-of-a-time/index.html",
       "/sota/2026/trying-to-avoid-the-rain/index.html",
       "/sota/2026/two-steep-summits/index.html",
@@ -249,8 +251,8 @@
       "/sota/2024/gm-es-085/index.html",
       "/sota/2024/gm-es-012/index.html",
       "/sota/2024/gm-es-068/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/sota/2024/gm-es-080/index.html",
@@ -260,8 +262,9 @@
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
+      "/sota/2026/first-microwave-activation/index.html",
       "/posts/2026/adventures-in-arran/index.html",
       "/sota/2026/we-had-a-whale-of-a-time/index.html",
       "/posts/2026/two-mountains-that-arent-sota/index.html",
@@ -381,8 +384,8 @@
       "/sota/2024/gm-es-068/index.html",
       "/posts/2024/setting-up-heltec-v3-868mhz-on-tinygs/index.html",
       "/posts/2024/sota-api-and-google-ai-to-find-the-goat/index.html",
-      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-070/index.html",
+      "/sota/2024/gm-es-065/index.html",
       "/sota/2024/gm-es-075/index.html",
       "/sota/2024/gm-es-086/index.html",
       "/posts/2024/qsl-cards-time/index.html",

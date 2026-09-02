@@ -1,0 +1,13 @@
+---
+title: "My first microwave activation"
+date: 2026-09-02T20:00:00Z
+subtitle: "Using a 13cm transverter"
+image: IMG_4877.jpg
+summit: "GM/ES-086"
+points: 0
+qsos: 2
+---
+
+Trying out my new SG Labs 13cm transverter...also trying out making a video!
+
+{{< video https://www.youtube.com/watch?v=lx7FAHefe6M >}}

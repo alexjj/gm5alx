@@ -48,7 +48,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-01cd0f68bf700090b5d3eac6ca3e5673.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-e190e09a8b396b026ae94ed4583db050.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -312,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 <p>SG Labs ordering process is a reassuring one 😅. You email them, they let you know the price, you send them money on paypal and then you wait a few weeks for the shipping confirmation. Lead time was about 3 weeks for me.</p>
 <section id="assembly" class="level2">
 <h2 class="anchored" data-anchor-id="assembly">Assembly</h2>
-<p>For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in betewen, not easy but not impossible. Here are some photos of my build underway.</p>
+<p>For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in between, not easy but not impossible. Here are some photos of my build underway.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="img_6523-1024x768.jpg" class="lightbox" data-gallery="my-gallery" title="Unpacking the dish"><img src="img_6523-1024x768.jpg" class="img-fluid figure-img" alt="Unpacking the dish"></a></p>
@@ -402,7 +402,7 @@ ul.task-list li input[type="checkbox"] {
 ipaddr_eth = 192.168.1.200
 netmask_eth = 255.255.255.0</code></pre>
 <p>Set the IP to something for your network, ideally outside your router’s DHCP range. If you can’t do that, then give it an IP then set a reserved IP on your router for the Pluto+. I had to manually add a MAC address to the reserved IP, and now the router won’t give out .200 to anything else. Make sure you eject it/unmount it properly before disconnecting. You can then plug it into the network and see if you can ssh into it. The default username is <code>root</code> and password <code>analog</code>, and you should log in just fine.</p>
-<p>You might also want to upgrade the firmware whilst you’re at it. <a href="https://dk1mi.radio/plutoplus-firmware/">DK1MI has a nice post</a> on how to do that.</p>
+<p>You might also want to upgrade the firmware whilst you’re at it. <a href="https://rz01.org/plutoplus-firmware/">DK1MI has a nice post</a> on how to do that.</p>
 <p>I found the Pluto+ would make a new SSH key each time it booted up, and so SSH would complain that it didn’t match from last time (known_hosts) and prevent me from logging in. I avoided this with this entry in my <code>ssh/config</code> file:</p>
 <pre><code>Host pluto
   HostName 192.168.1.200

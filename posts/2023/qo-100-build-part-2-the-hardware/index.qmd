@@ -85,7 +85,7 @@ netmask_eth = 255.255.255.0
 
 Set the IP to something for your network, ideally outside your router’s DHCP range. If you can’t do that, then give it an IP then set a reserved IP on your router for the Pluto+. I had to manually add a MAC address to the reserved IP, and now the router won’t give out .200 to anything else. Make sure you eject it/unmount it properly before disconnecting. You can then plug it into the network and see if you can ssh into it. The default username is `root` and password `analog`, and you should log in just fine.
 
-You might also want to upgrade the firmware whilst you’re at it. [DK1MI has a nice post](https://dk1mi.radio/plutoplus-firmware/) on how to do that.
+You might also want to upgrade the firmware whilst you’re at it. [DK1MI has a nice post](https://rz01.org/plutoplus-firmware/) on how to do that.
 
 I found the Pluto+ would make a new SSH key each time it booted up, and so SSH would complain that it didn’t match from last time (known_hosts) and prevent me from logging in. I avoided this with this entry in my `ssh/config` file:
 

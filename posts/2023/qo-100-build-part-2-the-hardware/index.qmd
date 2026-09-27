@@ -39,7 +39,7 @@ SG Labs ordering process is a reassuring one 😅. You email them, they let you 
 
 ## Assembly
 
-For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in betewen, not easy but not impossible. Here are some photos of my build underway.
+For the most part, it’s not tricky to build. There’s almost no soldering and it’s just joining things together once you’ve figured out the layout in the box and how you’re getting power and network to it. Depending on you situation this will be a breeze or a massive pain in the neck! I think my situation was somewhere in between, not easy but not impossible. Here are some photos of my build underway.
 
 ![Unpacking the dish](img_6523-1024x768.jpg){group="my-gallery"}
 

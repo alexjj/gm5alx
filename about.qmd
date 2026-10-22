@@ -10,9 +10,6 @@ about:
     - icon: broadcast-pin
       text: QRZ
       href: https://www.qrz.com/db/GM5ALX
-    - icon: chat-quote
-      text: Matrix Chat
-      href: https://matrix.to/#/@alexjj:matrix.org
     - icon: github
       text: Github
       href: https://github.com/alexjj
@@ -21,3 +18,5 @@ about:
 ---
 
 👋 I’m Alex Johnstone, GM5ALX. I have been a licensed amateur since December 2022, and I’m only just scratching the surface of the radio world! This site is dedicated to all my experiments, activity and thoughts on amateur radio.
+
+Looking for a VPS? [Checkout TierHive for your Hourly VPS](https://tierhive.com/r/E91AEA6A5D87).

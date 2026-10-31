@@ -1,0 +1,17 @@
+---
+title: "YouTube"
+date: 2026-10-31
+subtitle: "My YouTube channel and videos"
+categories: ["sota"]
+image: IMG_5319.JPEG
+---
+
+Recently I've been taking some videos of activations and other radio things of interest. You can find it [here](https://www.youtube.com/@GM5ALX). Here are a couple of videos:
+
+{{< video https://www.youtube.com/watch?v=4BcrUL70xa8 >}}
+
+
+{{< video https://www.youtube.com/watch?v=lWKMtZjqfcw >}}
+
+
+{{< video https://www.youtube.com/watch?v=mdppGtfShgU >}}
